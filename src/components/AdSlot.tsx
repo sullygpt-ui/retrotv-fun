@@ -3,42 +3,45 @@
 export type AdPlacement = "sidebar" | "banner" | "post-game";
 
 interface Ad {
-  image: string;
   url: string;
   alt: string;
-  label?: string;
+  label: string;
+  emoji: string;
 }
 
-// Placeholder ads — replace URLs with your Amazon Associates / affiliate links
 const SIDEBAR_ADS: Ad[] = [
   {
-    image: "/ads/retro-console.svg",
-    url: "https://www.amazon.com/?tag=retrotv01-20",
+    url: "https://www.amazon.com/s?k=retro+gaming+console+classic&tag=retrotv01-20",
     alt: "Retro Gaming Consoles",
-    label: "🕹️ Retro Consoles",
+    label: "Retro Consoles",
+    emoji: "🕹️",
   },
   {
-    image: "/ads/tv-boxsets.svg",
-    url: "https://www.amazon.com/?tag=retrotv01-20",
+    url: "https://www.amazon.com/s?k=classic+tv+show+complete+series+DVD+70s+80s&tag=retrotv01-20",
     alt: "Classic TV Box Sets",
-    label: "📀 Classic TV on DVD",
+    label: "Classic TV on DVD",
+    emoji: "📀",
   },
   {
-    image: "/ads/vintage-merch.svg",
-    url: "https://www.amazon.com/?tag=retrotv01-20",
-    alt: "Vintage 70s & 80s Merch",
-    label: "🛒 Retro Merch",
+    url: "https://www.amazon.com/s?k=retro+80s+70s+vintage+t-shirt+tv+show&tag=retrotv01-20",
+    alt: "Vintage 70s & 80s T-Shirts",
+    label: "Retro TV Shirts",
+    emoji: "👕",
+  },
+  {
+    url: "https://www.amazon.com/s?k=80s+nostalgia+gifts+retro+vintage&tag=retrotv01-20",
+    alt: "80s Nostalgia Gifts",
+    label: "Nostalgia Gifts",
+    emoji: "🎁",
   },
 ];
 
-const BANNER_ADS: Ad[] = [
-  {
-    image: "/ads/banner-retro.svg",
-    url: "https://www.amazon.com/?tag=retrotv01-20",
-    alt: "Shop retro TV & gaming",
-    label: "Shop retro TV & gaming on Amazon",
-  },
-];
+const BANNER_AD: Ad = {
+  url: "https://www.amazon.com/s?k=classic+tv+show+70s+80s+complete+series&tag=retrotv01-20",
+  alt: "Shop retro TV & gaming on Amazon",
+  label: "Shop Classic TV & Retro Gaming on Amazon",
+  emoji: "📺",
+};
 
 function SidebarAd({ ad }: { ad: Ad }) {
   return (
@@ -48,24 +51,8 @@ function SidebarAd({ ad }: { ad: Ad }) {
       rel="noopener noreferrer sponsored"
       className="ad-card group"
     >
-      <div className="ad-image-wrap">
-        <img src={ad.image} alt={ad.alt} className="ad-image" loading="lazy" />
-      </div>
-      {ad.label && <span className="ad-label">{ad.label}</span>}
-    </a>
-  );
-}
-
-function BannerAd({ ad }: { ad: Ad }) {
-  return (
-    <a
-      href={ad.url}
-      target="_blank"
-      rel="noopener noreferrer sponsored"
-      className="ad-banner group"
-    >
-      <img src={ad.image} alt={ad.alt} className="ad-banner-image" loading="lazy" />
-      {ad.label && <span className="ad-banner-label">{ad.label}</span>}
+      <div className="ad-emoji">{ad.emoji}</div>
+      <span className="ad-label">{ad.label}</span>
     </a>
   );
 }
@@ -104,10 +91,17 @@ export function Sidebar() {
 }
 
 export function BottomBanner() {
-  const ad = BANNER_ADS[0];
   return (
     <div className="ad-bottom-banner">
-      <BannerAd ad={ad} />
+      <a
+        href={BANNER_AD.url}
+        target="_blank"
+        rel="noopener noreferrer sponsored"
+        className="ad-banner group"
+      >
+        <span className="ad-banner-emoji">{BANNER_AD.emoji}</span>
+        <span className="ad-banner-label">{BANNER_AD.label}</span>
+      </a>
       <p className="ad-disclaimer">Ad</p>
     </div>
   );
