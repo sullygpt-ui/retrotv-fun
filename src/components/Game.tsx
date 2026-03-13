@@ -8,6 +8,8 @@ import GuessInput from "./GuessInput";
 import GuessHistory from "./GuessHistory";
 import ShareButton from "./ShareButton";
 import StatsModal from "./StatsModal";
+import { PostGameAd } from "./AdSlot";
+import HowToPlay from "./HowToPlay";
 
 const MAX_GUESSES = 6;
 
@@ -67,6 +69,7 @@ export default function Game({ puzzle }: GameProps) {
 
   return (
     <div>
+      <HowToPlay />
       <FrameViewer
         frames={puzzle.frames}
         currentFrame={gameOver && solved ? guesses.length - 1 : currentFrame}
@@ -97,6 +100,7 @@ export default function Game({ puzzle }: GameProps) {
               📊 Stats
             </button>
           </div>
+          <PostGameAd showName={puzzle.showName} />
         </div>
       ) : (
         <GuessInput onGuess={handleGuess} onSkip={handleSkip} disabled={gameOver} />

@@ -64,7 +64,7 @@ export default function GuessInput({ onGuess, onSkip, disabled }: GuessInputProp
         <button
           onClick={() => submit(query)}
           disabled={disabled || !query.trim()}
-          className="bg-[var(--amber)] text-black px-4 py-3 rounded-lg font-retro text-xs hover:bg-[var(--amber-dark)] disabled:opacity-50 transition"
+          className="bg-green-600 text-white px-4 py-3 rounded-lg font-retro text-xs hover:bg-green-500 disabled:opacity-50 transition"
         >
           Guess
         </button>

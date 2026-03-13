@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SparkleTrail from "@/components/SparkleTrail";
+import { Sidebar, BottomBanner } from "@/components/AdSlot";
 
 export const metadata: Metadata = {
   title: "RetroTV - Daily TV Show Guessing Game",
@@ -19,7 +21,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
+      </head>
       <body className="min-h-screen">
+        <SparkleTrail />
         <div className="crt-overlay" />
         <header className="text-center py-6">
           <h1 className="text-2xl md:text-3xl text-[var(--amber)] tracking-wider">
@@ -29,9 +37,14 @@ export default function RootLayout({
             Daily 70s &amp; 80s TV Show Challenge
           </p>
         </header>
-        <main className="max-w-lg mx-auto px-4 pb-12">
-          {children}
-        </main>
+        <div className="flex justify-center gap-6 px-4 pb-12">
+          <Sidebar />
+          <main className="max-w-lg w-full">
+            {children}
+          </main>
+          <Sidebar />
+        </div>
+        <BottomBanner />
         <footer className="text-center py-4 text-gray-600 text-sm">
           <nav className="space-x-4 mb-2">
             <a href="/" className="text-[var(--amber)] hover:underline">Play</a>

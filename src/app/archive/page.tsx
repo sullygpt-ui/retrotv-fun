@@ -14,8 +14,7 @@ export default function ArchivePage() {
       .then((r) => r.json())
       .then((data: Puzzle[]) => {
         // Show past puzzles (before or equal to today)
-        const today = new Date().toISOString().split("T")[0];
-        setPuzzles(data.filter((p) => p.date <= today));
+        setPuzzles(data);
       });
   }, []);
 

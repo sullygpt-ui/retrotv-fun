@@ -2,25 +2,2851 @@
   {
     "id": 1,
     "date": "2026-03-13",
-    "showName": "Happy Days",
-    "showSlug": "happy-days",
-    "tmdbId": 2532,
-    "frames": ["/frames/happy-days/1.jpg", "/frames/happy-days/2.jpg", "/frames/happy-days/3.jpg", "/frames/happy-days/4.jpg", "/frames/happy-days/5.jpg", "/frames/happy-days/6.jpg"]
+    "showName": "The A-Team",
+    "showSlug": "the-a-team",
+    "tmdbId": 1516,
+    "frames": [
+      "/frames/the-a-team/1.jpg",
+      "/frames/the-a-team/2.jpg",
+      "/frames/the-a-team/3.jpg",
+      "/frames/the-a-team/4.jpg",
+      "/frames/the-a-team/5.jpg",
+      "/frames/the-a-team/6.jpg"
+    ]
   },
   {
     "id": 2,
     "date": "2026-03-14",
-    "showName": "Knight Rider",
-    "showSlug": "knight-rider",
-    "tmdbId": 2490,
-    "frames": ["/frames/knight-rider/1.jpg", "/frames/knight-rider/2.jpg", "/frames/knight-rider/3.jpg", "/frames/knight-rider/4.jpg", "/frames/knight-rider/5.jpg", "/frames/knight-rider/6.jpg"]
+    "showName": "The Incredible Hulk",
+    "showSlug": "the-incredible-hulk",
+    "tmdbId": 648,
+    "frames": [
+      "/frames/the-incredible-hulk/1.jpg",
+      "/frames/the-incredible-hulk/2.jpg",
+      "/frames/the-incredible-hulk/3.jpg",
+      "/frames/the-incredible-hulk/4.jpg",
+      "/frames/the-incredible-hulk/5.jpg",
+      "/frames/the-incredible-hulk/6.jpg"
+    ]
   },
   {
     "id": 3,
     "date": "2026-03-15",
-    "showName": "The A-Team",
-    "showSlug": "the-a-team",
-    "tmdbId": 1516,
-    "frames": ["/frames/the-a-team/1.jpg", "/frames/the-a-team/2.jpg", "/frames/the-a-team/3.jpg", "/frames/the-a-team/4.jpg", "/frames/the-a-team/5.jpg", "/frames/the-a-team/6.jpg"]
+    "showName": "All in the Family",
+    "showSlug": "all-in-the-family",
+    "tmdbId": 1922,
+    "frames": [
+      "/frames/all-in-the-family/1.jpg",
+      "/frames/all-in-the-family/2.jpg",
+      "/frames/all-in-the-family/3.jpg",
+      "/frames/all-in-the-family/4.jpg",
+      "/frames/all-in-the-family/5.jpg",
+      "/frames/all-in-the-family/6.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "date": "2026-03-16",
+    "showName": "Richie Rich",
+    "showSlug": "richie-rich",
+    "tmdbId": 3026,
+    "frames": [
+      "/frames/richie-rich/1.jpg",
+      "/frames/richie-rich/2.jpg",
+      "/frames/richie-rich/3.jpg",
+      "/frames/richie-rich/4.jpg",
+      "/frames/richie-rich/5.jpg",
+      "/frames/richie-rich/6.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "date": "2026-03-17",
+    "showName": "The Simpsons",
+    "showSlug": "the-simpsons",
+    "tmdbId": 456,
+    "frames": [
+      "/frames/the-simpsons/1.jpg",
+      "/frames/the-simpsons/2.jpg",
+      "/frames/the-simpsons/3.jpg",
+      "/frames/the-simpsons/4.jpg",
+      "/frames/the-simpsons/5.jpg",
+      "/frames/the-simpsons/6.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "date": "2026-03-18",
+    "showName": "Night Court",
+    "showSlug": "night-court",
+    "tmdbId": 162,
+    "frames": [
+      "/frames/night-court/1.jpg",
+      "/frames/night-court/2.jpg",
+      "/frames/night-court/3.jpg",
+      "/frames/night-court/4.jpg",
+      "/frames/night-court/5.jpg",
+      "/frames/night-court/6.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "date": "2026-03-19",
+    "showName": "Are You Being Served?",
+    "showSlug": "are-you-being-served",
+    "tmdbId": 168,
+    "frames": [
+      "/frames/are-you-being-served/1.jpg",
+      "/frames/are-you-being-served/2.jpg",
+      "/frames/are-you-being-served/3.jpg",
+      "/frames/are-you-being-served/4.jpg",
+      "/frames/are-you-being-served/5.jpg",
+      "/frames/are-you-being-served/6.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "date": "2026-03-20",
+    "showName": "Robin of Sherwood",
+    "showSlug": "robin-of-sherwood",
+    "tmdbId": 4488,
+    "frames": [
+      "/frames/robin-of-sherwood/1.jpg",
+      "/frames/robin-of-sherwood/2.jpg",
+      "/frames/robin-of-sherwood/3.jpg",
+      "/frames/robin-of-sherwood/4.jpg",
+      "/frames/robin-of-sherwood/5.jpg",
+      "/frames/robin-of-sherwood/6.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "date": "2026-03-21",
+    "showName": "St. Elsewhere",
+    "showSlug": "st-elsewhere",
+    "tmdbId": 30,
+    "frames": [
+      "/frames/st-elsewhere/1.jpg",
+      "/frames/st-elsewhere/2.jpg",
+      "/frames/st-elsewhere/3.jpg",
+      "/frames/st-elsewhere/4.jpg",
+      "/frames/st-elsewhere/5.jpg",
+      "/frames/st-elsewhere/6.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "date": "2026-03-22",
+    "showName": "Laverne & Shirley",
+    "showSlug": "laverne-and-shirley",
+    "tmdbId": 3033,
+    "frames": [
+      "/frames/laverne-and-shirley/1.jpg",
+      "/frames/laverne-and-shirley/2.jpg",
+      "/frames/laverne-and-shirley/3.jpg",
+      "/frames/laverne-and-shirley/4.jpg",
+      "/frames/laverne-and-shirley/5.jpg",
+      "/frames/laverne-and-shirley/6.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "date": "2026-03-23",
+    "showName": "Scooby's Laff-A Lympics",
+    "showSlug": "scoobys-laff-a-lympics",
+    "tmdbId": 1072,
+    "frames": [
+      "/frames/scoobys-laff-a-lympics/1.jpg",
+      "/frames/scoobys-laff-a-lympics/2.jpg",
+      "/frames/scoobys-laff-a-lympics/3.jpg",
+      "/frames/scoobys-laff-a-lympics/4.jpg",
+      "/frames/scoobys-laff-a-lympics/5.jpg",
+      "/frames/scoobys-laff-a-lympics/6.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "date": "2026-03-24",
+    "showName": "The Jeffersons",
+    "showSlug": "the-jeffersons",
+    "tmdbId": 1964,
+    "frames": [
+      "/frames/the-jeffersons/1.jpg",
+      "/frames/the-jeffersons/2.jpg",
+      "/frames/the-jeffersons/3.jpg",
+      "/frames/the-jeffersons/4.jpg",
+      "/frames/the-jeffersons/5.jpg",
+      "/frames/the-jeffersons/6.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "date": "2026-03-25",
+    "showName": "Quincy, M.E.",
+    "showSlug": "quincy-me",
+    "tmdbId": 2179,
+    "frames": [
+      "/frames/quincy-me/1.jpg",
+      "/frames/quincy-me/2.jpg",
+      "/frames/quincy-me/3.jpg",
+      "/frames/quincy-me/4.jpg",
+      "/frames/quincy-me/5.jpg",
+      "/frames/quincy-me/6.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "date": "2026-03-26",
+    "showName": "The Golden Girls",
+    "showSlug": "the-golden-girls",
+    "tmdbId": 1678,
+    "frames": [
+      "/frames/the-golden-girls/1.jpg",
+      "/frames/the-golden-girls/2.jpg",
+      "/frames/the-golden-girls/3.jpg",
+      "/frames/the-golden-girls/4.jpg",
+      "/frames/the-golden-girls/5.jpg",
+      "/frames/the-golden-girls/6.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "date": "2026-03-27",
+    "showName": "The Greatest American Hero",
+    "showSlug": "the-greatest-american-hero",
+    "tmdbId": 1909,
+    "frames": [
+      "/frames/the-greatest-american-hero/1.jpg",
+      "/frames/the-greatest-american-hero/2.jpg",
+      "/frames/the-greatest-american-hero/3.jpg",
+      "/frames/the-greatest-american-hero/4.jpg",
+      "/frames/the-greatest-american-hero/5.jpg",
+      "/frames/the-greatest-american-hero/6.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "date": "2026-03-28",
+    "showName": "Remington Steele",
+    "showSlug": "remington-steele",
+    "tmdbId": 589,
+    "frames": [
+      "/frames/remington-steele/1.jpg",
+      "/frames/remington-steele/2.jpg",
+      "/frames/remington-steele/3.jpg",
+      "/frames/remington-steele/4.jpg",
+      "/frames/remington-steele/5.jpg",
+      "/frames/remington-steele/6.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "date": "2026-03-29",
+    "showName": "I, Claudius",
+    "showSlug": "i-claudius",
+    "tmdbId": 5487,
+    "frames": [
+      "/frames/i-claudius/1.jpg",
+      "/frames/i-claudius/2.jpg",
+      "/frames/i-claudius/3.jpg",
+      "/frames/i-claudius/4.jpg",
+      "/frames/i-claudius/5.jpg",
+      "/frames/i-claudius/6.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "date": "2026-03-30",
+    "showName": "The Fall Guy",
+    "showSlug": "the-fall-guy",
+    "tmdbId": 5031,
+    "frames": [
+      "/frames/the-fall-guy/1.jpg",
+      "/frames/the-fall-guy/2.jpg",
+      "/frames/the-fall-guy/3.jpg",
+      "/frames/the-fall-guy/4.jpg",
+      "/frames/the-fall-guy/5.jpg",
+      "/frames/the-fall-guy/6.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "date": "2026-03-31",
+    "showName": "CHiPs",
+    "showSlug": "chips",
+    "tmdbId": 509,
+    "frames": [
+      "/frames/chips/1.jpg",
+      "/frames/chips/2.jpg",
+      "/frames/chips/3.jpg",
+      "/frames/chips/4.jpg",
+      "/frames/chips/5.jpg",
+      "/frames/chips/6.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "date": "2026-04-01",
+    "showName": "Only Fools and Horses",
+    "showSlug": "only-fools-and-horses",
+    "tmdbId": 72,
+    "frames": [
+      "/frames/only-fools-and-horses/1.jpg",
+      "/frames/only-fools-and-horses/2.jpg",
+      "/frames/only-fools-and-horses/3.jpg",
+      "/frames/only-fools-and-horses/4.jpg",
+      "/frames/only-fools-and-horses/5.jpg",
+      "/frames/only-fools-and-horses/6.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "date": "2026-04-02",
+    "showName": "The Mary Tyler Moore Show",
+    "showSlug": "the-mary-tyler-moore-show",
+    "tmdbId": 2962,
+    "frames": [
+      "/frames/the-mary-tyler-moore-show/1.jpg",
+      "/frames/the-mary-tyler-moore-show/2.jpg",
+      "/frames/the-mary-tyler-moore-show/3.jpg",
+      "/frames/the-mary-tyler-moore-show/4.jpg",
+      "/frames/the-mary-tyler-moore-show/5.jpg",
+      "/frames/the-mary-tyler-moore-show/6.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "date": "2026-04-03",
+    "showName": "V",
+    "showSlug": "v",
+    "tmdbId": 75893,
+    "frames": [
+      "/frames/v/1.jpg",
+      "/frames/v/2.jpg",
+      "/frames/v/3.jpg",
+      "/frames/v/4.jpg",
+      "/frames/v/5.jpg",
+      "/frames/v/6.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "date": "2026-04-04",
+    "showName": "Star Trek",
+    "showSlug": "star-trek",
+    "tmdbId": 1992,
+    "frames": [
+      "/frames/star-trek/1.jpg",
+      "/frames/star-trek/2.jpg",
+      "/frames/star-trek/3.jpg",
+      "/frames/star-trek/4.jpg",
+      "/frames/star-trek/5.jpg",
+      "/frames/star-trek/6.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "date": "2026-04-05",
+    "showName": "Starsky & Hutch",
+    "showSlug": "starsky-and-hutch",
+    "tmdbId": 1532,
+    "frames": [
+      "/frames/starsky-and-hutch/1.jpg",
+      "/frames/starsky-and-hutch/2.jpg",
+      "/frames/starsky-and-hutch/3.jpg",
+      "/frames/starsky-and-hutch/4.jpg",
+      "/frames/starsky-and-hutch/5.jpg",
+      "/frames/starsky-and-hutch/6.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "date": "2026-04-06",
+    "showName": "'Allo 'Allo!",
+    "showSlug": "allo-allo",
+    "tmdbId": 2211,
+    "frames": [
+      "/frames/allo-allo/1.jpg",
+      "/frames/allo-allo/2.jpg",
+      "/frames/allo-allo/3.jpg",
+      "/frames/allo-allo/4.jpg",
+      "/frames/allo-allo/5.jpg",
+      "/frames/allo-allo/6.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "date": "2026-04-07",
+    "showName": "A Pup Named Scooby-Doo",
+    "showSlug": "a-pup-named-scooby-doo",
+    "tmdbId": 418,
+    "frames": [
+      "/frames/a-pup-named-scooby-doo/1.jpg",
+      "/frames/a-pup-named-scooby-doo/2.jpg",
+      "/frames/a-pup-named-scooby-doo/3.jpg",
+      "/frames/a-pup-named-scooby-doo/4.jpg",
+      "/frames/a-pup-named-scooby-doo/5.jpg",
+      "/frames/a-pup-named-scooby-doo/6.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "date": "2026-04-08",
+    "showName": "Count Duckula",
+    "showSlug": "count-duckula",
+    "tmdbId": 2416,
+    "frames": [
+      "/frames/count-duckula/1.jpg",
+      "/frames/count-duckula/2.jpg",
+      "/frames/count-duckula/3.jpg",
+      "/frames/count-duckula/4.jpg",
+      "/frames/count-duckula/5.jpg",
+      "/frames/count-duckula/6.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "date": "2026-04-09",
+    "showName": "Newhart",
+    "showSlug": "newhart",
+    "tmdbId": 3004,
+    "frames": [
+      "/frames/newhart/1.jpg",
+      "/frames/newhart/2.jpg",
+      "/frames/newhart/3.jpg",
+      "/frames/newhart/4.jpg",
+      "/frames/newhart/5.jpg",
+      "/frames/newhart/6.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "date": "2026-04-10",
+    "showName": "Knight Rider",
+    "showSlug": "knight-rider",
+    "tmdbId": 2384,
+    "frames": [
+      "/frames/knight-rider/1.jpg",
+      "/frames/knight-rider/2.jpg",
+      "/frames/knight-rider/3.jpg",
+      "/frames/knight-rider/4.jpg",
+      "/frames/knight-rider/5.jpg",
+      "/frames/knight-rider/6.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "date": "2026-04-11",
+    "showName": "Beetlejuice",
+    "showSlug": "beetlejuice",
+    "tmdbId": 4288,
+    "frames": [
+      "/frames/beetlejuice/1.jpg",
+      "/frames/beetlejuice/2.jpg",
+      "/frames/beetlejuice/3.jpg",
+      "/frames/beetlejuice/4.jpg",
+      "/frames/beetlejuice/5.jpg",
+      "/frames/beetlejuice/6.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "date": "2026-04-12",
+    "showName": "Police Squad!",
+    "showSlug": "police-squad",
+    "tmdbId": 6024,
+    "frames": [
+      "/frames/police-squad/1.jpg",
+      "/frames/police-squad/2.jpg",
+      "/frames/police-squad/3.jpg",
+      "/frames/police-squad/4.jpg",
+      "/frames/police-squad/5.jpg",
+      "/frames/police-squad/6.jpg"
+    ]
+  },
+  {
+    "id": 32,
+    "date": "2026-04-13",
+    "showName": "The Six Million Dollar Man",
+    "showSlug": "the-six-million-dollar-man",
+    "tmdbId": 1663,
+    "frames": [
+      "/frames/the-six-million-dollar-man/1.jpg",
+      "/frames/the-six-million-dollar-man/2.jpg",
+      "/frames/the-six-million-dollar-man/3.jpg",
+      "/frames/the-six-million-dollar-man/4.jpg",
+      "/frames/the-six-million-dollar-man/5.jpg",
+      "/frames/the-six-million-dollar-man/6.jpg"
+    ]
+  },
+  {
+    "id": 33,
+    "date": "2026-04-14",
+    "showName": "Columbo",
+    "showSlug": "columbo",
+    "tmdbId": 873,
+    "frames": [
+      "/frames/columbo/1.jpg",
+      "/frames/columbo/2.jpg",
+      "/frames/columbo/3.jpg",
+      "/frames/columbo/4.jpg",
+      "/frames/columbo/5.jpg",
+      "/frames/columbo/6.jpg"
+    ]
+  },
+  {
+    "id": 34,
+    "date": "2026-04-15",
+    "showName": "Charles in Charge",
+    "showSlug": "charles-in-charge",
+    "tmdbId": 566,
+    "frames": [
+      "/frames/charles-in-charge/1.jpg",
+      "/frames/charles-in-charge/2.jpg",
+      "/frames/charles-in-charge/3.jpg",
+      "/frames/charles-in-charge/4.jpg",
+      "/frames/charles-in-charge/5.jpg",
+      "/frames/charles-in-charge/6.jpg"
+    ]
+  },
+  {
+    "id": 35,
+    "date": "2026-04-16",
+    "showName": "Cosmos: A Personal Voyage",
+    "showSlug": "cosmos-a-personal-voyage",
+    "tmdbId": 1430,
+    "frames": [
+      "/frames/cosmos-a-personal-voyage/1.jpg",
+      "/frames/cosmos-a-personal-voyage/2.jpg",
+      "/frames/cosmos-a-personal-voyage/3.jpg",
+      "/frames/cosmos-a-personal-voyage/4.jpg",
+      "/frames/cosmos-a-personal-voyage/5.jpg",
+      "/frames/cosmos-a-personal-voyage/6.jpg"
+    ]
+  },
+  {
+    "id": 36,
+    "date": "2026-04-17",
+    "showName": "Married... with Children",
+    "showSlug": "married-with-children",
+    "tmdbId": 4239,
+    "frames": [
+      "/frames/married-with-children/1.jpg",
+      "/frames/married-with-children/2.jpg",
+      "/frames/married-with-children/3.jpg",
+      "/frames/married-with-children/4.jpg",
+      "/frames/married-with-children/5.jpg",
+      "/frames/married-with-children/6.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "date": "2026-04-18",
+    "showName": "Designing Women",
+    "showSlug": "designing-women",
+    "tmdbId": 712,
+    "frames": [
+      "/frames/designing-women/1.jpg",
+      "/frames/designing-women/2.jpg",
+      "/frames/designing-women/3.jpg",
+      "/frames/designing-women/4.jpg",
+      "/frames/designing-women/5.jpg",
+      "/frames/designing-women/6.jpg"
+    ]
+  },
+  {
+    "id": 38,
+    "date": "2026-04-19",
+    "showName": "Inspector Gadget",
+    "showSlug": "inspector-gadget",
+    "tmdbId": 4035,
+    "frames": [
+      "/frames/inspector-gadget/1.jpg",
+      "/frames/inspector-gadget/2.jpg",
+      "/frames/inspector-gadget/3.jpg",
+      "/frames/inspector-gadget/4.jpg",
+      "/frames/inspector-gadget/5.jpg",
+      "/frames/inspector-gadget/6.jpg"
+    ]
+  },
+  {
+    "id": 39,
+    "date": "2026-04-20",
+    "showName": "Fraggle Rock",
+    "showSlug": "fraggle-rock",
+    "tmdbId": 2957,
+    "frames": [
+      "/frames/fraggle-rock/1.jpg",
+      "/frames/fraggle-rock/2.jpg",
+      "/frames/fraggle-rock/3.jpg",
+      "/frames/fraggle-rock/4.jpg",
+      "/frames/fraggle-rock/5.jpg",
+      "/frames/fraggle-rock/6.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "date": "2026-04-21",
+    "showName": "Disney's Adventures of the Gummi Bears",
+    "showSlug": "disneys-adventures-of-the-gummi-bears",
+    "tmdbId": 1931,
+    "frames": [
+      "/frames/disneys-adventures-of-the-gummi-bears/1.jpg",
+      "/frames/disneys-adventures-of-the-gummi-bears/2.jpg",
+      "/frames/disneys-adventures-of-the-gummi-bears/3.jpg",
+      "/frames/disneys-adventures-of-the-gummi-bears/4.jpg",
+      "/frames/disneys-adventures-of-the-gummi-bears/5.jpg",
+      "/frames/disneys-adventures-of-the-gummi-bears/6.jpg"
+    ]
+  },
+  {
+    "id": 41,
+    "date": "2026-04-22",
+    "showName": "SilverHawks",
+    "showSlug": "silverhawks",
+    "tmdbId": 12504,
+    "frames": [
+      "/frames/silverhawks/1.jpg",
+      "/frames/silverhawks/2.jpg",
+      "/frames/silverhawks/3.jpg",
+      "/frames/silverhawks/4.jpg",
+      "/frames/silverhawks/5.jpg",
+      "/frames/silverhawks/6.jpg"
+    ]
+  },
+  {
+    "id": 42,
+    "date": "2026-04-23",
+    "showName": "Kung Fu",
+    "showSlug": "kung-fu",
+    "tmdbId": 1472,
+    "frames": [
+      "/frames/kung-fu/1.jpg",
+      "/frames/kung-fu/2.jpg",
+      "/frames/kung-fu/3.jpg",
+      "/frames/kung-fu/4.jpg",
+      "/frames/kung-fu/5.jpg",
+      "/frames/kung-fu/6.jpg"
+    ]
+  },
+  {
+    "id": 43,
+    "date": "2026-04-24",
+    "showName": "Battlestar Galactica",
+    "showSlug": "battlestar-galactica",
+    "tmdbId": 501,
+    "frames": [
+      "/frames/battlestar-galactica/1.jpg",
+      "/frames/battlestar-galactica/2.jpg",
+      "/frames/battlestar-galactica/3.jpg",
+      "/frames/battlestar-galactica/4.jpg",
+      "/frames/battlestar-galactica/5.jpg",
+      "/frames/battlestar-galactica/6.jpg"
+    ]
+  },
+  {
+    "id": 44,
+    "date": "2026-04-25",
+    "showName": "Pingu",
+    "showSlug": "pingu",
+    "tmdbId": 9262,
+    "frames": [
+      "/frames/pingu/1.jpg",
+      "/frames/pingu/2.jpg",
+      "/frames/pingu/3.jpg",
+      "/frames/pingu/4.jpg",
+      "/frames/pingu/5.jpg",
+      "/frames/pingu/6.jpg"
+    ]
+  },
+  {
+    "id": 45,
+    "date": "2026-04-26",
+    "showName": "Spider-Man and His Amazing Friends",
+    "showSlug": "spider-man-and-his-amazing-friends",
+    "tmdbId": 1269,
+    "frames": [
+      "/frames/spider-man-and-his-amazing-friends/1.jpg",
+      "/frames/spider-man-and-his-amazing-friends/2.jpg",
+      "/frames/spider-man-and-his-amazing-friends/3.jpg",
+      "/frames/spider-man-and-his-amazing-friends/4.jpg",
+      "/frames/spider-man-and-his-amazing-friends/5.jpg",
+      "/frames/spider-man-and-his-amazing-friends/6.jpg"
+    ]
+  },
+  {
+    "id": 46,
+    "date": "2026-04-27",
+    "showName": "The Scooby-Doo/Dynomutt Hour",
+    "showSlug": "the-scooby-doodynomutt-hour",
+    "tmdbId": 2150,
+    "frames": [
+      "/frames/the-scooby-doodynomutt-hour/1.jpg",
+      "/frames/the-scooby-doodynomutt-hour/2.jpg",
+      "/frames/the-scooby-doodynomutt-hour/3.jpg",
+      "/frames/the-scooby-doodynomutt-hour/4.jpg",
+      "/frames/the-scooby-doodynomutt-hour/5.jpg",
+      "/frames/the-scooby-doodynomutt-hour/6.jpg"
+    ]
+  },
+  {
+    "id": 47,
+    "date": "2026-04-28",
+    "showName": "Eight is Enough",
+    "showSlug": "eight-is-enough",
+    "tmdbId": 4382,
+    "frames": [
+      "/frames/eight-is-enough/1.jpg",
+      "/frames/eight-is-enough/2.jpg",
+      "/frames/eight-is-enough/3.jpg",
+      "/frames/eight-is-enough/4.jpg",
+      "/frames/eight-is-enough/5.jpg",
+      "/frames/eight-is-enough/6.jpg"
+    ]
+  },
+  {
+    "id": 48,
+    "date": "2026-04-29",
+    "showName": "The Transformers",
+    "showSlug": "the-transformers",
+    "tmdbId": 4269,
+    "frames": [
+      "/frames/the-transformers/1.jpg",
+      "/frames/the-transformers/2.jpg",
+      "/frames/the-transformers/3.jpg",
+      "/frames/the-transformers/4.jpg",
+      "/frames/the-transformers/5.jpg",
+      "/frames/the-transformers/6.jpg"
+    ]
+  },
+  {
+    "id": 49,
+    "date": "2026-04-30",
+    "showName": "Happy Days",
+    "showSlug": "happy-days",
+    "tmdbId": 3845,
+    "frames": [
+      "/frames/happy-days/1.jpg",
+      "/frames/happy-days/2.jpg",
+      "/frames/happy-days/3.jpg",
+      "/frames/happy-days/4.jpg",
+      "/frames/happy-days/5.jpg",
+      "/frames/happy-days/6.jpg"
+    ]
+  },
+  {
+    "id": 50,
+    "date": "2026-05-01",
+    "showName": "Star Wars: Droids",
+    "showSlug": "star-wars-droids",
+    "tmdbId": 25,
+    "frames": [
+      "/frames/star-wars-droids/1.jpg",
+      "/frames/star-wars-droids/2.jpg",
+      "/frames/star-wars-droids/3.jpg",
+      "/frames/star-wars-droids/4.jpg",
+      "/frames/star-wars-droids/5.jpg",
+      "/frames/star-wars-droids/6.jpg"
+    ]
+  },
+  {
+    "id": 51,
+    "date": "2026-05-02",
+    "showName": "Taxi",
+    "showSlug": "taxi",
+    "tmdbId": 2251,
+    "frames": [
+      "/frames/taxi/1.jpg",
+      "/frames/taxi/2.jpg",
+      "/frames/taxi/3.jpg",
+      "/frames/taxi/4.jpg",
+      "/frames/taxi/5.jpg",
+      "/frames/taxi/6.jpg"
+    ]
+  },
+  {
+    "id": 52,
+    "date": "2026-05-03",
+    "showName": "Mystery Science Theater 3000",
+    "showSlug": "mystery-science-theater-3000",
+    "tmdbId": 1952,
+    "frames": [
+      "/frames/mystery-science-theater-3000/1.jpg",
+      "/frames/mystery-science-theater-3000/2.jpg",
+      "/frames/mystery-science-theater-3000/3.jpg",
+      "/frames/mystery-science-theater-3000/4.jpg",
+      "/frames/mystery-science-theater-3000/5.jpg",
+      "/frames/mystery-science-theater-3000/6.jpg"
+    ]
+  },
+  {
+    "id": 53,
+    "date": "2026-05-04",
+    "showName": "DuckTales",
+    "showSlug": "ducktales",
+    "tmdbId": 720,
+    "frames": [
+      "/frames/ducktales/1.jpg",
+      "/frames/ducktales/2.jpg",
+      "/frames/ducktales/3.jpg",
+      "/frames/ducktales/4.jpg",
+      "/frames/ducktales/5.jpg",
+      "/frames/ducktales/6.jpg"
+    ]
+  },
+  {
+    "id": 54,
+    "date": "2026-05-05",
+    "showName": "Kolchak: The Night Stalker",
+    "showSlug": "kolchak-the-night-stalker",
+    "tmdbId": 5084,
+    "frames": [
+      "/frames/kolchak-the-night-stalker/1.jpg",
+      "/frames/kolchak-the-night-stalker/2.jpg",
+      "/frames/kolchak-the-night-stalker/3.jpg",
+      "/frames/kolchak-the-night-stalker/4.jpg",
+      "/frames/kolchak-the-night-stalker/5.jpg",
+      "/frames/kolchak-the-night-stalker/6.jpg"
+    ]
+  },
+  {
+    "id": 55,
+    "date": "2026-05-06",
+    "showName": "Thomas & Friends",
+    "showSlug": "thomas-friends",
+    "tmdbId": 2304,
+    "frames": [
+      "/frames/thomas-friends/1.jpg",
+      "/frames/thomas-friends/2.jpg",
+      "/frames/thomas-friends/3.jpg",
+      "/frames/thomas-friends/4.jpg",
+      "/frames/thomas-friends/5.jpg",
+      "/frames/thomas-friends/6.jpg"
+    ]
+  },
+  {
+    "id": 56,
+    "date": "2026-05-07",
+    "showName": "Space: 1999",
+    "showSlug": "space-1999",
+    "tmdbId": 134,
+    "frames": [
+      "/frames/space-1999/1.jpg",
+      "/frames/space-1999/2.jpg",
+      "/frames/space-1999/3.jpg",
+      "/frames/space-1999/4.jpg",
+      "/frames/space-1999/5.jpg",
+      "/frames/space-1999/6.jpg"
+    ]
+  },
+  {
+    "id": 57,
+    "date": "2026-05-08",
+    "showName": "Fawlty Towers",
+    "showSlug": "fawlty-towers",
+    "tmdbId": 2207,
+    "frames": [
+      "/frames/fawlty-towers/1.jpg",
+      "/frames/fawlty-towers/2.jpg",
+      "/frames/fawlty-towers/3.jpg",
+      "/frames/fawlty-towers/4.jpg",
+      "/frames/fawlty-towers/5.jpg",
+      "/frames/fawlty-towers/6.jpg"
+    ]
+  },
+  {
+    "id": 58,
+    "date": "2026-05-09",
+    "showName": "The Cosby Show",
+    "showSlug": "the-cosby-show",
+    "tmdbId": 1759,
+    "frames": [
+      "/frames/the-cosby-show/1.jpg",
+      "/frames/the-cosby-show/2.jpg",
+      "/frames/the-cosby-show/3.jpg",
+      "/frames/the-cosby-show/4.jpg",
+      "/frames/the-cosby-show/5.jpg",
+      "/frames/the-cosby-show/6.jpg"
+    ]
+  },
+  {
+    "id": 59,
+    "date": "2026-05-10",
+    "showName": "The Charlie Brown and Snoopy Show",
+    "showSlug": "the-charlie-brown-and-snoopy-show",
+    "tmdbId": 6670,
+    "frames": [
+      "/frames/the-charlie-brown-and-snoopy-show/1.jpg",
+      "/frames/the-charlie-brown-and-snoopy-show/2.jpg",
+      "/frames/the-charlie-brown-and-snoopy-show/3.jpg",
+      "/frames/the-charlie-brown-and-snoopy-show/4.jpg",
+      "/frames/the-charlie-brown-and-snoopy-show/5.jpg",
+      "/frames/the-charlie-brown-and-snoopy-show/6.jpg"
+    ]
+  },
+  {
+    "id": 60,
+    "date": "2026-05-11",
+    "showName": "Simon & Simon",
+    "showSlug": "simon-and-simon",
+    "tmdbId": 2102,
+    "frames": [
+      "/frames/simon-and-simon/1.jpg",
+      "/frames/simon-and-simon/2.jpg",
+      "/frames/simon-and-simon/3.jpg",
+      "/frames/simon-and-simon/4.jpg",
+      "/frames/simon-and-simon/5.jpg",
+      "/frames/simon-and-simon/6.jpg"
+    ]
+  },
+  {
+    "id": 61,
+    "date": "2026-05-12",
+    "showName": "Dungeons & Dragons",
+    "showSlug": "dungeons-dragons",
+    "tmdbId": 553,
+    "frames": [
+      "/frames/dungeons-dragons/1.jpg",
+      "/frames/dungeons-dragons/2.jpg",
+      "/frames/dungeons-dragons/3.jpg",
+      "/frames/dungeons-dragons/4.jpg",
+      "/frames/dungeons-dragons/5.jpg",
+      "/frames/dungeons-dragons/6.jpg"
+    ]
+  },
+  {
+    "id": 62,
+    "date": "2026-05-13",
+    "showName": "Diff'rent Strokes",
+    "showSlug": "diffrent-strokes",
+    "tmdbId": 2410,
+    "frames": [
+      "/frames/diffrent-strokes/1.jpg",
+      "/frames/diffrent-strokes/2.jpg",
+      "/frames/diffrent-strokes/3.jpg",
+      "/frames/diffrent-strokes/4.jpg",
+      "/frames/diffrent-strokes/5.jpg",
+      "/frames/diffrent-strokes/6.jpg"
+    ]
+  },
+  {
+    "id": 63,
+    "date": "2026-05-14",
+    "showName": "Agatha Christie's Poirot",
+    "showSlug": "agatha-christies-poirot",
+    "tmdbId": 790,
+    "frames": [
+      "/frames/agatha-christies-poirot/1.jpg",
+      "/frames/agatha-christies-poirot/2.jpg",
+      "/frames/agatha-christies-poirot/3.jpg",
+      "/frames/agatha-christies-poirot/4.jpg",
+      "/frames/agatha-christies-poirot/5.jpg",
+      "/frames/agatha-christies-poirot/6.jpg"
+    ]
+  },
+  {
+    "id": 64,
+    "date": "2026-05-15",
+    "showName": "Growing Pains",
+    "showSlug": "growing-pains",
+    "tmdbId": 54,
+    "frames": [
+      "/frames/growing-pains/1.jpg",
+      "/frames/growing-pains/2.jpg",
+      "/frames/growing-pains/3.jpg",
+      "/frames/growing-pains/4.jpg",
+      "/frames/growing-pains/5.jpg",
+      "/frames/growing-pains/6.jpg"
+    ]
+  },
+  {
+    "id": 65,
+    "date": "2026-05-16",
+    "showName": "Mork & Mindy",
+    "showSlug": "mork-and-mindy",
+    "tmdbId": 2552,
+    "frames": [
+      "/frames/mork-and-mindy/1.jpg",
+      "/frames/mork-and-mindy/2.jpg",
+      "/frames/mork-and-mindy/3.jpg",
+      "/frames/mork-and-mindy/4.jpg",
+      "/frames/mork-and-mindy/5.jpg",
+      "/frames/mork-and-mindy/6.jpg"
+    ]
+  },
+  {
+    "id": 66,
+    "date": "2026-05-17",
+    "showName": "Blue Thunder",
+    "showSlug": "blue-thunder",
+    "tmdbId": 11573,
+    "frames": [
+      "/frames/blue-thunder/1.jpg",
+      "/frames/blue-thunder/2.jpg",
+      "/frames/blue-thunder/3.jpg",
+      "/frames/blue-thunder/4.jpg",
+      "/frames/blue-thunder/5.jpg",
+      "/frames/blue-thunder/6.jpg"
+    ]
+  },
+  {
+    "id": 67,
+    "date": "2026-05-18",
+    "showName": "Mission: Impossible",
+    "showSlug": "mission-impossible",
+    "tmdbId": 9894,
+    "frames": [
+      "/frames/mission-impossible/1.jpg",
+      "/frames/mission-impossible/2.jpg",
+      "/frames/mission-impossible/3.jpg",
+      "/frames/mission-impossible/4.jpg",
+      "/frames/mission-impossible/5.jpg",
+      "/frames/mission-impossible/6.jpg"
+    ]
+  },
+  {
+    "id": 68,
+    "date": "2026-05-19",
+    "showName": "Wiseguy",
+    "showSlug": "wiseguy",
+    "tmdbId": 6550,
+    "frames": [
+      "/frames/wiseguy/1.jpg",
+      "/frames/wiseguy/2.jpg",
+      "/frames/wiseguy/3.jpg",
+      "/frames/wiseguy/4.jpg",
+      "/frames/wiseguy/5.jpg",
+      "/frames/wiseguy/6.jpg"
+    ]
+  },
+  {
+    "id": 69,
+    "date": "2026-05-20",
+    "showName": "Wonder Woman",
+    "showSlug": "wonder-woman",
+    "tmdbId": 4331,
+    "frames": [
+      "/frames/wonder-woman/1.jpg",
+      "/frames/wonder-woman/2.jpg",
+      "/frames/wonder-woman/3.jpg",
+      "/frames/wonder-woman/4.jpg",
+      "/frames/wonder-woman/5.jpg",
+      "/frames/wonder-woman/6.jpg"
+    ]
+  },
+  {
+    "id": 70,
+    "date": "2026-05-21",
+    "showName": "Emergency!",
+    "showSlug": "emergency",
+    "tmdbId": 5375,
+    "frames": [
+      "/frames/emergency/1.jpg",
+      "/frames/emergency/2.jpg",
+      "/frames/emergency/3.jpg",
+      "/frames/emergency/4.jpg",
+      "/frames/emergency/5.jpg",
+      "/frames/emergency/6.jpg"
+    ]
+  },
+  {
+    "id": 71,
+    "date": "2026-05-22",
+    "showName": "Blackadder",
+    "showSlug": "blackadder",
+    "tmdbId": 7246,
+    "frames": [
+      "/frames/blackadder/1.jpg",
+      "/frames/blackadder/2.jpg",
+      "/frames/blackadder/3.jpg",
+      "/frames/blackadder/4.jpg",
+      "/frames/blackadder/5.jpg",
+      "/frames/blackadder/6.jpg"
+    ]
+  },
+  {
+    "id": 72,
+    "date": "2026-05-23",
+    "showName": "Sherlock Holmes",
+    "showSlug": "sherlock-holmes",
+    "tmdbId": 799,
+    "frames": [
+      "/frames/sherlock-holmes/1.jpg",
+      "/frames/sherlock-holmes/2.jpg",
+      "/frames/sherlock-holmes/3.jpg",
+      "/frames/sherlock-holmes/4.jpg",
+      "/frames/sherlock-holmes/5.jpg",
+      "/frames/sherlock-holmes/6.jpg"
+    ]
+  },
+  {
+    "id": 73,
+    "date": "2026-05-24",
+    "showName": "North and South",
+    "showSlug": "north-and-south",
+    "tmdbId": 3266,
+    "frames": [
+      "/frames/north-and-south/1.jpg",
+      "/frames/north-and-south/2.jpg",
+      "/frames/north-and-south/3.jpg",
+      "/frames/north-and-south/4.jpg",
+      "/frames/north-and-south/5.jpg",
+      "/frames/north-and-south/6.jpg"
+    ]
+  },
+  {
+    "id": 74,
+    "date": "2026-05-25",
+    "showName": "Murder, She Wrote",
+    "showSlug": "murder-she-wrote",
+    "tmdbId": 484,
+    "frames": [
+      "/frames/murder-she-wrote/1.jpg",
+      "/frames/murder-she-wrote/2.jpg",
+      "/frames/murder-she-wrote/3.jpg",
+      "/frames/murder-she-wrote/4.jpg",
+      "/frames/murder-she-wrote/5.jpg",
+      "/frames/murder-she-wrote/6.jpg"
+    ]
+  },
+  {
+    "id": 75,
+    "date": "2026-05-26",
+    "showName": "BJ and the Bear",
+    "showSlug": "bj-and-the-bear",
+    "tmdbId": 961,
+    "frames": [
+      "/frames/bj-and-the-bear/1.jpg",
+      "/frames/bj-and-the-bear/2.jpg",
+      "/frames/bj-and-the-bear/3.jpg",
+      "/frames/bj-and-the-bear/4.jpg",
+      "/frames/bj-and-the-bear/5.jpg",
+      "/frames/bj-and-the-bear/6.jpg"
+    ]
+  },
+  {
+    "id": 76,
+    "date": "2026-05-27",
+    "showName": "Family Matters",
+    "showSlug": "family-matters",
+    "tmdbId": 2685,
+    "frames": [
+      "/frames/family-matters/1.jpg",
+      "/frames/family-matters/2.jpg",
+      "/frames/family-matters/3.jpg",
+      "/frames/family-matters/4.jpg",
+      "/frames/family-matters/5.jpg",
+      "/frames/family-matters/6.jpg"
+    ]
+  },
+  {
+    "id": 77,
+    "date": "2026-05-28",
+    "showName": "Baywatch",
+    "showSlug": "baywatch",
+    "tmdbId": 4386,
+    "frames": [
+      "/frames/baywatch/1.jpg",
+      "/frames/baywatch/2.jpg",
+      "/frames/baywatch/3.jpg",
+      "/frames/baywatch/4.jpg",
+      "/frames/baywatch/5.jpg",
+      "/frames/baywatch/6.jpg"
+    ]
+  },
+  {
+    "id": 78,
+    "date": "2026-05-29",
+    "showName": "Shaka Zulu",
+    "showSlug": "shaka-zulu",
+    "tmdbId": 8068,
+    "frames": [
+      "/frames/shaka-zulu/1.jpg",
+      "/frames/shaka-zulu/2.jpg",
+      "/frames/shaka-zulu/3.jpg",
+      "/frames/shaka-zulu/4.jpg",
+      "/frames/shaka-zulu/5.jpg",
+      "/frames/shaka-zulu/6.jpg"
+    ]
+  },
+  {
+    "id": 79,
+    "date": "2026-05-30",
+    "showName": "Highway to Heaven",
+    "showSlug": "highway-to-heaven",
+    "tmdbId": 2440,
+    "frames": [
+      "/frames/highway-to-heaven/1.jpg",
+      "/frames/highway-to-heaven/2.jpg",
+      "/frames/highway-to-heaven/3.jpg",
+      "/frames/highway-to-heaven/4.jpg",
+      "/frames/highway-to-heaven/5.jpg",
+      "/frames/highway-to-heaven/6.jpg"
+    ]
+  },
+  {
+    "id": 80,
+    "date": "2026-05-31",
+    "showName": "The Rockford Files",
+    "showSlug": "the-rockford-files",
+    "tmdbId": 954,
+    "frames": [
+      "/frames/the-rockford-files/1.jpg",
+      "/frames/the-rockford-files/2.jpg",
+      "/frames/the-rockford-files/3.jpg",
+      "/frames/the-rockford-files/4.jpg",
+      "/frames/the-rockford-files/5.jpg",
+      "/frames/the-rockford-files/6.jpg"
+    ]
+  },
+  {
+    "id": 81,
+    "date": "2026-06-01",
+    "showName": "Family Ties",
+    "showSlug": "family-ties",
+    "tmdbId": 496,
+    "frames": [
+      "/frames/family-ties/1.jpg",
+      "/frames/family-ties/2.jpg",
+      "/frames/family-ties/3.jpg",
+      "/frames/family-ties/4.jpg",
+      "/frames/family-ties/5.jpg",
+      "/frames/family-ties/6.jpg"
+    ]
+  },
+  {
+    "id": 82,
+    "date": "2026-06-02",
+    "showName": "The 13 Ghosts of Scooby-Doo",
+    "showSlug": "the-13-ghosts-of-scooby-doo",
+    "tmdbId": 1069,
+    "frames": [
+      "/frames/the-13-ghosts-of-scooby-doo/1.jpg",
+      "/frames/the-13-ghosts-of-scooby-doo/2.jpg",
+      "/frames/the-13-ghosts-of-scooby-doo/3.jpg",
+      "/frames/the-13-ghosts-of-scooby-doo/4.jpg",
+      "/frames/the-13-ghosts-of-scooby-doo/5.jpg",
+      "/frames/the-13-ghosts-of-scooby-doo/6.jpg"
+    ]
+  },
+  {
+    "id": 83,
+    "date": "2026-06-03",
+    "showName": "Alien Nation",
+    "showSlug": "alien-nation",
+    "tmdbId": 5383,
+    "frames": [
+      "/frames/alien-nation/1.jpg",
+      "/frames/alien-nation/2.jpg",
+      "/frames/alien-nation/3.jpg",
+      "/frames/alien-nation/4.jpg",
+      "/frames/alien-nation/5.jpg",
+      "/frames/alien-nation/6.jpg"
+    ]
+  },
+  {
+    "id": 84,
+    "date": "2026-06-04",
+    "showName": "Muppet Babies",
+    "showSlug": "muppet-babies",
+    "tmdbId": 565,
+    "frames": [
+      "/frames/muppet-babies/1.jpg",
+      "/frames/muppet-babies/2.jpg",
+      "/frames/muppet-babies/3.jpg",
+      "/frames/muppet-babies/4.jpg",
+      "/frames/muppet-babies/5.jpg",
+      "/frames/muppet-babies/6.jpg"
+    ]
+  },
+  {
+    "id": 85,
+    "date": "2026-06-05",
+    "showName": "Hart to Hart",
+    "showSlug": "hart-to-hart",
+    "tmdbId": 3162,
+    "frames": [
+      "/frames/hart-to-hart/1.jpg",
+      "/frames/hart-to-hart/2.jpg",
+      "/frames/hart-to-hart/3.jpg",
+      "/frames/hart-to-hart/4.jpg",
+      "/frames/hart-to-hart/5.jpg",
+      "/frames/hart-to-hart/6.jpg"
+    ]
+  },
+  {
+    "id": 86,
+    "date": "2026-06-06",
+    "showName": "Hardcastle and McCormick",
+    "showSlug": "hardcastle-and-mccormick",
+    "tmdbId": 1271,
+    "frames": [
+      "/frames/hardcastle-and-mccormick/1.jpg",
+      "/frames/hardcastle-and-mccormick/2.jpg",
+      "/frames/hardcastle-and-mccormick/3.jpg",
+      "/frames/hardcastle-and-mccormick/4.jpg",
+      "/frames/hardcastle-and-mccormick/5.jpg",
+      "/frames/hardcastle-and-mccormick/6.jpg"
+    ]
+  },
+  {
+    "id": 87,
+    "date": "2026-06-07",
+    "showName": "The New Scooby-Doo Movies",
+    "showSlug": "the-new-scooby-doo-movies",
+    "tmdbId": 1068,
+    "frames": [
+      "/frames/the-new-scooby-doo-movies/1.jpg",
+      "/frames/the-new-scooby-doo-movies/2.jpg",
+      "/frames/the-new-scooby-doo-movies/3.jpg",
+      "/frames/the-new-scooby-doo-movies/4.jpg",
+      "/frames/the-new-scooby-doo-movies/5.jpg",
+      "/frames/the-new-scooby-doo-movies/6.jpg"
+    ]
+  },
+  {
+    "id": 88,
+    "date": "2026-06-08",
+    "showName": "Inspector Morse",
+    "showSlug": "inspector-morse",
+    "tmdbId": 3476,
+    "frames": [
+      "/frames/inspector-morse/1.jpg",
+      "/frames/inspector-morse/2.jpg",
+      "/frames/inspector-morse/3.jpg",
+      "/frames/inspector-morse/4.jpg",
+      "/frames/inspector-morse/5.jpg",
+      "/frames/inspector-morse/6.jpg"
+    ]
+  },
+  {
+    "id": 89,
+    "date": "2026-06-09",
+    "showName": "L.A. Law",
+    "showSlug": "la-law",
+    "tmdbId": 732,
+    "frames": [
+      "/frames/la-law/1.jpg",
+      "/frames/la-law/2.jpg",
+      "/frames/la-law/3.jpg",
+      "/frames/la-law/4.jpg",
+      "/frames/la-law/5.jpg",
+      "/frames/la-law/6.jpg"
+    ]
+  },
+  {
+    "id": 90,
+    "date": "2026-06-10",
+    "showName": "Miami Vice",
+    "showSlug": "miami-vice",
+    "tmdbId": 1908,
+    "frames": [
+      "/frames/miami-vice/1.jpg",
+      "/frames/miami-vice/2.jpg",
+      "/frames/miami-vice/3.jpg",
+      "/frames/miami-vice/4.jpg",
+      "/frames/miami-vice/5.jpg",
+      "/frames/miami-vice/6.jpg"
+    ]
+  },
+  {
+    "id": 91,
+    "date": "2026-06-11",
+    "showName": "The Streets of San Francisco",
+    "showSlug": "the-streets-of-san-francisco",
+    "tmdbId": 2468,
+    "frames": [
+      "/frames/the-streets-of-san-francisco/1.jpg",
+      "/frames/the-streets-of-san-francisco/2.jpg",
+      "/frames/the-streets-of-san-francisco/3.jpg",
+      "/frames/the-streets-of-san-francisco/4.jpg",
+      "/frames/the-streets-of-san-francisco/5.jpg",
+      "/frames/the-streets-of-san-francisco/6.jpg"
+    ]
+  },
+  {
+    "id": 92,
+    "date": "2026-06-12",
+    "showName": "Red Dwarf",
+    "showSlug": "red-dwarf",
+    "tmdbId": 326,
+    "frames": [
+      "/frames/red-dwarf/1.jpg",
+      "/frames/red-dwarf/2.jpg",
+      "/frames/red-dwarf/3.jpg",
+      "/frames/red-dwarf/4.jpg",
+      "/frames/red-dwarf/5.jpg",
+      "/frames/red-dwarf/6.jpg"
+    ]
+  },
+  {
+    "id": 93,
+    "date": "2026-06-13",
+    "showName": "The Wonder Years",
+    "showSlug": "the-wonder-years",
+    "tmdbId": 4500,
+    "frames": [
+      "/frames/the-wonder-years/1.jpg",
+      "/frames/the-wonder-years/2.jpg",
+      "/frames/the-wonder-years/3.jpg",
+      "/frames/the-wonder-years/4.jpg",
+      "/frames/the-wonder-years/5.jpg",
+      "/frames/the-wonder-years/6.jpg"
+    ]
+  },
+  {
+    "id": 94,
+    "date": "2026-06-14",
+    "showName": "Manimal",
+    "showSlug": "manimal",
+    "tmdbId": 3291,
+    "frames": [
+      "/frames/manimal/1.jpg",
+      "/frames/manimal/2.jpg",
+      "/frames/manimal/3.jpg",
+      "/frames/manimal/4.jpg",
+      "/frames/manimal/5.jpg",
+      "/frames/manimal/6.jpg"
+    ]
+  },
+  {
+    "id": 95,
+    "date": "2026-06-15",
+    "showName": "Magnum, P.I.",
+    "showSlug": "magnum-pi",
+    "tmdbId": 734,
+    "frames": [
+      "/frames/magnum-pi/1.jpg",
+      "/frames/magnum-pi/2.jpg",
+      "/frames/magnum-pi/3.jpg",
+      "/frames/magnum-pi/4.jpg",
+      "/frames/magnum-pi/5.jpg",
+      "/frames/magnum-pi/6.jpg"
+    ]
+  },
+  {
+    "id": 96,
+    "date": "2026-06-16",
+    "showName": "Cagney & Lacey",
+    "showSlug": "cagney-and-lacey",
+    "tmdbId": 4223,
+    "frames": [
+      "/frames/cagney-and-lacey/1.jpg",
+      "/frames/cagney-and-lacey/2.jpg",
+      "/frames/cagney-and-lacey/3.jpg",
+      "/frames/cagney-and-lacey/4.jpg",
+      "/frames/cagney-and-lacey/5.jpg",
+      "/frames/cagney-and-lacey/6.jpg"
+    ]
+  },
+  {
+    "id": 97,
+    "date": "2026-06-17",
+    "showName": "Street Hawk",
+    "showSlug": "street-hawk",
+    "tmdbId": 3318,
+    "frames": [
+      "/frames/street-hawk/1.jpg",
+      "/frames/street-hawk/2.jpg",
+      "/frames/street-hawk/3.jpg",
+      "/frames/street-hawk/4.jpg",
+      "/frames/street-hawk/5.jpg",
+      "/frames/street-hawk/6.jpg"
+    ]
+  },
+  {
+    "id": 98,
+    "date": "2026-06-18",
+    "showName": "Airwolf",
+    "showSlug": "airwolf",
+    "tmdbId": 2119,
+    "frames": [
+      "/frames/airwolf/1.jpg",
+      "/frames/airwolf/2.jpg",
+      "/frames/airwolf/3.jpg",
+      "/frames/airwolf/4.jpg",
+      "/frames/airwolf/5.jpg",
+      "/frames/airwolf/6.jpg"
+    ]
+  },
+  {
+    "id": 99,
+    "date": "2026-06-19",
+    "showName": "Beauty and the Beast",
+    "showSlug": "beauty-and-the-beast",
+    "tmdbId": 2397,
+    "frames": [
+      "/frames/beauty-and-the-beast/1.jpg",
+      "/frames/beauty-and-the-beast/2.jpg",
+      "/frames/beauty-and-the-beast/3.jpg",
+      "/frames/beauty-and-the-beast/4.jpg",
+      "/frames/beauty-and-the-beast/5.jpg",
+      "/frames/beauty-and-the-beast/6.jpg"
+    ]
+  },
+  {
+    "id": 100,
+    "date": "2026-06-20",
+    "showName": "Spider-Woman",
+    "showSlug": "spider-woman",
+    "tmdbId": 4784,
+    "frames": [
+      "/frames/spider-woman/1.jpg",
+      "/frames/spider-woman/2.jpg",
+      "/frames/spider-woman/3.jpg",
+      "/frames/spider-woman/4.jpg",
+      "/frames/spider-woman/5.jpg",
+      "/frames/spider-woman/6.jpg"
+    ]
+  },
+  {
+    "id": 101,
+    "date": "2026-06-21",
+    "showName": "The Storyteller",
+    "showSlug": "the-storyteller",
+    "tmdbId": 5303,
+    "frames": [
+      "/frames/the-storyteller/1.jpg",
+      "/frames/the-storyteller/2.jpg",
+      "/frames/the-storyteller/3.jpg",
+      "/frames/the-storyteller/4.jpg",
+      "/frames/the-storyteller/5.jpg",
+      "/frames/the-storyteller/6.jpg"
+    ]
+  },
+  {
+    "id": 102,
+    "date": "2026-06-22",
+    "showName": "Yes Minister",
+    "showSlug": "yes-minister",
+    "tmdbId": 4549,
+    "frames": [
+      "/frames/yes-minister/1.jpg",
+      "/frames/yes-minister/2.jpg",
+      "/frames/yes-minister/3.jpg",
+      "/frames/yes-minister/4.jpg",
+      "/frames/yes-minister/5.jpg",
+      "/frames/yes-minister/6.jpg"
+    ]
+  },
+  {
+    "id": 103,
+    "date": "2026-06-23",
+    "showName": "Scooby-Doo and Scrappy-Doo",
+    "showSlug": "scooby-doo-and-scrappy-doo",
+    "tmdbId": 6005,
+    "frames": [
+      "/frames/scooby-doo-and-scrappy-doo/1.jpg",
+      "/frames/scooby-doo-and-scrappy-doo/2.jpg",
+      "/frames/scooby-doo-and-scrappy-doo/3.jpg",
+      "/frames/scooby-doo-and-scrappy-doo/4.jpg",
+      "/frames/scooby-doo-and-scrappy-doo/5.jpg",
+      "/frames/scooby-doo-and-scrappy-doo/6.jpg"
+    ]
+  },
+  {
+    "id": 104,
+    "date": "2026-06-24",
+    "showName": "The Persuaders!",
+    "showSlug": "the-persuaders",
+    "tmdbId": 2543,
+    "frames": [
+      "/frames/the-persuaders/1.jpg",
+      "/frames/the-persuaders/2.jpg",
+      "/frames/the-persuaders/3.jpg",
+      "/frames/the-persuaders/4.jpg",
+      "/frames/the-persuaders/5.jpg",
+      "/frames/the-persuaders/6.jpg"
+    ]
+  },
+  {
+    "id": 105,
+    "date": "2026-06-25",
+    "showName": "Dynasty",
+    "showSlug": "dynasty",
+    "tmdbId": 3769,
+    "frames": [
+      "/frames/dynasty/1.jpg",
+      "/frames/dynasty/2.jpg",
+      "/frames/dynasty/3.jpg",
+      "/frames/dynasty/4.jpg",
+      "/frames/dynasty/5.jpg",
+      "/frames/dynasty/6.jpg"
+    ]
+  },
+  {
+    "id": 106,
+    "date": "2026-06-26",
+    "showName": "Amazing Stories",
+    "showSlug": "amazing-stories",
+    "tmdbId": 1026,
+    "frames": [
+      "/frames/amazing-stories/1.jpg",
+      "/frames/amazing-stories/2.jpg",
+      "/frames/amazing-stories/3.jpg",
+      "/frames/amazing-stories/4.jpg",
+      "/frames/amazing-stories/5.jpg",
+      "/frames/amazing-stories/6.jpg"
+    ]
+  },
+  {
+    "id": 107,
+    "date": "2026-06-27",
+    "showName": "The Twilight Zone",
+    "showSlug": "the-twilight-zone",
+    "tmdbId": 1918,
+    "frames": [
+      "/frames/the-twilight-zone/1.jpg",
+      "/frames/the-twilight-zone/2.jpg",
+      "/frames/the-twilight-zone/3.jpg",
+      "/frames/the-twilight-zone/4.jpg",
+      "/frames/the-twilight-zone/5.jpg",
+      "/frames/the-twilight-zone/6.jpg"
+    ]
+  },
+  {
+    "id": 108,
+    "date": "2026-06-28",
+    "showName": "Tour of Duty",
+    "showSlug": "tour-of-duty",
+    "tmdbId": 11095,
+    "frames": [
+      "/frames/tour-of-duty/1.jpg",
+      "/frames/tour-of-duty/2.jpg",
+      "/frames/tour-of-duty/3.jpg",
+      "/frames/tour-of-duty/4.jpg",
+      "/frames/tour-of-duty/5.jpg",
+      "/frames/tour-of-duty/6.jpg"
+    ]
+  },
+  {
+    "id": 109,
+    "date": "2026-06-29",
+    "showName": "Teenage Mutant Ninja Turtles",
+    "showSlug": "teenage-mutant-ninja-turtles",
+    "tmdbId": 160,
+    "frames": [
+      "/frames/teenage-mutant-ninja-turtles/1.jpg",
+      "/frames/teenage-mutant-ninja-turtles/2.jpg",
+      "/frames/teenage-mutant-ninja-turtles/3.jpg",
+      "/frames/teenage-mutant-ninja-turtles/4.jpg",
+      "/frames/teenage-mutant-ninja-turtles/5.jpg",
+      "/frames/teenage-mutant-ninja-turtles/6.jpg"
+    ]
+  },
+  {
+    "id": 110,
+    "date": "2026-06-30",
+    "showName": "Charlie's Angels",
+    "showSlug": "charlies-angels",
+    "tmdbId": 3382,
+    "frames": [
+      "/frames/charlies-angels/1.jpg",
+      "/frames/charlies-angels/2.jpg",
+      "/frames/charlies-angels/3.jpg",
+      "/frames/charlies-angels/4.jpg",
+      "/frames/charlies-angels/5.jpg",
+      "/frames/charlies-angels/6.jpg"
+    ]
+  },
+  {
+    "id": 111,
+    "date": "2026-07-01",
+    "showName": "Silver Spoons",
+    "showSlug": "silver-spoons",
+    "tmdbId": 2076,
+    "frames": [
+      "/frames/silver-spoons/1.jpg",
+      "/frames/silver-spoons/2.jpg",
+      "/frames/silver-spoons/3.jpg",
+      "/frames/silver-spoons/4.jpg",
+      "/frames/silver-spoons/5.jpg",
+      "/frames/silver-spoons/6.jpg"
+    ]
+  },
+  {
+    "id": 112,
+    "date": "2026-07-02",
+    "showName": "Roots",
+    "showSlug": "roots",
+    "tmdbId": 13555,
+    "frames": [
+      "/frames/roots/1.jpg",
+      "/frames/roots/2.jpg",
+      "/frames/roots/3.jpg",
+      "/frames/roots/4.jpg",
+      "/frames/roots/5.jpg",
+      "/frames/roots/6.jpg"
+    ]
+  },
+  {
+    "id": 113,
+    "date": "2026-07-03",
+    "showName": "One Day at a Time",
+    "showSlug": "one-day-at-a-time",
+    "tmdbId": 2191,
+    "frames": [
+      "/frames/one-day-at-a-time/1.jpg",
+      "/frames/one-day-at-a-time/2.jpg",
+      "/frames/one-day-at-a-time/3.jpg",
+      "/frames/one-day-at-a-time/4.jpg",
+      "/frames/one-day-at-a-time/5.jpg",
+      "/frames/one-day-at-a-time/6.jpg"
+    ]
+  },
+  {
+    "id": 114,
+    "date": "2026-07-04",
+    "showName": "Fantasy Island",
+    "showSlug": "fantasy-island",
+    "tmdbId": 39775,
+    "frames": [
+      "/frames/fantasy-island/1.jpg",
+      "/frames/fantasy-island/2.jpg",
+      "/frames/fantasy-island/3.jpg",
+      "/frames/fantasy-island/4.jpg",
+      "/frames/fantasy-island/5.jpg",
+      "/frames/fantasy-island/6.jpg"
+    ]
+  },
+  {
+    "id": 115,
+    "date": "2026-07-05",
+    "showName": "Hotel",
+    "showSlug": "hotel",
+    "tmdbId": 3437,
+    "frames": [
+      "/frames/hotel/1.jpg",
+      "/frames/hotel/2.jpg",
+      "/frames/hotel/3.jpg",
+      "/frames/hotel/4.jpg",
+      "/frames/hotel/5.jpg",
+      "/frames/hotel/6.jpg"
+    ]
+  },
+  {
+    "id": 116,
+    "date": "2026-07-06",
+    "showName": "Super Friends",
+    "showSlug": "super-friends",
+    "tmdbId": 936,
+    "frames": [
+      "/frames/super-friends/1.jpg",
+      "/frames/super-friends/2.jpg",
+      "/frames/super-friends/3.jpg",
+      "/frames/super-friends/4.jpg",
+      "/frames/super-friends/5.jpg",
+      "/frames/super-friends/6.jpg"
+    ]
+  },
+  {
+    "id": 117,
+    "date": "2026-07-07",
+    "showName": "G.I. Joe",
+    "showSlug": "gi-joe",
+    "tmdbId": 29200,
+    "frames": [
+      "/frames/gi-joe/1.jpg",
+      "/frames/gi-joe/2.jpg",
+      "/frames/gi-joe/3.jpg",
+      "/frames/gi-joe/4.jpg",
+      "/frames/gi-joe/5.jpg",
+      "/frames/gi-joe/6.jpg"
+    ]
+  },
+  {
+    "id": 118,
+    "date": "2026-07-08",
+    "showName": "Barney Miller",
+    "showSlug": "barney-miller",
+    "tmdbId": 3253,
+    "frames": [
+      "/frames/barney-miller/1.jpg",
+      "/frames/barney-miller/2.jpg",
+      "/frames/barney-miller/3.jpg",
+      "/frames/barney-miller/4.jpg",
+      "/frames/barney-miller/5.jpg",
+      "/frames/barney-miller/6.jpg"
+    ]
+  },
+  {
+    "id": 119,
+    "date": "2026-07-09",
+    "showName": "Crime Story",
+    "showSlug": "crime-story",
+    "tmdbId": 2966,
+    "frames": [
+      "/frames/crime-story/1.jpg",
+      "/frames/crime-story/2.jpg",
+      "/frames/crime-story/3.jpg",
+      "/frames/crime-story/4.jpg",
+      "/frames/crime-story/5.jpg",
+      "/frames/crime-story/6.jpg"
+    ]
+  },
+  {
+    "id": 120,
+    "date": "2026-07-10",
+    "showName": "The Care Bears",
+    "showSlug": "the-care-bears",
+    "tmdbId": 2264,
+    "frames": [
+      "/frames/the-care-bears/1.jpg",
+      "/frames/the-care-bears/2.jpg",
+      "/frames/the-care-bears/3.jpg",
+      "/frames/the-care-bears/4.jpg",
+      "/frames/the-care-bears/5.jpg",
+      "/frames/the-care-bears/6.jpg"
+    ]
+  },
+  {
+    "id": 121,
+    "date": "2026-07-11",
+    "showName": "Scarecrow and Mrs. King",
+    "showSlug": "scarecrow-and-mrs-king",
+    "tmdbId": 3414,
+    "frames": [
+      "/frames/scarecrow-and-mrs-king/1.jpg",
+      "/frames/scarecrow-and-mrs-king/2.jpg",
+      "/frames/scarecrow-and-mrs-king/3.jpg",
+      "/frames/scarecrow-and-mrs-king/4.jpg",
+      "/frames/scarecrow-and-mrs-king/5.jpg",
+      "/frames/scarecrow-and-mrs-king/6.jpg"
+    ]
+  },
+  {
+    "id": 122,
+    "date": "2026-07-12",
+    "showName": "Dallas",
+    "showSlug": "dallas",
+    "tmdbId": 40,
+    "frames": [
+      "/frames/dallas/1.jpg",
+      "/frames/dallas/2.jpg",
+      "/frames/dallas/3.jpg",
+      "/frames/dallas/4.jpg",
+      "/frames/dallas/5.jpg",
+      "/frames/dallas/6.jpg"
+    ]
+  },
+  {
+    "id": 123,
+    "date": "2026-07-13",
+    "showName": "EastEnders",
+    "showSlug": "eastenders",
+    "tmdbId": 1871,
+    "frames": [
+      "/frames/eastenders/1.jpg",
+      "/frames/eastenders/2.jpg",
+      "/frames/eastenders/3.jpg",
+      "/frames/eastenders/4.jpg",
+      "/frames/eastenders/5.jpg",
+      "/frames/eastenders/6.jpg"
+    ]
+  },
+  {
+    "id": 124,
+    "date": "2026-07-14",
+    "showName": "Quantum Leap",
+    "showSlug": "quantum-leap",
+    "tmdbId": 4018,
+    "frames": [
+      "/frames/quantum-leap/1.jpg",
+      "/frames/quantum-leap/2.jpg",
+      "/frames/quantum-leap/3.jpg",
+      "/frames/quantum-leap/4.jpg",
+      "/frames/quantum-leap/5.jpg",
+      "/frames/quantum-leap/6.jpg"
+    ]
+  },
+  {
+    "id": 125,
+    "date": "2026-07-15",
+    "showName": "Garfield and Friends",
+    "showSlug": "garfield-and-friends",
+    "tmdbId": 4606,
+    "frames": [
+      "/frames/garfield-and-friends/1.jpg",
+      "/frames/garfield-and-friends/2.jpg",
+      "/frames/garfield-and-friends/3.jpg",
+      "/frames/garfield-and-friends/4.jpg",
+      "/frames/garfield-and-friends/5.jpg",
+      "/frames/garfield-and-friends/6.jpg"
+    ]
+  },
+  {
+    "id": 126,
+    "date": "2026-07-16",
+    "showName": "T.J. Hooker",
+    "showSlug": "tj-hooker",
+    "tmdbId": 1059,
+    "frames": [
+      "/frames/tj-hooker/1.jpg",
+      "/frames/tj-hooker/2.jpg",
+      "/frames/tj-hooker/3.jpg",
+      "/frames/tj-hooker/4.jpg",
+      "/frames/tj-hooker/5.jpg",
+      "/frames/tj-hooker/6.jpg"
+    ]
+  },
+  {
+    "id": 127,
+    "date": "2026-07-17",
+    "showName": "She-Ra: Princess of Power",
+    "showSlug": "she-ra-princess-of-power",
+    "tmdbId": 14755,
+    "frames": [
+      "/frames/she-ra-princess-of-power/1.jpg",
+      "/frames/she-ra-princess-of-power/2.jpg",
+      "/frames/she-ra-princess-of-power/3.jpg",
+      "/frames/she-ra-princess-of-power/4.jpg",
+      "/frames/she-ra-princess-of-power/5.jpg",
+      "/frames/she-ra-princess-of-power/6.jpg"
+    ]
+  },
+  {
+    "id": 128,
+    "date": "2026-07-18",
+    "showName": "Captain Caveman and the Teen Angels",
+    "showSlug": "captain-caveman-and-the-teen-angels",
+    "tmdbId": 9773,
+    "frames": [
+      "/frames/captain-caveman-and-the-teen-angels/1.jpg",
+      "/frames/captain-caveman-and-the-teen-angels/2.jpg",
+      "/frames/captain-caveman-and-the-teen-angels/3.jpg",
+      "/frames/captain-caveman-and-the-teen-angels/4.jpg",
+      "/frames/captain-caveman-and-the-teen-angels/5.jpg",
+      "/frames/captain-caveman-and-the-teen-angels/6.jpg"
+    ]
+  },
+  {
+    "id": 129,
+    "date": "2026-07-19",
+    "showName": "The New Scooby and Scrappy-Doo Show",
+    "showSlug": "the-new-scooby-and-scrappy-doo-show",
+    "tmdbId": 230,
+    "frames": [
+      "/frames/the-new-scooby-and-scrappy-doo-show/1.jpg",
+      "/frames/the-new-scooby-and-scrappy-doo-show/2.jpg",
+      "/frames/the-new-scooby-and-scrappy-doo-show/3.jpg",
+      "/frames/the-new-scooby-and-scrappy-doo-show/4.jpg",
+      "/frames/the-new-scooby-and-scrappy-doo-show/5.jpg",
+      "/frames/the-new-scooby-and-scrappy-doo-show/6.jpg"
+    ]
+  },
+  {
+    "id": 130,
+    "date": "2026-07-20",
+    "showName": "Full House",
+    "showSlug": "full-house",
+    "tmdbId": 4313,
+    "frames": [
+      "/frames/full-house/1.jpg",
+      "/frames/full-house/2.jpg",
+      "/frames/full-house/3.jpg",
+      "/frames/full-house/4.jpg",
+      "/frames/full-house/5.jpg",
+      "/frames/full-house/6.jpg"
+    ]
+  },
+  {
+    "id": 131,
+    "date": "2026-07-21",
+    "showName": "The New Scooby-Doo Mysteries",
+    "showSlug": "the-new-scooby-doo-mysteries",
+    "tmdbId": 64016,
+    "frames": [
+      "/frames/the-new-scooby-doo-mysteries/1.jpg",
+      "/frames/the-new-scooby-doo-mysteries/2.jpg",
+      "/frames/the-new-scooby-doo-mysteries/3.jpg",
+      "/frames/the-new-scooby-doo-mysteries/4.jpg",
+      "/frames/the-new-scooby-doo-mysteries/5.jpg",
+      "/frames/the-new-scooby-doo-mysteries/6.jpg"
+    ]
+  },
+  {
+    "id": 132,
+    "date": "2026-07-22",
+    "showName": "A Bit of Fry & Laurie",
+    "showSlug": "a-bit-of-fry-laurie",
+    "tmdbId": 192,
+    "frames": [
+      "/frames/a-bit-of-fry-laurie/1.jpg",
+      "/frames/a-bit-of-fry-laurie/2.jpg",
+      "/frames/a-bit-of-fry-laurie/3.jpg",
+      "/frames/a-bit-of-fry-laurie/4.jpg",
+      "/frames/a-bit-of-fry-laurie/5.jpg",
+      "/frames/a-bit-of-fry-laurie/6.jpg"
+    ]
+  },
+  {
+    "id": 133,
+    "date": "2026-07-23",
+    "showName": "The Waltons",
+    "showSlug": "the-waltons",
+    "tmdbId": 5021,
+    "frames": [
+      "/frames/the-waltons/1.jpg",
+      "/frames/the-waltons/2.jpg",
+      "/frames/the-waltons/3.jpg",
+      "/frames/the-waltons/4.jpg",
+      "/frames/the-waltons/5.jpg",
+      "/frames/the-waltons/6.jpg"
+    ]
+  },
+  {
+    "id": 134,
+    "date": "2026-07-24",
+    "showName": "Saved by the Bell",
+    "showSlug": "saved-by-the-bell",
+    "tmdbId": 4345,
+    "frames": [
+      "/frames/saved-by-the-bell/1.jpg",
+      "/frames/saved-by-the-bell/2.jpg",
+      "/frames/saved-by-the-bell/3.jpg",
+      "/frames/saved-by-the-bell/4.jpg",
+      "/frames/saved-by-the-bell/5.jpg",
+      "/frames/saved-by-the-bell/6.jpg"
+    ]
+  },
+  {
+    "id": 135,
+    "date": "2026-07-25",
+    "showName": "Sledge Hammer!",
+    "showSlug": "sledge-hammer",
+    "tmdbId": 520,
+    "frames": [
+      "/frames/sledge-hammer/1.jpg",
+      "/frames/sledge-hammer/2.jpg",
+      "/frames/sledge-hammer/3.jpg",
+      "/frames/sledge-hammer/4.jpg",
+      "/frames/sledge-hammer/5.jpg",
+      "/frames/sledge-hammer/6.jpg"
+    ]
+  },
+  {
+    "id": 136,
+    "date": "2026-07-26",
+    "showName": "Cheers",
+    "showSlug": "cheers",
+    "tmdbId": 141,
+    "frames": [
+      "/frames/cheers/1.jpg",
+      "/frames/cheers/2.jpg",
+      "/frames/cheers/3.jpg",
+      "/frames/cheers/4.jpg",
+      "/frames/cheers/5.jpg",
+      "/frames/cheers/6.jpg"
+    ]
+  },
+  {
+    "id": 137,
+    "date": "2026-07-27",
+    "showName": "Falcon Crest",
+    "showSlug": "falcon-crest",
+    "tmdbId": 93,
+    "frames": [
+      "/frames/falcon-crest/1.jpg",
+      "/frames/falcon-crest/2.jpg",
+      "/frames/falcon-crest/3.jpg",
+      "/frames/falcon-crest/4.jpg",
+      "/frames/falcon-crest/5.jpg",
+      "/frames/falcon-crest/6.jpg"
+    ]
+  },
+  {
+    "id": 138,
+    "date": "2026-07-28",
+    "showName": "Tales from the Crypt",
+    "showSlug": "tales-from-the-crypt",
+    "tmdbId": 2391,
+    "frames": [
+      "/frames/tales-from-the-crypt/1.jpg",
+      "/frames/tales-from-the-crypt/2.jpg",
+      "/frames/tales-from-the-crypt/3.jpg",
+      "/frames/tales-from-the-crypt/4.jpg",
+      "/frames/tales-from-the-crypt/5.jpg",
+      "/frames/tales-from-the-crypt/6.jpg"
+    ]
+  },
+  {
+    "id": 139,
+    "date": "2026-07-29",
+    "showName": "Little House on the Prairie",
+    "showSlug": "little-house-on-the-prairie",
+    "tmdbId": 1781,
+    "frames": [
+      "/frames/little-house-on-the-prairie/1.jpg",
+      "/frames/little-house-on-the-prairie/2.jpg",
+      "/frames/little-house-on-the-prairie/3.jpg",
+      "/frames/little-house-on-the-prairie/4.jpg",
+      "/frames/little-house-on-the-prairie/5.jpg",
+      "/frames/little-house-on-the-prairie/6.jpg"
+    ]
+  },
+  {
+    "id": 140,
+    "date": "2026-07-30",
+    "showName": "Who's the Boss?",
+    "showSlug": "whos-the-boss",
+    "tmdbId": 634,
+    "frames": [
+      "/frames/whos-the-boss/1.jpg",
+      "/frames/whos-the-boss/2.jpg",
+      "/frames/whos-the-boss/3.jpg",
+      "/frames/whos-the-boss/4.jpg",
+      "/frames/whos-the-boss/5.jpg",
+      "/frames/whos-the-boss/6.jpg"
+    ]
+  },
+  {
+    "id": 141,
+    "date": "2026-07-31",
+    "showName": "The Smurfs",
+    "showSlug": "the-smurfs",
+    "tmdbId": 5687,
+    "frames": [
+      "/frames/the-smurfs/1.jpg",
+      "/frames/the-smurfs/2.jpg",
+      "/frames/the-smurfs/3.jpg",
+      "/frames/the-smurfs/4.jpg",
+      "/frames/the-smurfs/5.jpg",
+      "/frames/the-smurfs/6.jpg"
+    ]
+  },
+  {
+    "id": 142,
+    "date": "2026-08-01",
+    "showName": "Kojak",
+    "showSlug": "kojak",
+    "tmdbId": 3572,
+    "frames": [
+      "/frames/kojak/1.jpg",
+      "/frames/kojak/2.jpg",
+      "/frames/kojak/3.jpg",
+      "/frames/kojak/4.jpg",
+      "/frames/kojak/5.jpg",
+      "/frames/kojak/6.jpg"
+    ]
+  },
+  {
+    "id": 143,
+    "date": "2026-08-02",
+    "showName": "Automan",
+    "showSlug": "automan",
+    "tmdbId": 12751,
+    "frames": [
+      "/frames/automan/1.jpg",
+      "/frames/automan/2.jpg",
+      "/frames/automan/3.jpg",
+      "/frames/automan/4.jpg",
+      "/frames/automan/5.jpg",
+      "/frames/automan/6.jpg"
+    ]
+  },
+  {
+    "id": 144,
+    "date": "2026-08-03",
+    "showName": "The New Adventures of Winnie the Pooh",
+    "showSlug": "the-new-adventures-of-winnie-the-pooh",
+    "tmdbId": 2005,
+    "frames": [
+      "/frames/the-new-adventures-of-winnie-the-pooh/1.jpg",
+      "/frames/the-new-adventures-of-winnie-the-pooh/2.jpg",
+      "/frames/the-new-adventures-of-winnie-the-pooh/3.jpg",
+      "/frames/the-new-adventures-of-winnie-the-pooh/4.jpg",
+      "/frames/the-new-adventures-of-winnie-the-pooh/5.jpg",
+      "/frames/the-new-adventures-of-winnie-the-pooh/6.jpg"
+    ]
+  },
+  {
+    "id": 145,
+    "date": "2026-08-04",
+    "showName": "Sanford and Son",
+    "showSlug": "sanford-and-son",
+    "tmdbId": 2586,
+    "frames": [
+      "/frames/sanford-and-son/1.jpg",
+      "/frames/sanford-and-son/2.jpg",
+      "/frames/sanford-and-son/3.jpg",
+      "/frames/sanford-and-son/4.jpg",
+      "/frames/sanford-and-son/5.jpg",
+      "/frames/sanford-and-son/6.jpg"
+    ]
+  },
+  {
+    "id": 146,
+    "date": "2026-08-05",
+    "showName": "The Bionic Woman",
+    "showSlug": "the-bionic-woman",
+    "tmdbId": 2275,
+    "frames": [
+      "/frames/the-bionic-woman/1.jpg",
+      "/frames/the-bionic-woman/2.jpg",
+      "/frames/the-bionic-woman/3.jpg",
+      "/frames/the-bionic-woman/4.jpg",
+      "/frames/the-bionic-woman/5.jpg",
+      "/frames/the-bionic-woman/6.jpg"
+    ]
+  },
+  {
+    "id": 147,
+    "date": "2026-08-06",
+    "showName": "He-Man and the Masters of the Universe",
+    "showSlug": "he-man",
+    "tmdbId": 931,
+    "frames": [
+      "/frames/he-man/1.jpg",
+      "/frames/he-man/2.jpg",
+      "/frames/he-man/3.jpg",
+      "/frames/he-man/4.jpg",
+      "/frames/he-man/5.jpg",
+      "/frames/he-man/6.jpg"
+    ]
+  },
+  {
+    "id": 148,
+    "date": "2026-08-07",
+    "showName": "Star Trek: The Next Generation",
+    "showSlug": "star-trek-the-next-generation",
+    "tmdbId": 655,
+    "frames": [
+      "/frames/star-trek-the-next-generation/1.jpg",
+      "/frames/star-trek-the-next-generation/2.jpg",
+      "/frames/star-trek-the-next-generation/3.jpg",
+      "/frames/star-trek-the-next-generation/4.jpg",
+      "/frames/star-trek-the-next-generation/5.jpg",
+      "/frames/star-trek-the-next-generation/6.jpg"
+    ]
+  },
+  {
+    "id": 149,
+    "date": "2026-08-08",
+    "showName": "Perfect Strangers",
+    "showSlug": "perfect-strangers",
+    "tmdbId": 1786,
+    "frames": [
+      "/frames/perfect-strangers/1.jpg",
+      "/frames/perfect-strangers/2.jpg",
+      "/frames/perfect-strangers/3.jpg",
+      "/frames/perfect-strangers/4.jpg",
+      "/frames/perfect-strangers/5.jpg",
+      "/frames/perfect-strangers/6.jpg"
+    ]
+  },
+  {
+    "id": 150,
+    "date": "2026-08-09",
+    "showName": "Chip 'n' Dale Rescue Rangers",
+    "showSlug": "chip-n-dale-rescue-rangers",
+    "tmdbId": 1615,
+    "frames": [
+      "/frames/chip-n-dale-rescue-rangers/1.jpg",
+      "/frames/chip-n-dale-rescue-rangers/2.jpg",
+      "/frames/chip-n-dale-rescue-rangers/3.jpg",
+      "/frames/chip-n-dale-rescue-rangers/4.jpg",
+      "/frames/chip-n-dale-rescue-rangers/5.jpg",
+      "/frames/chip-n-dale-rescue-rangers/6.jpg"
+    ]
+  },
+  {
+    "id": 151,
+    "date": "2026-08-10",
+    "showName": "Planet of the Apes",
+    "showSlug": "planet-of-the-apes",
+    "tmdbId": 19,
+    "frames": [
+      "/frames/planet-of-the-apes/1.jpg",
+      "/frames/planet-of-the-apes/2.jpg",
+      "/frames/planet-of-the-apes/3.jpg",
+      "/frames/planet-of-the-apes/4.jpg",
+      "/frames/planet-of-the-apes/5.jpg",
+      "/frames/planet-of-the-apes/6.jpg"
+    ]
+  },
+  {
+    "id": 152,
+    "date": "2026-08-11",
+    "showName": "Tales from the Darkside",
+    "showSlug": "tales-from-the-darkside",
+    "tmdbId": 1386,
+    "frames": [
+      "/frames/tales-from-the-darkside/1.jpg",
+      "/frames/tales-from-the-darkside/2.jpg",
+      "/frames/tales-from-the-darkside/3.jpg",
+      "/frames/tales-from-the-darkside/4.jpg",
+      "/frames/tales-from-the-darkside/5.jpg",
+      "/frames/tales-from-the-darkside/6.jpg"
+    ]
+  },
+  {
+    "id": 153,
+    "date": "2026-08-12",
+    "showName": "Riptide",
+    "showSlug": "riptide",
+    "tmdbId": 4379,
+    "frames": [
+      "/frames/riptide/1.jpg",
+      "/frames/riptide/2.jpg",
+      "/frames/riptide/3.jpg",
+      "/frames/riptide/4.jpg",
+      "/frames/riptide/5.jpg",
+      "/frames/riptide/6.jpg"
+    ]
+  },
+  {
+    "id": 154,
+    "date": "2026-08-13",
+    "showName": "Voyagers!",
+    "showSlug": "voyagers",
+    "tmdbId": 5391,
+    "frames": [
+      "/frames/voyagers/1.jpg",
+      "/frames/voyagers/2.jpg",
+      "/frames/voyagers/3.jpg",
+      "/frames/voyagers/4.jpg",
+      "/frames/voyagers/5.jpg",
+      "/frames/voyagers/6.jpg"
+    ]
+  },
+  {
+    "id": 155,
+    "date": "2026-08-14",
+    "showName": "Seinfeld",
+    "showSlug": "seinfeld",
+    "tmdbId": 1400,
+    "frames": [
+      "/frames/seinfeld/1.jpg",
+      "/frames/seinfeld/2.jpg",
+      "/frames/seinfeld/3.jpg",
+      "/frames/seinfeld/4.jpg",
+      "/frames/seinfeld/5.jpg",
+      "/frames/seinfeld/6.jpg"
+    ]
+  },
+  {
+    "id": 156,
+    "date": "2026-08-15",
+    "showName": "Yes, Prime Minister",
+    "showSlug": "yes-prime-minister",
+    "tmdbId": 12597,
+    "frames": [
+      "/frames/yes-prime-minister/1.jpg",
+      "/frames/yes-prime-minister/2.jpg",
+      "/frames/yes-prime-minister/3.jpg",
+      "/frames/yes-prime-minister/4.jpg",
+      "/frames/yes-prime-minister/5.jpg",
+      "/frames/yes-prime-minister/6.jpg"
+    ]
+  },
+  {
+    "id": 157,
+    "date": "2026-08-16",
+    "showName": "ThunderCats",
+    "showSlug": "thundercats",
+    "tmdbId": 1988,
+    "frames": [
+      "/frames/thundercats/1.jpg",
+      "/frames/thundercats/2.jpg",
+      "/frames/thundercats/3.jpg",
+      "/frames/thundercats/4.jpg",
+      "/frames/thundercats/5.jpg",
+      "/frames/thundercats/6.jpg"
+    ]
+  },
+  {
+    "id": 158,
+    "date": "2026-08-17",
+    "showName": "Galactica 1980",
+    "showSlug": "galactica-1980",
+    "tmdbId": 4621,
+    "frames": [
+      "/frames/galactica-1980/1.jpg",
+      "/frames/galactica-1980/2.jpg",
+      "/frames/galactica-1980/3.jpg",
+      "/frames/galactica-1980/4.jpg",
+      "/frames/galactica-1980/5.jpg",
+      "/frames/galactica-1980/6.jpg"
+    ]
+  },
+  {
+    "id": 159,
+    "date": "2026-08-18",
+    "showName": "MacGyver",
+    "showSlug": "macgyver",
+    "tmdbId": 2875,
+    "frames": [
+      "/frames/macgyver/1.jpg",
+      "/frames/macgyver/2.jpg",
+      "/frames/macgyver/3.jpg",
+      "/frames/macgyver/4.jpg",
+      "/frames/macgyver/5.jpg",
+      "/frames/macgyver/6.jpg"
+    ]
+  },
+  {
+    "id": 160,
+    "date": "2026-08-19",
+    "showName": "M*A*S*H",
+    "showSlug": "mash",
+    "tmdbId": 918,
+    "frames": [
+      "/frames/mash/1.jpg",
+      "/frames/mash/2.jpg",
+      "/frames/mash/3.jpg",
+      "/frames/mash/4.jpg",
+      "/frames/mash/5.jpg",
+      "/frames/mash/6.jpg"
+    ]
+  },
+  {
+    "id": 161,
+    "date": "2026-08-20",
+    "showName": "Moonlighting",
+    "showSlug": "moonlighting",
+    "tmdbId": 1998,
+    "frames": [
+      "/frames/moonlighting/1.jpg",
+      "/frames/moonlighting/2.jpg",
+      "/frames/moonlighting/3.jpg",
+      "/frames/moonlighting/4.jpg",
+      "/frames/moonlighting/5.jpg",
+      "/frames/moonlighting/6.jpg"
+    ]
+  },
+  {
+    "id": 162,
+    "date": "2026-08-21",
+    "showName": "Unsolved Mysteries",
+    "showSlug": "unsolved-mysteries",
+    "tmdbId": 126,
+    "frames": [
+      "/frames/unsolved-mysteries/1.jpg",
+      "/frames/unsolved-mysteries/2.jpg",
+      "/frames/unsolved-mysteries/3.jpg",
+      "/frames/unsolved-mysteries/4.jpg",
+      "/frames/unsolved-mysteries/5.jpg",
+      "/frames/unsolved-mysteries/6.jpg"
+    ]
+  },
+  {
+    "id": 163,
+    "date": "2026-08-22",
+    "showName": "The Real Ghostbusters",
+    "showSlug": "the-real-ghostbusters",
+    "tmdbId": 2286,
+    "frames": [
+      "/frames/the-real-ghostbusters/1.jpg",
+      "/frames/the-real-ghostbusters/2.jpg",
+      "/frames/the-real-ghostbusters/3.jpg",
+      "/frames/the-real-ghostbusters/4.jpg",
+      "/frames/the-real-ghostbusters/5.jpg",
+      "/frames/the-real-ghostbusters/6.jpg"
+    ]
+  },
+  {
+    "id": 164,
+    "date": "2026-08-23",
+    "showName": "In the Heat of the Night",
+    "showSlug": "in-the-heat-of-the-night",
+    "tmdbId": 862,
+    "frames": [
+      "/frames/in-the-heat-of-the-night/1.jpg",
+      "/frames/in-the-heat-of-the-night/2.jpg",
+      "/frames/in-the-heat-of-the-night/3.jpg",
+      "/frames/in-the-heat-of-the-night/4.jpg",
+      "/frames/in-the-heat-of-the-night/5.jpg",
+      "/frames/in-the-heat-of-the-night/6.jpg"
+    ]
+  },
+  {
+    "id": 165,
+    "date": "2026-08-24",
+    "showName": "Roseanne",
+    "showSlug": "roseanne",
+    "tmdbId": 2706,
+    "frames": [
+      "/frames/roseanne/1.jpg",
+      "/frames/roseanne/2.jpg",
+      "/frames/roseanne/3.jpg",
+      "/frames/roseanne/4.jpg",
+      "/frames/roseanne/5.jpg",
+      "/frames/roseanne/6.jpg"
+    ]
+  },
+  {
+    "id": 166,
+    "date": "2026-08-25",
+    "showName": "Defenders of the Earth",
+    "showSlug": "defenders-of-the-earth",
+    "tmdbId": 1794,
+    "frames": [
+      "/frames/defenders-of-the-earth/1.jpg",
+      "/frames/defenders-of-the-earth/2.jpg",
+      "/frames/defenders-of-the-earth/3.jpg",
+      "/frames/defenders-of-the-earth/4.jpg",
+      "/frames/defenders-of-the-earth/5.jpg",
+      "/frames/defenders-of-the-earth/6.jpg"
+    ]
+  },
+  {
+    "id": 167,
+    "date": "2026-08-26",
+    "showName": "Tinker Tailor Soldier Spy",
+    "showSlug": "tinker-tailor-soldier-spy",
+    "tmdbId": 35430,
+    "frames": [
+      "/frames/tinker-tailor-soldier-spy/1.jpg",
+      "/frames/tinker-tailor-soldier-spy/2.jpg",
+      "/frames/tinker-tailor-soldier-spy/3.jpg",
+      "/frames/tinker-tailor-soldier-spy/4.jpg",
+      "/frames/tinker-tailor-soldier-spy/5.jpg",
+      "/frames/tinker-tailor-soldier-spy/6.jpg"
+    ]
+  },
+  {
+    "id": 168,
+    "date": "2026-08-27",
+    "showName": "Knots Landing",
+    "showSlug": "knots-landing",
+    "tmdbId": 2595,
+    "frames": [
+      "/frames/knots-landing/1.jpg",
+      "/frames/knots-landing/2.jpg",
+      "/frames/knots-landing/3.jpg",
+      "/frames/knots-landing/4.jpg",
+      "/frames/knots-landing/5.jpg",
+      "/frames/knots-landing/6.jpg"
+    ]
+  },
+  {
+    "id": 169,
+    "date": "2026-08-28",
+    "showName": "The World at War",
+    "showSlug": "the-world-at-war",
+    "tmdbId": 751,
+    "frames": [
+      "/frames/the-world-at-war/1.jpg",
+      "/frames/the-world-at-war/2.jpg",
+      "/frames/the-world-at-war/3.jpg",
+      "/frames/the-world-at-war/4.jpg",
+      "/frames/the-world-at-war/5.jpg",
+      "/frames/the-world-at-war/6.jpg"
+    ]
+  },
+  {
+    "id": 170,
+    "date": "2026-08-29",
+    "showName": "The Super Mario Bros. Super Show!",
+    "showSlug": "the-super-mario-bros-super-show",
+    "tmdbId": 14613,
+    "frames": [
+      "/frames/the-super-mario-bros-super-show/1.jpg",
+      "/frames/the-super-mario-bros-super-show/2.jpg",
+      "/frames/the-super-mario-bros-super-show/3.jpg",
+      "/frames/the-super-mario-bros-super-show/4.jpg",
+      "/frames/the-super-mario-bros-super-show/5.jpg",
+      "/frames/the-super-mario-bros-super-show/6.jpg"
+    ]
+  },
+  {
+    "id": 171,
+    "date": "2026-08-30",
+    "showName": "BraveStarr",
+    "showSlug": "bravestarr",
+    "tmdbId": 5172,
+    "frames": [
+      "/frames/bravestarr/1.jpg",
+      "/frames/bravestarr/2.jpg",
+      "/frames/bravestarr/3.jpg",
+      "/frames/bravestarr/4.jpg",
+      "/frames/bravestarr/5.jpg",
+      "/frames/bravestarr/6.jpg"
+    ]
+  },
+  {
+    "id": 172,
+    "date": "2026-08-31",
+    "showName": "Friday the 13th: The Series",
+    "showSlug": "friday-the-13th-the-series",
+    "tmdbId": 2263,
+    "frames": [
+      "/frames/friday-the-13th-the-series/1.jpg",
+      "/frames/friday-the-13th-the-series/2.jpg",
+      "/frames/friday-the-13th-the-series/3.jpg",
+      "/frames/friday-the-13th-the-series/4.jpg",
+      "/frames/friday-the-13th-the-series/5.jpg",
+      "/frames/friday-the-13th-the-series/6.jpg"
+    ]
+  },
+  {
+    "id": 173,
+    "date": "2026-09-01",
+    "showName": "Doogie Howser, M.D.",
+    "showSlug": "doogie-howser-md",
+    "tmdbId": 1750,
+    "frames": [
+      "/frames/doogie-howser-md/1.jpg",
+      "/frames/doogie-howser-md/2.jpg",
+      "/frames/doogie-howser-md/3.jpg",
+      "/frames/doogie-howser-md/4.jpg",
+      "/frames/doogie-howser-md/5.jpg",
+      "/frames/doogie-howser-md/6.jpg"
+    ]
+  },
+  {
+    "id": 174,
+    "date": "2026-09-02",
+    "showName": "Matlock",
+    "showSlug": "matlock",
+    "tmdbId": 2093,
+    "frames": [
+      "/frames/matlock/1.jpg",
+      "/frames/matlock/2.jpg",
+      "/frames/matlock/3.jpg",
+      "/frames/matlock/4.jpg",
+      "/frames/matlock/5.jpg",
+      "/frames/matlock/6.jpg"
+    ]
+  },
+  {
+    "id": 175,
+    "date": "2026-09-03",
+    "showName": "Small Wonder",
+    "showSlug": "small-wonder",
+    "tmdbId": 2898,
+    "frames": [
+      "/frames/small-wonder/1.jpg",
+      "/frames/small-wonder/2.jpg",
+      "/frames/small-wonder/3.jpg",
+      "/frames/small-wonder/4.jpg",
+      "/frames/small-wonder/5.jpg",
+      "/frames/small-wonder/6.jpg"
+    ]
+  },
+  {
+    "id": 176,
+    "date": "2026-09-04",
+    "showName": "Three's Company",
+    "showSlug": "threes-company",
+    "tmdbId": 2686,
+    "frames": [
+      "/frames/threes-company/1.jpg",
+      "/frames/threes-company/2.jpg",
+      "/frames/threes-company/3.jpg",
+      "/frames/threes-company/4.jpg",
+      "/frames/threes-company/5.jpg",
+      "/frames/threes-company/6.jpg"
+    ]
+  },
+  {
+    "id": 177,
+    "date": "2026-09-05",
+    "showName": "The Love Boat",
+    "showSlug": "the-love-boat",
+    "tmdbId": 1823,
+    "frames": [
+      "/frames/the-love-boat/1.jpg",
+      "/frames/the-love-boat/2.jpg",
+      "/frames/the-love-boat/3.jpg",
+      "/frames/the-love-boat/4.jpg",
+      "/frames/the-love-boat/5.jpg",
+      "/frames/the-love-boat/6.jpg"
+    ]
+  },
+  {
+    "id": 178,
+    "date": "2026-09-06",
+    "showName": "Robotech",
+    "showSlug": "robotech",
+    "tmdbId": 2192,
+    "frames": [
+      "/frames/robotech/1.jpg",
+      "/frames/robotech/2.jpg",
+      "/frames/robotech/3.jpg",
+      "/frames/robotech/4.jpg",
+      "/frames/robotech/5.jpg",
+      "/frames/robotech/6.jpg"
+    ]
+  },
+  {
+    "id": 179,
+    "date": "2026-09-07",
+    "showName": "The Young Ones",
+    "showSlug": "the-young-ones",
+    "tmdbId": 4483,
+    "frames": [
+      "/frames/the-young-ones/1.jpg",
+      "/frames/the-young-ones/2.jpg",
+      "/frames/the-young-ones/3.jpg",
+      "/frames/the-young-ones/4.jpg",
+      "/frames/the-young-ones/5.jpg",
+      "/frames/the-young-ones/6.jpg"
+    ]
+  },
+  {
+    "id": 180,
+    "date": "2026-09-08",
+    "showName": "Punky Brewster",
+    "showSlug": "punky-brewster",
+    "tmdbId": 2553,
+    "frames": [
+      "/frames/punky-brewster/1.jpg",
+      "/frames/punky-brewster/2.jpg",
+      "/frames/punky-brewster/3.jpg",
+      "/frames/punky-brewster/4.jpg",
+      "/frames/punky-brewster/5.jpg",
+      "/frames/punky-brewster/6.jpg"
+    ]
+  },
+  {
+    "id": 181,
+    "date": "2026-09-09",
+    "showName": "The All New Pink Panther Show",
+    "showSlug": "the-all-new-pink-panther-show",
+    "tmdbId": 114772,
+    "frames": [
+      "/frames/the-all-new-pink-panther-show/1.jpg",
+      "/frames/the-all-new-pink-panther-show/2.jpg",
+      "/frames/the-all-new-pink-panther-show/3.jpg",
+      "/frames/the-all-new-pink-panther-show/4.jpg",
+      "/frames/the-all-new-pink-panther-show/5.jpg",
+      "/frames/the-all-new-pink-panther-show/6.jpg"
+    ]
+  },
+  {
+    "id": 182,
+    "date": "2026-09-10",
+    "showName": "Night Gallery",
+    "showSlug": "night-gallery",
+    "tmdbId": 4318,
+    "frames": [
+      "/frames/night-gallery/1.jpg",
+      "/frames/night-gallery/2.jpg",
+      "/frames/night-gallery/3.jpg",
+      "/frames/night-gallery/4.jpg",
+      "/frames/night-gallery/5.jpg",
+      "/frames/night-gallery/6.jpg"
+    ]
+  },
+  {
+    "id": 183,
+    "date": "2026-09-11",
+    "showName": "ALF",
+    "showSlug": "alf",
+    "tmdbId": 4658,
+    "frames": [
+      "/frames/alf/1.jpg",
+      "/frames/alf/2.jpg",
+      "/frames/alf/3.jpg",
+      "/frames/alf/4.jpg",
+      "/frames/alf/5.jpg",
+      "/frames/alf/6.jpg"
+    ]
+  },
+  {
+    "id": 184,
+    "date": "2026-09-12",
+    "showName": "WKRP in Cincinnati",
+    "showSlug": "wkrp-in-cincinnati",
+    "tmdbId": 971,
+    "frames": [
+      "/frames/wkrp-in-cincinnati/1.jpg",
+      "/frames/wkrp-in-cincinnati/2.jpg",
+      "/frames/wkrp-in-cincinnati/3.jpg",
+      "/frames/wkrp-in-cincinnati/4.jpg",
+      "/frames/wkrp-in-cincinnati/5.jpg",
+      "/frames/wkrp-in-cincinnati/6.jpg"
+    ]
+  },
+  {
+    "id": 185,
+    "date": "2026-09-13",
+    "showName": "21 Jump Street",
+    "showSlug": "21-jump-street",
+    "tmdbId": 1486,
+    "frames": [
+      "/frames/21-jump-street/1.jpg",
+      "/frames/21-jump-street/2.jpg",
+      "/frames/21-jump-street/3.jpg",
+      "/frames/21-jump-street/4.jpg",
+      "/frames/21-jump-street/5.jpg",
+      "/frames/21-jump-street/6.jpg"
+    ]
+  },
+  {
+    "id": 186,
+    "date": "2026-09-14",
+    "showName": "Hunter",
+    "showSlug": "hunter",
+    "tmdbId": 4571,
+    "frames": [
+      "/frames/hunter/1.jpg",
+      "/frames/hunter/2.jpg",
+      "/frames/hunter/3.jpg",
+      "/frames/hunter/4.jpg",
+      "/frames/hunter/5.jpg",
+      "/frames/hunter/6.jpg"
+    ]
+  },
+  {
+    "id": 187,
+    "date": "2026-09-15",
+    "showName": "The Muppet Show",
+    "showSlug": "the-muppet-show",
+    "tmdbId": 4459,
+    "frames": [
+      "/frames/the-muppet-show/1.jpg",
+      "/frames/the-muppet-show/2.jpg",
+      "/frames/the-muppet-show/3.jpg",
+      "/frames/the-muppet-show/4.jpg",
+      "/frames/the-muppet-show/5.jpg",
+      "/frames/the-muppet-show/6.jpg"
+    ]
+  },
+  {
+    "id": 188,
+    "date": "2026-09-16",
+    "showName": "The Dukes of Hazzard",
+    "showSlug": "the-dukes-of-hazzard",
+    "tmdbId": 397,
+    "frames": [
+      "/frames/the-dukes-of-hazzard/1.jpg",
+      "/frames/the-dukes-of-hazzard/2.jpg",
+      "/frames/the-dukes-of-hazzard/3.jpg",
+      "/frames/the-dukes-of-hazzard/4.jpg",
+      "/frames/the-dukes-of-hazzard/5.jpg",
+      "/frames/the-dukes-of-hazzard/6.jpg"
+    ]
+  },
+  {
+    "id": 189,
+    "date": "2026-09-17",
+    "showName": "Hill Street Blues",
+    "showSlug": "hill-street-blues",
+    "tmdbId": 3828,
+    "frames": [
+      "/frames/hill-street-blues/1.jpg",
+      "/frames/hill-street-blues/2.jpg",
+      "/frames/hill-street-blues/3.jpg",
+      "/frames/hill-street-blues/4.jpg",
+      "/frames/hill-street-blues/5.jpg",
+      "/frames/hill-street-blues/6.jpg"
+    ]
+  },
+  {
+    "id": 190,
+    "date": "2026-09-18",
+    "showName": "Buck Rogers in the 25th Century",
+    "showSlug": "buck-rogers-in-the-25th-century",
+    "tmdbId": 2443,
+    "frames": [
+      "/frames/buck-rogers-in-the-25th-century/1.jpg",
+      "/frames/buck-rogers-in-the-25th-century/2.jpg",
+      "/frames/buck-rogers-in-the-25th-century/3.jpg",
+      "/frames/buck-rogers-in-the-25th-century/4.jpg",
+      "/frames/buck-rogers-in-the-25th-century/5.jpg",
+      "/frames/buck-rogers-in-the-25th-century/6.jpg"
+    ]
   }
 ]

@@ -6,19 +6,67 @@ interface RetroTVProps {
 
 export default function RetroTV({ children }: RetroTVProps) {
   return (
-    <div className="tv-frame tv-glow">
-      {/* TV knobs */}
-      <div className="flex justify-between mb-2 px-4">
-        <div className="w-4 h-4 rounded-full bg-gray-600 border border-gray-500" />
-        <div className="w-4 h-4 rounded-full bg-gray-600 border border-gray-500" />
+    <div className="tv-cabinet">
+      <div className="tv-body">
+        {/* Left speaker */}
+        <div className="tv-speaker-panel">
+          <div className="tv-speaker-cloth">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <div key={i} className="tv-speaker-bar" />
+            ))}
+          </div>
+        </div>
+
+        {/* Center: screen + controls */}
+        <div className="tv-center">
+          <div className="tv-screen-bezel">
+            <div className="tv-screen">
+              {children}
+            </div>
+          </div>
+          {/* Control strip */}
+          <div className="tv-control-strip">
+            <div className="tv-knob-group">
+              <div className="tv-knob tv-knob-lg">
+                <div className="tv-knob-line" />
+              </div>
+              <span className="tv-label">CH</span>
+            </div>
+            <div className="tv-brand-badge">
+              <span className="tv-brand-text">RETRO</span>
+              <span className="tv-brand-sub">Solid State</span>
+            </div>
+            <div className="tv-knob-group">
+              <div className="tv-knob tv-knob-lg">
+                <div className="tv-knob-line" />
+              </div>
+              <span className="tv-label">VOL</span>
+            </div>
+            <div className="tv-knob-group">
+              <div className="tv-knob tv-knob-sm" />
+              <span className="tv-label">TINT</span>
+            </div>
+            <div className="tv-knob-group">
+              <div className="tv-knob tv-knob-sm" />
+              <span className="tv-label">BRT</span>
+            </div>
+            <div className="tv-power-light" />
+          </div>
+        </div>
+
+        {/* Right speaker */}
+        <div className="tv-speaker-panel">
+          <div className="tv-speaker-cloth">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <div key={i} className="tv-speaker-bar" />
+            ))}
+          </div>
+        </div>
       </div>
-      <div className="tv-screen">
-        {children}
-      </div>
-      {/* Channel/volume knobs */}
-      <div className="flex justify-center gap-6 mt-3">
-        <div className="w-6 h-6 rounded-full bg-gray-700 border-2 border-gray-500" />
-        <div className="w-6 h-6 rounded-full bg-gray-700 border-2 border-gray-500" />
+      {/* Feet */}
+      <div className="tv-feet">
+        <div className="tv-foot" />
+        <div className="tv-foot" />
       </div>
     </div>
   );

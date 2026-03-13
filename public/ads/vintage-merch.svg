@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140">
+  <rect width="140" height="140" fill="#1a1510" rx="6"/>
+  <rect x="4" y="4" width="132" height="132" fill="none" stroke="#8B6528" stroke-width="1" rx="4" stroke-dasharray="4,4"/>
+  <text x="70" y="65" fill="#8B6528" font-family="monospace" font-size="11" text-anchor="middle">YOUR AD</text>
+  <text x="70" y="82" fill="#6a5020" font-family="monospace" font-size="9" text-anchor="middle">140×140</text>
+</svg>
