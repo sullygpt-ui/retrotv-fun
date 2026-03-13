@@ -5,13 +5,20 @@ import { Sidebar, BottomBanner } from "@/components/AdSlot";
 
 export const metadata: Metadata = {
   title: "RetroTV - Daily TV Show Guessing Game",
-  description: "Guess the classic 70s & 80s TV show from screenshots! A new puzzle every day.",
+  description: "Guess the classic 70s & 80s TV show from screenshots! 200+ shows from the 70s and 80s. A new puzzle every day — free, no login required.",
   openGraph: {
-    title: "RetroTV - Daily TV Show Guessing Game",
-    description: "Guess the classic 70s & 80s TV show from screenshots!",
+    title: "RetroTV - Daily 70s & 80s TV Show Challenge",
+    description: "Can you guess the classic TV show from screenshots? 200+ shows, new puzzle daily, free!",
     type: "website",
     url: "https://retrotv.fun",
+    siteName: "RetroTV",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "RetroTV - Daily 70s & 80s TV Show Challenge",
+    description: "Can you guess the classic TV show from screenshots? 📺 New puzzle daily!",
+  },
+  metadataBase: new URL("https://retrotv.fun"),
 };
 
 export default function RootLayout({
