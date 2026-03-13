@@ -49,6 +49,9 @@ export default function RootLayout({
           <nav className="space-x-4 mb-2">
             <a href="/" className="text-[var(--amber)] hover:underline">Play</a>
             <a href="/archive" className="text-[var(--amber)] hover:underline">Archive</a>
+            <a href="/shows" className="text-[var(--amber)] hover:underline">Shows</a>
+            <a href="/about" className="text-[var(--amber)] hover:underline">About</a>
+            <a href="/faq" className="text-[var(--amber)] hover:underline">FAQ</a>
           </nav>
           <p>RetroTV.fun — A daily dose of nostalgia</p>
         </footer>

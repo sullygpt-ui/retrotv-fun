@@ -1,0 +1,1664 @@
+{
+  "happy-days": {
+    "name": "Happy Days",
+    "slug": "happy-days",
+    "tmdbId": 3845,
+    "overview": "In 1950s Milwaukee the Cunningham family must contend with Fonzie, a motorcycle riding Casanova.",
+    "first_air_date": "1974-01-15",
+    "last_air_date": "1984-09-24",
+    "number_of_seasons": 11,
+    "number_of_episodes": 252,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.621,
+    "poster_path": "/sepIwNPCEhkKvFOQSjXK6tekkjR.jpg",
+    "backdrop_path": "/lyAx1XlcrPaenfwvSYnOl4h4WMk.jpg",
+    "created_by": [
+      "Garry Marshall"
+    ],
+    "tagline": "Those were the days of the 1950's...filled with innocence and the promise of even better days to come."
+  },
+  "mash": {
+    "name": "M*A*S*H",
+    "slug": "mash",
+    "tmdbId": 918,
+    "overview": "The 4077th Mobile Army Surgical Hospital is stuck in the middle of the Korean war. With little help from the circumstances they find themselves in, they are forced to make their own fun. Fond of practical jokes and revenge, the doctors, nurses, administrators, and soldiers often find ways of making wartime life bearable.",
+    "first_air_date": "1972-09-17",
+    "last_air_date": "1983-02-28",
+    "number_of_seasons": 11,
+    "number_of_episodes": 251,
+    "genres": [
+      "War & Politics",
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.919,
+    "poster_path": "/6rhuM3oMoEWKxAdrm7IyM8oq8cC.jpg",
+    "backdrop_path": "/8nkOWsMtWZvp7IGuYdVbJeoWzQx.jpg",
+    "created_by": [
+      "Larry Gelbart"
+    ],
+    "tagline": "Goodbye, Farewell, and Amen."
+  },
+  "the-a-team": {
+    "name": "The A-Team",
+    "slug": "the-a-team",
+    "tmdbId": 1516,
+    "overview": "A fictional group of ex-United States Army Special Forces personnel work as soldiers of fortune while on the run from the Army after being branded as war criminals for a \"crime they didn't commit.\"",
+    "first_air_date": "1983-01-23",
+    "last_air_date": "1987-03-08",
+    "number_of_seasons": 5,
+    "number_of_episodes": 94,
+    "genres": [
+      "Action & Adventure",
+      "Comedy",
+      "Crime"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.5,
+    "poster_path": "/p2qWJJ7Wyaq2xvgIHuBw4zVNBij.jpg",
+    "backdrop_path": "/z1ubUZdKaXuxgrhcGZZRgZtzWLa.jpg",
+    "created_by": [
+      "Frank Lupo",
+      "Stephen J. Cannell"
+    ],
+    "tagline": "Heroes for hire."
+  },
+  "knight-rider": {
+    "name": "Knight Rider",
+    "slug": "knight-rider",
+    "tmdbId": 2384,
+    "overview": "Michael Long, an undercover police officer, is shot while investigating a case and left for dead by his assailants. He is rescued by Wilton Knight, a wealthy, dying millionaire and inventor who arranges life-saving surgery, including a new face and a new identity--that of Michael Knight. Michael is then given a special computerized and indestructible car called the Knight Industries Two Thousand (nicknamed KITT), and a mission: apprehend criminals who are beyond the reach of the law. The series depicts Michael's exploits as he and KITT battle the forces of evil on behalf of the Foundation for Law and Government.",
+    "first_air_date": "1982-09-26",
+    "last_air_date": "1986-04-04",
+    "number_of_seasons": 4,
+    "number_of_episodes": 84,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Crime"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.519,
+    "poster_path": "/t57NXzTrwp5rnPXiaX4BThrDxt1.jpg",
+    "backdrop_path": "/fmPo20ZTzxNketxL2jt6ZX6KSPi.jpg",
+    "created_by": [
+      "Glen A. Larson"
+    ],
+    "tagline": "Michael Knight is today's hero! Driving the car of tomorrow! Together, they're the ultimate crimecrashers!"
+  },
+  "magnum-pi": {
+    "name": "Magnum, P.I.",
+    "slug": "magnum-pi",
+    "tmdbId": 734,
+    "overview": "A private investigator who works when he wants, lives in a beachfront estate in Hawaii, drives a posh Ferrari, runs up an unlimited tab at a swank bar, and charms attractive women in peril - that's the lifestyle of Thomas Magnum, aka Magnum, P.I.",
+    "first_air_date": "1980-12-11",
+    "last_air_date": "1988-05-01",
+    "number_of_seasons": 8,
+    "number_of_episodes": 162,
+    "genres": [
+      "Action & Adventure",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.314,
+    "poster_path": "/ht0dsKCZxbPawKdTPLeNtnnbxim.jpg",
+    "backdrop_path": "/9YDtTrYUe3zan2GEkFiwtlGLMVS.jpg",
+    "created_by": [
+      "Donald P. Bellisario",
+      "Glen A. Larson"
+    ],
+    "tagline": "He's a Hellraiser in Paradise."
+  },
+  "chips": {
+    "name": "CHiPs",
+    "slug": "chips",
+    "tmdbId": 509,
+    "overview": "Lighthearted look at the adventures of two Highway Patrol officers in Los Angeles. The main characters are Jon Baker and Frank Poncherello, two motorcycle officers always on the street to save lives.",
+    "first_air_date": "1977-09-15",
+    "last_air_date": "1983-05-01",
+    "number_of_seasons": 6,
+    "number_of_episodes": 139,
+    "genres": [
+      "Drama",
+      "Action & Adventure"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.8,
+    "poster_path": "/1464ScbUZQ22RjFtRtGiv4i2Zrs.jpg",
+    "backdrop_path": "/r2T5JhXySW6EdTO76hG6gbITD7O.jpg",
+    "created_by": [
+      "Rick Rosner"
+    ],
+    "tagline": "Nonstop action and highway heroics!"
+  },
+  "the-dukes-of-hazzard": {
+    "name": "The Dukes of Hazzard",
+    "slug": "the-dukes-of-hazzard",
+    "tmdbId": 397,
+    "overview": "Cousins Bo and Luke Duke and their car \"General Lee\", assisted by Cousin Daisy and Uncle Jesse, have a running battle with the authorities of Hazzard County (Boss Hogg and Sheriff Coltrane), plus a string of ne'er-do-wells often backed by the scheming Hogg.",
+    "first_air_date": "1979-01-26",
+    "last_air_date": "1985-02-08",
+    "number_of_seasons": 7,
+    "number_of_episodes": 147,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.322,
+    "poster_path": "/r9eXJUxP6zgrpCMEOJzaEXzXLsp.jpg",
+    "backdrop_path": "/usnCQeoAWw4MDCn7q6luOWqSwQO.jpg",
+    "created_by": [
+      "Rod Amateau",
+      "Gy Waldron"
+    ],
+    "tagline": "You're in Hazzard County where the lawmen are crooks, the good guys are outlaws and ever'body's in-laws!"
+  },
+  "threes-company": {
+    "name": "Three's Company",
+    "slug": "threes-company",
+    "tmdbId": 2686,
+    "overview": "When two single girls, Janet and Chrissy, need a roommate to share their Santa Monica apartment, they decide to offer a room to Jack, a man they find passed out in the bathtub after the going-away party for their last roommate. However, hijinks ensure when Jack must pretend to be gay in order to throw off the scent of the trio's conservative landlady.",
+    "first_air_date": "1977-03-15",
+    "last_air_date": "1984-09-18",
+    "number_of_seasons": 8,
+    "number_of_episodes": 171,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.617,
+    "poster_path": "/6xn9XQ5iwJIa1FkoZAFtnh5tAQl.jpg",
+    "backdrop_path": "/4ubxzr6wNZElImE3EOUsjxvVjYw.jpg",
+    "created_by": [
+      "Johnnie Mortimer",
+      "Brian Cooke"
+    ],
+    "tagline": "Come and knock on our door"
+  },
+  "the-love-boat": {
+    "name": "The Love Boat",
+    "slug": "the-love-boat",
+    "tmdbId": 1823,
+    "overview": "Passengers who search for romantic nights aboard a beautiful ship travelling to tropical or mysterious countries, decide to pass their vacation aboard the \"Love Boat\", where Gopher, Dr. Bricker, Isaac, Julie, and Captain Stubing try their best to please them, and sometimes help them fall in love. Things are not always so easy, but in the end, love wins.",
+    "first_air_date": "1977-09-24",
+    "last_air_date": "1987-02-27",
+    "number_of_seasons": 10,
+    "number_of_episodes": 251,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.293,
+    "poster_path": "/fnsnazlj2bt3Fuj0pJ7wBPmuMLO.jpg",
+    "backdrop_path": "/2XtfGULDOvBiPByLscc9UEqrf0z.jpg",
+    "created_by": [
+      "Aaron Spelling",
+      "Wilford Lloyd Baumes"
+    ],
+    "tagline": "You Say You Can't Score on Shore? On This Cruise... You Can't Lose!"
+  },
+  "fantasy-island": {
+    "name": "Fantasy Island",
+    "slug": "fantasy-island",
+    "tmdbId": 39775,
+    "overview": "A magical island hosted by Mr Roarke and Tattoo where weekly guests learn valuable life lessons in their pursuit of fulfilling their dreams. Not all dreams are fulfilled as expected.",
+    "first_air_date": "1978-01-28",
+    "last_air_date": "1984-05-19",
+    "number_of_seasons": 7,
+    "number_of_episodes": 152,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.4,
+    "poster_path": "/ppxhytiPrgojE4eb6Tw0EonDzeP.jpg",
+    "backdrop_path": "/yTJFf7N9ohXjssZQyZ1cSMNopix.jpg",
+    "created_by": [
+      "Gene Levitt"
+    ],
+    "tagline": "Welcome to fantasy island..."
+  },
+  "diffrent-strokes": {
+    "name": "Diff'rent Strokes",
+    "slug": "diffrent-strokes",
+    "tmdbId": 2410,
+    "overview": "The series stars Gary Coleman and Todd Bridges as Arnold and Willis Jackson, two African American boys from Harlem who are taken in by a rich white Park Avenue businessman named Phillip Drummond and his daughter Kimberly, for whom their deceased mother previously worked. During the first season and first half of the second season, Charlotte Rae also starred as the Drummonds' housekeeper, Mrs. Garrett.",
+    "first_air_date": "1978-11-03",
+    "last_air_date": "1986-03-07",
+    "number_of_seasons": 8,
+    "number_of_episodes": 189,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Drama"
+    ],
+    "networks": [
+      "ABC",
+      "NBC"
+    ],
+    "vote_average": 7.081,
+    "poster_path": "/3MNIPC2v9a43IJCwEYiiY327rKH.jpg",
+    "backdrop_path": "/Ahau5SbGYBISr1fNCtCqbnxqfsV.jpg",
+    "created_by": [
+      "Bernie Kukoff",
+      "Jeff Harris"
+    ],
+    "tagline": ""
+  },
+  "the-facts-of-life": {
+    "name": "The Facts of Life",
+    "slug": "the-facts-of-life",
+    "tmdbId": 1803,
+    "overview": "Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.",
+    "first_air_date": "1979-08-24",
+    "last_air_date": "1988-05-07",
+    "number_of_seasons": 9,
+    "number_of_episodes": 201,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.081,
+    "poster_path": "/45i9VujUbQITmHl3QE3eNs9ZUv3.jpg",
+    "backdrop_path": "/nxqRVJ3QP76CZBaunWl42hQVK0.jpg",
+    "created_by": [
+      "Dick Clair",
+      "Norman Lear",
+      "Jenna McMahon"
+    ],
+    "tagline": "You take the good, you take the bad..."
+  },
+  "good-times": {
+    "name": "Good Times",
+    "slug": "good-times",
+    "tmdbId": 154,
+    "overview": "Good Times is an American sitcom that originally aired from February 8, 1974, until August 1, 1979, on the CBS television network. It was created by Eric Monte and Mike Evans, and developed by Norman Lear, the series' primary executive producer. Good Times is a spin-off of Maude, which is itself a spin-off of All in the Family along with The Jeffersons.\n\nThe series is set in Chicago. The first two seasons were taped at CBS Television City in Hollywood. In the fall of 1975, the show moved to Metromedia Square, where Norman Lear's own production company was housed.",
+    "first_air_date": "1974-02-08",
+    "last_air_date": "1979-08-01",
+    "number_of_seasons": 6,
+    "number_of_episodes": 133,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 8.0,
+    "poster_path": "/zZlaGU4RJMhTKFxmQ6RAEYNjM0l.jpg",
+    "backdrop_path": "/16YMKoILiLS1RcZCSs9NFn9U46U.jpg",
+    "created_by": [
+      "Eric Monte",
+      "Mike Evans"
+    ],
+    "tagline": "Dy-No-Mite!"
+  },
+  "sanford-and-son": {
+    "name": "Sanford and Son",
+    "slug": "sanford-and-son",
+    "tmdbId": 2586,
+    "overview": "The misadventures of a cantankerous junk dealer and his frustrated son.",
+    "first_air_date": "1972-01-14",
+    "last_air_date": "1977-03-25",
+    "number_of_seasons": 6,
+    "number_of_episodes": 136,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.436,
+    "poster_path": "/zIGPWBFjfnOzqsMxZeQ4UmuPggQ.jpg",
+    "backdrop_path": "/9bKG3fEyUjDizCL164OgfFGYTUs.jpg",
+    "created_by": [
+      "Norman Lear",
+      "Ray Galton",
+      "Bud Yorkin"
+    ],
+    "tagline": "You big dummy!"
+  },
+  "all-in-the-family": {
+    "name": "All in the Family",
+    "slug": "all-in-the-family",
+    "tmdbId": 1922,
+    "overview": "Archie Bunker, a working class bigot, constantly squabbles with his family over the important issues of the day.",
+    "first_air_date": "1971-01-12",
+    "last_air_date": "1979-04-08",
+    "number_of_seasons": 9,
+    "number_of_episodes": 210,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.813,
+    "poster_path": "/s2Y9QWyuyjRP78DZsatknEjn0iN.jpg",
+    "backdrop_path": "/qP6w5T2aMTTkIW5qFqziWhgYlPu.jpg",
+    "created_by": [
+      "Johnny Speight",
+      "Norman Lear"
+    ],
+    "tagline": "Like the Good Book says, \"Let him who is without sin... be the rollin' stone.\""
+  },
+  "laverne-and-shirley": {
+    "name": "Laverne & Shirley",
+    "slug": "laverne-and-shirley",
+    "tmdbId": 3033,
+    "overview": "Best friends, roommates, and polar opposites, Laverne DeFazio and Shirley Feeney work together at the Shotz Brewery in Milwaukee and keep each other's spirits up at home.",
+    "first_air_date": "1976-01-27",
+    "last_air_date": "1983-05-10",
+    "number_of_seasons": 8,
+    "number_of_episodes": 178,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.121,
+    "poster_path": "/mUMK8AZ5uvJoTXqgGjYQNoIkf5N.jpg",
+    "backdrop_path": "/6BlEWrhG1MVfsxo42Isrl9QJupQ.jpg",
+    "created_by": [
+      "Garry Marshall",
+      "Mark Rothman",
+      "Lowell Ganz"
+    ],
+    "tagline": "Schlemiel! Schlimazel! Hasenpfeffer Incorporated!"
+  },
+  "welcome-back-kotter": {
+    "name": "Welcome Back, Kotter",
+    "slug": "welcome-back-kotter",
+    "tmdbId": 738,
+    "overview": "Welcome Back, Kotter is an American television sitcom starring Gabe Kaplan and featuring a young John Travolta. Videotaped in front of a live studio audience, it originally aired on the ABC network from September 9, 1975, to June 8, 1979.",
+    "first_air_date": "1975-09-09",
+    "last_air_date": "1979-06-08",
+    "number_of_seasons": 4,
+    "number_of_episodes": 95,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.2,
+    "poster_path": "/xBNM75kZjHdWcE4brawakg1uQQf.jpg",
+    "backdrop_path": "/yyeyf8FYlJzQERUfrOb5PndyLwI.jpg",
+    "created_by": [
+      "Alan Sacks",
+      "Gabe Kaplan"
+    ],
+    "tagline": "Up your nose with a rubber hose!"
+  },
+  "mork-and-mindy": {
+    "name": "Mork & Mindy",
+    "slug": "mork-and-mindy",
+    "tmdbId": 2552,
+    "overview": "A wacky alien comes to Earth to study its residents and the life of the human woman he boards with is never the same.",
+    "first_air_date": "1978-09-14",
+    "last_air_date": "1982-05-27",
+    "number_of_seasons": 4,
+    "number_of_episodes": 95,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.043,
+    "poster_path": "/mzWJikslTFFeRloUNQmbAWbdU28.jpg",
+    "backdrop_path": "/7w4OCRKq00tMAJlwVwW8vyFSodx.jpg",
+    "created_by": [
+      "Garry Marshall"
+    ],
+    "tagline": "It's a weird and wonderful world"
+  },
+  "the-jeffersons": {
+    "name": "The Jeffersons",
+    "slug": "the-jeffersons",
+    "tmdbId": 1964,
+    "overview": "Sitcom following a successful African-American couple, George and Louise \u201cWeezy\u00f6 Jefferson as they \u201cmove on up\u201d from working-class Queens to a ritzy Manhattan apartment. A spin-off of All in the Family.",
+    "first_air_date": "1975-01-18",
+    "last_air_date": "1985-07-02",
+    "number_of_seasons": 11,
+    "number_of_episodes": 248,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.286,
+    "poster_path": "/iFjIaWr9qDKMLnnh8tHwO6Tzp6D.jpg",
+    "backdrop_path": "/JdMKUtYVUKUqXaMh2ZzlxAphR8.jpg",
+    "created_by": [
+      "Norman Lear",
+      "Michael Ross"
+    ],
+    "tagline": ""
+  },
+  "taxi": {
+    "name": "Taxi",
+    "slug": "taxi",
+    "tmdbId": 2251,
+    "overview": "Louie De Palma is a cantankerous, acerbic taxi dispatcher in New York City. He tries to maintain order over a collection of varied and strange characters who drive for him. As he bullies and insults them from the safety of his \u201ccage,\u201d they form a special bond among themselves, becoming friends and supporting each other through the inevitable trials and tribulations of life.",
+    "first_air_date": "1978-09-12",
+    "last_air_date": "1983-06-15",
+    "number_of_seasons": 5,
+    "number_of_episodes": 114,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "networks": [
+      "ABC",
+      "NBC"
+    ],
+    "vote_average": 7.246,
+    "poster_path": "/pua3A2XSaO6bP6WhVDBRbcyRTAS.jpg",
+    "backdrop_path": "/8Y8vn9feCVUoJRXpWK6xno5VrUz.jpg",
+    "created_by": [
+      "Stan Daniels",
+      "Ed. Weinberger",
+      "James L. Brooks"
+    ],
+    "tagline": "It's off the laugh meter!"
+  },
+  "cheers": {
+    "name": "Cheers",
+    "slug": "cheers",
+    "tmdbId": 141,
+    "overview": "The story about a blue-collar Boston bar run by former sports star Sam Malone and the quirky and wonderful people who worked and drank there.",
+    "first_air_date": "1982-09-30",
+    "last_air_date": "1993-05-20",
+    "number_of_seasons": 11,
+    "number_of_episodes": 269,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.548,
+    "poster_path": "/nD1ZQBKbgKSmKcrAkWTofohsScj.jpg",
+    "backdrop_path": "/5U7NIuRK836GutAlo7TLPfmVtGW.jpg",
+    "created_by": [
+      "Les Charles",
+      "James Burrows",
+      "Glen Charles"
+    ],
+    "tagline": "Where everybody knows your name."
+  },
+  "family-ties": {
+    "name": "Family Ties",
+    "slug": "family-ties",
+    "tmdbId": 496,
+    "overview": "Former 1960s flower children Steven and Elyse Keaton raise their conservative son Alex, daughters Mallory and Jennifer, and later, youngest child Andrew.",
+    "first_air_date": "1982-09-22",
+    "last_air_date": "1989-05-14",
+    "number_of_seasons": 7,
+    "number_of_episodes": 168,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.232,
+    "poster_path": "/vxERANdozlMKgl7VqGxbAvZ6u1O.jpg",
+    "backdrop_path": "/m4G421LlrPxqdtq980PLM91u38Y.jpg",
+    "created_by": [
+      "Gary David Goldberg"
+    ],
+    "tagline": "Laughter. Tears. Politics... MEET THE KEATONS."
+  },
+  "growing-pains": {
+    "name": "Growing Pains",
+    "slug": "growing-pains",
+    "tmdbId": 54,
+    "overview": "Fatherhood has taken on a whole new meaning for Jason Seaver, who has assumed the chores of cooking, cleaning and minding the kids so that his wife, Maggie, can pursue a career in journalism after spending 15 years as a housewife.",
+    "first_air_date": "1985-09-24",
+    "last_air_date": "1992-04-25",
+    "number_of_seasons": 7,
+    "number_of_episodes": 162,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.473,
+    "poster_path": "/dhzttMAkFTFAax2CTBAql1CaaXB.jpg",
+    "backdrop_path": "/rwr4VtrwuUuRbIGz5Nar0QmPoNO.jpg",
+    "created_by": [
+      "Neal Marlens"
+    ],
+    "tagline": ""
+  },
+  "whos-the-boss": {
+    "name": "Who's the Boss?",
+    "slug": "whos-the-boss",
+    "tmdbId": 634,
+    "overview": "A former professional baseball player, along with his preteen daughter, moves into New York advertising executive Angela Bower's house to be both a housekeeper and a father figure to her young son. Tony 's laid-back personality contrasts with Angela's type-A behavior.",
+    "first_air_date": "1984-09-20",
+    "last_air_date": "1992-04-25",
+    "number_of_seasons": 8,
+    "number_of_episodes": 196,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.354,
+    "poster_path": "/uZjNwfCNi6lX3jmYAxHB1DUuqcB.jpg",
+    "backdrop_path": "/qi925RRpANnzvZ00pybnHgXUA0a.jpg",
+    "created_by": [
+      "Blake Hunter"
+    ],
+    "tagline": "Father doesn't always know best!"
+  },
+  "silver-spoons": {
+    "name": "Silver Spoons",
+    "slug": "silver-spoons",
+    "tmdbId": 2076,
+    "overview": "Wealthy, young-at-heart business owner Edward Stratton III is stunned to discover his brief marriage several years ago produced a son, Richard Bluedhorn-Stratton, now 12 and standing in Edward's living room, wanting to live with the father he never knew. Although Edward's first impulse is to send Ricky to boarding school, he soon relents and let his son move in with him and Kate, his love-struck secretary.",
+    "first_air_date": "1982-09-25",
+    "last_air_date": "1987-03-04",
+    "number_of_seasons": 5,
+    "number_of_episodes": 116,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.286,
+    "poster_path": "/u0R3oUbGITld0kfvdnfxr8rtqAD.jpg",
+    "backdrop_path": "/4hUElOjWavce33FkD1z2tXXDNa1.jpg",
+    "created_by": [
+      "Ben Starr"
+    ],
+    "tagline": "It's not easy being the man of the house!"
+  },
+  "punky-brewster": {
+    "name": "Punky Brewster",
+    "slug": "punky-brewster",
+    "tmdbId": 2553,
+    "overview": "An abandoned waif and her dog are taken in by a cranky apartment manager who becomes her guardian in this family-friendly sitcom.",
+    "first_air_date": "1984-09-16",
+    "last_air_date": "1988-05-27",
+    "number_of_seasons": 4,
+    "number_of_episodes": 91,
+    "genres": [
+      "Comedy",
+      "Kids"
+    ],
+    "networks": [
+      "NBC",
+      "Syndication"
+    ],
+    "vote_average": 7.269,
+    "poster_path": "/2ZVmXNThTccZ4rKUfe1C1QZDwTe.jpg",
+    "backdrop_path": "/ir1J00Kk3kzBKw7uEGm8CwBjh1t.jpg",
+    "created_by": [
+      "David W. Duclon"
+    ],
+    "tagline": ""
+  },
+  "small-wonder": {
+    "name": "Small Wonder",
+    "slug": "small-wonder",
+    "tmdbId": 2898,
+    "overview": "When genius cybernetics engineer Ted Lawson brings home his top-secret invention, a Voice Input Child Identicant or V.I.C.I., life becomes anything but mechanical for the Lawson Family. With his boss and his nosy family living next door, Ted, his wife Joan and their son Jamie must pass Vicki off as a real child. It is easy for Joan, who cannot help doting on her like a daughter, but harder for precocious Jamie, who uses Vicki to do his homework and to ward off Harriet, the annoying redheaded girl next door.",
+    "first_air_date": "1985-09-07",
+    "last_air_date": "1989-05-20",
+    "number_of_seasons": 4,
+    "number_of_episodes": 99,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 6.934,
+    "poster_path": "/beaMCxE00CGMSk6MVCcvhZkwqSV.jpg",
+    "backdrop_path": "/pU5NQApUxgBef0a0QgDJor1flH1.jpg",
+    "created_by": [
+      "Howard Leeds"
+    ],
+    "tagline": ""
+  },
+  "webster": {
+    "name": "Webster",
+    "slug": "webster",
+    "tmdbId": 3804,
+    "overview": "Webster is an American situation comedy that aired on ABC from September 16, 1983 until May 8, 1987, and in first-run syndication from September 21, 1987 until March 10, 1989. The series was created by Stu Silver.\n\nThe show stars Emmanuel Lewis in the title role as a young boy who, after losing his parents, is adopted by his NFL-pro godfather, portrayed by Alex Karras, and his new socialite wife, played by Susan Clark. The focus was largely on how this impulsively married couple had to adjust to their new lives and sudden parenthood, but it was the congenial Webster himself who drove much of the plot. The series was produced by Georgian Bay Ltd., Emmanuel Lewis Entertainment Enterprises, Inc. and Paramount Television.\n\nLike NBC's earlier hit Diff'rent Strokes, Webster featured a young African-American boy adopted by a white family.",
+    "first_air_date": "1983-09-16",
+    "last_air_date": "1989-03-10",
+    "number_of_seasons": 6,
+    "number_of_episodes": 150,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC",
+      "Syndication"
+    ],
+    "vote_average": 5.825,
+    "poster_path": "/4eBuBuPBzizq3QKBzFA7dVYW6Uk.jpg",
+    "backdrop_path": "/xbaRgsGw3hnLvrCT56XNXQkuw1n.jpg",
+    "created_by": [
+      "Stu Silver"
+    ],
+    "tagline": ""
+  },
+  "perfect-strangers": {
+    "name": "Perfect Strangers",
+    "slug": "perfect-strangers",
+    "tmdbId": 1786,
+    "overview": "The chronicles of the rocky coexistence of midwestern American Larry Appleton and his distant cousin from eastern Mediterranean Europe, Balki Bartokomous.",
+    "first_air_date": "1986-03-25",
+    "last_air_date": "1993-08-06",
+    "number_of_seasons": 8,
+    "number_of_episodes": 150,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.626,
+    "poster_path": "/wZ7RomWxcrdMwK63XzVeQGFK6Dy.jpg",
+    "backdrop_path": "/o76eZkTfIAtcGsN3MCVtKDfDTNf.jpg",
+    "created_by": [
+      "Dale McRaven"
+    ],
+    "tagline": "Now we are so happy we do the Dance of Joy!"
+  },
+  "full-house": {
+    "name": "Full House",
+    "slug": "full-house",
+    "tmdbId": 4313,
+    "overview": "After the death of his wife, Danny enlists his best friend and his brother-in-law to help raise his three daughters, D.J., Stephanie, and Michelle.",
+    "first_air_date": "1987-09-22",
+    "last_air_date": "1995-05-23",
+    "number_of_seasons": 8,
+    "number_of_episodes": 192,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.548,
+    "poster_path": "/7g0EyKsIaYjYw3gCIBKMHHE0Kcu.jpg",
+    "backdrop_path": "/vp9fHzzOx1S2MNPCaZR2X29Ndwu.jpg",
+    "created_by": [
+      "Jeff Franklin"
+    ],
+    "tagline": ""
+  },
+  "alf": {
+    "name": "ALF",
+    "slug": "alf",
+    "tmdbId": 4658,
+    "overview": "A furry alien wiseguy comes to live with a terran family after crashing into their garage.",
+    "first_air_date": "1986-09-22",
+    "last_air_date": "1990-03-24",
+    "number_of_seasons": 4,
+    "number_of_episodes": 101,
+    "genres": [
+      "Family",
+      "Comedy",
+      "Drama"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.659,
+    "poster_path": "/shRed7ZrCRjdIMEYNx2YBVFkkNu.jpg",
+    "backdrop_path": "/ebLHsB8wsBnZnNa9UhGAqYeo33B.jpg",
+    "created_by": [
+      "Paul Fusco",
+      "Tom Patchett"
+    ],
+    "tagline": "Got cat?"
+  },
+  "miami-vice": {
+    "name": "Miami Vice",
+    "slug": "miami-vice",
+    "tmdbId": 1908,
+    "overview": "The story of the Miami Police Department's vice squad and its efforts to end drug trafficking and prostitution, centered on the unlikely partnership of Sonny Crockett and Ricardo Tubbs - who first meet when Tubbs is undercover in a drug cartel.",
+    "first_air_date": "1984-09-16",
+    "last_air_date": "1989-06-28",
+    "number_of_seasons": 5,
+    "number_of_episodes": 110,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.458,
+    "poster_path": "/b5kLqC6eDiA17nq3jr1Vi340Kns.jpg",
+    "backdrop_path": "/iK7tPi9j4d34g5p6bNKmGVba95K.jpg",
+    "created_by": [
+      "Anthony Yerkovich"
+    ],
+    "tagline": "There's no stopping them."
+  },
+  "hill-street-blues": {
+    "name": "Hill Street Blues",
+    "slug": "hill-street-blues",
+    "tmdbId": 3828,
+    "overview": "A realistic glimpse into the daily lives of the officers and detectives at an urban police station.",
+    "first_air_date": "1981-01-15",
+    "last_air_date": "1987-05-12",
+    "number_of_seasons": 7,
+    "number_of_episodes": 146,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.642,
+    "poster_path": "/elvCmYxmwVzv2va3rLKponOJOfm.jpg",
+    "backdrop_path": "/Am2ZRSkoOQd00kmhUF7QtOFbLWQ.jpg",
+    "created_by": [
+      "Steven Bochco"
+    ],
+    "tagline": "Let's be careful out there."
+  },
+  "cagney-and-lacey": {
+    "name": "Cagney & Lacey",
+    "slug": "cagney-and-lacey",
+    "tmdbId": 4223,
+    "overview": "Mary Beth Lacey and Chris Cagney are teamed up as NYPD police detectives. Their opposing personalities (one is tough and the other sensitive) mesh to make this one of the great crime-fighting duos of all time.",
+    "first_air_date": "1982-03-25",
+    "last_air_date": "1988-05-16",
+    "number_of_seasons": 7,
+    "number_of_episodes": 125,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.956,
+    "poster_path": "/bAdrchPABFuHK44G3dKXXRIIRiH.jpg",
+    "backdrop_path": "/rWnH3S85i5E3KniNQpa0TFny7KX.jpg",
+    "created_by": [
+      "Barbara Corday",
+      "Barbara Avedon"
+    ],
+    "tagline": "Two women cops working twice as hard for half the glory, twice the excitement!"
+  },
+  "starsky-and-hutch": {
+    "name": "Starsky & Hutch",
+    "slug": "starsky-and-hutch",
+    "tmdbId": 1532,
+    "overview": "Streetwise Detective David Starsky partners up with a more intellectual partner, Kenneth 'Hutch' Hutchinson, to protect citizens and patrol the streets of Bay City.",
+    "first_air_date": "1975-09-10",
+    "last_air_date": "1979-05-15",
+    "number_of_seasons": 4,
+    "number_of_episodes": 92,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.251,
+    "poster_path": "/aBj5oTi1uibVcXDoCJeKseJNY2d.jpg",
+    "backdrop_path": "/9GEghzkUfxWNQ65BbRwfysKOVoS.jpg",
+    "created_by": [
+      "William Blinn"
+    ],
+    "tagline": "Me and Thee"
+  },
+  "kojak": {
+    "name": "Kojak",
+    "slug": "kojak",
+    "tmdbId": 3572,
+    "overview": "A bald, lollipop sucking police detective with a fiery righteous attitude battles crime in New York City.",
+    "first_air_date": "1973-10-24",
+    "last_air_date": "1978-03-18",
+    "number_of_seasons": 5,
+    "number_of_episodes": 118,
+    "genres": [
+      "Crime",
+      "Action & Adventure",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "ABC",
+      "CBS"
+    ],
+    "vote_average": 7.094,
+    "poster_path": "/7F1eH97Bpi8zQbc172drbJCsOsG.jpg",
+    "backdrop_path": "/lt6sueOPDt721p9nqtpXKa3VZGu.jpg",
+    "created_by": [
+      "Abby Mann"
+    ],
+    "tagline": "Who loves ya, baby?"
+  },
+  "columbo": {
+    "name": "Columbo",
+    "slug": "columbo",
+    "tmdbId": 873,
+    "overview": "Columbo is a friendly, verbose, disheveled-looking police detective who is consistently underestimated by his suspects. Despite his unprepossessing appearance and apparent absentmindedness, he shrewdly solves all of his cases and secures all evidence needed for indictment. His formidable eye for detail and meticulously dedicated approach often become clear to the killer only late in the storyline.",
+    "first_air_date": "1971-09-15",
+    "last_air_date": "2003-01-30",
+    "number_of_seasons": 10,
+    "number_of_episodes": 67,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "ABC",
+      "NBC"
+    ],
+    "vote_average": 8.1,
+    "poster_path": "/2JCD8vab3fircOU8cM2HJCxfv4I.jpg",
+    "backdrop_path": "/8xr2imLUMyvIybraMOq4umBl6nz.jpg",
+    "created_by": [
+      "William Link",
+      "Richard Levinson"
+    ],
+    "tagline": "Oh, just one more thing..."
+  },
+  "the-rockford-files": {
+    "name": "The Rockford Files",
+    "slug": "the-rockford-files",
+    "tmdbId": 954,
+    "overview": "Cranky but likable L.A. PI Jim Rockford pulls no punches (but takes plenty of them). An ex-con sent to the slammer for a crime he didn't commit, Rockford takes on cases others don't want, aided by his tough old man, his lawyer girlfriend and some shady associates from his past.",
+    "first_air_date": "1974-09-13",
+    "last_air_date": "1980-01-10",
+    "number_of_seasons": 6,
+    "number_of_episodes": 122,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.6,
+    "poster_path": "/fniHEsTeqHMg41GlCYJxZVgtn7H.jpg",
+    "backdrop_path": "/tUKU1WLqMtIZHUl8lP9bLAJx0nl.jpg",
+    "created_by": [
+      "Stephen J. Cannell",
+      "Roy Huggins"
+    ],
+    "tagline": "This is Jim Rockford. At the tone leave your name and message, I'll get back to you."
+  },
+  "barney-miller": {
+    "name": "Barney Miller",
+    "slug": "barney-miller",
+    "tmdbId": 3253,
+    "overview": "Barney Miller is an American situation comedy television series set in a New York City police station in Greenwich Village. The series originally was broadcast from January 23, 1975 to May 20, 1982 on ABC. It was created by Danny Arnold and Theodore J. Flicker. Noam Pitlik directed the majority of the episodes.",
+    "first_air_date": "1975-01-23",
+    "last_air_date": "1982-05-20",
+    "number_of_seasons": 8,
+    "number_of_episodes": 170,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.295,
+    "poster_path": "/wfrcuXAlgbPyUenIbCONhICH23h.jpg",
+    "backdrop_path": "/eGYzysrLrWSVK1qqEGqwU12bXe0.jpg",
+    "created_by": [
+      "Theodore J. Flicker",
+      "Danny Arnold"
+    ],
+    "tagline": "One of the Funniest Police Shows Ever!"
+  },
+  "wkrp-in-cincinnati": {
+    "name": "WKRP in Cincinnati",
+    "slug": "wkrp-in-cincinnati",
+    "tmdbId": 971,
+    "overview": "When a Cincinnati radio station switches from sedate music to top-40 rock 'n' roll, its staff of oddball characters is forced to switch gears quickly. New programming director Andy Travis brings in a new DJ named Venus Flytrap to work with the station's burned-out veteran, Dr. Johnny Fever. Neurotic newsman Les Nessman, eager beaver Bailey Quarters, sleazy salesman Herb Tarlek, blonde bombshell Jennifer Marlowe, who serves as the station's ultra-capable receptionist, and station manager Arthur Carlson, whose domineering mother owns WKRP, round out the eccentric bunch.",
+    "first_air_date": "1978-09-18",
+    "last_air_date": "1982-04-21",
+    "number_of_seasons": 4,
+    "number_of_episodes": 90,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.54,
+    "poster_path": "/dP3eGvgzztqbSr73UDNLh0o35hS.jpg",
+    "backdrop_path": "/w3ihDcCxjbVXPLUY1v4Dwb0OJzj.jpg",
+    "created_by": [
+      "Hugh Wilson"
+    ],
+    "tagline": "So just sit right down, relax, open your ears real wide and say, \"Give it to me straight, Doctor. I can take it!\""
+  },
+  "night-court": {
+    "name": "Night Court",
+    "slug": "night-court",
+    "tmdbId": 162,
+    "overview": "An eccentric fun-loving judge presides over an urban night court and all the silliness going on there.",
+    "first_air_date": "1984-01-04",
+    "last_air_date": "1992-05-31",
+    "number_of_seasons": 9,
+    "number_of_episodes": 193,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.301,
+    "poster_path": "/bpEVtr4NCkbmTdponemKSjt9POc.jpg",
+    "backdrop_path": "/bNYJxbtslqHdbNfIT9XXjbwEZuX.jpg",
+    "created_by": [
+      "Reinhold Weege"
+    ],
+    "tagline": "Chaos in the Courtroom!"
+  },
+  "newhart": {
+    "name": "Newhart",
+    "slug": "newhart",
+    "tmdbId": 3004,
+    "overview": "Dick Loudon and his wife Joanna decide to leave life in New York City and buy a little inn in Vermont. Dick is a how-to book writer, who eventually becomes a local TV celebrity as host of \"Vermont Today.\" George Utley is the handyman at the inn and Leslie Vanderkellen is the maid, with ambitions of being an Olympic Ski champion; she is later replaced by her cousin Stephanie, an heiress who hates her job. Her boyfriend is Dick's yuppie TV producer, Michael Harris. There are many other quirky characters in this fictional little town, including Dick's neighbors Larry, Darryl, and Darryl...three brothers who buy the Minuteman Cafe from Kirk Devane. Besides sharing a name, Darryl and Darryl never speak.",
+    "first_air_date": "1982-10-02",
+    "last_air_date": "1990-05-21",
+    "number_of_seasons": 8,
+    "number_of_episodes": 184,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.1,
+    "poster_path": "/zBI5YcdsftGE9F6zY6UwYVybsdY.jpg",
+    "backdrop_path": "/pCUfyiLZ1bT7JkffXZdDT0PgbGz.jpg",
+    "created_by": [
+      "Barry Kemp",
+      "Sheldon Bull"
+    ],
+    "tagline": ""
+  },
+  "the-cosby-show": {
+    "name": "The Cosby Show",
+    "slug": "the-cosby-show",
+    "tmdbId": 1759,
+    "overview": "The Cosby Show is an American television situation comedy starring Bill Cosby, which aired for eight seasons on NBC from September 20, 1984 until April 30, 1992. The show focuses on the Huxtable family, an upper middle-class African-American family living in Brooklyn, New York.",
+    "first_air_date": "1984-09-20",
+    "last_air_date": "1992-04-30",
+    "number_of_seasons": 8,
+    "number_of_episodes": 197,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.98,
+    "poster_path": "/dc6sR5FWN4uX8fZENq2UTsrSg3x.jpg",
+    "backdrop_path": "/wWXFRPABf2D0eFjYNXNM0JhmTZF.jpg",
+    "created_by": [
+      "Bill Cosby",
+      "Michael J. Leeson",
+      "Ed. Weinberger"
+    ],
+    "tagline": ""
+  },
+  "seinfeld": {
+    "name": "Seinfeld",
+    "slug": "seinfeld",
+    "tmdbId": 1400,
+    "overview": "A stand-up comedian and his three offbeat friends weather the pitfalls and payoffs of life in New York City in the '90s. It's a show about nothing.",
+    "first_air_date": "1989-07-05",
+    "last_air_date": "1998-05-14",
+    "number_of_seasons": 9,
+    "number_of_episodes": 180,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 8.256,
+    "poster_path": "/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg",
+    "backdrop_path": "/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg",
+    "created_by": [
+      "Jerry Seinfeld",
+      "Larry David"
+    ],
+    "tagline": "A show about nothing."
+  },
+  "macgyver": {
+    "name": "MacGyver",
+    "slug": "macgyver",
+    "tmdbId": 2875,
+    "overview": "He's everyone's favorite action hero... but he's a hero with a difference. Angus MacGyver is a secret agent whose wits are his deadliest weapon. Armed with only a knapsack filled with everyday items he picks up along the way, he improvises his way out of every peril the bad guys throw at him.\n\nMaking a bomb out of chewing gum? Fixing a speeding car's breaks... while he's riding in it? Using soda pop to cook up tear gas? That's all in a day's adventures for MacGyver. He's part Boy Scout, part genius. And all hero.",
+    "first_air_date": "1985-09-29",
+    "last_air_date": "1992-05-21",
+    "number_of_seasons": 7,
+    "number_of_episodes": 139,
+    "genres": [
+      "Drama",
+      "Action & Adventure",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.73,
+    "poster_path": "/zhgJNHbFxGkqdsKdkZLBrDWagOv.jpg",
+    "backdrop_path": "/etU3Zrl7FA20m4LvmkFvdZOUE8u.jpg",
+    "created_by": [
+      "Lee David Zlotoff"
+    ],
+    "tagline": "His mind is the ultimate weapon."
+  },
+  "airwolf": {
+    "name": "Airwolf",
+    "slug": "airwolf",
+    "tmdbId": 2119,
+    "overview": "As part of a deal with an intelligence agency to look for his missing brother, a renegade pilot goes on missions with an advanced battle helicopter.",
+    "first_air_date": "1984-01-22",
+    "last_air_date": "1987-08-07",
+    "number_of_seasons": 4,
+    "number_of_episodes": 80,
+    "genres": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "CBS",
+      "USA Network"
+    ],
+    "vote_average": 7.583,
+    "poster_path": "/4PAN7zPqmR9b73een97WkxqCTQN.jpg",
+    "backdrop_path": "/i9dFFpTMIitrfIAm3GeCXDBGKLE.jpg",
+    "created_by": [
+      "Donald P. Bellisario"
+    ],
+    "tagline": "A New Kind of Weapon. A New Kind of Hero."
+  },
+  "the-fall-guy": {
+    "name": "The Fall Guy",
+    "slug": "the-fall-guy",
+    "tmdbId": 5031,
+    "overview": "Hollywood stuntman Colt Seavers picks up some extra pocket money by using his rough-and-tumble skills to track and capture bail jumpers.",
+    "first_air_date": "1981-11-04",
+    "last_air_date": "1986-05-02",
+    "number_of_seasons": 5,
+    "number_of_episodes": 111,
+    "genres": [
+      "Action & Adventure",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.567,
+    "poster_path": "/q8IS76HrmnjwGAvMwcanxohNja4.jpg",
+    "backdrop_path": "/1XEusS8irQrc060sfFsBPosnPF5.jpg",
+    "created_by": [
+      "Glen A. Larson"
+    ],
+    "tagline": ""
+  },
+  "simon-and-simon": {
+    "name": "Simon & Simon",
+    "slug": "simon-and-simon",
+    "tmdbId": 2102,
+    "overview": "A.J. Simon is a polished fellow with a taste for classic cars and tailored suits. Rick Simon is his less refined (but still pleasant) older brother who has a taste for cowboy boots and four-wheel drive pickups. The two of them live in San Diego, where they own a private detective agency.",
+    "first_air_date": "1981-11-24",
+    "last_air_date": "1989-03-02",
+    "number_of_seasons": 8,
+    "number_of_episodes": 156,
+    "genres": [
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.703,
+    "poster_path": "/h1wId4z79SQOOhEnc3oEqf3qpro.jpg",
+    "backdrop_path": "/dSqLtN6RNcIUMZyrbyg1TnHTe1v.jpg",
+    "created_by": [
+      "Philip DeGuere Jr."
+    ],
+    "tagline": "Brotherly love"
+  },
+  "remington-steele": {
+    "name": "Remington Steele",
+    "slug": "remington-steele",
+    "tmdbId": 589,
+    "overview": "Laura Holt, a licensed private detective, opens a detective agency but finds that potential clients refuse to hire a woman, however qualified. To solve the problem, Laura invents a fictitious male superior whom she names Remington Steele. Through a series of events that unfold in the first episode, \"License to Steele,\" a former thief and con man, whose real name is never revealed, assumes the identity of Remington Steele. Behind the scenes, Laura remains firmly in charge.",
+    "first_air_date": "1982-10-01",
+    "last_air_date": "1987-02-17",
+    "number_of_seasons": 5,
+    "number_of_episodes": 94,
+    "genres": [
+      "Drama",
+      "Family",
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.118,
+    "poster_path": "/3UGDVrdwavyU0WIddhZf4eov6yv.jpg",
+    "backdrop_path": "/cCCyFrM6AtUQXVNOL2D0BTKB64K.jpg",
+    "created_by": [
+      "Robert Butler",
+      "Michael Gleason"
+    ],
+    "tagline": "Before He Was Bond He Was..."
+  },
+  "scarecrow-and-mrs-king": {
+    "name": "Scarecrow and Mrs. King",
+    "slug": "scarecrow-and-mrs-king",
+    "tmdbId": 3414,
+    "overview": "Scarecrow and Mrs. King is an American television series that aired from October 3, 1983, to May 28, 1987 on CBS. The show stars Kate Jackson and Bruce Boxleitner as divorced housewife Amanda King and top-level \"Agency\" operative Lee Stetson who begin a strange association, and eventual romance, after encountering one another in a train station.",
+    "first_air_date": "1983-10-03",
+    "last_air_date": "1987-05-28",
+    "number_of_seasons": 4,
+    "number_of_episodes": 88,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.524,
+    "poster_path": "/36oUFRNJQORpL9fmnrSXdFqEGty.jpg",
+    "backdrop_path": "/A3AEKSTwNGsnYOHnBmI8ZAe3TWR.jpg",
+    "created_by": [
+      "Brad Buckner",
+      "Eugenie Ross-Leming"
+    ],
+    "tagline": "One everyday housewife who put some spies in her life!"
+  },
+  "quantum-leap": {
+    "name": "Quantum Leap",
+    "slug": "quantum-leap",
+    "tmdbId": 4018,
+    "overview": "Theorizing that one could time travel within his own lifetime, Dr. Sam Beckett stepped into the Quantum Leap accelerator and vanished... He woke to find himself trapped in the past, facing mirror images that were not his own and driven by an unknown force to change history for the better. His only guide on this journey is Al, an observer from his own time, who appears in the form of a hologram that only Sam can see and hear. And so Dr. Beckett finds himself leaping from life to life, striving to put right what once went wrong and hoping each time that his next leap will be the leap home.",
+    "first_air_date": "1989-03-26",
+    "last_air_date": "1993-05-05",
+    "number_of_seasons": 5,
+    "number_of_episodes": 96,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 8.0,
+    "poster_path": "/ujIGP3e3V6kDQHRhjNYtUE3fHJi.jpg",
+    "backdrop_path": "/5TpptGoxVVght2n6oz8QJklmSTu.jpg",
+    "created_by": [
+      "Donald P. Bellisario"
+    ],
+    "tagline": "Oh Boy!"
+  },
+  "dallas": {
+    "name": "Dallas",
+    "slug": "dallas",
+    "tmdbId": 40,
+    "overview": "The world's first mega-soap, and one of the most popular ever produced, Dallas had it all. Beautiful women, expensive cars, and men playing Monopoly with real buildings. Famous for one of the best cliffhangers in TV history, as the world asked \"Who shot J.R.?\" A slow-burner to begin with, Dallas hit its stride in the 2nd season, with long storylines and expert character development. Dallas ruled the airwaves in the 1980's.",
+    "first_air_date": "1978-04-02",
+    "last_air_date": "1991-05-03",
+    "number_of_seasons": 14,
+    "number_of_episodes": 357,
+    "genres": [
+      "Soap",
+      "Drama",
+      "Family"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.828,
+    "poster_path": "/A1dupjBm7rXqBw2Dbz9WUsHoyxo.jpg",
+    "backdrop_path": "/5Z40OJgNeedcAgqPRTGQzlk17Mv.jpg",
+    "created_by": [
+      "David Jacobs"
+    ],
+    "tagline": "A family ruthless in its quest for power and passion."
+  },
+  "dynasty": {
+    "name": "Dynasty",
+    "slug": "dynasty",
+    "tmdbId": 3769,
+    "overview": "The saga of a wealthy Denver family in the oil business: Blake Carrington, the patriarch; Krystle, his former secretary and wife; his children: Adam, lost in childhood after a kidnapping; Fallon, pampered and spoiled; Steven, openly gay; and Amanda, hidden from him by his ex-wife, the conniving Alexis. Most of the show features the conflict between 2 large corporations, Blake's Denver Carrington and Alexis' ColbyCo.",
+    "first_air_date": "1981-01-12",
+    "last_air_date": "1989-05-10",
+    "number_of_seasons": 9,
+    "number_of_episodes": 220,
+    "genres": [
+      "Soap",
+      "Drama"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.404,
+    "poster_path": "/wxKEdlB4Zuq2THGqKYLnGKU37g9.jpg",
+    "backdrop_path": "/Ao5XqVJj74hYWnnEG98MvRLBHdY.jpg",
+    "created_by": [
+      "Esther Shapiro",
+      "Richard Alan Shapiro"
+    ],
+    "tagline": "Greed. Seduction. Betrayal. Revenge."
+  },
+  "falcon-crest": {
+    "name": "Falcon Crest",
+    "slug": "falcon-crest",
+    "tmdbId": 93,
+    "overview": "Falcon Crest is an American primetime television soap opera which aired on the CBS network for nine seasons, from December 4, 1981 to May 17, 1990. A total of 227 episodes were produced.\n\nThe series revolves around the feuding factions of the wealthy Gioberti/Channing family in the Californian wine industry. Jane Wyman starred as Angela Channing, the tyrannical matriarch of the Falcon Crest Winery, alongside Robert Foxworth as Chase Gioberti, Angela's nephew who returns to Falcon Crest following the death of his father. The series was set in the fictitious Tuscany Valley northeast of San Francisco.",
+    "first_air_date": "1981-12-04",
+    "last_air_date": "1990-05-18",
+    "number_of_seasons": 9,
+    "number_of_episodes": 227,
+    "genres": [
+      "Soap",
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 5.5,
+    "poster_path": "/rgcKhBsHwAlPpeJG9yKip5oWVo9.jpg",
+    "backdrop_path": "/3OX2ysmkK61hJsm4AfjTPtrVgMY.jpg",
+    "created_by": [
+      "Earl Hamner, Jr."
+    ],
+    "tagline": "Sour Grapes."
+  },
+  "knots-landing": {
+    "name": "Knots Landing",
+    "slug": "knots-landing",
+    "tmdbId": 2595,
+    "overview": "The domestic adventures, misdeeds and everyday interactions of five families living on a cul-de-sac in a small California community.",
+    "first_air_date": "1979-12-27",
+    "last_air_date": "1993-05-13",
+    "number_of_seasons": 14,
+    "number_of_episodes": 344,
+    "genres": [
+      "Drama",
+      "Soap"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.8,
+    "poster_path": "/ohcRf8CyVpQiUw2ZTmGQ2I4fH8D.jpg",
+    "backdrop_path": "/umiteWJE7qUkPO3vNxuISjiZVQk.jpg",
+    "created_by": [
+      "Michael Filerman",
+      "David Jacobs"
+    ],
+    "tagline": "Love thy neighbor."
+  },
+  "the-wonder-years": {
+    "name": "The Wonder Years",
+    "slug": "the-wonder-years",
+    "tmdbId": 4500,
+    "overview": "The story of Kevin Arnold facing the trials and tribulations of youth while growing up during the 1960s and 70s. Told through narration from an adult Kevin, Kevin faces the difficulties of maintaining relationships and friendships on his enthralling journey into adulthood.",
+    "first_air_date": "1988-01-31",
+    "last_air_date": "1993-05-12",
+    "number_of_seasons": 6,
+    "number_of_episodes": 115,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 8.327,
+    "poster_path": "/tkaduqdhFrF1vp8L55OJfB5jw8Z.jpg",
+    "backdrop_path": "/XuJi5lKkYLCFpJprfSUZveRof7.jpg",
+    "created_by": [
+      "Neal Marlens",
+      "Carol Black"
+    ],
+    "tagline": "With a little help from my friends."
+  },
+  "married-with-children": {
+    "name": "Married... with Children",
+    "slug": "married-with-children",
+    "tmdbId": 4239,
+    "overview": "Al Bundy is an unsuccessful middle aged shoe salesman with a miserable life and an equally dysfunctional family. He hates his job, his wife is lazy, his son is dysfunctional (especially with women), and his daughter is dim-witted and promiscuous.",
+    "first_air_date": "1987-04-05",
+    "last_air_date": "1997-06-09",
+    "number_of_seasons": 11,
+    "number_of_episodes": 258,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "FOX"
+    ],
+    "vote_average": 7.721,
+    "poster_path": "/qxdOgESOkBMmfcWUizL01mbdqzl.jpg",
+    "backdrop_path": "/y6nEgbjMUpYLnVUwZDzX95wH5Vj.jpg",
+    "created_by": [
+      "Michael G. Moye",
+      "Ron Leavitt"
+    ],
+    "tagline": "Domestic bliss was never like this!"
+  },
+  "the-golden-girls": {
+    "name": "The Golden Girls",
+    "slug": "the-golden-girls",
+    "tmdbId": 1678,
+    "overview": "Four Southern Florida seniors share a house, their dreams, and a whole lot of cheesecake. Bright, promiscuous, clueless and hilarious, these lovely, mismatched ladies form the perfect circle of friends.",
+    "first_air_date": "1985-09-14",
+    "last_air_date": "1992-05-09",
+    "number_of_seasons": 7,
+    "number_of_episodes": 180,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.565,
+    "poster_path": "/1qoHn5J0Qclte98j1olNbOQOXVz.jpg",
+    "backdrop_path": "/jOHsdywPKOTr9R9y21Wjfti9CIY.jpg",
+    "created_by": [
+      "Susan Harris"
+    ],
+    "tagline": "Meet four outrageous women who know when it comes to a good laugh, there's nothing like experience!"
+  },
+  "murder-she-wrote": {
+    "name": "Murder, She Wrote",
+    "slug": "murder-she-wrote",
+    "tmdbId": 484,
+    "overview": "An unassuming mystery writer turned sleuth uses her professional insight to help solve real-life homicide cases.",
+    "first_air_date": "1984-09-30",
+    "last_air_date": "1996-05-19",
+    "number_of_seasons": 12,
+    "number_of_episodes": 264,
+    "genres": [
+      "Mystery",
+      "Crime",
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.512,
+    "poster_path": "/3UxBFG4fiuZ0P9n2sCrjXh64Avy.jpg",
+    "backdrop_path": "/eciikZDLyEBQanGh3zpGNuYHtQ3.jpg",
+    "created_by": [
+      "Richard Levinson",
+      "William Link",
+      "Peter S. Fischer"
+    ],
+    "tagline": "She may be wrong. But frankly, we doubt it."
+  },
+  "matlock": {
+    "name": "Matlock",
+    "slug": "matlock",
+    "tmdbId": 2093,
+    "overview": "Matlock is an American television legal drama, starring Andy Griffith in the title role of criminal defense attorney Ben Matlock. The show, produced by The Fred Silverman Company, Dean Hargrove Productions, Viacom Productions and Paramount Television originally aired from September 23, 1986 to May 8, 1992 on NBC; and from November 5, 1992 until May 7, 1995 on ABC.\n\nThe show's format is similar to that of CBS's Perry Mason, with Matlock identifying the perpetrators and then confronting them in dramatic courtroom scenes. One difference, however, was that whereas Mason usually exculpated his clients at a pretrial hearing, Matlock usually secured an acquittal at trial, from the jury.",
+    "first_air_date": "1986-03-03",
+    "last_air_date": "1995-05-07",
+    "number_of_seasons": 9,
+    "number_of_episodes": 194,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "NBC",
+      "ABC"
+    ],
+    "vote_average": 7.1,
+    "poster_path": "/2eGYyekQjcAXVmcYW1g4keR4plV.jpg",
+    "backdrop_path": "/6NJdscx3qb2H7h8rEHFn9i6vTcs.jpg",
+    "created_by": [
+      "Dean Hargrove"
+    ],
+    "tagline": "AMERICA'S GREATEST LAWYER. CASE CLOSED."
+  },
+  "in-the-heat-of-the-night": {
+    "name": "In the Heat of the Night",
+    "slug": "in-the-heat-of-the-night",
+    "tmdbId": 862,
+    "overview": "In the Heat of the Night is an American television series based on the motion picture and novel of the same name starring Carroll O'Connor as the white police chief William Gillespie, and Howard Rollins as the African-American police detective Virgil Tibbs. It was broadcast on NBC from 1988 until 1992, and then on CBS until 1995. Its executive producers were Fred Silverman, Juanita Bartlett and Carroll O'Connor. TGG Direct released the first season of the series to DVD on August 28, 2012.",
+    "first_air_date": "1988-03-06",
+    "last_air_date": "1995-05-16",
+    "number_of_seasons": 8,
+    "number_of_episodes": 146,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "networks": [
+      "NBC",
+      "CBS"
+    ],
+    "vote_average": 7.508,
+    "poster_path": "/tZ1EH5HiMclbP6DWgIl8D7qETv2.jpg",
+    "backdrop_path": "/ploUH2EYcNQhjWivB9zC6HdfHxn.jpg",
+    "created_by": [
+      "James Lee Barrett"
+    ],
+    "tagline": ""
+  },
+  "21-jump-street": {
+    "name": "21 Jump Street",
+    "slug": "21-jump-street",
+    "tmdbId": 1486,
+    "overview": "21 Jump Street revolves around a group of young cops who would use their youthful appearance to go undercover and solve crimes involving teenagers and young adults.",
+    "first_air_date": "1987-04-12",
+    "last_air_date": "1991-04-27",
+    "number_of_seasons": 5,
+    "number_of_episodes": 103,
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Drama"
+    ],
+    "networks": [
+      "FOX"
+    ],
+    "vote_average": 7.214,
+    "poster_path": "/9w2y0146P5EjLw63FHGWRRpqQ6v.jpg",
+    "backdrop_path": "/gTN0SAdXsDUE6SFFRo8QsJgXDIg.jpg",
+    "created_by": [
+      "Stephen J. Cannell",
+      "Patrick Hasburgh"
+    ],
+    "tagline": "Too cool for school."
+  },
+  "saved-by-the-bell": {
+    "name": "Saved by the Bell",
+    "slug": "saved-by-the-bell",
+    "tmdbId": 4345,
+    "overview": "Lovable schemer Zack Morris leads his pals on adventures at California's Bayside High School. The friends navigate relationships, final exams, school dances, breakups and more while frequently frustrating their principal, Mr. Richard Belding, who does his best to keep them in check.",
+    "first_air_date": "1989-08-20",
+    "last_air_date": "1993-05-22",
+    "number_of_seasons": 4,
+    "number_of_episodes": 86,
+    "genres": [
+      "Family",
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.79,
+    "poster_path": "/9YC576fs6XQR2pfPDJn4kcmG8T5.jpg",
+    "backdrop_path": "/d0nAuGAH5EIQDLTs7dJcQOubpha.jpg",
+    "created_by": [
+      "Sam Bobrick"
+    ],
+    "tagline": "Welcome to California's hippest high school"
+  },
+  "doogie-howser-md": {
+    "name": "Doogie Howser, M.D.",
+    "slug": "doogie-howser-md",
+    "tmdbId": 1750,
+    "overview": "Doogie Howser is a doctor. He is also a 16-year-old genius who graduated college at age 10 and finished medical school at age 14. But he is still a teenager, with normal teenage friends and problems. But unlike a normal teenager, he is just learning to drive while also consulting on serious medical cases like heart transplants.",
+    "first_air_date": "1989-09-19",
+    "last_air_date": "1993-03-24",
+    "number_of_seasons": 4,
+    "number_of_episodes": 97,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.478,
+    "poster_path": "/uNGrGq7tJ1GiKUsfnchC07l0Q2M.jpg",
+    "backdrop_path": "/jIXDWBeCUEu0ttzjHBJC4sA8LzR.jpg",
+    "created_by": [
+      "David E. Kelley",
+      "Steven Bochco"
+    ],
+    "tagline": ""
+  },
+  "charles-in-charge": {
+    "name": "Charles in Charge",
+    "slug": "charles-in-charge",
+    "tmdbId": 566,
+    "overview": "Charles, a 19-year-old student at the fictional Copeland College in New Brunswick, New Jersey, works as a live-in babysitter in exchange for room and board.",
+    "first_air_date": "1984-10-03",
+    "last_air_date": "1990-11-10",
+    "number_of_seasons": 5,
+    "number_of_episodes": 126,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS",
+      "Syndication"
+    ],
+    "vote_average": 6.1,
+    "poster_path": "/sM3nBqh3iSjPTBMtIFyWnROVLIz.jpg",
+    "backdrop_path": "/w0kHwuuNYHcL77Ny8cuBnrRset3.jpg",
+    "created_by": [
+      "Michael Jacobs"
+    ],
+    "tagline": ""
+  },
+  "mr-belvedere": {
+    "name": "Mr. Belvedere",
+    "slug": "mr-belvedere",
+    "tmdbId": 437,
+    "overview": "Mr. Belvedere takes a job as a housekeeper with an American family headed by George Owens.",
+    "first_air_date": "1985-03-15",
+    "last_air_date": "1990-07-08",
+    "number_of_seasons": 6,
+    "number_of_episodes": 117,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.78,
+    "poster_path": "/vcEBQK5HgkWShxIluKt00nZKfA3.jpg",
+    "backdrop_path": "/zmV1exzJK83jhqhrS1VRNHhiRZ4.jpg",
+    "created_by": [
+      "Gwen Davenport"
+    ],
+    "tagline": ""
+  },
+  "head-of-the-class": {
+    "name": "Head of the Class",
+    "slug": "head-of-the-class",
+    "tmdbId": 2589,
+    "overview": "Head of the Class is an American sitcom that ran from 1986 to 1991 on the ABC television network.\n\nThe series follows a group of gifted students in the Individualized Honors Program at the fictional Monroe High School in Manhattan, and their history teacher Charlie Moore. The program was ostensibly a vehicle for Hesseman, best known for his role as radio DJ Dr. Johnny Fever in the sitcom WKRP in Cincinnati. Hesseman left Head of the Class in 1990 and was replaced by Billy Connolly as teacher Billy MacGregor for the final season. After the series ended, Connolly appeared in a short-lived spin-off titled Billy.\n\nThe series was created and executive produced by Rich Eustis and Michael Elias. Rich Eustis had previously worked as a New York City substitute teacher while hoping to become an actor.",
+    "first_air_date": "1986-09-17",
+    "last_air_date": "1991-06-25",
+    "number_of_seasons": 5,
+    "number_of_episodes": 114,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.2,
+    "poster_path": "/hHa7u2ySBgRtUGpxAkd1Maf6ws6.jpg",
+    "backdrop_path": "/rLy3MQrbJO3eKMs0TsyKtLz15K7.jpg",
+    "created_by": [
+      "Rich Eustis"
+    ],
+    "tagline": ""
+  }
+}

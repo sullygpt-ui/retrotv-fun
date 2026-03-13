@@ -1,0 +1,5097 @@
+[
+  {
+    "name": "Happy Days",
+    "slug": "happy-days",
+    "tmdbId": 3845,
+    "overview": "In 1950s Milwaukee the Cunningham family must contend with Fonzie, a motorcycle riding Casanova.",
+    "first_air_date": "1974-01-15",
+    "last_air_date": "1984-09-24",
+    "number_of_seasons": 11,
+    "number_of_episodes": 252,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.621,
+    "poster_path": "/sepIwNPCEhkKvFOQSjXK6tekkjR.jpg",
+    "backdrop_path": "/lyAx1XlcrPaenfwvSYnOl4h4WMk.jpg",
+    "created_by": [
+      "Garry Marshall"
+    ],
+    "tagline": "Those were the days of the 1950's...filled with innocence and the promise of even better days to come."
+  },
+  {
+    "name": "M*A*S*H",
+    "slug": "mash",
+    "tmdbId": 918,
+    "overview": "The 4077th Mobile Army Surgical Hospital is stuck in the middle of the Korean war. With little help from the circumstances they find themselves in, they are forced to make their own fun. Fond of practical jokes and revenge, the doctors, nurses, administrators, and soldiers often find ways of making wartime life bearable.",
+    "first_air_date": "1972-09-17",
+    "last_air_date": "1983-02-28",
+    "number_of_seasons": 11,
+    "number_of_episodes": 251,
+    "genres": [
+      "War & Politics",
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.919,
+    "poster_path": "/6rhuM3oMoEWKxAdrm7IyM8oq8cC.jpg",
+    "backdrop_path": "/8nkOWsMtWZvp7IGuYdVbJeoWzQx.jpg",
+    "created_by": [
+      "Larry Gelbart"
+    ],
+    "tagline": "Goodbye, Farewell, and Amen."
+  },
+  {
+    "name": "The A-Team",
+    "slug": "the-a-team",
+    "tmdbId": 1516,
+    "overview": "A fictional group of ex-United States Army Special Forces personnel work as soldiers of fortune while on the run from the Army after being branded as war criminals for a \"crime they didn't commit.\"",
+    "first_air_date": "1983-01-23",
+    "last_air_date": "1987-03-08",
+    "number_of_seasons": 5,
+    "number_of_episodes": 94,
+    "genres": [
+      "Action & Adventure",
+      "Comedy",
+      "Crime"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.5,
+    "poster_path": "/p2qWJJ7Wyaq2xvgIHuBw4zVNBij.jpg",
+    "backdrop_path": "/z1ubUZdKaXuxgrhcGZZRgZtzWLa.jpg",
+    "created_by": [
+      "Frank Lupo",
+      "Stephen J. Cannell"
+    ],
+    "tagline": "Heroes for hire."
+  },
+  {
+    "name": "Knight Rider",
+    "slug": "knight-rider",
+    "tmdbId": 2384,
+    "overview": "Michael Long, an undercover police officer, is shot while investigating a case and left for dead by his assailants. He is rescued by Wilton Knight, a wealthy, dying millionaire and inventor who arranges life-saving surgery, including a new face and a new identity--that of Michael Knight. Michael is then given a special computerized and indestructible car called the Knight Industries Two Thousand (nicknamed KITT), and a mission: apprehend criminals who are beyond the reach of the law. The series depicts Michael's exploits as he and KITT battle the forces of evil on behalf of the Foundation for Law and Government.",
+    "first_air_date": "1982-09-26",
+    "last_air_date": "1986-04-04",
+    "number_of_seasons": 4,
+    "number_of_episodes": 84,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Sci-Fi & Fantasy",
+      "Crime"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.519,
+    "poster_path": "/t57NXzTrwp5rnPXiaX4BThrDxt1.jpg",
+    "backdrop_path": "/fmPo20ZTzxNketxL2jt6ZX6KSPi.jpg",
+    "created_by": [
+      "Glen A. Larson"
+    ],
+    "tagline": "Michael Knight is today's hero! Driving the car of tomorrow! Together, they're the ultimate crimecrashers!"
+  },
+  {
+    "name": "Magnum, P.I.",
+    "slug": "magnum-pi",
+    "tmdbId": 734,
+    "overview": "A private investigator who works when he wants, lives in a beachfront estate in Hawaii, drives a posh Ferrari, runs up an unlimited tab at a swank bar, and charms attractive women in peril - that's the lifestyle of Thomas Magnum, aka Magnum, P.I.",
+    "first_air_date": "1980-12-11",
+    "last_air_date": "1988-05-01",
+    "number_of_seasons": 8,
+    "number_of_episodes": 162,
+    "genres": [
+      "Action & Adventure",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.314,
+    "poster_path": "/ht0dsKCZxbPawKdTPLeNtnnbxim.jpg",
+    "backdrop_path": "/9YDtTrYUe3zan2GEkFiwtlGLMVS.jpg",
+    "created_by": [
+      "Donald P. Bellisario",
+      "Glen A. Larson"
+    ],
+    "tagline": "He's a Hellraiser in Paradise."
+  },
+  {
+    "name": "CHiPs",
+    "slug": "chips",
+    "tmdbId": 509,
+    "overview": "Lighthearted look at the adventures of two Highway Patrol officers in Los Angeles. The main characters are Jon Baker and Frank Poncherello, two motorcycle officers always on the street to save lives.",
+    "first_air_date": "1977-09-15",
+    "last_air_date": "1983-05-01",
+    "number_of_seasons": 6,
+    "number_of_episodes": 139,
+    "genres": [
+      "Drama",
+      "Action & Adventure"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.8,
+    "poster_path": "/1464ScbUZQ22RjFtRtGiv4i2Zrs.jpg",
+    "backdrop_path": "/r2T5JhXySW6EdTO76hG6gbITD7O.jpg",
+    "created_by": [
+      "Rick Rosner"
+    ],
+    "tagline": "Nonstop action and highway heroics!"
+  },
+  {
+    "name": "The Dukes of Hazzard",
+    "slug": "the-dukes-of-hazzard",
+    "tmdbId": 397,
+    "overview": "Cousins Bo and Luke Duke and their car \"General Lee\", assisted by Cousin Daisy and Uncle Jesse, have a running battle with the authorities of Hazzard County (Boss Hogg and Sheriff Coltrane), plus a string of ne'er-do-wells often backed by the scheming Hogg.",
+    "first_air_date": "1979-01-26",
+    "last_air_date": "1985-02-08",
+    "number_of_seasons": 7,
+    "number_of_episodes": 147,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Comedy",
+      "Crime"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.322,
+    "poster_path": "/r9eXJUxP6zgrpCMEOJzaEXzXLsp.jpg",
+    "backdrop_path": "/usnCQeoAWw4MDCn7q6luOWqSwQO.jpg",
+    "created_by": [
+      "Rod Amateau",
+      "Gy Waldron"
+    ],
+    "tagline": "You're in Hazzard County where the lawmen are crooks, the good guys are outlaws and ever'body's in-laws!"
+  },
+  {
+    "name": "Three's Company",
+    "slug": "threes-company",
+    "tmdbId": 2686,
+    "overview": "When two single girls, Janet and Chrissy, need a roommate to share their Santa Monica apartment, they decide to offer a room to Jack, a man they find passed out in the bathtub after the going-away party for their last roommate. However, hijinks ensure when Jack must pretend to be gay in order to throw off the scent of the trio's conservative landlady.",
+    "first_air_date": "1977-03-15",
+    "last_air_date": "1984-09-18",
+    "number_of_seasons": 8,
+    "number_of_episodes": 171,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.617,
+    "poster_path": "/6xn9XQ5iwJIa1FkoZAFtnh5tAQl.jpg",
+    "backdrop_path": "/4ubxzr6wNZElImE3EOUsjxvVjYw.jpg",
+    "created_by": [
+      "Johnnie Mortimer",
+      "Brian Cooke"
+    ],
+    "tagline": "Come and knock on our door"
+  },
+  {
+    "name": "The Love Boat",
+    "slug": "the-love-boat",
+    "tmdbId": 1823,
+    "overview": "Passengers who search for romantic nights aboard a beautiful ship travelling to tropical or mysterious countries, decide to pass their vacation aboard the \"Love Boat\", where Gopher, Dr. Bricker, Isaac, Julie, and Captain Stubing try their best to please them, and sometimes help them fall in love. Things are not always so easy, but in the end, love wins.",
+    "first_air_date": "1977-09-24",
+    "last_air_date": "1987-02-27",
+    "number_of_seasons": 10,
+    "number_of_episodes": 251,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.293,
+    "poster_path": "/fnsnazlj2bt3Fuj0pJ7wBPmuMLO.jpg",
+    "backdrop_path": "/2XtfGULDOvBiPByLscc9UEqrf0z.jpg",
+    "created_by": [
+      "Aaron Spelling",
+      "Wilford Lloyd Baumes"
+    ],
+    "tagline": "You Say You Can't Score on Shore? On This Cruise... You Can't Lose!"
+  },
+  {
+    "name": "Fantasy Island",
+    "slug": "fantasy-island",
+    "tmdbId": 39775,
+    "overview": "A magical island hosted by Mr Roarke and Tattoo where weekly guests learn valuable life lessons in their pursuit of fulfilling their dreams. Not all dreams are fulfilled as expected.",
+    "first_air_date": "1978-01-28",
+    "last_air_date": "1984-05-19",
+    "number_of_seasons": 7,
+    "number_of_episodes": 152,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.4,
+    "poster_path": "/ppxhytiPrgojE4eb6Tw0EonDzeP.jpg",
+    "backdrop_path": "/yTJFf7N9ohXjssZQyZ1cSMNopix.jpg",
+    "created_by": [
+      "Gene Levitt"
+    ],
+    "tagline": "Welcome to fantasy island..."
+  },
+  {
+    "name": "Diff'rent Strokes",
+    "slug": "diffrent-strokes",
+    "tmdbId": 2410,
+    "overview": "The series stars Gary Coleman and Todd Bridges as Arnold and Willis Jackson, two African American boys from Harlem who are taken in by a rich white Park Avenue businessman named Phillip Drummond and his daughter Kimberly, for whom their deceased mother previously worked. During the first season and first half of the second season, Charlotte Rae also starred as the Drummonds' housekeeper, Mrs. Garrett.",
+    "first_air_date": "1978-11-03",
+    "last_air_date": "1986-03-07",
+    "number_of_seasons": 8,
+    "number_of_episodes": 189,
+    "genres": [
+      "Comedy",
+      "Family",
+      "Drama"
+    ],
+    "networks": [
+      "ABC",
+      "NBC"
+    ],
+    "vote_average": 7.081,
+    "poster_path": "/3MNIPC2v9a43IJCwEYiiY327rKH.jpg",
+    "backdrop_path": "/Ahau5SbGYBISr1fNCtCqbnxqfsV.jpg",
+    "created_by": [
+      "Bernie Kukoff",
+      "Jeff Harris"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Facts of Life",
+    "slug": "the-facts-of-life",
+    "tmdbId": 1803,
+    "overview": "Mrs. Edna Garrett, housemother and dietitian at the Eastland School, teaches a group of girls in her charge how to solve those problems that every teenager has to face.",
+    "first_air_date": "1979-08-24",
+    "last_air_date": "1988-05-07",
+    "number_of_seasons": 9,
+    "number_of_episodes": 201,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.081,
+    "poster_path": "/45i9VujUbQITmHl3QE3eNs9ZUv3.jpg",
+    "backdrop_path": "/nxqRVJ3QP76CZBaunWl42hQVK0.jpg",
+    "created_by": [
+      "Dick Clair",
+      "Norman Lear",
+      "Jenna McMahon"
+    ],
+    "tagline": "You take the good, you take the bad..."
+  },
+  {
+    "name": "Good Times",
+    "slug": "good-times",
+    "tmdbId": 154,
+    "overview": "Good Times is an American sitcom that originally aired from February 8, 1974, until August 1, 1979, on the CBS television network. It was created by Eric Monte and Mike Evans, and developed by Norman Lear, the series' primary executive producer. Good Times is a spin-off of Maude, which is itself a spin-off of All in the Family along with The Jeffersons.\n\nThe series is set in Chicago. The first two seasons were taped at CBS Television City in Hollywood. In the fall of 1975, the show moved to Metromedia Square, where Norman Lear's own production company was housed.",
+    "first_air_date": "1974-02-08",
+    "last_air_date": "1979-08-01",
+    "number_of_seasons": 6,
+    "number_of_episodes": 133,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 8,
+    "poster_path": "/zZlaGU4RJMhTKFxmQ6RAEYNjM0l.jpg",
+    "backdrop_path": "/16YMKoILiLS1RcZCSs9NFn9U46U.jpg",
+    "created_by": [
+      "Eric Monte",
+      "Mike Evans"
+    ],
+    "tagline": "Dy-No-Mite!"
+  },
+  {
+    "name": "Sanford and Son",
+    "slug": "sanford-and-son",
+    "tmdbId": 2586,
+    "overview": "The misadventures of a cantankerous junk dealer and his frustrated son.",
+    "first_air_date": "1972-01-14",
+    "last_air_date": "1977-03-25",
+    "number_of_seasons": 6,
+    "number_of_episodes": 136,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.436,
+    "poster_path": "/zIGPWBFjfnOzqsMxZeQ4UmuPggQ.jpg",
+    "backdrop_path": "/9bKG3fEyUjDizCL164OgfFGYTUs.jpg",
+    "created_by": [
+      "Norman Lear",
+      "Ray Galton",
+      "Bud Yorkin"
+    ],
+    "tagline": "You big dummy!"
+  },
+  {
+    "name": "All in the Family",
+    "slug": "all-in-the-family",
+    "tmdbId": 1922,
+    "overview": "Archie Bunker, a working class bigot, constantly squabbles with his family over the important issues of the day.",
+    "first_air_date": "1971-01-12",
+    "last_air_date": "1979-04-08",
+    "number_of_seasons": 9,
+    "number_of_episodes": 210,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.813,
+    "poster_path": "/s2Y9QWyuyjRP78DZsatknEjn0iN.jpg",
+    "backdrop_path": "/qP6w5T2aMTTkIW5qFqziWhgYlPu.jpg",
+    "created_by": [
+      "Johnny Speight",
+      "Norman Lear"
+    ],
+    "tagline": "Like the Good Book says, \"Let him who is without sin... be the rollin' stone.\""
+  },
+  {
+    "name": "Laverne & Shirley",
+    "slug": "laverne-and-shirley",
+    "tmdbId": 3033,
+    "overview": "Best friends, roommates, and polar opposites, Laverne DeFazio and Shirley Feeney work together at the Shotz Brewery in Milwaukee and keep each other's spirits up at home.",
+    "first_air_date": "1976-01-27",
+    "last_air_date": "1983-05-10",
+    "number_of_seasons": 8,
+    "number_of_episodes": 178,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.121,
+    "poster_path": "/mUMK8AZ5uvJoTXqgGjYQNoIkf5N.jpg",
+    "backdrop_path": "/6BlEWrhG1MVfsxo42Isrl9QJupQ.jpg",
+    "created_by": [
+      "Garry Marshall",
+      "Mark Rothman",
+      "Lowell Ganz"
+    ],
+    "tagline": "Schlemiel! Schlimazel! Hasenpfeffer Incorporated!"
+  },
+  {
+    "name": "Welcome Back, Kotter",
+    "slug": "welcome-back-kotter",
+    "tmdbId": 738,
+    "overview": "Welcome Back, Kotter is an American television sitcom starring Gabe Kaplan and featuring a young John Travolta. Videotaped in front of a live studio audience, it originally aired on the ABC network from September 9, 1975, to June 8, 1979.",
+    "first_air_date": "1975-09-09",
+    "last_air_date": "1979-06-08",
+    "number_of_seasons": 4,
+    "number_of_episodes": 95,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.2,
+    "poster_path": "/xBNM75kZjHdWcE4brawakg1uQQf.jpg",
+    "backdrop_path": "/yyeyf8FYlJzQERUfrOb5PndyLwI.jpg",
+    "created_by": [
+      "Alan Sacks",
+      "Gabe Kaplan"
+    ],
+    "tagline": "Up your nose with a rubber hose!"
+  },
+  {
+    "name": "Mork & Mindy",
+    "slug": "mork-and-mindy",
+    "tmdbId": 2552,
+    "overview": "A wacky alien comes to Earth to study its residents and the life of the human woman he boards with is never the same.",
+    "first_air_date": "1978-09-14",
+    "last_air_date": "1982-05-27",
+    "number_of_seasons": 4,
+    "number_of_episodes": 95,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.043,
+    "poster_path": "/mzWJikslTFFeRloUNQmbAWbdU28.jpg",
+    "backdrop_path": "/7w4OCRKq00tMAJlwVwW8vyFSodx.jpg",
+    "created_by": [
+      "Garry Marshall"
+    ],
+    "tagline": "It's a weird and wonderful world"
+  },
+  {
+    "name": "The Jeffersons",
+    "slug": "the-jeffersons",
+    "tmdbId": 1964,
+    "overview": "Sitcom following a successful African-American couple, George and Louise “Weezyö Jefferson as they “move on up” from working-class Queens to a ritzy Manhattan apartment. A spin-off of All in the Family.",
+    "first_air_date": "1975-01-18",
+    "last_air_date": "1985-07-02",
+    "number_of_seasons": 11,
+    "number_of_episodes": 248,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.286,
+    "poster_path": "/iFjIaWr9qDKMLnnh8tHwO6Tzp6D.jpg",
+    "backdrop_path": "/JdMKUtYVUKUqXaMh2ZzlxAphR8.jpg",
+    "created_by": [
+      "Norman Lear",
+      "Michael Ross"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Taxi",
+    "slug": "taxi",
+    "tmdbId": 2251,
+    "overview": "Louie De Palma is a cantankerous, acerbic taxi dispatcher in New York City. He tries to maintain order over a collection of varied and strange characters who drive for him. As he bullies and insults them from the safety of his “cage,” they form a special bond among themselves, becoming friends and supporting each other through the inevitable trials and tribulations of life.",
+    "first_air_date": "1978-09-12",
+    "last_air_date": "1983-06-15",
+    "number_of_seasons": 5,
+    "number_of_episodes": 114,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "networks": [
+      "ABC",
+      "NBC"
+    ],
+    "vote_average": 7.246,
+    "poster_path": "/pua3A2XSaO6bP6WhVDBRbcyRTAS.jpg",
+    "backdrop_path": "/8Y8vn9feCVUoJRXpWK6xno5VrUz.jpg",
+    "created_by": [
+      "Stan Daniels",
+      "Ed. Weinberger",
+      "James L. Brooks"
+    ],
+    "tagline": "It's off the laugh meter!"
+  },
+  {
+    "name": "Cheers",
+    "slug": "cheers",
+    "tmdbId": 141,
+    "overview": "The story about a blue-collar Boston bar run by former sports star Sam Malone and the quirky and wonderful people who worked and drank there.",
+    "first_air_date": "1982-09-30",
+    "last_air_date": "1993-05-20",
+    "number_of_seasons": 11,
+    "number_of_episodes": 269,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.548,
+    "poster_path": "/nD1ZQBKbgKSmKcrAkWTofohsScj.jpg",
+    "backdrop_path": "/5U7NIuRK836GutAlo7TLPfmVtGW.jpg",
+    "created_by": [
+      "Les Charles",
+      "James Burrows",
+      "Glen Charles"
+    ],
+    "tagline": "Where everybody knows your name."
+  },
+  {
+    "name": "Family Ties",
+    "slug": "family-ties",
+    "tmdbId": 496,
+    "overview": "Former 1960s flower children Steven and Elyse Keaton raise their conservative son Alex, daughters Mallory and Jennifer, and later, youngest child Andrew.",
+    "first_air_date": "1982-09-22",
+    "last_air_date": "1989-05-14",
+    "number_of_seasons": 7,
+    "number_of_episodes": 168,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.232,
+    "poster_path": "/vxERANdozlMKgl7VqGxbAvZ6u1O.jpg",
+    "backdrop_path": "/m4G421LlrPxqdtq980PLM91u38Y.jpg",
+    "created_by": [
+      "Gary David Goldberg"
+    ],
+    "tagline": "Laughter. Tears. Politics... MEET THE KEATONS."
+  },
+  {
+    "name": "Growing Pains",
+    "slug": "growing-pains",
+    "tmdbId": 54,
+    "overview": "Fatherhood has taken on a whole new meaning for Jason Seaver, who has assumed the chores of cooking, cleaning and minding the kids so that his wife, Maggie, can pursue a career in journalism after spending 15 years as a housewife.",
+    "first_air_date": "1985-09-24",
+    "last_air_date": "1992-04-25",
+    "number_of_seasons": 7,
+    "number_of_episodes": 162,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.473,
+    "poster_path": "/dhzttMAkFTFAax2CTBAql1CaaXB.jpg",
+    "backdrop_path": "/rwr4VtrwuUuRbIGz5Nar0QmPoNO.jpg",
+    "created_by": [
+      "Neal Marlens"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Who's the Boss?",
+    "slug": "whos-the-boss",
+    "tmdbId": 634,
+    "overview": "A former professional baseball player, along with his preteen daughter, moves into New York advertising executive Angela Bower's house to be both a housekeeper and a father figure to her young son. Tony 's laid-back personality contrasts with Angela's type-A behavior.",
+    "first_air_date": "1984-09-20",
+    "last_air_date": "1992-04-25",
+    "number_of_seasons": 8,
+    "number_of_episodes": 196,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.354,
+    "poster_path": "/uZjNwfCNi6lX3jmYAxHB1DUuqcB.jpg",
+    "backdrop_path": "/qi925RRpANnzvZ00pybnHgXUA0a.jpg",
+    "created_by": [
+      "Blake Hunter"
+    ],
+    "tagline": "Father doesn't always know best!"
+  },
+  {
+    "name": "Silver Spoons",
+    "slug": "silver-spoons",
+    "tmdbId": 2076,
+    "overview": "Wealthy, young-at-heart business owner Edward Stratton III is stunned to discover his brief marriage several years ago produced a son, Richard Bluedhorn-Stratton, now 12 and standing in Edward's living room, wanting to live with the father he never knew. Although Edward's first impulse is to send Ricky to boarding school, he soon relents and let his son move in with him and Kate, his love-struck secretary.",
+    "first_air_date": "1982-09-25",
+    "last_air_date": "1987-03-04",
+    "number_of_seasons": 5,
+    "number_of_episodes": 116,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.286,
+    "poster_path": "/u0R3oUbGITld0kfvdnfxr8rtqAD.jpg",
+    "backdrop_path": "/4hUElOjWavce33FkD1z2tXXDNa1.jpg",
+    "created_by": [
+      "Ben Starr"
+    ],
+    "tagline": "It's not easy being the man of the house!"
+  },
+  {
+    "name": "Punky Brewster",
+    "slug": "punky-brewster",
+    "tmdbId": 2553,
+    "overview": "An abandoned waif and her dog are taken in by a cranky apartment manager who becomes her guardian in this family-friendly sitcom.",
+    "first_air_date": "1984-09-16",
+    "last_air_date": "1988-05-27",
+    "number_of_seasons": 4,
+    "number_of_episodes": 91,
+    "genres": [
+      "Comedy",
+      "Kids"
+    ],
+    "networks": [
+      "NBC",
+      "Syndication"
+    ],
+    "vote_average": 7.269,
+    "poster_path": "/2ZVmXNThTccZ4rKUfe1C1QZDwTe.jpg",
+    "backdrop_path": "/ir1J00Kk3kzBKw7uEGm8CwBjh1t.jpg",
+    "created_by": [
+      "David W. Duclon"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Small Wonder",
+    "slug": "small-wonder",
+    "tmdbId": 2898,
+    "overview": "When genius cybernetics engineer Ted Lawson brings home his top-secret invention, a Voice Input Child Identicant or V.I.C.I., life becomes anything but mechanical for the Lawson Family. With his boss and his nosy family living next door, Ted, his wife Joan and their son Jamie must pass Vicki off as a real child. It is easy for Joan, who cannot help doting on her like a daughter, but harder for precocious Jamie, who uses Vicki to do his homework and to ward off Harriet, the annoying redheaded girl next door.",
+    "first_air_date": "1985-09-07",
+    "last_air_date": "1989-05-20",
+    "number_of_seasons": 4,
+    "number_of_episodes": 99,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 6.934,
+    "poster_path": "/beaMCxE00CGMSk6MVCcvhZkwqSV.jpg",
+    "backdrop_path": "/pU5NQApUxgBef0a0QgDJor1flH1.jpg",
+    "created_by": [
+      "Howard Leeds"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Webster",
+    "slug": "webster",
+    "tmdbId": 3804,
+    "overview": "Webster is an American situation comedy that aired on ABC from September 16, 1983 until May 8, 1987, and in first-run syndication from September 21, 1987 until March 10, 1989. The series was created by Stu Silver.\n\nThe show stars Emmanuel Lewis in the title role as a young boy who, after losing his parents, is adopted by his NFL-pro godfather, portrayed by Alex Karras, and his new socialite wife, played by Susan Clark. The focus was largely on how this impulsively married couple had to adjust to their new lives and sudden parenthood, but it was the congenial Webster himself who drove much of the plot. The series was produced by Georgian Bay Ltd., Emmanuel Lewis Entertainment Enterprises, Inc. and Paramount Television.\n\nLike NBC's earlier hit Diff'rent Strokes, Webster featured a young African-American boy adopted by a white family.",
+    "first_air_date": "1983-09-16",
+    "last_air_date": "1989-03-10",
+    "number_of_seasons": 6,
+    "number_of_episodes": 150,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC",
+      "Syndication"
+    ],
+    "vote_average": 5.825,
+    "poster_path": "/4eBuBuPBzizq3QKBzFA7dVYW6Uk.jpg",
+    "backdrop_path": "/xbaRgsGw3hnLvrCT56XNXQkuw1n.jpg",
+    "created_by": [
+      "Stu Silver"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Perfect Strangers",
+    "slug": "perfect-strangers",
+    "tmdbId": 1786,
+    "overview": "The chronicles of the rocky coexistence of midwestern American Larry Appleton and his distant cousin from eastern Mediterranean Europe, Balki Bartokomous.",
+    "first_air_date": "1986-03-25",
+    "last_air_date": "1993-08-06",
+    "number_of_seasons": 8,
+    "number_of_episodes": 150,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.626,
+    "poster_path": "/wZ7RomWxcrdMwK63XzVeQGFK6Dy.jpg",
+    "backdrop_path": "/o76eZkTfIAtcGsN3MCVtKDfDTNf.jpg",
+    "created_by": [
+      "Dale McRaven"
+    ],
+    "tagline": "Now we are so happy we do the Dance of Joy!"
+  },
+  {
+    "name": "Full House",
+    "slug": "full-house",
+    "tmdbId": 4313,
+    "overview": "After the death of his wife, Danny enlists his best friend and his brother-in-law to help raise his three daughters, D.J., Stephanie, and Michelle.",
+    "first_air_date": "1987-09-22",
+    "last_air_date": "1995-05-23",
+    "number_of_seasons": 8,
+    "number_of_episodes": 192,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.548,
+    "poster_path": "/7g0EyKsIaYjYw3gCIBKMHHE0Kcu.jpg",
+    "backdrop_path": "/vp9fHzzOx1S2MNPCaZR2X29Ndwu.jpg",
+    "created_by": [
+      "Jeff Franklin"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "ALF",
+    "slug": "alf",
+    "tmdbId": 4658,
+    "overview": "A furry alien wiseguy comes to live with a terran family after crashing into their garage.",
+    "first_air_date": "1986-09-22",
+    "last_air_date": "1990-03-24",
+    "number_of_seasons": 4,
+    "number_of_episodes": 101,
+    "genres": [
+      "Family",
+      "Comedy",
+      "Drama"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.659,
+    "poster_path": "/shRed7ZrCRjdIMEYNx2YBVFkkNu.jpg",
+    "backdrop_path": "/ebLHsB8wsBnZnNa9UhGAqYeo33B.jpg",
+    "created_by": [
+      "Paul Fusco",
+      "Tom Patchett"
+    ],
+    "tagline": "Got cat?"
+  },
+  {
+    "name": "Miami Vice",
+    "slug": "miami-vice",
+    "tmdbId": 1908,
+    "overview": "The story of the Miami Police Department's vice squad and its efforts to end drug trafficking and prostitution, centered on the unlikely partnership of Sonny Crockett and Ricardo Tubbs - who first meet when Tubbs is undercover in a drug cartel.",
+    "first_air_date": "1984-09-16",
+    "last_air_date": "1989-06-28",
+    "number_of_seasons": 5,
+    "number_of_episodes": 110,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.458,
+    "poster_path": "/b5kLqC6eDiA17nq3jr1Vi340Kns.jpg",
+    "backdrop_path": "/iK7tPi9j4d34g5p6bNKmGVba95K.jpg",
+    "created_by": [
+      "Anthony Yerkovich"
+    ],
+    "tagline": "There's no stopping them."
+  },
+  {
+    "name": "Hill Street Blues",
+    "slug": "hill-street-blues",
+    "tmdbId": 3828,
+    "overview": "A realistic glimpse into the daily lives of the officers and detectives at an urban police station.",
+    "first_air_date": "1981-01-15",
+    "last_air_date": "1987-05-12",
+    "number_of_seasons": 7,
+    "number_of_episodes": 146,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.642,
+    "poster_path": "/elvCmYxmwVzv2va3rLKponOJOfm.jpg",
+    "backdrop_path": "/Am2ZRSkoOQd00kmhUF7QtOFbLWQ.jpg",
+    "created_by": [
+      "Steven Bochco"
+    ],
+    "tagline": "Let's be careful out there."
+  },
+  {
+    "name": "Cagney & Lacey",
+    "slug": "cagney-and-lacey",
+    "tmdbId": 4223,
+    "overview": "Mary Beth Lacey and Chris Cagney are teamed up as NYPD police detectives. Their opposing personalities (one is tough and the other sensitive) mesh to make this one of the great crime-fighting duos of all time.",
+    "first_air_date": "1982-03-25",
+    "last_air_date": "1988-05-16",
+    "number_of_seasons": 7,
+    "number_of_episodes": 125,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.956,
+    "poster_path": "/bAdrchPABFuHK44G3dKXXRIIRiH.jpg",
+    "backdrop_path": "/rWnH3S85i5E3KniNQpa0TFny7KX.jpg",
+    "created_by": [
+      "Barbara Corday",
+      "Barbara Avedon"
+    ],
+    "tagline": "Two women cops working twice as hard for half the glory, twice the excitement!"
+  },
+  {
+    "name": "Starsky & Hutch",
+    "slug": "starsky-and-hutch",
+    "tmdbId": 1532,
+    "overview": "Streetwise Detective David Starsky partners up with a more intellectual partner, Kenneth 'Hutch' Hutchinson, to protect citizens and patrol the streets of Bay City.",
+    "first_air_date": "1975-09-10",
+    "last_air_date": "1979-05-15",
+    "number_of_seasons": 4,
+    "number_of_episodes": 92,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.251,
+    "poster_path": "/aBj5oTi1uibVcXDoCJeKseJNY2d.jpg",
+    "backdrop_path": "/9GEghzkUfxWNQ65BbRwfysKOVoS.jpg",
+    "created_by": [
+      "William Blinn"
+    ],
+    "tagline": "Me and Thee"
+  },
+  {
+    "name": "Kojak",
+    "slug": "kojak",
+    "tmdbId": 3572,
+    "overview": "A bald, lollipop sucking police detective with a fiery righteous attitude battles crime in New York City.",
+    "first_air_date": "1973-10-24",
+    "last_air_date": "1978-03-18",
+    "number_of_seasons": 5,
+    "number_of_episodes": 118,
+    "genres": [
+      "Crime",
+      "Action & Adventure",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "ABC",
+      "CBS"
+    ],
+    "vote_average": 7.094,
+    "poster_path": "/7F1eH97Bpi8zQbc172drbJCsOsG.jpg",
+    "backdrop_path": "/lt6sueOPDt721p9nqtpXKa3VZGu.jpg",
+    "created_by": [
+      "Abby Mann"
+    ],
+    "tagline": "Who loves ya, baby?"
+  },
+  {
+    "name": "Columbo",
+    "slug": "columbo",
+    "tmdbId": 873,
+    "overview": "Columbo is a friendly, verbose, disheveled-looking police detective who is consistently underestimated by his suspects. Despite his unprepossessing appearance and apparent absentmindedness, he shrewdly solves all of his cases and secures all evidence needed for indictment. His formidable eye for detail and meticulously dedicated approach often become clear to the killer only late in the storyline.",
+    "first_air_date": "1971-09-15",
+    "last_air_date": "2003-01-30",
+    "number_of_seasons": 10,
+    "number_of_episodes": 67,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "ABC",
+      "NBC"
+    ],
+    "vote_average": 8.1,
+    "poster_path": "/2JCD8vab3fircOU8cM2HJCxfv4I.jpg",
+    "backdrop_path": "/8xr2imLUMyvIybraMOq4umBl6nz.jpg",
+    "created_by": [
+      "William Link",
+      "Richard Levinson"
+    ],
+    "tagline": "Oh, just one more thing..."
+  },
+  {
+    "name": "The Rockford Files",
+    "slug": "the-rockford-files",
+    "tmdbId": 954,
+    "overview": "Cranky but likable L.A. PI Jim Rockford pulls no punches (but takes plenty of them). An ex-con sent to the slammer for a crime he didn't commit, Rockford takes on cases others don't want, aided by his tough old man, his lawyer girlfriend and some shady associates from his past.",
+    "first_air_date": "1974-09-13",
+    "last_air_date": "1980-01-10",
+    "number_of_seasons": 6,
+    "number_of_episodes": 122,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.6,
+    "poster_path": "/fniHEsTeqHMg41GlCYJxZVgtn7H.jpg",
+    "backdrop_path": "/tUKU1WLqMtIZHUl8lP9bLAJx0nl.jpg",
+    "created_by": [
+      "Stephen J. Cannell",
+      "Roy Huggins"
+    ],
+    "tagline": "This is Jim Rockford. At the tone leave your name and message, I'll get back to you."
+  },
+  {
+    "name": "Barney Miller",
+    "slug": "barney-miller",
+    "tmdbId": 3253,
+    "overview": "Barney Miller is an American situation comedy television series set in a New York City police station in Greenwich Village. The series originally was broadcast from January 23, 1975 to May 20, 1982 on ABC. It was created by Danny Arnold and Theodore J. Flicker. Noam Pitlik directed the majority of the episodes.",
+    "first_air_date": "1975-01-23",
+    "last_air_date": "1982-05-20",
+    "number_of_seasons": 8,
+    "number_of_episodes": 170,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.295,
+    "poster_path": "/wfrcuXAlgbPyUenIbCONhICH23h.jpg",
+    "backdrop_path": "/eGYzysrLrWSVK1qqEGqwU12bXe0.jpg",
+    "created_by": [
+      "Theodore J. Flicker",
+      "Danny Arnold"
+    ],
+    "tagline": "One of the Funniest Police Shows Ever!"
+  },
+  {
+    "name": "WKRP in Cincinnati",
+    "slug": "wkrp-in-cincinnati",
+    "tmdbId": 971,
+    "overview": "When a Cincinnati radio station switches from sedate music to top-40 rock 'n' roll, its staff of oddball characters is forced to switch gears quickly. New programming director Andy Travis brings in a new DJ named Venus Flytrap to work with the station's burned-out veteran, Dr. Johnny Fever. Neurotic newsman Les Nessman, eager beaver Bailey Quarters, sleazy salesman Herb Tarlek, blonde bombshell Jennifer Marlowe, who serves as the station's ultra-capable receptionist, and station manager Arthur Carlson, whose domineering mother owns WKRP, round out the eccentric bunch.",
+    "first_air_date": "1978-09-18",
+    "last_air_date": "1982-04-21",
+    "number_of_seasons": 4,
+    "number_of_episodes": 90,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.54,
+    "poster_path": "/dP3eGvgzztqbSr73UDNLh0o35hS.jpg",
+    "backdrop_path": "/w3ihDcCxjbVXPLUY1v4Dwb0OJzj.jpg",
+    "created_by": [
+      "Hugh Wilson"
+    ],
+    "tagline": "So just sit right down, relax, open your ears real wide and say, \"Give it to me straight, Doctor. I can take it!\""
+  },
+  {
+    "name": "Night Court",
+    "slug": "night-court",
+    "tmdbId": 162,
+    "overview": "An eccentric fun-loving judge presides over an urban night court and all the silliness going on there.",
+    "first_air_date": "1984-01-04",
+    "last_air_date": "1992-05-31",
+    "number_of_seasons": 9,
+    "number_of_episodes": 193,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.301,
+    "poster_path": "/bpEVtr4NCkbmTdponemKSjt9POc.jpg",
+    "backdrop_path": "/bNYJxbtslqHdbNfIT9XXjbwEZuX.jpg",
+    "created_by": [
+      "Reinhold Weege"
+    ],
+    "tagline": "Chaos in the Courtroom!"
+  },
+  {
+    "name": "Newhart",
+    "slug": "newhart",
+    "tmdbId": 3004,
+    "overview": "Dick Loudon and his wife Joanna decide to leave life in New York City and buy a little inn in Vermont. Dick is a how-to book writer, who eventually becomes a local TV celebrity as host of \"Vermont Today.\" George Utley is the handyman at the inn and Leslie Vanderkellen is the maid, with ambitions of being an Olympic Ski champion; she is later replaced by her cousin Stephanie, an heiress who hates her job. Her boyfriend is Dick's yuppie TV producer, Michael Harris. There are many other quirky characters in this fictional little town, including Dick's neighbors Larry, Darryl, and Darryl...three brothers who buy the Minuteman Cafe from Kirk Devane. Besides sharing a name, Darryl and Darryl never speak.",
+    "first_air_date": "1982-10-02",
+    "last_air_date": "1990-05-21",
+    "number_of_seasons": 8,
+    "number_of_episodes": 184,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.1,
+    "poster_path": "/zBI5YcdsftGE9F6zY6UwYVybsdY.jpg",
+    "backdrop_path": "/pCUfyiLZ1bT7JkffXZdDT0PgbGz.jpg",
+    "created_by": [
+      "Barry Kemp",
+      "Sheldon Bull"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Cosby Show",
+    "slug": "the-cosby-show",
+    "tmdbId": 1759,
+    "overview": "The Cosby Show is an American television situation comedy starring Bill Cosby, which aired for eight seasons on NBC from September 20, 1984 until April 30, 1992. The show focuses on the Huxtable family, an upper middle-class African-American family living in Brooklyn, New York.",
+    "first_air_date": "1984-09-20",
+    "last_air_date": "1992-04-30",
+    "number_of_seasons": 8,
+    "number_of_episodes": 197,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.98,
+    "poster_path": "/dc6sR5FWN4uX8fZENq2UTsrSg3x.jpg",
+    "backdrop_path": "/wWXFRPABf2D0eFjYNXNM0JhmTZF.jpg",
+    "created_by": [
+      "Bill Cosby",
+      "Michael J. Leeson",
+      "Ed. Weinberger"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Seinfeld",
+    "slug": "seinfeld",
+    "tmdbId": 1400,
+    "overview": "A stand-up comedian and his three offbeat friends weather the pitfalls and payoffs of life in New York City in the '90s. It's a show about nothing.",
+    "first_air_date": "1989-07-05",
+    "last_air_date": "1998-05-14",
+    "number_of_seasons": 9,
+    "number_of_episodes": 180,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 8.256,
+    "poster_path": "/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg",
+    "backdrop_path": "/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg",
+    "created_by": [
+      "Jerry Seinfeld",
+      "Larry David"
+    ],
+    "tagline": "A show about nothing."
+  },
+  {
+    "name": "MacGyver",
+    "slug": "macgyver",
+    "tmdbId": 2875,
+    "overview": "He's everyone's favorite action hero... but he's a hero with a difference. Angus MacGyver is a secret agent whose wits are his deadliest weapon. Armed with only a knapsack filled with everyday items he picks up along the way, he improvises his way out of every peril the bad guys throw at him.\n\nMaking a bomb out of chewing gum? Fixing a speeding car's breaks... while he's riding in it? Using soda pop to cook up tear gas? That's all in a day's adventures for MacGyver. He's part Boy Scout, part genius. And all hero.",
+    "first_air_date": "1985-09-29",
+    "last_air_date": "1992-05-21",
+    "number_of_seasons": 7,
+    "number_of_episodes": 139,
+    "genres": [
+      "Drama",
+      "Action & Adventure",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.73,
+    "poster_path": "/zhgJNHbFxGkqdsKdkZLBrDWagOv.jpg",
+    "backdrop_path": "/etU3Zrl7FA20m4LvmkFvdZOUE8u.jpg",
+    "created_by": [
+      "Lee David Zlotoff"
+    ],
+    "tagline": "His mind is the ultimate weapon."
+  },
+  {
+    "name": "Airwolf",
+    "slug": "airwolf",
+    "tmdbId": 2119,
+    "overview": "As part of a deal with an intelligence agency to look for his missing brother, a renegade pilot goes on missions with an advanced battle helicopter.",
+    "first_air_date": "1984-01-22",
+    "last_air_date": "1987-08-07",
+    "number_of_seasons": 4,
+    "number_of_episodes": 80,
+    "genres": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "CBS",
+      "USA Network"
+    ],
+    "vote_average": 7.583,
+    "poster_path": "/4PAN7zPqmR9b73een97WkxqCTQN.jpg",
+    "backdrop_path": "/i9dFFpTMIitrfIAm3GeCXDBGKLE.jpg",
+    "created_by": [
+      "Donald P. Bellisario"
+    ],
+    "tagline": "A New Kind of Weapon. A New Kind of Hero."
+  },
+  {
+    "name": "The Fall Guy",
+    "slug": "the-fall-guy",
+    "tmdbId": 5031,
+    "overview": "Hollywood stuntman Colt Seavers picks up some extra pocket money by using his rough-and-tumble skills to track and capture bail jumpers.",
+    "first_air_date": "1981-11-04",
+    "last_air_date": "1986-05-02",
+    "number_of_seasons": 5,
+    "number_of_episodes": 111,
+    "genres": [
+      "Action & Adventure",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.567,
+    "poster_path": "/q8IS76HrmnjwGAvMwcanxohNja4.jpg",
+    "backdrop_path": "/1XEusS8irQrc060sfFsBPosnPF5.jpg",
+    "created_by": [
+      "Glen A. Larson"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Simon & Simon",
+    "slug": "simon-and-simon",
+    "tmdbId": 2102,
+    "overview": "A.J. Simon is a polished fellow with a taste for classic cars and tailored suits. Rick Simon is his less refined (but still pleasant) older brother who has a taste for cowboy boots and four-wheel drive pickups. The two of them live in San Diego, where they own a private detective agency.",
+    "first_air_date": "1981-11-24",
+    "last_air_date": "1989-03-02",
+    "number_of_seasons": 8,
+    "number_of_episodes": 156,
+    "genres": [
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.703,
+    "poster_path": "/h1wId4z79SQOOhEnc3oEqf3qpro.jpg",
+    "backdrop_path": "/dSqLtN6RNcIUMZyrbyg1TnHTe1v.jpg",
+    "created_by": [
+      "Philip DeGuere Jr."
+    ],
+    "tagline": "Brotherly love"
+  },
+  {
+    "name": "Remington Steele",
+    "slug": "remington-steele",
+    "tmdbId": 589,
+    "overview": "Laura Holt, a licensed private detective, opens a detective agency but finds that potential clients refuse to hire a woman, however qualified. To solve the problem, Laura invents a fictitious male superior whom she names Remington Steele. Through a series of events that unfold in the first episode, \"License to Steele,\" a former thief and con man, whose real name is never revealed, assumes the identity of Remington Steele. Behind the scenes, Laura remains firmly in charge.",
+    "first_air_date": "1982-10-01",
+    "last_air_date": "1987-02-17",
+    "number_of_seasons": 5,
+    "number_of_episodes": 94,
+    "genres": [
+      "Drama",
+      "Family",
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.118,
+    "poster_path": "/3UGDVrdwavyU0WIddhZf4eov6yv.jpg",
+    "backdrop_path": "/cCCyFrM6AtUQXVNOL2D0BTKB64K.jpg",
+    "created_by": [
+      "Robert Butler",
+      "Michael Gleason"
+    ],
+    "tagline": "Before He Was Bond He Was..."
+  },
+  {
+    "name": "Scarecrow and Mrs. King",
+    "slug": "scarecrow-and-mrs-king",
+    "tmdbId": 3414,
+    "overview": "Scarecrow and Mrs. King is an American television series that aired from October 3, 1983, to May 28, 1987 on CBS. The show stars Kate Jackson and Bruce Boxleitner as divorced housewife Amanda King and top-level \"Agency\" operative Lee Stetson who begin a strange association, and eventual romance, after encountering one another in a train station.",
+    "first_air_date": "1983-10-03",
+    "last_air_date": "1987-05-28",
+    "number_of_seasons": 4,
+    "number_of_episodes": 88,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.524,
+    "poster_path": "/36oUFRNJQORpL9fmnrSXdFqEGty.jpg",
+    "backdrop_path": "/A3AEKSTwNGsnYOHnBmI8ZAe3TWR.jpg",
+    "created_by": [
+      "Brad Buckner",
+      "Eugenie Ross-Leming"
+    ],
+    "tagline": "One everyday housewife who put some spies in her life!"
+  },
+  {
+    "name": "Quantum Leap",
+    "slug": "quantum-leap",
+    "tmdbId": 4018,
+    "overview": "Theorizing that one could time travel within his own lifetime, Dr. Sam Beckett stepped into the Quantum Leap accelerator and vanished... He woke to find himself trapped in the past, facing mirror images that were not his own and driven by an unknown force to change history for the better. His only guide on this journey is Al, an observer from his own time, who appears in the form of a hologram that only Sam can see and hear. And so Dr. Beckett finds himself leaping from life to life, striving to put right what once went wrong and hoping each time that his next leap will be the leap home.",
+    "first_air_date": "1989-03-26",
+    "last_air_date": "1993-05-05",
+    "number_of_seasons": 5,
+    "number_of_episodes": 96,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 8,
+    "poster_path": "/ujIGP3e3V6kDQHRhjNYtUE3fHJi.jpg",
+    "backdrop_path": "/5TpptGoxVVght2n6oz8QJklmSTu.jpg",
+    "created_by": [
+      "Donald P. Bellisario"
+    ],
+    "tagline": "Oh Boy!"
+  },
+  {
+    "name": "Dallas",
+    "slug": "dallas",
+    "tmdbId": 40,
+    "overview": "The world's first mega-soap, and one of the most popular ever produced, Dallas had it all. Beautiful women, expensive cars, and men playing Monopoly with real buildings. Famous for one of the best cliffhangers in TV history, as the world asked \"Who shot J.R.?\" A slow-burner to begin with, Dallas hit its stride in the 2nd season, with long storylines and expert character development. Dallas ruled the airwaves in the 1980's.",
+    "first_air_date": "1978-04-02",
+    "last_air_date": "1991-05-03",
+    "number_of_seasons": 14,
+    "number_of_episodes": 357,
+    "genres": [
+      "Soap",
+      "Drama",
+      "Family"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.828,
+    "poster_path": "/A1dupjBm7rXqBw2Dbz9WUsHoyxo.jpg",
+    "backdrop_path": "/5Z40OJgNeedcAgqPRTGQzlk17Mv.jpg",
+    "created_by": [
+      "David Jacobs"
+    ],
+    "tagline": "A family ruthless in its quest for power and passion."
+  },
+  {
+    "name": "Dynasty",
+    "slug": "dynasty",
+    "tmdbId": 3769,
+    "overview": "The saga of a wealthy Denver family in the oil business: Blake Carrington, the patriarch; Krystle, his former secretary and wife; his children: Adam, lost in childhood after a kidnapping; Fallon, pampered and spoiled; Steven, openly gay; and Amanda, hidden from him by his ex-wife, the conniving Alexis. Most of the show features the conflict between 2 large corporations, Blake's Denver Carrington and Alexis' ColbyCo.",
+    "first_air_date": "1981-01-12",
+    "last_air_date": "1989-05-10",
+    "number_of_seasons": 9,
+    "number_of_episodes": 220,
+    "genres": [
+      "Soap",
+      "Drama"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.404,
+    "poster_path": "/wxKEdlB4Zuq2THGqKYLnGKU37g9.jpg",
+    "backdrop_path": "/Ao5XqVJj74hYWnnEG98MvRLBHdY.jpg",
+    "created_by": [
+      "Esther Shapiro",
+      "Richard Alan Shapiro"
+    ],
+    "tagline": "Greed. Seduction. Betrayal. Revenge."
+  },
+  {
+    "name": "Falcon Crest",
+    "slug": "falcon-crest",
+    "tmdbId": 93,
+    "overview": "Falcon Crest is an American primetime television soap opera which aired on the CBS network for nine seasons, from December 4, 1981 to May 17, 1990. A total of 227 episodes were produced.\n\nThe series revolves around the feuding factions of the wealthy Gioberti/Channing family in the Californian wine industry. Jane Wyman starred as Angela Channing, the tyrannical matriarch of the Falcon Crest Winery, alongside Robert Foxworth as Chase Gioberti, Angela's nephew who returns to Falcon Crest following the death of his father. The series was set in the fictitious Tuscany Valley northeast of San Francisco.",
+    "first_air_date": "1981-12-04",
+    "last_air_date": "1990-05-18",
+    "number_of_seasons": 9,
+    "number_of_episodes": 227,
+    "genres": [
+      "Soap",
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 5.5,
+    "poster_path": "/rgcKhBsHwAlPpeJG9yKip5oWVo9.jpg",
+    "backdrop_path": "/3OX2ysmkK61hJsm4AfjTPtrVgMY.jpg",
+    "created_by": [
+      "Earl Hamner, Jr."
+    ],
+    "tagline": "Sour Grapes."
+  },
+  {
+    "name": "Knots Landing",
+    "slug": "knots-landing",
+    "tmdbId": 2595,
+    "overview": "The domestic adventures, misdeeds and everyday interactions of five families living on a cul-de-sac in a small California community.",
+    "first_air_date": "1979-12-27",
+    "last_air_date": "1993-05-13",
+    "number_of_seasons": 14,
+    "number_of_episodes": 344,
+    "genres": [
+      "Drama",
+      "Soap"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.8,
+    "poster_path": "/ohcRf8CyVpQiUw2ZTmGQ2I4fH8D.jpg",
+    "backdrop_path": "/umiteWJE7qUkPO3vNxuISjiZVQk.jpg",
+    "created_by": [
+      "Michael Filerman",
+      "David Jacobs"
+    ],
+    "tagline": "Love thy neighbor."
+  },
+  {
+    "name": "The Wonder Years",
+    "slug": "the-wonder-years",
+    "tmdbId": 4500,
+    "overview": "The story of Kevin Arnold facing the trials and tribulations of youth while growing up during the 1960s and 70s. Told through narration from an adult Kevin, Kevin faces the difficulties of maintaining relationships and friendships on his enthralling journey into adulthood.",
+    "first_air_date": "1988-01-31",
+    "last_air_date": "1993-05-12",
+    "number_of_seasons": 6,
+    "number_of_episodes": 115,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 8.327,
+    "poster_path": "/tkaduqdhFrF1vp8L55OJfB5jw8Z.jpg",
+    "backdrop_path": "/XuJi5lKkYLCFpJprfSUZveRof7.jpg",
+    "created_by": [
+      "Neal Marlens",
+      "Carol Black"
+    ],
+    "tagline": "With a little help from my friends."
+  },
+  {
+    "name": "Married... with Children",
+    "slug": "married-with-children",
+    "tmdbId": 4239,
+    "overview": "Al Bundy is an unsuccessful middle aged shoe salesman with a miserable life and an equally dysfunctional family. He hates his job, his wife is lazy, his son is dysfunctional (especially with women), and his daughter is dim-witted and promiscuous.",
+    "first_air_date": "1987-04-05",
+    "last_air_date": "1997-06-09",
+    "number_of_seasons": 11,
+    "number_of_episodes": 258,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "FOX"
+    ],
+    "vote_average": 7.721,
+    "poster_path": "/qxdOgESOkBMmfcWUizL01mbdqzl.jpg",
+    "backdrop_path": "/y6nEgbjMUpYLnVUwZDzX95wH5Vj.jpg",
+    "created_by": [
+      "Michael G. Moye",
+      "Ron Leavitt"
+    ],
+    "tagline": "Domestic bliss was never like this!"
+  },
+  {
+    "name": "The Golden Girls",
+    "slug": "the-golden-girls",
+    "tmdbId": 1678,
+    "overview": "Four Southern Florida seniors share a house, their dreams, and a whole lot of cheesecake. Bright, promiscuous, clueless and hilarious, these lovely, mismatched ladies form the perfect circle of friends.",
+    "first_air_date": "1985-09-14",
+    "last_air_date": "1992-05-09",
+    "number_of_seasons": 7,
+    "number_of_episodes": 180,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.565,
+    "poster_path": "/1qoHn5J0Qclte98j1olNbOQOXVz.jpg",
+    "backdrop_path": "/jOHsdywPKOTr9R9y21Wjfti9CIY.jpg",
+    "created_by": [
+      "Susan Harris"
+    ],
+    "tagline": "Meet four outrageous women who know when it comes to a good laugh, there's nothing like experience!"
+  },
+  {
+    "name": "Murder, She Wrote",
+    "slug": "murder-she-wrote",
+    "tmdbId": 484,
+    "overview": "An unassuming mystery writer turned sleuth uses her professional insight to help solve real-life homicide cases.",
+    "first_air_date": "1984-09-30",
+    "last_air_date": "1996-05-19",
+    "number_of_seasons": 12,
+    "number_of_episodes": 264,
+    "genres": [
+      "Mystery",
+      "Crime",
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.512,
+    "poster_path": "/3UxBFG4fiuZ0P9n2sCrjXh64Avy.jpg",
+    "backdrop_path": "/eciikZDLyEBQanGh3zpGNuYHtQ3.jpg",
+    "created_by": [
+      "Richard Levinson",
+      "William Link",
+      "Peter S. Fischer"
+    ],
+    "tagline": "She may be wrong. But frankly, we doubt it."
+  },
+  {
+    "name": "Matlock",
+    "slug": "matlock",
+    "tmdbId": 2093,
+    "overview": "Matlock is an American television legal drama, starring Andy Griffith in the title role of criminal defense attorney Ben Matlock. The show, produced by The Fred Silverman Company, Dean Hargrove Productions, Viacom Productions and Paramount Television originally aired from September 23, 1986 to May 8, 1992 on NBC; and from November 5, 1992 until May 7, 1995 on ABC.\n\nThe show's format is similar to that of CBS's Perry Mason, with Matlock identifying the perpetrators and then confronting them in dramatic courtroom scenes. One difference, however, was that whereas Mason usually exculpated his clients at a pretrial hearing, Matlock usually secured an acquittal at trial, from the jury.",
+    "first_air_date": "1986-03-03",
+    "last_air_date": "1995-05-07",
+    "number_of_seasons": 9,
+    "number_of_episodes": 194,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "NBC",
+      "ABC"
+    ],
+    "vote_average": 7.1,
+    "poster_path": "/2eGYyekQjcAXVmcYW1g4keR4plV.jpg",
+    "backdrop_path": "/6NJdscx3qb2H7h8rEHFn9i6vTcs.jpg",
+    "created_by": [
+      "Dean Hargrove"
+    ],
+    "tagline": "AMERICA'S GREATEST LAWYER. CASE CLOSED."
+  },
+  {
+    "name": "In the Heat of the Night",
+    "slug": "in-the-heat-of-the-night",
+    "tmdbId": 862,
+    "overview": "In the Heat of the Night is an American television series based on the motion picture and novel of the same name starring Carroll O'Connor as the white police chief William Gillespie, and Howard Rollins as the African-American police detective Virgil Tibbs. It was broadcast on NBC from 1988 until 1992, and then on CBS until 1995. Its executive producers were Fred Silverman, Juanita Bartlett and Carroll O'Connor. TGG Direct released the first season of the series to DVD on August 28, 2012.",
+    "first_air_date": "1988-03-06",
+    "last_air_date": "1995-05-16",
+    "number_of_seasons": 8,
+    "number_of_episodes": 146,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "networks": [
+      "NBC",
+      "CBS"
+    ],
+    "vote_average": 7.508,
+    "poster_path": "/tZ1EH5HiMclbP6DWgIl8D7qETv2.jpg",
+    "backdrop_path": "/ploUH2EYcNQhjWivB9zC6HdfHxn.jpg",
+    "created_by": [
+      "James Lee Barrett"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "21 Jump Street",
+    "slug": "21-jump-street",
+    "tmdbId": 1486,
+    "overview": "21 Jump Street revolves around a group of young cops who would use their youthful appearance to go undercover and solve crimes involving teenagers and young adults.",
+    "first_air_date": "1987-04-12",
+    "last_air_date": "1991-04-27",
+    "number_of_seasons": 5,
+    "number_of_episodes": 103,
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Drama"
+    ],
+    "networks": [
+      "FOX"
+    ],
+    "vote_average": 7.214,
+    "poster_path": "/9w2y0146P5EjLw63FHGWRRpqQ6v.jpg",
+    "backdrop_path": "/gTN0SAdXsDUE6SFFRo8QsJgXDIg.jpg",
+    "created_by": [
+      "Stephen J. Cannell",
+      "Patrick Hasburgh"
+    ],
+    "tagline": "Too cool for school."
+  },
+  {
+    "name": "Saved by the Bell",
+    "slug": "saved-by-the-bell",
+    "tmdbId": 4345,
+    "overview": "Lovable schemer Zack Morris leads his pals on adventures at California's Bayside High School. The friends navigate relationships, final exams, school dances, breakups and more while frequently frustrating their principal, Mr. Richard Belding, who does his best to keep them in check.",
+    "first_air_date": "1989-08-20",
+    "last_air_date": "1993-05-22",
+    "number_of_seasons": 4,
+    "number_of_episodes": 86,
+    "genres": [
+      "Family",
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.79,
+    "poster_path": "/9YC576fs6XQR2pfPDJn4kcmG8T5.jpg",
+    "backdrop_path": "/d0nAuGAH5EIQDLTs7dJcQOubpha.jpg",
+    "created_by": [
+      "Sam Bobrick"
+    ],
+    "tagline": "Welcome to California's hippest high school"
+  },
+  {
+    "name": "Doogie Howser, M.D.",
+    "slug": "doogie-howser-md",
+    "tmdbId": 1750,
+    "overview": "Doogie Howser is a doctor. He is also a 16-year-old genius who graduated college at age 10 and finished medical school at age 14. But he is still a teenager, with normal teenage friends and problems. But unlike a normal teenager, he is just learning to drive while also consulting on serious medical cases like heart transplants.",
+    "first_air_date": "1989-09-19",
+    "last_air_date": "1993-03-24",
+    "number_of_seasons": 4,
+    "number_of_episodes": 97,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.478,
+    "poster_path": "/uNGrGq7tJ1GiKUsfnchC07l0Q2M.jpg",
+    "backdrop_path": "/jIXDWBeCUEu0ttzjHBJC4sA8LzR.jpg",
+    "created_by": [
+      "David E. Kelley",
+      "Steven Bochco"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Charles in Charge",
+    "slug": "charles-in-charge",
+    "tmdbId": 566,
+    "overview": "Charles, a 19-year-old student at the fictional Copeland College in New Brunswick, New Jersey, works as a live-in babysitter in exchange for room and board.",
+    "first_air_date": "1984-10-03",
+    "last_air_date": "1990-11-10",
+    "number_of_seasons": 5,
+    "number_of_episodes": 126,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS",
+      "Syndication"
+    ],
+    "vote_average": 6.1,
+    "poster_path": "/sM3nBqh3iSjPTBMtIFyWnROVLIz.jpg",
+    "backdrop_path": "/w0kHwuuNYHcL77Ny8cuBnrRset3.jpg",
+    "created_by": [
+      "Michael Jacobs"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Mr. Belvedere",
+    "slug": "mr-belvedere",
+    "tmdbId": 437,
+    "overview": "Mr. Belvedere takes a job as a housekeeper with an American family headed by George Owens.",
+    "first_air_date": "1985-03-15",
+    "last_air_date": "1990-07-08",
+    "number_of_seasons": 6,
+    "number_of_episodes": 117,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.78,
+    "poster_path": "/vcEBQK5HgkWShxIluKt00nZKfA3.jpg",
+    "backdrop_path": "/zmV1exzJK83jhqhrS1VRNHhiRZ4.jpg",
+    "created_by": [
+      "Gwen Davenport"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Head of the Class",
+    "slug": "head-of-the-class",
+    "tmdbId": 2589,
+    "overview": "Head of the Class is an American sitcom that ran from 1986 to 1991 on the ABC television network.\n\nThe series follows a group of gifted students in the Individualized Honors Program at the fictional Monroe High School in Manhattan, and their history teacher Charlie Moore. The program was ostensibly a vehicle for Hesseman, best known for his role as radio DJ Dr. Johnny Fever in the sitcom WKRP in Cincinnati. Hesseman left Head of the Class in 1990 and was replaced by Billy Connolly as teacher Billy MacGregor for the final season. After the series ended, Connolly appeared in a short-lived spin-off titled Billy.\n\nThe series was created and executive produced by Rich Eustis and Michael Elias. Rich Eustis had previously worked as a New York City substitute teacher while hoping to become an actor.",
+    "first_air_date": "1986-09-17",
+    "last_air_date": "1991-06-25",
+    "number_of_seasons": 5,
+    "number_of_episodes": 114,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.2,
+    "poster_path": "/hHa7u2ySBgRtUGpxAkd1Maf6ws6.jpg",
+    "backdrop_path": "/rLy3MQrbJO3eKMs0TsyKtLz15K7.jpg",
+    "created_by": [
+      "Rich Eustis"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Designing Women",
+    "slug": "designing-women",
+    "tmdbId": 712,
+    "overview": "Julia Sugarbaker, Mary Jo Shively, Charlene Frazier-Stillfield and Suzanne Sugarbaker are associates at their design firm, Sugarbaker and Associates. Julia is the owner and is very outspoken and strong-willed. Mary Jo is a divorced single-parent whom is just as strong-willed as Julia, but isn't as self-confident. Charlene is the naive and trusting farm girl from Poplar Bluff, Missouri. Suzanne is the self-centered ex-beauty queen whom has a number of wealthy ex-husbands.",
+    "first_air_date": "1986-09-29",
+    "last_air_date": "1993-05-24",
+    "number_of_seasons": 7,
+    "number_of_episodes": 163,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.788,
+    "poster_path": "/pqhes4TGTDj9zMg9agrADKo8RnL.jpg",
+    "backdrop_path": "/n2g2XEvPYKpbo7MXvV6AoCG5OkA.jpg",
+    "created_by": [
+      "Linda Bloodworth-Thomason"
+    ],
+    "tagline": "Designed to keep you laughing!"
+  },
+  {
+    "name": "227",
+    "slug": "227",
+    "tmdbId": 1938,
+    "overview": "A housewife sits on the stoop of her apartment building in a black neighborhood of Washington, D.C., and discusses all manner of things with her neighbors.",
+    "first_air_date": "1985-09-14",
+    "last_air_date": "1990-05-06",
+    "number_of_seasons": 5,
+    "number_of_episodes": 116,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.7,
+    "poster_path": "/yoIFuErMvCb4ZTSnQ079cIcWYjf.jpg",
+    "backdrop_path": "/rSp9xdhF8PiTUUU9xmhXEjxgHLc.jpg",
+    "created_by": [
+      "Michael G. Moye"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Hunter",
+    "slug": "hunter",
+    "tmdbId": 4571,
+    "overview": "Hunter is an American police drama television series created by Frank Lupo, and starring Fred Dryer as Sgt. Rick Hunter and Stepfanie Kramer as Sgt. Dee Dee McCall, which ran on NBC from 1984 to 1991. However, Kramer left after the sixth season to pursue other acting and musical opportunities. In the seventh season, Hunter partnered with two different women officers. The titular character, Sgt. Rick Hunter, was a wily, physically imposing, and often rule-breaking homicide detective with the Los Angeles Police Department. The show's main characters, Hunter and McCall, resolve many of their cases by shooting dead the perpetrators.\n\nThe show's executive producer during the first season was Stephen J. Cannell, whose company produced the series.",
+    "first_air_date": "1984-09-18",
+    "last_air_date": "1991-04-26",
+    "number_of_seasons": 7,
+    "number_of_episodes": 152,
+    "genres": [
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.1,
+    "poster_path": "/mEBo13onK8U45qnIC0Xh8TnxMtv.jpg",
+    "backdrop_path": "/331oYm2437GK7nEjrGhYjKb7Kfd.jpg",
+    "created_by": [
+      "Frank Lupo"
+    ],
+    "tagline": "Works For Me!"
+  },
+  {
+    "name": "Hart to Hart",
+    "slug": "hart-to-hart",
+    "tmdbId": 3162,
+    "overview": "Wealthy couple Jonathan and Jennifer Hart, a self-made millionaire and his journalist wife, moonlight as amateur detectives.",
+    "first_air_date": "1979-09-22",
+    "last_air_date": "1984-05-22",
+    "number_of_seasons": 5,
+    "number_of_episodes": 110,
+    "genres": [
+      "Action & Adventure",
+      "Crime",
+      "Mystery"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.9,
+    "poster_path": "/rK7eHDVQVYwwuxf91rmSNn6ykQn.jpg",
+    "backdrop_path": "/fyPyyWNmzH7Ugt51K8SqiI0SWNI.jpg",
+    "created_by": [
+      "Sidney Sheldon"
+    ],
+    "tagline": "When they met, it was murder."
+  },
+  {
+    "name": "The Incredible Hulk",
+    "slug": "the-incredible-hulk",
+    "tmdbId": 648,
+    "overview": "During an experiment gone bad, radiation turns a scientist into a raging green behemoth whenever he becomes agitated. Unable to control his transformations, David Banner searches for a cure as he crosses the country, fugitive-style, with a dogged tabloid reporter on his trail.",
+    "first_air_date": "1977-11-04",
+    "last_air_date": "1982-05-12",
+    "number_of_seasons": 5,
+    "number_of_episodes": 82,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.231,
+    "poster_path": "/8q7uFuNuMWTWfcpnCpBuZa3KZXx.jpg",
+    "backdrop_path": "/vl2lLJcbbnTcvWH6ZfHlXuLxIaP.jpg",
+    "created_by": [
+      "Kenneth Johnson"
+    ],
+    "tagline": "Driven by rage. Pursued by an investigative reporter. Wanted for a murder he didn't commit. No one ever said it was easy being green."
+  },
+  {
+    "name": "Wonder Woman",
+    "slug": "wonder-woman",
+    "tmdbId": 4331,
+    "overview": "With the strength of Hercules, the wisdom of Athena, the speed of Mercury and the beauty of Aphrodite, she’s Wonder Woman. Beautiful Amazon princess Wonder Woman travels to 1940s America disguised as Diana Prince, assistant to handsome but trouble-prone Major Steve Trevor. Using her golden belt, which imbues her with astonishing strength, her bullet-deflecting bracelets, a golden lasso that dispels dishonesty and an invisible supersonic plane, Wonder Woman combats evil.",
+    "first_air_date": "1975-11-07",
+    "last_air_date": "1979-09-11",
+    "number_of_seasons": 3,
+    "number_of_episodes": 60,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "CBS",
+      "ABC"
+    ],
+    "vote_average": 7,
+    "poster_path": "/7vHxWO6ahByDWzWufFL48MXaktT.jpg",
+    "backdrop_path": "/qwPc8zjwUYTcpKWzvw7ux4cwClB.jpg",
+    "created_by": [
+      "Stanley Ralph Ross"
+    ],
+    "tagline": "From a land of myth, to a world in turmoil."
+  },
+  {
+    "name": "The Six Million Dollar Man",
+    "slug": "the-six-million-dollar-man",
+    "tmdbId": 1663,
+    "overview": "Follow the adventures of Steve Austin, cybernetically enhanced astronaut turned secret agent, employed by the OSI, under the command of Oscar Goldman and supervised by the scientist who created his cybernetics, Rudy Wells. Steve uses the superior strength and speed provided by his bionic arm and legs, and the enhanced vision provided by his artificial eye, to fight enemy agents, aliens, mad scientists, and a wide variety of other villains.",
+    "first_air_date": "1974-01-18",
+    "last_air_date": "1978-03-06",
+    "number_of_seasons": 5,
+    "number_of_episodes": 99,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.3,
+    "poster_path": "/5pd6DayQgZxK9lQHdZZYZuXyaZ2.jpg",
+    "backdrop_path": "/kRRYafjTZh8gnZDLKSg5imj80es.jpg",
+    "created_by": [
+      "Kenneth Johnson",
+      "Martin Caidin"
+    ],
+    "tagline": "Better. Stronger. Faster."
+  },
+  {
+    "name": "The Bionic Woman",
+    "slug": "the-bionic-woman",
+    "tmdbId": 2275,
+    "overview": "After fully recovering from her near fatal bout of bionic rejection, Jaime Sommers, the first female cyborg, is assigned to spy missions of her own.",
+    "first_air_date": "1976-01-14",
+    "last_air_date": "1978-05-13",
+    "number_of_seasons": 3,
+    "number_of_episodes": 58,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.94,
+    "poster_path": "/3V3XrXk1DSp1z0qsGOZRI1K2acd.jpg",
+    "backdrop_path": "/hK7iYSziOzETEok7kRPvZ2y0P2p.jpg",
+    "created_by": [
+      "Martin Caidin",
+      "Kenneth Johnson"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Charlie's Angels",
+    "slug": "charlies-angels",
+    "tmdbId": 3382,
+    "overview": "Beautiful, intelligent, and ultra-sophisticated, Charlie's Angels are everything a man could dream of... and way more than they could ever handle! Receiving their orders via speaker phone from their never seen boss, Charlie, the Angels employ their incomparable sleuthing and combat skills, as well as their lethal feminine charm, to crack even the most seemingly insurmountable of cases.",
+    "first_air_date": "1976-09-22",
+    "last_air_date": "1981-06-24",
+    "number_of_seasons": 5,
+    "number_of_episodes": 115,
+    "genres": [
+      "Action & Adventure"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.691,
+    "poster_path": "/jxyI5V4LZ5rHDrXv7NpPh4EBCAo.jpg",
+    "backdrop_path": "/jJVfPCkCbXrGOWtzfm1bhQg3HBq.jpg",
+    "created_by": [
+      "Ivan Goff",
+      "Ben Roberts"
+    ],
+    "tagline": "We're the one to turn to."
+  },
+  {
+    "name": "Battlestar Galactica",
+    "slug": "battlestar-galactica",
+    "tmdbId": 501,
+    "overview": "When the 12 Colonies of Man are wiped out by a cybernetic race called the Cylons, Commander Adama and the crew of the battlestar Galactica lead a ragtag fleet of human survivors in search of a \"mythical planet\" called Earth.",
+    "first_air_date": "1978-09-17",
+    "last_air_date": "1979-04-29",
+    "number_of_seasons": 1,
+    "number_of_episodes": 21,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.063,
+    "poster_path": "/27jl4H9PauenZlmVBbOO1pr1lGf.jpg",
+    "backdrop_path": "/88sdvwvX91VOYqGJUY1XQO84XIb.jpg",
+    "created_by": [
+      "Glen A. Larson"
+    ],
+    "tagline": "The Last Battlestar Galactica Leads a Rag Tag Fugitive Fleet on a Lonely Quest for a Shining Planet Known as...Earth."
+  },
+  {
+    "name": "The Muppet Show",
+    "slug": "the-muppet-show",
+    "tmdbId": 4459,
+    "overview": "Go behind the curtains as Kermit the Frog and his muppet friends struggle to put on a weekly variety show.",
+    "first_air_date": "1976-09-05",
+    "last_air_date": "1981-03-15",
+    "number_of_seasons": 5,
+    "number_of_episodes": 120,
+    "genres": [
+      "Kids",
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ITV1"
+    ],
+    "vote_average": 8,
+    "poster_path": "/x1aZsosXqaCpZTI12lLpNYIj6HX.jpg",
+    "backdrop_path": "/9UyPl2zR9dckpnmBWP6Xz4E6P3G.jpg",
+    "created_by": [
+      "Jim Henson"
+    ],
+    "tagline": "It's time to raise the curtain on The Muppet Show!"
+  },
+  {
+    "name": "Moonlighting",
+    "slug": "moonlighting",
+    "tmdbId": 1998,
+    "overview": "After being duped and going bankrupt, model Maddie is convinced by David to become a partner in a detective agency. Together they solve various cases, while getting comfortable with each other.",
+    "first_air_date": "1985-03-03",
+    "last_air_date": "1989-05-14",
+    "number_of_seasons": 5,
+    "number_of_episodes": 66,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.526,
+    "poster_path": "/yOetTNRQLPmlfO0k5377yhHZyC3.jpg",
+    "backdrop_path": "/mSn5IrrLB6drP1gfwydYAakZG7Y.jpg",
+    "created_by": [
+      "Glenn Gordon Caron"
+    ],
+    "tagline": "Detectives with a heart"
+  },
+  {
+    "name": "L.A. Law",
+    "slug": "la-law",
+    "tmdbId": 732,
+    "overview": "L.A. Law is an American television legal drama series that ran for eight seasons on NBC from September 15, 1986, to May 19, 1994.\n\nCreated by Steven Bochco and Terry Louise Fisher, it contained many of Bochco's trademark features including a large number of parallel storylines, social drama and off-the-wall humor. It reflected the social and cultural ideologies of the 1980s and early 1990s, and many of the cases featured on the show dealt with hot-topic issues such as abortion, racism, gay rights, homophobia, sexual harassment, AIDS, and domestic violence. The series often also reflected social tensions between the wealthy senior lawyer protagonists and their less well-paid junior staff.\n\nThe show was popular with audiences and critics, and won 15 Emmy Awards throughout its run, four of which were for Outstanding Drama Series.",
+    "first_air_date": "1986-09-15",
+    "last_air_date": "1994-05-19",
+    "number_of_seasons": 8,
+    "number_of_episodes": 171,
+    "genres": [
+      "Drama",
+      "War & Politics"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7,
+    "poster_path": "/hs1TBk6KlPBlnb7ybpqgK6IzcCx.jpg",
+    "backdrop_path": "/hoe6Kfn2UZ7EEyT7rLF6zO2HSk9.jpg",
+    "created_by": [
+      "Steven Bochco",
+      "Terry Louise Fisher"
+    ],
+    "tagline": "The professionals who will take you into the jungles of American justice"
+  },
+  {
+    "name": "St. Elsewhere",
+    "slug": "st-elsewhere",
+    "tmdbId": 30,
+    "overview": "St. Elsewhere is an American medical drama television series that originally ran on NBC from October 26, 1982 to May 25, 1988. The series starred Ed Flanders, Norman Lloyd and William Daniels as teaching doctors at a lightly-regarded Boston hospital who gave interns a promising future in making critical medical and life decisions.",
+    "first_air_date": "1982-10-26",
+    "last_air_date": "1988-05-25",
+    "number_of_seasons": 6,
+    "number_of_episodes": 137,
+    "genres": [
+      "Drama"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 5.572,
+    "poster_path": "/mEfcA56iisaOfnK8FsY1sSE2wLu.jpg",
+    "backdrop_path": "/heotfhl53QuJw3YGfNFLhsfZs27.jpg",
+    "created_by": [
+      "Joshua Brand",
+      "John Falsey",
+      "John Masius",
+      "Mark Tinker"
+    ],
+    "tagline": "It couldn't happen anywhere else."
+  },
+  {
+    "name": "The Waltons",
+    "slug": "the-waltons",
+    "tmdbId": 5021,
+    "overview": "The Waltons live their life in a rural Virginia community during the Great Depression and World War II.",
+    "first_air_date": "1972-09-14",
+    "last_air_date": "1981-06-04",
+    "number_of_seasons": 9,
+    "number_of_episodes": 210,
+    "genres": [
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.153,
+    "poster_path": "/51HX9eNn5ZPjRIngDvnk4KzFb1a.jpg",
+    "backdrop_path": "/ePMIf2Ba8oeyz9z9GpoyWFfbNaZ.jpg",
+    "created_by": [
+      "Earl Hamner, Jr."
+    ],
+    "tagline": "The Landmark Series That Celebrates Family."
+  },
+  {
+    "name": "Little House on the Prairie",
+    "slug": "little-house-on-the-prairie",
+    "tmdbId": 1781,
+    "overview": "When the big woods of Wisconsin becomes a difficult spot for hunting, Charles Ingalls reluctantly decides to move his family, pioneering west. Their life on the farm in Walnut Grove, Minnesota, in the 1870s and 1880s is full of adventure, tragedy, and triumph. Based on the books of Laura Ingalls Wilder.",
+    "first_air_date": "1974-09-11",
+    "last_air_date": "1983-03-21",
+    "number_of_seasons": 9,
+    "number_of_episodes": 200,
+    "genres": [
+      "Western",
+      "Drama",
+      "Family"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.909,
+    "poster_path": "/eVpvlqKZfEVsBOttNFTUyfPoA6K.jpg",
+    "backdrop_path": "/iDOTvlYESX1sjHySOEkThskXIxA.jpg",
+    "created_by": [
+      "Ed Friendly",
+      "Laura Ingalls Wilder"
+    ],
+    "tagline": "Together, a pioneering family faces a crucial test of its courage and its love!"
+  },
+  {
+    "name": "Eight Is Enough",
+    "slug": "eight-is-enough",
+    "tmdbId": 4382,
+    "overview": "Eight Is Enough is an American television comedy-drama series that ran on ABC from March 15, 1977, until August 29, 1981. The show was modeled after syndicated newspaper columnist Thomas Braden, a real-life parent with eight children, who wrote a book with the same name.",
+    "first_air_date": "1977-03-15",
+    "last_air_date": "1981-05-23",
+    "number_of_seasons": 5,
+    "number_of_episodes": 112,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.086,
+    "poster_path": "/grfzd62iFtkA68lRJCqMVZEVnSL.jpg",
+    "backdrop_path": "/v2M8qSIcNDUOZ5jaRznuKaux36D.jpg",
+    "created_by": [
+      "Lee Mendelson"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "One Day at a Time",
+    "slug": "one-day-at-a-time",
+    "tmdbId": 2191,
+    "overview": "The misadventures of a divorced mother,  two teenage daughters, and new building superintendent in Indianapolis.",
+    "first_air_date": "1975-12-16",
+    "last_air_date": "2005-02-22",
+    "number_of_seasons": 9,
+    "number_of_episodes": 210,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.767,
+    "poster_path": "/zheJWmmDRUYuApz83ZVrrPUjL2F.jpg",
+    "backdrop_path": "/kqIj29llhYSUu4xtJcJ1RAhUqDd.jpg",
+    "created_by": [
+      "Whitney Blake",
+      "Allan Manings"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Emergency!",
+    "slug": "emergency",
+    "tmdbId": 5375,
+    "overview": "The crew of Los Angeles County Fire Department Station 51, particularly the paramedic team, and Rampart Hospital respond to emergencies in their operating area.",
+    "first_air_date": "1972-01-22",
+    "last_air_date": "1979-07-03",
+    "number_of_seasons": 7,
+    "number_of_episodes": 128,
+    "genres": [
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.862,
+    "poster_path": "/or94yBr8bwDPYYY3n8OIu0Q32S3.jpg",
+    "backdrop_path": "/8hMDtSWCZPtD5iZIDLDpNkGfaCi.jpg",
+    "created_by": [
+      "Harold Jack Bloom",
+      "Robert A. Cinader",
+      "Jack Webb"
+    ],
+    "tagline": "Squad 51, this is Rampart. Continue to monitor patient and transport immediately."
+  },
+  {
+    "name": "B. J. and the Bear",
+    "slug": "bj-and-the-bear",
+    "tmdbId": 961,
+    "overview": "B.J. and the Bear is an American comedy series which aired on NBC from 1979 to 1981. Created by Christopher Crowe and Glen A. Larson, the series stars Greg Evigan and Claude Akins.",
+    "first_air_date": "1979-02-10",
+    "last_air_date": "1981-05-09",
+    "number_of_seasons": 3,
+    "number_of_episodes": 46,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 5.5,
+    "poster_path": "/pFYowtsK6oYOZySPnNXf4TlIoBT.jpg",
+    "backdrop_path": "/8TQt5QLoayQVojcs8QzbGWOXgrw.jpg",
+    "created_by": [
+      "Glen A. Larson"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Land of the Lost",
+    "slug": "land-of-the-lost",
+    "tmdbId": 2177,
+    "overview": "Rick Marshall and his children Will and Holly are on a weekend expedition rafting down a river when an enormous earthquake diverts them to an eclectic alien world inhabited by dinosaurs, chimpanzee-like cavemen called Pakuni, and aggressive, humanoid lizard creatures called Sleestak.",
+    "first_air_date": "1974-09-07",
+    "last_air_date": "1976-12-04",
+    "number_of_seasons": 3,
+    "number_of_episodes": 43,
+    "genres": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Family",
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.1,
+    "poster_path": "/4AvO1tZUsoupwSQ0Aetr93JJJIf.jpg",
+    "backdrop_path": "/kJB50LyeILumAAhSJetPtpiHLmD.jpg",
+    "created_by": [
+      "Marty Krofft",
+      "Sid Krofft"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Fraggle Rock",
+    "slug": "fraggle-rock",
+    "tmdbId": 2957,
+    "overview": "The Fraggles are a fun-loving community of creatures who live in a subterranean fantasy land where they love to play, sing and dance their cares away, sharing their world with the tiny Doozers and the giant Gorgs. The series teaches empathy and tolerance and encourages children to understand people different from themselves.",
+    "first_air_date": "1983-01-10",
+    "last_air_date": "1987-03-30",
+    "number_of_seasons": 5,
+    "number_of_episodes": 96,
+    "genres": [
+      "Kids",
+      "Family",
+      "Sci-Fi & Fantasy",
+      "Comedy"
+    ],
+    "networks": [
+      "HBO"
+    ],
+    "vote_average": 7.299,
+    "poster_path": "/nyvNej9aHC2wydFflPMrASS6MF7.jpg",
+    "backdrop_path": "/fyUt0I4tSnclpg7WZJVRKHMSjcz.jpg",
+    "created_by": [
+      "Jim Henson"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "T. J. Hooker",
+    "slug": "tj-hooker",
+    "tmdbId": 1059,
+    "overview": "Sergeant Thomas Jefferson Hooker is a tough-as-nails veteran police officer with the LCPD who turns his back on a gold badge and goes back to patrolling the streets and training recruits. Along with his young partners in blue, Hooker take on Lake City's toughest criminals.",
+    "first_air_date": "1982-03-13",
+    "last_air_date": "1986-05-28",
+    "number_of_seasons": 5,
+    "number_of_episodes": 91,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "ABC",
+      "CBS"
+    ],
+    "vote_average": 6.473,
+    "poster_path": "/zcHUwD20mqMD4g8LKdpKD12QRhE.jpg",
+    "backdrop_path": "/4pNHwINB5yGbVoZk5Ck0iPApctZ.jpg",
+    "created_by": [
+      "Aaron Spelling",
+      "Rick Husky"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Hotel",
+    "slug": "hotel",
+    "tmdbId": 3437,
+    "overview": "Hotel is an American prime time drama series which aired on ABC from September 21, 1983 to May 5, 1988 in the timeslot following Dynasty.\n\nBased on Arthur Hailey's 1965 novel of the same name, the series was produced by Aaron Spelling and set in the elegant and fictitious St. Gregory Hotel in San Francisco. Establishing shots of the hotel were filmed in front of The Fairmont San Francisco atop the Nob Hill neighborhood. Episodes followed the activities of passing guests, as well as the personal and professional lives of the hotel staff.",
+    "first_air_date": "1982-08-21",
+    "last_air_date": "1988-05-05",
+    "number_of_seasons": 5,
+    "number_of_episodes": 115,
+    "genres": [
+      "Drama",
+      "Soap"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.8,
+    "poster_path": "/bYOQJm7O7cEPvkcMp3VI6TSP6Eg.jpg",
+    "backdrop_path": "/h8A6J31szyLPWU2HXS2wZkp8aQa.jpg",
+    "created_by": [
+      "Aaron Spelling"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Trapper John, M.D.",
+    "slug": "trapper-john-md",
+    "tmdbId": 1039,
+    "overview": "Trapper John, M.D. is an American television medical drama and spin-off of the film MASH, concerning a lovable doctor who became a mentor and father figure in San Francisco, California. The show ran on CBS from September 23, 1979, to September 4, 1986.",
+    "first_air_date": "1979-09-23",
+    "last_air_date": "1986-09-04",
+    "number_of_seasons": 7,
+    "number_of_episodes": 151,
+    "genres": [
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.5,
+    "poster_path": "/rUqIscf4OwAs061JVDh3wdNRye9.jpg",
+    "backdrop_path": "/bJEWmOZp0EGjKAbezny2zpkmw0o.jpg",
+    "created_by": [
+      "Don Brinkley",
+      "Frank Glicksman"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Hardcastle and McCormick",
+    "slug": "hardcastle-and-mccormick",
+    "tmdbId": 1271,
+    "overview": "Hardcastle and McCormick is an American action/drama television series from Stephen J. Cannell Productions, shown on ABC from 1983 through 1986. The series stars Brian Keith as Judge Milton C. Hardcastle and Daniel Hugh Kelly as ex-con and race car driver Mark \"Skid\" McCormick. The series premise was somewhat recycled from a previous Cannell series, Tenspeed and Brown Shoe.",
+    "first_air_date": "1983-09-18",
+    "last_air_date": "1986-05-05",
+    "number_of_seasons": 3,
+    "number_of_episodes": 67,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.375,
+    "poster_path": "/d3ZWBPAlcmYwvA183aI5z1mosv7.jpg",
+    "backdrop_path": "/bxpXQzeYxpAaSGAbTQ3PCSSppLa.jpg",
+    "created_by": [
+      "Stephen J. Cannell"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Spenser: For Hire",
+    "slug": "spenser-for-hire",
+    "tmdbId": 996,
+    "overview": "Mystery and suspense series based on Robert Parker's \"Spenser\" novels. Spenser, a private investigator living in Boston, gets involved in a new murder mystery each episode.",
+    "first_air_date": "1985-09-20",
+    "last_air_date": "1988-05-07",
+    "number_of_seasons": 3,
+    "number_of_episodes": 65,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Mystery"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.7,
+    "poster_path": "/8n4O7Reyk5es5iyzQk7zfNvuMJ9.jpg",
+    "backdrop_path": "/fqAaKOgE0nWDBYgKy7DrQ5vcp7Q.jpg",
+    "created_by": [
+      "Robert B. Parker",
+      "John Wilder"
+    ],
+    "tagline": "A lot of people think I like to get even. They're dead right."
+  },
+  {
+    "name": "Wiseguy",
+    "slug": "wiseguy",
+    "tmdbId": 6550,
+    "overview": "Vinnie Terranova does time in a New Jersey penitentiary to set up his undercover role as an agent for the OCB (Organized Crime Bureau) of the United States. His roots in a traditional Italian city neighborhood form the underlying dramatic base throughout the series, bringing him into conflict with his conservative mother and other family members while acting undercover as syndicate enforcer.",
+    "first_air_date": "1987-09-16",
+    "last_air_date": "1990-12-22",
+    "number_of_seasons": 4,
+    "number_of_episodes": 75,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.5,
+    "poster_path": "/pDKRxvfp5vB3FrHZ0g3oHvnHQKG.jpg",
+    "backdrop_path": "/aeJjEI77LBvtQTmQKK0jYhHZ3sR.jpg",
+    "created_by": [
+      "Frank Lupo",
+      "Stephen J. Cannell"
+    ],
+    "tagline": "With friends like his who needs enemies"
+  },
+  {
+    "name": "Crime Story",
+    "slug": "crime-story",
+    "tmdbId": 2966,
+    "overview": "The hard-boiled saga of hair-trigger cop Lieutenant Mike Torello and his obsessive pursuit of ruthless gangster Ray Luca.",
+    "first_air_date": "1986-09-19",
+    "last_air_date": "1988-05-10",
+    "number_of_seasons": 2,
+    "number_of_episodes": 43,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Action & Adventure",
+      "Mystery"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 8,
+    "poster_path": "/he4iKKlgXnT7kPAjvYFeREiHPmj.jpg",
+    "backdrop_path": "/pCF7Pyuy7bioVx1PIeRu9vTI1Tu.jpg",
+    "created_by": [
+      "Gustave Reininger",
+      "Chuck Adamson"
+    ],
+    "tagline": "You posin' for pictures? Or you gonna pull the trigger?"
+  },
+  {
+    "name": "Riptide",
+    "slug": "riptide",
+    "tmdbId": 4379,
+    "overview": "The cases of a private investigations agency run by two Vietnam War veterans and their computer geek friend from high school, armed with toughness, their own helicopter, and the third's technical ability.",
+    "first_air_date": "1984-01-03",
+    "last_air_date": "1986-04-22",
+    "number_of_seasons": 3,
+    "number_of_episodes": 56,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.772,
+    "poster_path": "/1bw5CgVgGDbPSX6YMo81x1ND9s2.jpg",
+    "backdrop_path": "/h4eeNs1ODQpx8RrILsxTmMt7aqR.jpg",
+    "created_by": [
+      "Frank Lupo",
+      "Stephen J. Cannell"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "ThunderCats",
+    "slug": "thundercats",
+    "tmdbId": 1988,
+    "overview": "The inhabitants of the planet Thundera evacuate just before it is destroyed. They were pursued by a band of mutants. All but one of their escape ships was destroyed. Only a small group of Thunderians (Thundercats) remained. With only half engine power, the group, which was led by Jaga, had to set a course for the nearest planet. Jaga commanded their ship while the other seven were in their stasis tubes. Jaga died on their journey to Third Earth and their ship crashed there. Soon they made friends with various groups in the area and they designed a fortress. Mumm-Ra the centuries-old embodiment of evil, along with the mutants that destroyed the rest of the Thunderians are a constant threat. But Lion-O, the new leader of the Thundercats, with his weapon the \"Sword of Omens\" will help the Thundercats to have a standing chance.",
+    "first_air_date": "1985-01-23",
+    "last_air_date": "1989-09-29",
+    "number_of_seasons": 4,
+    "number_of_episodes": 130,
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Kids"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 8.244,
+    "poster_path": "/6TO2Ma9S6lhlZaXRNH7OVuPwh0U.jpg",
+    "backdrop_path": "/lWsof34OJY8VV691mZxNq97cKkX.jpg",
+    "created_by": [
+      "Theodore Walter Wolf"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "He-Man and the Masters of the Universe",
+    "slug": "he-man",
+    "tmdbId": 931,
+    "overview": "When Adam, Prince of the planet Eternia, raises his magic sword he transforms into He-Man (the most powerful man in the universe).  With his allies and friends, he battles the evil Skeletor and his minions to protect the secrets of Castle Grayskull.",
+    "first_air_date": "1983-09-05",
+    "last_air_date": "1984-12-08",
+    "number_of_seasons": 2,
+    "number_of_episodes": 130,
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Kids"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 7.311,
+    "poster_path": "/tawmMe0D3ncyzEmmfMraGucXBCA.jpg",
+    "backdrop_path": "/3sTfEJ0kE8C4SUkiVH2ZzWb5aDe.jpg",
+    "created_by": [
+      "Roger Sweet"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "G.I. Joe: A Real American Hero",
+    "slug": "gi-joe",
+    "tmdbId": 29200,
+    "overview": "G.I. Joe: A Real American Hero is a half-hour American animated television series based on the successful toyline from Hasbro and the comic book series from Marvel Comics. The cartoon had its beginnings with two five-part mini-series in 1983 and 1984, then became a regular series that ran in syndication from 1985 to 1986. Ron Friedman created the G.I. Joe animated series for television, and wrote all four miniseries. The fourth mini-series was intended to be a feature film, but due to production difficulties was released as a television mini-series.",
+    "first_air_date": "1983-09-12",
+    "last_air_date": "1992-01-20",
+    "number_of_seasons": 4,
+    "number_of_episodes": 139,
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Kids"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 7.6,
+    "poster_path": "/nq3hyd68PeUbm1Wz3nQMkUUaYZ1.jpg",
+    "backdrop_path": "/f7otxzK1w3sBxT8PeHJCFTb8ebf.jpg",
+    "created_by": [
+      "Ron Friedman"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Transformers: Super-God Masterforce",
+    "slug": "transformers",
+    "tmdbId": 11841,
+    "overview": "Transformers: Super-God Masterforce aired on Japanese television from 1988 to 1989. Taking place after Transformers: Headmasters, it is the story of how Metalhawk and his small team of Autobots must protect Earth from the mysterious Devil Z and his Decepticon forces. Humans play many prominent roles in Masterforce, from the Decepticon husband-wife team of Giga and Mega to the Autobot's Junior Headmasters and the reluctantly-recruited Ginrai. Masterforce is often considered second only to Transformers: Victory as a fan favorite.",
+    "first_air_date": "1988-04-12",
+    "last_air_date": "1989-02-28",
+    "number_of_seasons": 1,
+    "number_of_episodes": 42,
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "Nippon TV"
+    ],
+    "vote_average": 7.857,
+    "poster_path": "/9FZN0h7GIxZbaKRZ2b6tMqIsacp.jpg",
+    "backdrop_path": "/dbkN1Nmj0pbL9sjjL0ePHzBtDZB.jpg",
+    "created_by": [
+      "Masumi Kaneda"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Simpsons",
+    "slug": "the-simpsons",
+    "tmdbId": 456,
+    "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+    "first_air_date": "1989-12-17",
+    "last_air_date": "2026-02-15",
+    "number_of_seasons": 37,
+    "number_of_episodes": 801,
+    "genres": [
+      "Family",
+      "Animation",
+      "Comedy"
+    ],
+    "networks": [
+      "FOX"
+    ],
+    "vote_average": 8.011,
+    "poster_path": "/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
+    "backdrop_path": "/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+    "created_by": [
+      "Matt Groening"
+    ],
+    "tagline": "Just a product of society that's lost its good manners."
+  },
+  {
+    "name": "Star Trek: The Next Generation",
+    "slug": "star-trek-the-next-generation",
+    "tmdbId": 655,
+    "overview": "Follow the intergalactic adventures of Capt. Jean-Luc Picard and his loyal crew aboard the all-new USS Enterprise NCC-1701D, as they explore new worlds.",
+    "first_air_date": "1987-09-28",
+    "last_air_date": "1994-05-23",
+    "number_of_seasons": 7,
+    "number_of_episodes": 176,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 8.37,
+    "poster_path": "/vkLzXddgUKH5VcpnYiRzpJFrZhz.jpg",
+    "backdrop_path": "/qmliLoo6GVheM2FihatlAXxCKyF.jpg",
+    "created_by": [
+      "Gene Roddenberry"
+    ],
+    "tagline": "New stars. New stories. New worlds to explore."
+  },
+  {
+    "name": "Tales from the Crypt",
+    "slug": "tales-from-the-crypt",
+    "tmdbId": 2391,
+    "overview": "Cadaverous scream legend the Crypt Keeper is your macabre host for these forays of fright and fun based on the classic E.C. Comics tales from back in the day. So shamble up to the bar and pick your poison. Will it be an insane Santa on a personal slay ride? Honeymooners out to fulfill the \"til death do we part\" vow ASAP?",
+    "first_air_date": "1989-06-10",
+    "last_air_date": "1996-07-19",
+    "number_of_seasons": 7,
+    "number_of_episodes": 81,
+    "genres": [
+      "Comedy",
+      "Mystery",
+      "Crime",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "HBO"
+    ],
+    "vote_average": 7.954,
+    "poster_path": "/265Gpw7wSwwMkUQlksot8B2chRg.jpg",
+    "backdrop_path": "/nwtdRZHTlDqYwuJDc7oVQueHY2l.jpg",
+    "created_by": [
+      "William M. Gaines",
+      "Steven Dodd"
+    ],
+    "tagline": "Dead-On Humor and Horror."
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles",
+    "slug": "teenage-mutant-ninja-turtles",
+    "tmdbId": 160,
+    "overview": "Four turtles fall into the sewers and are befriended by Hamato Yoshi a Japanese man sent to New York who was forced to live in the sewers. One day he sees a strange green glow which transforms the four turtles into human-like creatures. Hamato (now Master Splinter) changes into a giant rat from the green glow and teaches the turtles the skills of the ninja as they team up with news reporter April O'Neil to battle against Yoshi's arch enemy Shredder and Krang, an alien warlord from Dimension X.",
+    "first_air_date": "1987-12-14",
+    "last_air_date": "1996-11-02",
+    "number_of_seasons": 10,
+    "number_of_episodes": 193,
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Comedy",
+      "Kids"
+    ],
+    "networks": [
+      "CBS",
+      "USA Network",
+      "Syndication"
+    ],
+    "vote_average": 7.754,
+    "poster_path": "/AaihPizftZo5YCqzEgHMwkceaEo.jpg",
+    "backdrop_path": "/s1Kr1RntP2b8MdUKTYJxNmcVEBP.jpg",
+    "created_by": [],
+    "tagline": ""
+  },
+  {
+    "name": "Fawlty Towers",
+    "slug": "fawlty-towers",
+    "tmdbId": 2207,
+    "overview": "Owner Basil Fawlty, his wife Sybil, a chambermaid Polly, and Spanish waiter Manuel attempt to run their hotel amidst farcical situations and an array of demanding guests.",
+    "first_air_date": "1975-09-19",
+    "last_air_date": "1979-10-25",
+    "number_of_seasons": 2,
+    "number_of_episodes": 12,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "BBC Two"
+    ],
+    "vote_average": 8.281,
+    "poster_path": "/tvTYIjujN87dcKAmSLqcvAahykH.jpg",
+    "backdrop_path": "/3G1uNDOGJWLNTOzjkdVphVlRmli.jpg",
+    "created_by": [
+      "Connie Booth",
+      "John Cleese"
+    ],
+    "tagline": "Don’t mention the war!"
+  },
+  {
+    "name": "DuckTales",
+    "slug": "ducktales",
+    "tmdbId": 720,
+    "overview": "Scrooge McDuck finds his hands full at home when nephews Huey, Dewey and Louie move to Duckburg. Joined by their loyal pals Launchpad McQuack, Gyro Gearloose and Mrs. Beakley, the DuckTales gang never fails to deliver a wealth of adventure. Get ready for a fortune of fun with DuckTales!",
+    "first_air_date": "1987-09-18",
+    "last_air_date": "1990-11-28",
+    "number_of_seasons": 4,
+    "number_of_episodes": 101,
+    "genres": [
+      "Animation",
+      "Mystery",
+      "Sci-Fi & Fantasy",
+      "Comedy",
+      "Kids"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 7.672,
+    "poster_path": "/muplnM90daPCQ5Bn1olcwN1EO22.jpg",
+    "backdrop_path": "/myI4QvUU18UiGglr6NEjNkciXOk.jpg",
+    "created_by": [
+      "Jymn Magon"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Smurfs",
+    "slug": "the-smurfs",
+    "tmdbId": 5687,
+    "overview": "Classic Saturday-morning cartoon series featuring magical blue elf-like creatures called Smurfs. The Smurfs, named for their personalities, inhabit a village of mushroom houses in an enchanted forest. These loveable creatures are led by Papa Smurf and live carefree... except for one major threat to their existance: Gargamel, an evil but inept wizard who lives in a stone-built house in the forest; and his feline companion, the equally nasty Azrael. ",
+    "first_air_date": "1981-09-12",
+    "last_air_date": "1989-12-02",
+    "number_of_seasons": 9,
+    "number_of_episodes": 422,
+    "genres": [
+      "Animation",
+      "Family",
+      "Sci-Fi & Fantasy",
+      "Kids",
+      "Comedy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.976,
+    "poster_path": "/cezQyM5cO454vUdLiLOkv78K64D.jpg",
+    "backdrop_path": "/1szJqm8ksrwbPheLfEZn2ohTGbg.jpg",
+    "created_by": [
+      "Peyo"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Chip 'n' Dale Rescue Rangers",
+    "slug": "chip-n-dale-rescue-rangers",
+    "tmdbId": 1615,
+    "overview": "Chip and Dale head a small, eccentric group of animal characters who monitor not only the human world, but the animal community as well, solving mysteries wherever they may be. The \"Rescue Rangers\" take the cases that fall through the cracks.",
+    "first_air_date": "1989-03-04",
+    "last_air_date": "1990-11-19",
+    "number_of_seasons": 3,
+    "number_of_episodes": 65,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Kids",
+      "Family",
+      "Action & Adventure"
+    ],
+    "networks": [
+      "Disney Channel",
+      "Syndication"
+    ],
+    "vote_average": 7.579,
+    "poster_path": "/44VE1LaaZq4bZhMDo6Yi29NO4H.jpg",
+    "backdrop_path": "/2yXFFErpVFDPbiQZqvJSomR2fIM.jpg",
+    "created_by": [
+      "Tad Stones",
+      "Alan Zaslove"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Agatha Christie's Poirot",
+    "slug": "agatha-christies-poirot",
+    "tmdbId": 790,
+    "overview": "From England to Egypt, accompanied by his elegant and trustworthy sidekicks, the intelligent yet eccentrically-refined Belgian detective Hercule Poirot pits his wits against a collection of first class deceptions.",
+    "first_air_date": "1989-01-08",
+    "last_air_date": "2013-11-13",
+    "number_of_seasons": 13,
+    "number_of_episodes": 70,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "ITV1"
+    ],
+    "vote_average": 8.181,
+    "poster_path": "/6f4IVfbn8knb7RjdZlGLuW5guDc.jpg",
+    "backdrop_path": "/rwxxDbG9Kijki7CkmB4k64MSbte.jpg",
+    "created_by": [],
+    "tagline": ""
+  },
+  {
+    "name": "Blackadder",
+    "slug": "blackadder",
+    "tmdbId": 7246,
+    "overview": "Black Adder traces the deeply cynical and self-serving lineage of various Edmund Blackadders throughout British history, from the muck of the Middle Ages to the frontline of the First World War.",
+    "first_air_date": "1983-06-15",
+    "last_air_date": "1989-11-02",
+    "number_of_seasons": 4,
+    "number_of_episodes": 24,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "BBC One"
+    ],
+    "vote_average": 7.971,
+    "poster_path": "/y3rXOeklqhZ7BTBveW5WLJqyjgU.jpg",
+    "backdrop_path": "/ArLn4fRjLqqMtyPTB22qaTK4Cxt.jpg",
+    "created_by": [
+      "Richard Curtis",
+      "Rowan Atkinson",
+      "Ben Elton"
+    ],
+    "tagline": "The most gripping sitcom since 1380."
+  },
+  {
+    "name": "Baywatch",
+    "slug": "baywatch",
+    "tmdbId": 4386,
+    "overview": "Join the Baywatch lifeguards on their thrilling adventures filled with beautiful beaches and those iconic red swimsuits.",
+    "first_air_date": "1989-04-23",
+    "last_air_date": "2001-05-14",
+    "number_of_seasons": 11,
+    "number_of_episodes": 242,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "NBC",
+      "Syndication"
+    ],
+    "vote_average": 5.973,
+    "poster_path": "/34t8WxHn1OcIVpcTxmjYmjX9tE4.jpg",
+    "backdrop_path": "/vrH6fiKBR1OvRmu4EcLSNtIEYsU.jpg",
+    "created_by": [
+      "Michael Berk",
+      "Douglas Schwartz",
+      "Gregory J. Bonann"
+    ],
+    "tagline": "Cause I'm always ready, I won't let you out of my sight"
+  },
+  {
+    "name": "Police Squad!",
+    "slug": "police-squad",
+    "tmdbId": 6024,
+    "overview": "In this cult parody of cop dramas, replete with farce and sight gags, Lieutenant Frank Drebin and his fellow officers from Police Squad bungle their way though crime investigations.",
+    "first_air_date": "1982-03-04",
+    "last_air_date": "1982-07-08",
+    "number_of_seasons": 1,
+    "number_of_episodes": 6,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.874,
+    "poster_path": "/nTysaMSwBxy7FLK7M6ivfm6BVRc.jpg",
+    "backdrop_path": "/1u4GWKCitJWWkBWU3FP4cBG6non.jpg",
+    "created_by": [
+      "Jerry Zucker",
+      "David Zucker",
+      "Jim Abrahams"
+    ],
+    "tagline": "There are 8 million stories in the Naked City. Here are six."
+  },
+  {
+    "name": "Inspector Gadget",
+    "slug": "inspector-gadget",
+    "tmdbId": 4035,
+    "overview": "Inspector Gadget is a clumsy, dim-witted human cyborg detective with various bionic gadgets built into his body. Gadget stumbles around working the cases while his niece and dog do most of the investigating. Gadget's arch-nemesis is Dr. Claw, the leader of an evil organisation, known as \"M.A.D.\"",
+    "first_air_date": "1983-09-05",
+    "last_air_date": "1985-11-13",
+    "number_of_seasons": 2,
+    "number_of_episodes": 86,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Kids",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 6.853,
+    "poster_path": "/j9ePYXtL3giEJq6ZVh4kDaUU0o4.jpg",
+    "backdrop_path": "/vWaIxifDJeKXq4igHTOE5epqcop.jpg",
+    "created_by": [
+      "Jean Chalopin",
+      "Andy Heyward",
+      "Bruno Bianchi"
+    ],
+    "tagline": "Don't worry, chief. Inspector Gadget is always on duty."
+  },
+  {
+    "name": "Red Dwarf",
+    "slug": "red-dwarf",
+    "tmdbId": 326,
+    "overview": "The adventures of the last human alive and his friends, stranded three million years into deep space on the mining ship Red Dwarf.",
+    "first_air_date": "1988-02-15",
+    "last_air_date": "2017-11-16",
+    "number_of_seasons": 12,
+    "number_of_episodes": 73,
+    "genres": [
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "BBC Two",
+      "U&Dave"
+    ],
+    "vote_average": 8.067,
+    "poster_path": "/cU9RFlyvJXbzyCzCGRqRmZrTDZU.jpg",
+    "backdrop_path": "/gBeHadaylDePYy6Gy2xyDVeYLkP.jpg",
+    "created_by": [
+      "Doug Naylor",
+      "Rob Grant"
+    ],
+    "tagline": "Smeg Head!"
+  },
+  {
+    "name": "Cosmos: A Personal Voyage",
+    "slug": "cosmos-a-personal-voyage",
+    "tmdbId": 1430,
+    "overview": "Carl Sagan covers a wide range of scientific subjects, including the origin of life and a perspective of our place in the universe.",
+    "first_air_date": "1980-09-28",
+    "last_air_date": "1980-12-21",
+    "number_of_seasons": 1,
+    "number_of_episodes": 13,
+    "genres": [
+      "Documentary"
+    ],
+    "networks": [
+      "PBS"
+    ],
+    "vote_average": 8.612,
+    "poster_path": "/nOGArjE0WMkzY2GW1taJm8l9gxD.jpg",
+    "backdrop_path": "/hjJ5XDKP7XY2ADUuMdHM5NsC32s.jpg",
+    "created_by": [
+      "Carl Sagan"
+    ],
+    "tagline": "If you wish to make an apple pie from scratch, you must first invent the universe."
+  },
+  {
+    "name": "The Transformers",
+    "slug": "the-transformers",
+    "tmdbId": 4269,
+    "overview": "The Transformers is the first animated television series in the Transformers franchise. The series depicts a war among giant robots that can transform into vehicles and other objects.",
+    "first_air_date": "1984-10-06",
+    "last_air_date": "1987-11-11",
+    "number_of_seasons": 4,
+    "number_of_episodes": 95,
+    "genres": [
+      "Animation",
+      "Kids",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 7.8,
+    "poster_path": "/h4DvodvcLWh7xdpj872Bq0V2DKS.jpg",
+    "backdrop_path": "/1XpTPpBDqMrP1USdJIiH2oBd7UU.jpg",
+    "created_by": [],
+    "tagline": "More than Meets the Eye!"
+  },
+  {
+    "name": "Garfield and Friends",
+    "slug": "garfield-and-friends",
+    "tmdbId": 4606,
+    "overview": "The animated stories of Garfield the cat, Odie the dog, their owner Jon and the trouble they get into. And also Orson the Pig and his adventures on a farm with his fellow farm animals.",
+    "first_air_date": "1988-09-17",
+    "last_air_date": "1994-12-10",
+    "number_of_seasons": 7,
+    "number_of_episodes": 363,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Kids"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.275,
+    "poster_path": "/pE6l6I1ICKOu4pDUXxkl87TTLZx.jpg",
+    "backdrop_path": "/69g8NnStOySjRgaRQxmV21gSrrF.jpg",
+    "created_by": [
+      "Jim Davis"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Roseanne",
+    "slug": "roseanne",
+    "tmdbId": 2706,
+    "overview": "A working-class family struggles to get by on a limited income in the fictional town of Lanford, Illinois.",
+    "first_air_date": "1988-10-18",
+    "last_air_date": "2018-05-22",
+    "number_of_seasons": 10,
+    "number_of_episodes": 231,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.774,
+    "poster_path": "/4UARHgxTm7xwhcEHiVDwF0Gv4j0.jpg",
+    "backdrop_path": "/hwCKVqEAoPQK91I3ewx64N1zLhS.jpg",
+    "created_by": [
+      "Matt Williams"
+    ],
+    "tagline": "The first family that made you feel better about your own!"
+  },
+  {
+    "name": "Robotech",
+    "slug": "robotech",
+    "tmdbId": 2192,
+    "overview": "Robotech is an 85-episode adaptation of three different anime television series made between 1982-1984 in Japan; the adaptation was aired in 1985. Within the combined and edited story, Robotechnology refers to the scientific advances discovered in an alien starship that crashed on a South Pacific island. With this technology, Earth developed giant robotic machines or mecha to fight three successive extraterrestrial invasions.",
+    "first_air_date": "1985-03-04",
+    "last_air_date": "1985-06-28",
+    "number_of_seasons": 3,
+    "number_of_episodes": 85,
+    "genres": [
+      "Animation",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 8.521,
+    "poster_path": "/f3SIr4To9Tuie4I9D2U41XsIbpC.jpg",
+    "backdrop_path": "/aEvoRR2lcesBoKJSSqDqsppQrKJ.jpg",
+    "created_by": [],
+    "tagline": ""
+  },
+  {
+    "name": "Family Matters",
+    "slug": "family-matters",
+    "tmdbId": 2685,
+    "overview": "A long-running dramedy centering on the Winslow family, a middle-class African American family living in Chicago, and their pesky next-door neighbor, ultra-nerd Steve Urkel. A spin-off of Perfect Strangers.",
+    "first_air_date": "1989-09-22",
+    "last_air_date": "1998-07-17",
+    "number_of_seasons": 9,
+    "number_of_episodes": 215,
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC",
+      "CBS"
+    ],
+    "vote_average": 6.754,
+    "poster_path": "/lIIPV3te2mxBQBHw2rfhwkUYsHf.jpg",
+    "backdrop_path": "/73Ii6WOmDGTccVe3rBZOr82Zfo8.jpg",
+    "created_by": [
+      "Michael Warren",
+      "William Bickley"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "SilverHawks",
+    "slug": "silverhawks",
+    "tmdbId": 12504,
+    "overview": "Bionic policemen fight an escaped alien mob boss and his gang in space.",
+    "first_air_date": "1986-09-08",
+    "last_air_date": "1986-12-05",
+    "number_of_seasons": 1,
+    "number_of_episodes": 65,
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Kids"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 8.15,
+    "poster_path": "/mOEWtpkuqNMfY9c2UcWEIDQzo0o.jpg",
+    "backdrop_path": "/vJ8sC43It7bG2W9Ct6gALMJpINe.jpg",
+    "created_by": [
+      "Theodore Walter Wolf"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Scooby-Doo and Scrappy-Doo",
+    "slug": "scooby-doo-and-scrappy-doo",
+    "tmdbId": 6005,
+    "overview": "Everyone’s favorite mystery-solving Great Dane is here to find clues, along with a little help from his energetic nephew and four human companions.",
+    "first_air_date": "1979-09-22",
+    "last_air_date": "1982-12-18",
+    "number_of_seasons": 4,
+    "number_of_episodes": 115,
+    "genres": [
+      "Animation",
+      "Mystery",
+      "Comedy",
+      "Family",
+      "Kids"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.5,
+    "poster_path": "/ctxdYzdqSlrfKrqEo3bLSrrMLSP.jpg",
+    "backdrop_path": "/1ISPXD33qsdo9dBvhC90S60wdBK.jpg",
+    "created_by": [
+      "Ken Spears",
+      "Joe Ruby",
+      "William Hanna",
+      "Joseph Barbera"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Only Fools and Horses",
+    "slug": "only-fools-and-horses",
+    "tmdbId": 72,
+    "overview": "Only Fools and Horses.... Is a British sitcom created and written by John Sullivan. Seven series were originally transmitted on BBC One from 1981 to 1991, with sixteen sporadic Christmas specials aired until 2003.\n\nIn working-class Peckham in south-east London, ambitious market trader Derek 'Del Boy' Trotter and his younger half-brother Rodney, explore their highs and lows in life, in particular their attempts to get rich.\n\nInitially not an immediate hit and receiving little promotion early on, it later achieved consistently high ratings, and the 1996 episode \"Time on Our Hands\" (originally billed as the series finale) holds the record for the biggest UK audience for a sitcom episode, attracting 24.3 million viewers. The series bears a significant influence on British culture, contributing several words and phrases to the English language.",
+    "first_air_date": "1981-09-08",
+    "last_air_date": "1991-02-03",
+    "number_of_seasons": 7,
+    "number_of_episodes": 45,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "BBC One"
+    ],
+    "vote_average": 8.054,
+    "poster_path": "/8QznQBwr4aqPIQTiymL7obM3qOK.jpg",
+    "backdrop_path": "/K8oVAMcE19IvzJsPlRVfDnB4Zq.jpg",
+    "created_by": [
+      "John Sullivan"
+    ],
+    "tagline": "This time next year, we'll be millionaires!"
+  },
+  {
+    "name": "A Pup Named Scooby-Doo",
+    "slug": "a-pup-named-scooby-doo",
+    "tmdbId": 418,
+    "overview": "The world's favorite chicken-hearted canine, as a puppy? That's right! And the old gang is back with him. Shaggy, Daphne, Velma, and Freddy are all here as gangly kids — goofing off, solving kid-size mysteries, and having run-ins with ghouls, ghosts, and goblins.",
+    "first_air_date": "1988-09-10",
+    "last_air_date": "1991-08-17",
+    "number_of_seasons": 4,
+    "number_of_episodes": 30,
+    "genres": [
+      "Animation",
+      "Mystery",
+      "Comedy",
+      "Family",
+      "Kids"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.53,
+    "poster_path": "/1KLZCKbql421IIORH1GGQn1R5Qh.jpg",
+    "backdrop_path": "/tnGkk8SH68n6DbcFg3J4oVKA5Ml.jpg",
+    "created_by": [
+      "Tom Ruegger"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Real Ghostbusters",
+    "slug": "the-real-ghostbusters",
+    "tmdbId": 2286,
+    "overview": "The continuing adventures of paranormal investigators Dr. Peter Venkman, Dr. Egon Spengler, Dr. Ray Stantz, Winston Zeddemore, their secretary Janine Melnitz and their mascot ghost Slimer.",
+    "first_air_date": "1986-09-13",
+    "last_air_date": "1991-10-05",
+    "number_of_seasons": 7,
+    "number_of_episodes": 140,
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Comedy",
+      "Kids"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.7,
+    "poster_path": "/jsBHJJkMh2CqhKOea84Ek05w9D8.jpg",
+    "backdrop_path": "/fE1HSYnlUlGYBdq81oLuiOnTDC7.jpg",
+    "created_by": [
+      "Dan Aykroyd",
+      "Harold Ramis"
+    ],
+    "tagline": "Who you gonna call? Ghostbusters!"
+  },
+  {
+    "name": "Beauty and the Beast",
+    "slug": "beauty-and-the-beast",
+    "tmdbId": 2397,
+    "overview": "Beauty and the Beast is an American drama series which first aired on CBS in 1987. Creator Ron Koslow's updated version of the fairy tale has a double focus: the relationship between Vincent, a mythic, noble man-beast, and Catherine, a savvy Assistant District Attorney in New York; and a secret Utopian community of social outcasts living in a subterranean sanctuary. Through an empathetic bond, Vincent senses Catherine's emotions, and becomes her guardian.",
+    "first_air_date": "1987-09-25",
+    "last_air_date": "1990-08-04",
+    "number_of_seasons": 3,
+    "number_of_episodes": 56,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.434,
+    "poster_path": "/hlCUA3bUpkgOULFM9bC8N7hra19.jpg",
+    "backdrop_path": "/4K3CozV3rsdM5YAkoic1018Rbp0.jpg",
+    "created_by": [
+      "Ron Koslow"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The New Scooby-Doo Movies",
+    "slug": "the-new-scooby-doo-movies",
+    "tmdbId": 1068,
+    "overview": "Aside from doubling the length of each episode, The New Scooby-Doo Movies differed from its predecessor in the addition of a rotating special guest star slot; each episode featured real-life celebrities or well known fictional characters joining the Mystery, Inc. gang in solving the mystery of the week. Some episodes, in particular the episodes guest-starring the characters from The Addams Family, Batman, and Jeannie, deviated from the established Scooby-Doo format of presenting criminals masquerading as supernatural beings by introducing real ghosts, witches, monsters, and other such characters into the plots.",
+    "first_air_date": "1972-09-09",
+    "last_air_date": "1973-10-27",
+    "number_of_seasons": 2,
+    "number_of_episodes": 24,
+    "genres": [
+      "Animation",
+      "Mystery",
+      "Comedy",
+      "Kids",
+      "Family"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.661,
+    "poster_path": "/slBx9Vkh0ET9m2lgrD8KxJDL5T9.jpg",
+    "backdrop_path": "/1lJ0Bb5JWThXkJMRe85BOyMpjKu.jpg",
+    "created_by": [
+      "William Hanna",
+      "Joseph Barbera"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The New Adventures of Winnie the Pooh",
+    "slug": "the-new-adventures-of-winnie-the-pooh",
+    "tmdbId": 2005,
+    "overview": "An American animated children's television series inspired by A. A. Milne's Winnie-the-Pooh stories.",
+    "first_air_date": "1988-09-10",
+    "last_air_date": "1991-10-07",
+    "number_of_seasons": 4,
+    "number_of_episodes": 82,
+    "genres": [
+      "Family",
+      "Animation",
+      "Comedy",
+      "Kids"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.708,
+    "poster_path": "/iJFbF43bN1HX5EZl4OFAVmJDl1u.jpg",
+    "backdrop_path": "/pFRX1VUIm0j7a9VI1lQke9tOMZY.jpg",
+    "created_by": [],
+    "tagline": ""
+  },
+  {
+    "name": "Dungeons & Dragons",
+    "slug": "dungeons-dragons",
+    "tmdbId": 553,
+    "overview": "Six friends are transported into the Dungeons & Dragons realm and must try to find a way home with the help of their guide 'Dungeon Master'.",
+    "first_air_date": "1983-09-17",
+    "last_air_date": "1985-12-07",
+    "number_of_seasons": 3,
+    "number_of_episodes": 27,
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Comedy",
+      "Action & Adventure",
+      "Kids"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.915,
+    "poster_path": "/5tn1vNSYhgLAeYioZtobgfDjO5u.jpg",
+    "backdrop_path": "/zgFJXU66zLmjPUpgSuA6P2TNN92.jpg",
+    "created_by": [
+      "Kevin Paul Coates",
+      "Dennis Marks"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "'Allo 'Allo!",
+    "slug": "allo-allo",
+    "tmdbId": 2211,
+    "overview": "The misadventures of hapless cafe owner René Artois and his escapades with the Resistance in occupied France.",
+    "first_air_date": "1984-09-07",
+    "last_air_date": "1992-12-14",
+    "number_of_seasons": 9,
+    "number_of_episodes": 82,
+    "genres": [
+      "Comedy",
+      "War & Politics"
+    ],
+    "networks": [
+      "BBC One"
+    ],
+    "vote_average": 7.787,
+    "poster_path": "/m42lb4UxkpaFil4bw0bqqjlWCY4.jpg",
+    "backdrop_path": "/pnyulr7wX1vEfyzScMRDAdxCwMc.jpg",
+    "created_by": [
+      "David Croft",
+      "Jeremy Lloyd"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Disney's Adventures of the Gummi Bears",
+    "slug": "disneys-adventures-of-the-gummi-bears",
+    "tmdbId": 1931,
+    "overview": "Join the world’s sweetest heroes for high adventure in a mystical land of giants and wizards, ogres and dragons, and wondrous creatures both good and evil. Meet Gruffi, Zummi, Cubbi, Grammi, Tummi, Sunni, and all the legendary Gummis as they laugh, play, foil dastardly plots, and fight for what's right.",
+    "first_air_date": "1985-09-14",
+    "last_air_date": "1991-02-22",
+    "number_of_seasons": 6,
+    "number_of_episodes": 95,
+    "genres": [
+      "Animation",
+      "Family",
+      "Kids"
+    ],
+    "networks": [
+      "ABC",
+      "NBC",
+      "Syndication"
+    ],
+    "vote_average": 7.436,
+    "poster_path": "/mqbX2l5Te3yMdAjDxvs5kRk0bhN.jpg",
+    "backdrop_path": "/i4NXlwt4xgYEYaRn4br8RIKLRzK.jpg",
+    "created_by": [
+      "Jymn Magon",
+      "Art Vitello",
+      "Michael Eisner"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Spider-Man and His Amazing Friends",
+    "slug": "spider-man-and-his-amazing-friends",
+    "tmdbId": 1269,
+    "overview": "Spider-Man and His Amazing Friends is an American animated television series produced by Marvel Productions starring established Marvel Comics characters Spider-Man and Iceman and an original character, Firestar. As a trio called the Spider-Friends, they fought against various villains.",
+    "first_air_date": "1981-09-12",
+    "last_air_date": "1983-11-05",
+    "number_of_seasons": 3,
+    "number_of_episodes": 24,
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Kids"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.454,
+    "poster_path": "/fG5wT0tJ8HIqGBSHe47uQJhmI1A.jpg",
+    "backdrop_path": "/7We1GSpHZ2jqhQPcGCtiJFJbTeK.jpg",
+    "created_by": [
+      "Stan Lee"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Twilight Zone",
+    "slug": "the-twilight-zone",
+    "tmdbId": 1918,
+    "overview": "This 1980s revival of the classic sci-fi series features a similar style to the original anthology series. Each episode tells a tale (sometimes two or three) rooted in horror or suspense, often with a surprising twist at the end. Episodes usually feature elements of drama and comedy.",
+    "first_air_date": "1985-09-27",
+    "last_air_date": "1989-04-15",
+    "number_of_seasons": 3,
+    "number_of_episodes": 65,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.749,
+    "poster_path": "/5OYHoUEKE3RJMqiHcJ8XA5kB7bw.jpg",
+    "backdrop_path": "/fy9fhl09shpTLjw4IEqqmVMYM28.jpg",
+    "created_by": [
+      "Rod Serling"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Sherlock Holmes",
+    "slug": "sherlock-holmes",
+    "tmdbId": 799,
+    "overview": "Sherlock Holmes uses his abilities to take on cases by private clients and those that the Scotland Yard are unable to solve, along with his friend Dr. Watson.",
+    "first_air_date": "1984-04-24",
+    "last_air_date": "1994-04-11",
+    "number_of_seasons": 7,
+    "number_of_episodes": 41,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "ITV1"
+    ],
+    "vote_average": 8.1,
+    "poster_path": "/ivUXXK80C8Uy4SKQ8IS0LB9zNDX.jpg",
+    "backdrop_path": "/fnArp9iDW0mM5Hu6JbIUlVuHRGj.jpg",
+    "created_by": [
+      "John Hawkesworth"
+    ],
+    "tagline": "Jeremy Brett is Sherlock Holmes."
+  },
+  {
+    "name": "Count Duckula",
+    "slug": "count-duckula",
+    "tmdbId": 2416,
+    "overview": "Count Duckula is a vegetarian vampire duck, coming into the world as an accident. Unlike his family and ancestors, he has no bloodlust, as when he was reincarnated, blood was omitted and replaced with ketchup.",
+    "first_air_date": "1988-09-06",
+    "last_air_date": "1993-02-16",
+    "number_of_seasons": 4,
+    "number_of_episodes": 65,
+    "genres": [
+      "Animation",
+      "Kids",
+      "Comedy"
+    ],
+    "networks": [
+      "ITV1"
+    ],
+    "vote_average": 7.808,
+    "poster_path": "/9J3vo4F3101rrGj18xrjpaTxjuk.jpg",
+    "backdrop_path": "/3Yte3y3wVTSDvVmcYUv2Fl6KlBk.jpg",
+    "created_by": [
+      "Brian Cosgrove"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Roots",
+    "slug": "roots",
+    "tmdbId": 13555,
+    "overview": "The epic tale of celebrated Pulitzer-prize winning author Alex Haley's ancestors as portrayed in the acclaimed twelve hour mini-series Roots, was first told in his 1976 bestseller Roots: The Saga of an American Family. The docu-drama covers a period of history that begins in mid-1700s Gambia, West Africa and concludes during post-Civil War United States, over 100 years later. This 1977 miniseries eventually won 9 Emmy awards, a Golden Globe award, and a Peabody award, and still stands as the most watched miniseries in U.S. history.",
+    "first_air_date": "1977-01-23",
+    "last_air_date": "1977-01-30",
+    "number_of_seasons": 1,
+    "number_of_episodes": 8,
+    "genres": [
+      "Drama"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.4,
+    "poster_path": "/enNlryvjiyPLhIZNgAmzVrHGiMG.jpg",
+    "backdrop_path": "/7Bs6CVXUmw2VJIfWLXoQd0LDlWJ.jpg",
+    "created_by": [
+      "Alex Haley"
+    ],
+    "tagline": "The Saga of an American Family."
+  },
+  {
+    "name": "The 13 Ghosts of Scooby-Doo",
+    "slug": "the-13-ghosts-of-scooby-doo",
+    "tmdbId": 1069,
+    "overview": "Shaggy and Scooby-Doo and friends must return 13 ghosts which they inadvertently released to a magical chest. Together with Daphne and Scrappy-Doo, along with  newcomer Flim-Flam, they travel the world facing the ghosts that must be returned to the chest.",
+    "first_air_date": "1985-09-07",
+    "last_air_date": "1985-12-07",
+    "number_of_seasons": 1,
+    "number_of_episodes": 13,
+    "genres": [
+      "Animation",
+      "Mystery",
+      "Comedy",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.9,
+    "poster_path": "/v7S15heYWQSJLM60uZjim7Y9nzG.jpg",
+    "backdrop_path": "/8ue1wppL1W9jiJMwUXj9T4ilnCe.jpg",
+    "created_by": [
+      "Joe Ruby",
+      "Ken Spears",
+      "Tom Ruegger"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Storyteller",
+    "slug": "the-storyteller",
+    "tmdbId": 5303,
+    "overview": "The Storyteller aided by his cynical dog, narrates classic folk tales, fables, and legends.",
+    "first_air_date": "1988-05-15",
+    "last_air_date": "1988-07-10",
+    "number_of_seasons": 1,
+    "number_of_episodes": 9,
+    "genres": [
+      "Action & Adventure",
+      "Family",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "networks": [
+      "NBC",
+      "Channel 4"
+    ],
+    "vote_average": 8.17,
+    "poster_path": "/4zyfBsIxQfEK0RcfJvwXgHTKqfn.jpg",
+    "backdrop_path": "/celzfQGiEaOLzZaGPYrO3fP2ogX.jpg",
+    "created_by": [
+      "Jim Henson"
+    ],
+    "tagline": "Magical and haunting tales for only the bravest of children"
+  },
+  {
+    "name": "Kung Fu",
+    "slug": "kung-fu",
+    "tmdbId": 1472,
+    "overview": "The adventures of a Shaolin Monk as he wanders the American West armed only with his skill in Kung Fu.",
+    "first_air_date": "1972-10-14",
+    "last_air_date": "1975-04-26",
+    "number_of_seasons": 3,
+    "number_of_episodes": 62,
+    "genres": [
+      "Action & Adventure",
+      "Drama",
+      "Western",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.674,
+    "poster_path": "/vUqmS40PRyAe3COHh7wHpDFnspC.jpg",
+    "backdrop_path": "/tKrWxPuqYwr7bvOE93JVCz44GmC.jpg",
+    "created_by": [
+      "Herman Miller",
+      "Ed Spielman",
+      "Jerry Thorpe"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Friday the 13th: The Series",
+    "slug": "friday-the-13th-the-series",
+    "tmdbId": 2263,
+    "overview": "Micki and Ryan with the help of their friend Jack try to recover cursed antiques so they can store them in safety inside the antique store's vault.",
+    "first_air_date": "1987-10-03",
+    "last_air_date": "1990-05-26",
+    "number_of_seasons": 3,
+    "number_of_episodes": 72,
+    "genres": [
+      "Mystery",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 7.3,
+    "poster_path": "/rjkSHAOYS70GB610Xm3m6KDGk3D.jpg",
+    "backdrop_path": "/rPzH5zMkQpDQSo9153yQTg0udeq.jpg",
+    "created_by": [
+      "Frank Mancuso Jr.",
+      "Larry B. Williams"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Amazing Stories",
+    "slug": "amazing-stories",
+    "tmdbId": 1026,
+    "overview": "A truly amazing, fantastical, science fiction, funny and odd, and sometimes scary, sad and endearing anthology series presented by Steven Spielberg with guest appearances by many famous actors, actresses, and directors.",
+    "first_air_date": "1985-09-29",
+    "last_air_date": "1987-04-10",
+    "number_of_seasons": 2,
+    "number_of_episodes": 45,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Comedy",
+      "Family",
+      "Mystery",
+      "Crime"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.457,
+    "poster_path": "/66Utyft9WHPQJSU7f7MbEB72dkc.jpg",
+    "backdrop_path": "/vDZ8fJhiMDVINf7mJcmKj6pYaYV.jpg",
+    "created_by": [
+      "Steven Spielberg",
+      "John Falsey",
+      "Joshua Brand"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "EastEnders",
+    "slug": "eastenders",
+    "tmdbId": 1871,
+    "overview": "The everyday lives of working-class residents of Albert Square, a traditional Victorian square of terrace houses surrounding a park in the East End of London's Walford borough.",
+    "first_air_date": "1985-02-19",
+    "last_air_date": "2026-02-11",
+    "number_of_seasons": 42,
+    "number_of_episodes": 7192,
+    "genres": [
+      "Soap",
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "BBC One"
+    ],
+    "vote_average": 4.1,
+    "poster_path": "/z4jgyI5TpoRZiJTNchkVkMrGQyz.jpg",
+    "backdrop_path": "/4og4Eme2gHcTRaHVpZTSCDd7ZNY.jpg",
+    "created_by": [
+      "Julia Smith",
+      "Tony Holland"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Mystery Science Theater 3000",
+    "slug": "mystery-science-theater-3000",
+    "tmdbId": 1952,
+    "overview": "A stranded spaceship pilot captured by mad scientists survives a blitz of cheesy B movies by riffing on them with his funny robot pals.",
+    "first_air_date": "1989-11-25",
+    "last_air_date": "1999-09-12",
+    "number_of_seasons": 10,
+    "number_of_episodes": 176,
+    "genres": [
+      "Comedy",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "Comedy Central",
+      "Syfy"
+    ],
+    "vote_average": 7.683,
+    "poster_path": "/nNeb35RFoeLwxu0CFzZ9NAI5UTA.jpg",
+    "backdrop_path": "/dnePq1kDs0On398Oc7sVUCZgtft.jpg",
+    "created_by": [
+      "Joel Hodgson"
+    ],
+    "tagline": "We've got Movie Sign!"
+  },
+  {
+    "name": "She-Ra: Princess of Power",
+    "slug": "she-ra-princess-of-power",
+    "tmdbId": 14755,
+    "overview": "She-Ra, He-Man's twin sister, is leading a group of freedom fighters known as the Great Rebellion in the hope of freeing their homeworld of Etheria from the tyrannical rule of Hordak and the Evil Horde.",
+    "first_air_date": "1985-09-09",
+    "last_air_date": "1987-11-21",
+    "number_of_seasons": 2,
+    "number_of_episodes": 93,
+    "genres": [
+      "Action & Adventure",
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Kids"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 7.5,
+    "poster_path": "/49ZbBp4eUQnXYRvm6HjNI6sSrdW.jpg",
+    "backdrop_path": "/psRLDTtLkRlYHiF5IMs1TGUbzDe.jpg",
+    "created_by": [],
+    "tagline": ""
+  },
+  {
+    "name": "Mission: Impossible",
+    "slug": "mission-impossible",
+    "tmdbId": 9894,
+    "overview": "Mission: Impossible is an American television series that chronicles the missions of a team of secret American government agents known as the Impossible Missions Force. The show is a revival of the 1966 TV series of the same name. The only actor to return for the series as a regular cast member was Peter Graves who played Jim Phelps, although two other cast members from the original series returned as guest stars. The only other regular cast member to return for every episode was the voice of \"The Tape\", Bob Johnson.",
+    "first_air_date": "1988-10-23",
+    "last_air_date": "1996-04-27",
+    "number_of_seasons": 2,
+    "number_of_episodes": 35,
+    "genres": [
+      "Drama",
+      "Action & Adventure",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.5,
+    "poster_path": "/4AZwDa0RZLIVsOgZxlgOqNUw3U6.jpg",
+    "backdrop_path": "/7XNP4WdsWA9iorQJtXQxZScljmt.jpg",
+    "created_by": [
+      "Bruce Geller"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Highway to Heaven",
+    "slug": "highway-to-heaven",
+    "tmdbId": 2440,
+    "overview": "A probationary angel is sent back to Earth to team up with an ex-cop and help people.",
+    "first_air_date": "1984-09-19",
+    "last_air_date": "1989-08-04",
+    "number_of_seasons": 5,
+    "number_of_episodes": 111,
+    "genres": [
+      "Family",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.385,
+    "poster_path": "/fR7BcK3UzQqpX7Earp10nPHitZF.jpg",
+    "backdrop_path": "/nvm6q6p0y7CdRG1JQuGzWLdV7p7.jpg",
+    "created_by": [
+      "William F. Claxton",
+      "Michael Landon"
+    ],
+    "tagline": "Some powers are higher than others."
+  },
+  {
+    "name": "Beetlejuice",
+    "slug": "beetlejuice",
+    "tmdbId": 4288,
+    "overview": "The adventures of preteen goth Lydia Deetz and her undead friend Beetlejuice as they explore The Neitherworld, a wacky afterlife realm inhabited by monsters, ghosts, ghouls and zombies.",
+    "first_air_date": "1989-09-09",
+    "last_air_date": "1991-12-06",
+    "number_of_seasons": 4,
+    "number_of_episodes": 109,
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Comedy"
+    ],
+    "networks": [
+      "ABC",
+      "FOX",
+      "Fox Kids"
+    ],
+    "vote_average": 7.626,
+    "poster_path": "/6KZUc5WlukYvlixgNYJaFXzgdkv.jpg",
+    "backdrop_path": "/dmwhROBzM8VsFASDgHO7CafMyqO.jpg",
+    "created_by": [
+      "Tim Burton",
+      "David Geffen"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Automan",
+    "slug": "automan",
+    "tmdbId": 12751,
+    "overview": "Automan is an American science fiction superhero television series produced by Glen A. Larson. It aired for only 12 episodes on ABC between 1983 and 1984.",
+    "first_air_date": "1983-12-15",
+    "last_air_date": "1984-04-09",
+    "number_of_seasons": 1,
+    "number_of_episodes": 13,
+    "genres": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.8,
+    "poster_path": "/4dOlxvavpgpDyAFmLNIre1JmcCf.jpg",
+    "backdrop_path": "/zcBS6kukiRZOBJRQDCLE4dt17a4.jpg",
+    "created_by": [
+      "Glen A. Larson"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "V",
+    "slug": "v",
+    "tmdbId": 75893,
+    "overview": "Once again, Earth is the battleground. But now the aliens whose human guise hides their true reptilian natures are wiser. They believe the secret to their survival on Earth lies in the DNA of the newly born half-human, half-spaceling Starchild. But that's something the world's Resistance Fighters cannot allow.",
+    "first_air_date": "1984-10-26",
+    "last_air_date": "1985-05-24",
+    "number_of_seasons": 1,
+    "number_of_episodes": 19,
+    "genres": [
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.121,
+    "poster_path": "/Aps7fkPWZbhyUvB0hkZ6NV8LtE.jpg",
+    "backdrop_path": "/A8SYR6WvxAaAgid4R4JZUTCw4ko.jpg",
+    "created_by": [
+      "Kenneth Johnson"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The All New Pink Panther Show",
+    "slug": "the-all-new-pink-panther-show",
+    "tmdbId": 114772,
+    "overview": "Crazylegs Crane inserts himself between 2 Pink Panther adventures.",
+    "first_air_date": "1978-09-09",
+    "last_air_date": "1978-12-23",
+    "number_of_seasons": 1,
+    "number_of_episodes": 48,
+    "genres": [
+      "Animation",
+      "Kids",
+      "Family",
+      "Comedy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.709,
+    "poster_path": "/xuzz9yDTHl2Ox1f0YZsNwflaBGt.jpg",
+    "backdrop_path": "/5jvKWI6UL4Kvj2chVz60xLU0vRj.jpg",
+    "created_by": [
+      "Chuck Tately",
+      "Bob Camp"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Scooby-Doo/Dynomutt Hour",
+    "slug": "the-scooby-doodynomutt-hour",
+    "tmdbId": 2150,
+    "overview": "The Scooby-Doo/Dynomutt Hour is a 60-minute package show produced by Hanna-Barbera Productions in 1976 for ABC Saturday mornings. It marked the first new installments of the cowardly canine since 1973, and contained the following segments: The Scooby-Doo Show and Dynomutt, Dog Wonder.",
+    "first_air_date": "1976-09-11",
+    "last_air_date": "1976-12-18",
+    "number_of_seasons": 1,
+    "number_of_episodes": 32,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Mystery"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.905,
+    "poster_path": "/7w13OFlmt6QPFEVxqs6eJwGXAZR.jpg",
+    "backdrop_path": "/tzk6NKctIOA1GyWuVPmrago05L4.jpg",
+    "created_by": [
+      "William Hanna",
+      "Joseph Barbera"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Tour of Duty",
+    "slug": "tour-of-duty",
+    "tmdbId": 11095,
+    "overview": "The trials of a U.S. Army platoon serving in the field during the Vietnam War.",
+    "first_air_date": "1987-09-24",
+    "last_air_date": "1990-04-28",
+    "number_of_seasons": 3,
+    "number_of_episodes": 58,
+    "genres": [
+      "War & Politics",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 8.04,
+    "poster_path": "/uVH3fzDl5vqYolREnppV4Os45gd.jpg",
+    "backdrop_path": "/lSYcgYOedOTLOg92WwncU726PoE.jpg",
+    "created_by": [
+      "L. Travis Clark",
+      "Steve Duncan"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "North and South",
+    "slug": "north-and-south",
+    "tmdbId": 3266,
+    "overview": "The story of the enduring friendship between Orry Main of South Carolina and George Hazard of Pennsylvania, who become best friends while attending the United States Military Academy at West Point but later find themselves and their families on opposite sides of the American Civil War.",
+    "first_air_date": "1985-11-03",
+    "last_air_date": "1994-03-02",
+    "number_of_seasons": 3,
+    "number_of_episodes": 15,
+    "genres": [
+      "Drama",
+      "War & Politics"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.456,
+    "poster_path": "/yd6Gtg8GntTsOqPf27gGIkS9vIe.jpg",
+    "backdrop_path": "/wbERlP3necHgz9QV3zNP0bGzShC.jpg",
+    "created_by": [
+      "Richard T. Heffron"
+    ],
+    "tagline": "…And now it begins"
+  },
+  {
+    "name": "The World at War",
+    "slug": "the-world-at-war",
+    "tmdbId": 751,
+    "overview": "A documentary series that gives a historical account of the events of World War II, from its roots in the 1920s to the aftermath and the lives it profoundly influenced.",
+    "first_air_date": "1973-10-31",
+    "last_air_date": "1974-05-08",
+    "number_of_seasons": 1,
+    "number_of_episodes": 26,
+    "genres": [
+      "Documentary",
+      "War & Politics"
+    ],
+    "networks": [
+      "ITV1"
+    ],
+    "vote_average": 8.286,
+    "poster_path": "/bWdwEYQQEsz9HuXy5m95z95BYQM.jpg",
+    "backdrop_path": "/bhLMDDvxa2bIaGyjo5SQqJ89R6W.jpg",
+    "created_by": [],
+    "tagline": ""
+  },
+  {
+    "name": "Sledge Hammer!",
+    "slug": "sledge-hammer",
+    "tmdbId": 520,
+    "overview": "Sledge Hammer! is an American satirical police sitcom produced by New World Television that ran for two seasons on ABC from 1986 to 1988. The series was created by Alan Spencer and stars David Rasche as Inspector Sledge Hammer, a preposterous caricature of the standard \"cop on the edge\" character. Al Jean and Mike Reiss, best known for their work on The Simpsons, wrote for the show and worked as story editors.",
+    "first_air_date": "1986-09-23",
+    "last_air_date": "1988-02-12",
+    "number_of_seasons": 2,
+    "number_of_episodes": 41,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Action & Adventure"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.939,
+    "poster_path": "/exYBfVOkRDg9f7HlRIDZ6gy3A73.jpg",
+    "backdrop_path": "/62TMbi34WJupGcmcWQ21ZScg42U.jpg",
+    "created_by": [
+      "Alan Spencer"
+    ],
+    "tagline": "Trust me, I know what I'm doing."
+  },
+  {
+    "name": "Star Trek",
+    "slug": "star-trek",
+    "tmdbId": 1992,
+    "overview": "The animated adventures of Captain Kirk, Mr. Spock and the crew of the Starship Enterprise.",
+    "first_air_date": "1973-09-08",
+    "last_air_date": "1974-10-12",
+    "number_of_seasons": 2,
+    "number_of_episodes": 22,
+    "genres": [
+      "Animation",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.805,
+    "poster_path": "/kvWG0bsLVQt23gZO6DI1mPosLxZ.jpg",
+    "backdrop_path": "/n25Wk2skU5DqAqWdHkL6quI11mz.jpg",
+    "created_by": [
+      "Gene Roddenberry"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Yes Minister",
+    "slug": "yes-minister",
+    "tmdbId": 4549,
+    "overview": "Satirical sitcom set in the office of a UK Cabinet minister, Jim Hacker MP, who struggles with Civil Service bureaucracy and political machinations as he tries to get on with government business.",
+    "first_air_date": "1980-02-25",
+    "last_air_date": "1982-12-23",
+    "number_of_seasons": 3,
+    "number_of_episodes": 21,
+    "genres": [
+      "Comedy",
+      "War & Politics"
+    ],
+    "networks": [
+      "BBC Two"
+    ],
+    "vote_average": 8.3,
+    "poster_path": "/2tFCZsypLY6UuRVEZVUeKqJsJAZ.jpg",
+    "backdrop_path": "/erND13jVv79DZqDNIbaysTcGxq.jpg",
+    "created_by": [
+      "Jonathan Lynn",
+      "Antony Jay"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Pingu",
+    "slug": "pingu",
+    "tmdbId": 9262,
+    "overview": "Playful penguin Pingu lives with his family in Antarctica, where he often finds himself caught up in mischievous high jinks with his pal Robby.",
+    "first_air_date": "1986-05-28",
+    "last_air_date": "2006-03-03",
+    "number_of_seasons": 6,
+    "number_of_episodes": 156,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Kids"
+    ],
+    "networks": [
+      "CBeebies",
+      "SRF 1"
+    ],
+    "vote_average": 6.943,
+    "poster_path": "/nLE7NR3EsEbv2NfG0bLIaOEhGfY.jpg",
+    "backdrop_path": "/10UOUxOjmLCwGOvNXNaiIdWXav.jpg",
+    "created_by": [
+      "Otmar Gutmann",
+      "Erika Brueggemann"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Space: 1999",
+    "slug": "space-1999",
+    "tmdbId": 134,
+    "overview": "The crew of Moonbase Alpha must struggle to survive when a massive explosion throws the Moon from orbit into deep space.",
+    "first_air_date": "1975-09-04",
+    "last_air_date": "1977-11-12",
+    "number_of_seasons": 2,
+    "number_of_episodes": 48,
+    "genres": [
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "ITV1"
+    ],
+    "vote_average": 7.093,
+    "poster_path": "/77Jn71Aw4mct3phi7wpjLdvO9U5.jpg",
+    "backdrop_path": "/3igZ4K3pKIEoD2nyvgmmVOMuz3E.jpg",
+    "created_by": [
+      "Sylvia Anderson",
+      "Gerry Anderson"
+    ],
+    "tagline": "The Future Is Fantastic!"
+  },
+  {
+    "name": "The New Scooby and Scrappy-Doo Show",
+    "slug": "the-new-scooby-and-scrappy-doo-show",
+    "tmdbId": 230,
+    "overview": "The New Scooby and Scrappy Doo Show is the sixth incarnation of the Hanna-Barbera Saturday morning cartoon Scooby-Doo. It premiered on September 10, 1983, and ran for one season on ABC as a half-hour program made up of two eleven-minute short cartoons.  The show is a return to the mystery solving format and reintroduces Daphne after a four-year absence. The plots of each episode feature her, Shaggy, Scooby-Doo, and Scrappy-Doo solving supernatural mysteries under the cover of being reporters for a teen magazine.",
+    "first_air_date": "1983-09-10",
+    "last_air_date": "1983-12-10",
+    "number_of_seasons": 1,
+    "number_of_episodes": 26,
+    "genres": [
+      "Animation",
+      "Mystery",
+      "Family",
+      "Comedy",
+      "Kids"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 8.044,
+    "poster_path": "/hKZL0OVHfKxuCPnhhCQl7nVkPRf.jpg",
+    "backdrop_path": "/oGvZJ9D9x0gTEDDmpRTbgehKTtj.jpg",
+    "created_by": [
+      "Ken Spears",
+      "Joe Ruby",
+      "Tom Ruegger"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Unsolved Mysteries",
+    "slug": "unsolved-mysteries",
+    "tmdbId": 126,
+    "overview": "Combines four to five segments of dramatic re-enactments, interviews and updates of real human and paranormal mysteries. An audience interactive call-to-action request allowed viewers to call in with tips to help solve the cases.",
+    "first_air_date": "1988-10-05",
+    "last_air_date": "2010-04-27",
+    "number_of_seasons": 14,
+    "number_of_episodes": 736,
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Crime"
+    ],
+    "networks": [
+      "Spike",
+      "NBC",
+      "CBS",
+      "Lifetime"
+    ],
+    "vote_average": 7.7,
+    "poster_path": "/1bOXbWqNsRU2ykPiE586I18coLf.jpg",
+    "backdrop_path": "/jCXk0VvqiyulPBzHf1hDN1PK0mW.jpg",
+    "created_by": [
+      "John Cosgrove",
+      "Terry Dunn Meurer"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Young Ones",
+    "slug": "the-young-ones",
+    "tmdbId": 4483,
+    "overview": "The misadventures of four lunatic students who live in a shared student house. There's Rick, the overblown political one addicted to Cliff Richard, Vyvyan the experimental scientific one/part-time anarchist, Neil the worried hippy, and Mike the ladies' man (at least he is in his mind).",
+    "first_air_date": "1982-11-09",
+    "last_air_date": "1984-06-19",
+    "number_of_seasons": 2,
+    "number_of_episodes": 12,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "BBC Two"
+    ],
+    "vote_average": 7.885,
+    "poster_path": "/9BQCGkKkVUxw6zF1P2BF1gHSMXB.jpg",
+    "backdrop_path": "/nCGsDvCvDaY2IU2Qf7TgUO2UNNp.jpg",
+    "created_by": [
+      "Ben Elton",
+      "Alexei Sayle",
+      "Rik Mayall",
+      "Lise Mayer"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Charlie Brown and Snoopy Show",
+    "slug": "the-charlie-brown-and-snoopy-show",
+    "tmdbId": 6670,
+    "overview": "Your favorite Peanuts stories come to life in this animated television series. With short sketches featuring these classic and much-loved characters, it's easy to, as the opening song suggests, “have a party with Charlie Brown and Snoopy.”",
+    "first_air_date": "1983-09-17",
+    "last_air_date": "1985-10-12",
+    "number_of_seasons": 2,
+    "number_of_episodes": 18,
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.682,
+    "poster_path": "/4tpCaJq94eHBWsWVtwFWojbUjcM.jpg",
+    "backdrop_path": "/kFjX4dv37Ukd3ywygDilbL4HQjs.jpg",
+    "created_by": [
+      "Charles M. Schulz"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Thomas & Friends",
+    "slug": "thomas-friends",
+    "tmdbId": 2304,
+    "overview": "Thomas & Friends is a British children's television series, which had its first broadcast on the ITV network on 4 September 1984. It is based on The Railway Series of books by the Reverend Wilbert Awdry and his son, Christopher Awdry. These books deal with the adventures of a group of anthropomorphised locomotives and road vehicles who live on the fictional Island of Sodor. The books were based on stories Wilbert told to entertain his son, Christopher during his recovery from measles. From Series one to four, many of the stories are based on events from Awdry's personal experience.",
+    "first_air_date": "1984-10-09",
+    "last_air_date": "2021-01-20",
+    "number_of_seasons": 24,
+    "number_of_episodes": 584,
+    "genres": [
+      "Animation",
+      "Kids"
+    ],
+    "networks": [
+      "ITV1",
+      "5",
+      "CITV",
+      "Cartoon Network",
+      "Nick Jr."
+    ],
+    "vote_average": 6.8,
+    "poster_path": "/wrFb5dE2yxUjz3a5V7PEXPPzsFU.jpg",
+    "backdrop_path": "/wIe1HL7oMNwyltsqqx2sCPwNl4w.jpg",
+    "created_by": [
+      "Britt Allcroft",
+      "Rev. W. Awdry",
+      "Christopher Awdry"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "BraveStarr",
+    "slug": "bravestarr",
+    "tmdbId": 5172,
+    "overview": "On the planet New Texas, people live in futuristic conditions reminiscent of the Wild West. Here, Marshall Bravestarr fights for justice and righteousness with his supernatural abilities.",
+    "first_air_date": "1987-09-14",
+    "last_air_date": "1988-02-24",
+    "number_of_seasons": 1,
+    "number_of_episodes": 65,
+    "genres": [
+      "Animation",
+      "Action & Adventure",
+      "Kids"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 8,
+    "poster_path": "/zNDqyAhOFNplKQNbTqYshdj5tpX.jpg",
+    "backdrop_path": "/mXWdENI76waDRMZvBcrrH9NAONi.jpg",
+    "created_by": [
+      "Peter Locke",
+      "Donald Kushner"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Captain Caveman and the Teen Angels",
+    "slug": "captain-caveman-and-the-teen-angels",
+    "tmdbId": 9773,
+    "overview": "The 1977 and 1978 episodes were originally broadcasted as segments on the package show Scooby's All-Star Laff-A-Lympics and Scooby's All-Stars.\n\nThe 1980 episodes featured Captain Caveman and the Teen Angels in their own half-hour timeslot.",
+    "first_air_date": "1980-03-08",
+    "last_air_date": "1980-06-21",
+    "number_of_seasons": 1,
+    "number_of_episodes": 16,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Kids",
+      "Mystery"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.018,
+    "poster_path": "/fnpIuoq1tg74v7OE4DMrTOvYMPe.jpg",
+    "backdrop_path": "/iqmSb8xTnwoJW2EaL6278RoawBt.jpg",
+    "created_by": [
+      "Joe Ruby",
+      "Ken Spears"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Super Friends",
+    "slug": "super-friends",
+    "tmdbId": 936,
+    "overview": "The most powerful heroes ever--Superman, Wonder Woman, Aquaman, Batman and Robin--join forces with teenagers Wendy and Marvin and their dog, Marvel the Wonderdog, to defend justice and guard the innocent.",
+    "first_air_date": "1973-09-08",
+    "last_air_date": "1985-10-26",
+    "number_of_seasons": 9,
+    "number_of_episodes": 109,
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.6,
+    "poster_path": "/3AvUm2Lf7YnEb7yHIJmC87mh0kK.jpg",
+    "backdrop_path": "/ebbeTgwFRvKEdFSAoHsBPvZsAFf.jpg",
+    "created_by": [],
+    "tagline": ""
+  },
+  {
+    "name": "Inspector Morse",
+    "slug": "inspector-morse",
+    "tmdbId": 3476,
+    "overview": "Inspector Morse is a detective drama based on Colin Dexter's series of Chief Inspector Morse novels. The series starred John Thaw as Chief Inspector Morse and Kevin Whately as Sergeant Lewis, as well as a large cast of notable actors and actresses.",
+    "first_air_date": "1987-01-06",
+    "last_air_date": "1993-01-20",
+    "number_of_seasons": 7,
+    "number_of_episodes": 28,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "ITV1"
+    ],
+    "vote_average": 7.854,
+    "poster_path": "/cvGqqBcCwahSQgLsCLdUKZG1Skq.jpg",
+    "backdrop_path": "/xcvzQvQv6wsMPRyctek4jhDS8Yi.jpg",
+    "created_by": [
+      "Tony Warren",
+      "Colin Dexter"
+    ],
+    "tagline": "There's always time for one more pint."
+  },
+  {
+    "name": "Manimal",
+    "slug": "manimal",
+    "tmdbId": 3291,
+    "overview": "Jonathan Chase was a British college professor at New York University who had the unusual ability to transform into any kind of animal. He used his powers to battle crime alongside pretty policewoman Brooke and Vietnam-war pal Ty.",
+    "first_air_date": "1983-09-30",
+    "last_air_date": "1983-12-17",
+    "number_of_seasons": 1,
+    "number_of_episodes": 8,
+    "genres": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.3,
+    "poster_path": "/deTedoQduoqW9Kduktf9eVfiY3V.jpg",
+    "backdrop_path": "/51BoopTmVwTchhGFneUHOozlAtB.jpg",
+    "created_by": [
+      "Glen A. Larson"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Scooby's Laff-A Lympics",
+    "slug": "scoobys-laff-a-lympics",
+    "tmdbId": 1072,
+    "overview": "Each episode of this series include multiple segments: The first and last were \"Laff-A-Lympics\" segments, the other ones were \"Captain Caveman and the Teen Angels\", \"Scooby-Doo\" and \"Dynomutt\" segments.\n\nThe \"Laff-A-Lympics\" segments feature 45 Hanna-Barbera cartoon characters (classic and otherwise) competing for gold medals in wacky events. Events include racing on ostriches, camels, kangaroos, rickshaws and unicycles, as well as scavenging for creatures like the Abominable Snowman, vampires, and the Loch Ness Monster.",
+    "first_air_date": "1977-09-10",
+    "last_air_date": "1978-10-28",
+    "number_of_seasons": 2,
+    "number_of_episodes": 94,
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Kids",
+      "Family",
+      "Mystery"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 8.099,
+    "poster_path": "/xnOyqYYx81buw4YZI6xuqxPaD6C.jpg",
+    "backdrop_path": "/b1jIOCcB9QeXubzhvoguq258RNW.jpg",
+    "created_by": [
+      "Joe Ruby",
+      "Ken Spears"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Yes, Prime Minister",
+    "slug": "yes-prime-minister",
+    "tmdbId": 12597,
+    "overview": "James Hacker MP the Government's bumbling minister  for Administrative Affairs is propelled along the corridors of power to the very pinnacle of politics - No. 10.  Could this have possibly have been managed by his trusted Permanent Private Secretary, the formidably political Sir Humphrey Appleby who must move to the “Top Job” in Downing Street to support him, together with his much put upon PPS Bernard Wolley. \n\nWhat could possibly go wrong?",
+    "first_air_date": "1986-01-09",
+    "last_air_date": "1988-01-28",
+    "number_of_seasons": 2,
+    "number_of_episodes": 16,
+    "genres": [
+      "Comedy",
+      "War & Politics"
+    ],
+    "networks": [
+      "BBC Two"
+    ],
+    "vote_average": 8.385,
+    "poster_path": "/n0QRcx4P9ZJFGnTBbNt359MvUh0.jpg",
+    "backdrop_path": "/vnTUrfmi1BEJ6nQbxgNdns9isP2.jpg",
+    "created_by": [
+      "Antony Jay",
+      "Jonathan Lynn"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "I, Claudius",
+    "slug": "i-claudius",
+    "tmdbId": 5487,
+    "overview": "Acclaimed blackly comic historical drama series. Set amidst a web of power, corruption and lies, it chronicles the reigns of the Roman emperors - Augustus, Tiberius, Caligula and finally Claudius.",
+    "first_air_date": "1976-09-20",
+    "last_air_date": "1976-12-06",
+    "number_of_seasons": 1,
+    "number_of_episodes": 12,
+    "genres": [
+      "Drama",
+      "War & Politics"
+    ],
+    "networks": [
+      "BBC Two"
+    ],
+    "vote_average": 7.8,
+    "poster_path": "/oztxNqan7wKvFuCDS55WyUmKNMU.jpg",
+    "backdrop_path": "/ep6X0ekrWS0go3UXPRXmtN6AfNs.jpg",
+    "created_by": [
+      "Martin Lisemore",
+      "Herbert Wise",
+      "Jack Pulman"
+    ],
+    "tagline": "Let all the poisons that lurk in the mud hatch out."
+  },
+  {
+    "name": "Alien Nation",
+    "slug": "alien-nation",
+    "tmdbId": 5383,
+    "overview": "Detective Matthew Sikes, a Los Angeles police officer reluctantly works with \"Newcomer\" alien George Francisco. Sikes also has an 'on again off again' flirtation with a female Newcomer, Cathy Frankel.",
+    "first_air_date": "1989-09-18",
+    "last_air_date": "1990-05-07",
+    "number_of_seasons": 1,
+    "number_of_episodes": 22,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "FOX"
+    ],
+    "vote_average": 6.946,
+    "poster_path": "/mSnZFa4Yv3dFCMdcyJXjlq0lj4c.jpg",
+    "backdrop_path": "/npNbRiUGU29nz464ERJiAkxH997.jpg",
+    "created_by": [
+      "Kenneth Johnson",
+      "Rockne S. O'Bannon"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Buck Rogers in the 25th Century",
+    "slug": "buck-rogers-in-the-25th-century",
+    "tmdbId": 2443,
+    "overview": "20th-century astronaut Buck Rogers awakens in the 25th century after a freak accident puts him in suspended animation for 500 years. Upon returning to Earth and discovering the planet is recovering from a nuclear war, Buck uses his combat skills and ingenuity to protect Earth and fight evil throughout the galaxy alongside starfighter pilot Colonel Wilma Deering and robot companion Twiki.",
+    "first_air_date": "1979-09-20",
+    "last_air_date": "1981-04-16",
+    "number_of_seasons": 2,
+    "number_of_episodes": 37,
+    "genres": [
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 6.93,
+    "poster_path": "/1SgcheHtEcacQxRFKpIuP0jYw6u.jpg",
+    "backdrop_path": "/9hjHVwtHFt03Y6kS9yFXoBI4WK0.jpg",
+    "created_by": [
+      "Glen A. Larson",
+      "Leslie Stevens"
+    ],
+    "tagline": "The original space man! The ultimate trip! Buck Rogers swings back to earth and lays it on the 25th Century!"
+  },
+  {
+    "name": "Shaka Zulu",
+    "slug": "shaka-zulu",
+    "tmdbId": 8068,
+    "overview": "South Africa, 1823. The Zulu Empire, headed by King Shaka, a brilliant but ruthless military strategist, begin to encroach on the British colony of Cape Town. A volunteer cadre of explorers, mercenaries and professional soldiers are sent to Zululand to try to make contact with Shaka and assess the real threat of his army.",
+    "first_air_date": "1986-10-24",
+    "last_air_date": "1986-12-19",
+    "number_of_seasons": 1,
+    "number_of_episodes": 10,
+    "genres": [
+      "Drama",
+      "Action & Adventure",
+      "War & Politics"
+    ],
+    "networks": [
+      "SABC 1"
+    ],
+    "vote_average": 7,
+    "poster_path": "/w9bMK4TmRtRzSIlvBkWPH6bUSjr.jpg",
+    "backdrop_path": "/oSNYU5i9I8CSwsO1trGx65sRMJA.jpg",
+    "created_by": [
+      "William C. Faure"
+    ],
+    "tagline": "A true story"
+  },
+  {
+    "name": "A Bit of Fry & Laurie",
+    "slug": "a-bit-of-fry-laurie",
+    "tmdbId": 192,
+    "overview": "A British comedy television series with turns of phrase and elaborate wordplay, written by and starring former Cambridge Footlights members Stephen Fry and Hugh Laurie.",
+    "first_air_date": "1989-01-13",
+    "last_air_date": "1995-04-02",
+    "number_of_seasons": 4,
+    "number_of_episodes": 25,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "BBC One",
+      "BBC Two"
+    ],
+    "vote_average": 7.9,
+    "poster_path": "/x2BeuxXkbOoiUCyECb0AdUHxw0y.jpg",
+    "backdrop_path": "/mV0uKtO5KbD1cRlOqRVfSnR0SVi.jpg",
+    "created_by": [
+      "Hugh Laurie",
+      "Stephen Fry"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Tinker Tailor Soldier Spy",
+    "slug": "tinker-tailor-soldier-spy",
+    "tmdbId": 35430,
+    "overview": "Tinker Tailor Soldier Spy is a seven-part BBC Two spy drama written by Arthur Hopcraft, adapted from John le Carré's eponymous 1974 novel. The serial, which stars Alec Guinness, Alexander Knox, Ian Richardson, Michael Jayston, Bernard Hepton, Anthony Bate, Ian Bannen, George Sewell and Michael Aldridge, was broadcast from 10 September to 22 October 1979.\n\nGeorge Smiley, the aging master spy of the Cold War and once heir apparent to Control, is brought back out of retirement to flush out a top level mole within the Circus. Smiley must travel back through his life and murky workings of the Circus to unravel the net spun by his nemesis Karla 'The Sandman' of the KGB and reveal the identity of the mole before he disappears.",
+    "first_air_date": "1979-09-10",
+    "last_air_date": "1979-10-22",
+    "number_of_seasons": 1,
+    "number_of_episodes": 7,
+    "genres": [
+      "War & Politics",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "BBC Two"
+    ],
+    "vote_average": 7.567,
+    "poster_path": "/3HlMztiMrTnhU1u807MGUizEXxH.jpg",
+    "backdrop_path": "/6IPIqdc7J0hXxTgWjzfgk6DRTXX.jpg",
+    "created_by": [
+      "John Irvin",
+      "John le Carré"
+    ],
+    "tagline": "One of Britain's master spies is working for the enemy. Can George Smiley beat him at his deadly game?"
+  },
+  {
+    "name": "Muppet Babies",
+    "slug": "muppet-babies",
+    "tmdbId": 565,
+    "overview": "The Muppet Babies (Kermit, Piggy, Gonzo, Fozzy and company) live in a large nursery watched over by Nanny. The babies have active imaginations, and often embark upon adventures into imaginary worlds.",
+    "first_air_date": "1984-11-05",
+    "last_air_date": "1990-12-29",
+    "number_of_seasons": 7,
+    "number_of_episodes": 107,
+    "genres": [
+      "Animation",
+      "Kids"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.876,
+    "poster_path": "/oJc14qy42hABKKWlQwEguFdeTdU.jpg",
+    "backdrop_path": "/7MvcGimIdLrreRgVPhoQLq8FHjp.jpg",
+    "created_by": [
+      "Jim Henson",
+      "Jeffrey Scott"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Persuaders!",
+    "slug": "the-persuaders",
+    "tmdbId": 2543,
+    "overview": "An English aristocrat and an American millionaire come together to tackle crime.",
+    "first_air_date": "1971-09-17",
+    "last_air_date": "1972-02-25",
+    "number_of_seasons": 1,
+    "number_of_episodes": 24,
+    "genres": [
+      "Comedy",
+      "Action & Adventure",
+      "Crime"
+    ],
+    "networks": [
+      "ITV1"
+    ],
+    "vote_average": 7.6,
+    "poster_path": "/jDzoUNUwVKIPMaf67wAg4Nby3oo.jpg",
+    "backdrop_path": "/mMsOXipsdhRxxDvdNGQZk02yOa0.jpg",
+    "created_by": [
+      "Robert S. Baker"
+    ],
+    "tagline": "THE CLASSIC '70S BRITISH CULT ADVENTURE SERIES"
+  },
+  {
+    "name": "Blue Thunder",
+    "slug": "blue-thunder",
+    "tmdbId": 11573,
+    "overview": "Blue Thunder is a 1984 ABC television series based on the movie of the same title featuring the Blue Thunder helicopter.\n\nThe series uses the converted Aérospatiale Gazelle helicopter and large portions of stock footage from the 1983 film. A ground unit named \"Rolling Thunder\" backed up the helicopter in the television series. This was a large support van with a desert camouflage off-road vehicle stored inside.\n\nThe television series cast includes James Farentino, Dana Carvey, and former professional American football players Bubba Smith and Dick Butkus. The series was canceled by ABC after they felt the similar Airwolf on CBS would win the ratings battle. Also, the series aired at the same time as the CBS soap opera Dallas on Friday nights, and lost.\n\nEleven episodes were made before the series was cancelled.",
+    "first_air_date": "1984-01-06",
+    "last_air_date": "1984-04-16",
+    "number_of_seasons": 1,
+    "number_of_episodes": 11,
+    "genres": [
+      "Action & Adventure",
+      "Crime",
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.895,
+    "poster_path": "/mVajSQihZaDpUI5PcaqH7EErKbv.jpg",
+    "backdrop_path": "/d3ixyhcfE57giElErEsrTHtLXVS.jpg",
+    "created_by": [
+      "Guy Magar"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Quincy, M.E.",
+    "slug": "quincy-me",
+    "tmdbId": 2179,
+    "overview": "Los Angeles County medical examiner Quincy routinely engages in police investigations.",
+    "first_air_date": "1976-10-03",
+    "last_air_date": "1983-05-11",
+    "number_of_seasons": 8,
+    "number_of_episodes": 148,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.491,
+    "poster_path": "/e0bsxZqhE5fhRjaX2LKu8GuKccE.jpg",
+    "backdrop_path": "/lcuacKO5gwY2IjdmgAoEgSlsaTV.jpg",
+    "created_by": [
+      "Glen A. Larson"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Greatest American Hero",
+    "slug": "the-greatest-american-hero",
+    "tmdbId": 1909,
+    "overview": "The chronicles of  teacher Ralph Hinkley's adventures after a group of aliens gives him a red suit that gives him superhuman abilities. Unfortunately, Ralph, who hates wearing the suit, immediately loses its instruction booklet, and thus has to learn how to use its powers by trial and error, often with comical results.",
+    "first_air_date": "1981-03-18",
+    "last_air_date": "1983-03-03",
+    "number_of_seasons": 3,
+    "number_of_episodes": 43,
+    "genres": [
+      "Action & Adventure",
+      "Comedy",
+      "Crime"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.179,
+    "poster_path": "/sViWrklUxxYw4ZYuGsrthnS63X2.jpg",
+    "backdrop_path": "/5ASuXTfd6zfLmyYdIf7R4uk4h5d.jpg",
+    "created_by": [
+      "Stephen J. Cannell"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The New Scooby-Doo Mysteries",
+    "slug": "the-new-scooby-doo-mysteries",
+    "tmdbId": 64016,
+    "overview": "Picking up where 'The New Scooby and Scappy Doo Show' left off. The main difference being that the team is now occasionally joined by Daphne Blake and friends to solve mysteries together.",
+    "first_air_date": "1984-09-08",
+    "last_air_date": "1984-12-01",
+    "number_of_seasons": 1,
+    "number_of_episodes": 26,
+    "genres": [
+      "Animation",
+      "Family",
+      "Comedy",
+      "Kids",
+      "Mystery"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 8.4,
+    "poster_path": "/6npEBuY3BUjHsBJx9RMp4qNejGo.jpg",
+    "backdrop_path": "/3r0cvdgoegoPh9N5qTA0HMqTgTI.jpg",
+    "created_by": [
+      "Tom Ruegger",
+      "Joe Ruby",
+      "Ken Spears"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Night Gallery",
+    "slug": "night-gallery",
+    "tmdbId": 4318,
+    "overview": "Rod Serling narrates an anthology of fantasy, horror and sci-fi stories from a set resembling a macabre museum. A chilling work of art serves as the connective link between the stories.",
+    "first_air_date": "1970-12-16",
+    "last_air_date": "1973-05-27",
+    "number_of_seasons": 3,
+    "number_of_episodes": 43,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.8,
+    "poster_path": "/d1mQiF3jKcKIZGi8LcrJ4FUNj2E.jpg",
+    "backdrop_path": "/bC6p6I0PUqf1DMihOw2Y61gvzeb.jpg",
+    "created_by": [
+      "Rod Serling"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Planet of the Apes",
+    "slug": "planet-of-the-apes",
+    "tmdbId": 19,
+    "overview": "Two astronauts and a sympathetic chimp friend are fugitives in a future Earth dominated by a civilization of humanoid apes. \n\nBased on the 1968 Planet of the Apes film and its sequels, which were inspired by the novel of the same name by Pierre Boulle.",
+    "first_air_date": "1974-09-13",
+    "last_air_date": "1974-12-20",
+    "number_of_seasons": 1,
+    "number_of_episodes": 14,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 6.931,
+    "poster_path": "/zxo5Vrd0oXgm9ZCz4r7Q3L8veWg.jpg",
+    "backdrop_path": "/JrBiUtR2CwxZR5GMK5Z9dU7Wr4.jpg",
+    "created_by": [
+      "Anthony Wilson"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Street Hawk",
+    "slug": "street-hawk",
+    "tmdbId": 3318,
+    "overview": "Street Hawk is an American television series that aired for 13 episodes on ABC in 1985. The series is a Limekiln and Templar Production in association with Universal Television. Its central characters were created by Paul M. Belous and Robert \"Bob\" Wolterstorff, and its core format was developed by Bruce Lansbury, who had initially commissioned the program's creation. This series was originally planned for the fall of 1984, Mondays at 8:00PM Eastern/7:00PM Central. However, ABC executives changed their minds when the summer series Call to Glory did well, and Street Hawk was pushed to mid-season. Street Hawk made its debut on January 4, 1985 on ABC at 9:00PM Eastern/8:00PM Central and ran until May 16, 1985.\n\nReruns aired on the USA Network on Saturdays at 10:00AM from 1990-91.",
+    "first_air_date": "1985-01-04",
+    "last_air_date": "1985-05-16",
+    "number_of_seasons": 1,
+    "number_of_episodes": 13,
+    "genres": [
+      "Action & Adventure",
+      "Mystery",
+      "Sci-Fi & Fantasy",
+      "Drama"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.9,
+    "poster_path": "/r3bajIlqFrqcd4aztq8E2Dcouur.jpg",
+    "backdrop_path": "/41v67qynLtXWJWd6UyZTir5rVEA.jpg",
+    "created_by": [
+      "Paul M. Belous",
+      "Robert Wolterstorff",
+      "Bruce Lansbury"
+    ],
+    "tagline": "THE MAN... THE MACHINE..."
+  },
+  {
+    "name": "The Streets of San Francisco",
+    "slug": "the-streets-of-san-francisco",
+    "tmdbId": 2468,
+    "overview": "Two police officers, the older Lt. Stone and the young upstart Inspector Keller, investigate murders and other serious crimes in San Francisco. Stone would become a second father to Keller as he learned the rigors and procedures of detective work.",
+    "first_air_date": "1972-09-23",
+    "last_air_date": "1977-06-09",
+    "number_of_seasons": 5,
+    "number_of_episodes": 119,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7,
+    "poster_path": "/c5H0SR6PVZ3inmFLZwQypwx7pkK.jpg",
+    "backdrop_path": "/eE8q2gfFrcvk99dbr8i3a62SjjW.jpg",
+    "created_by": [
+      "Edward Hume"
+    ],
+    "tagline": "Rugged drama of the city and its people."
+  },
+  {
+    "name": "Galactica 1980",
+    "slug": "galactica-1980",
+    "tmdbId": 4621,
+    "overview": "30 years after the original Battlestar Galactica series. Upon reaching Earth, the inhabitants of the renegade starfleet take action when they realize earthlings aren't advanced enough to help battle the Cylons.",
+    "first_air_date": "1980-01-27",
+    "last_air_date": "1980-05-04",
+    "number_of_seasons": 1,
+    "number_of_episodes": 10,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Action & Adventure",
+      "Drama"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.06,
+    "poster_path": "/spBhYAvmJnP6wSxT1omQn7TZwoY.jpg",
+    "backdrop_path": "/wkDfLFxtPMvLEPoGGyHwNaJS5Ur.jpg",
+    "created_by": [
+      "Glen A. Larson"
+    ],
+    "tagline": "The great ship Galactica, our home for these many years we've endured the wilderness of space. And now, we near the end of our journey: we have, at last, found Earth."
+  },
+  {
+    "name": "The Care Bears",
+    "slug": "the-care-bears",
+    "tmdbId": 2264,
+    "overview": "The Care Bears live in a faraway place up in the clouds called Care-a-Lot. They travel around the world on Missions in Caring, whilst evil villains such as Professor Coldheart and Lord No Heart, try to thwart their plans.",
+    "first_air_date": "1985-09-14",
+    "last_air_date": "1988-12-10",
+    "number_of_seasons": 4,
+    "number_of_episodes": 98,
+    "genres": [
+      "Kids",
+      "Animation",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6,
+    "poster_path": "/cEfqYEzVlnBLnT36GJ3y8Jm5gAO.jpg",
+    "backdrop_path": "/lyw9kEctO7msqLbe8DgxEbo6OYp.jpg",
+    "created_by": [
+      "Linda Denham",
+      "Elena Kucharik",
+      "David H. DePatie"
+    ],
+    "tagline": "There's a Care Bear for every feeling!"
+  },
+  {
+    "name": "Are You Being Served?",
+    "slug": "are-you-being-served",
+    "tmdbId": 168,
+    "overview": "This comedy series, which follows the exploits of employees at London's fictional \"Grace Brothers\" department store, is full of sexual innuendo, slapstick, visual gags, and double entendres. Much of the show's humor parodies Britain's class system, and many of the show's characters are based on stereotypes of the period, including the effeminate Mr. Humphries and the rich, but stingy, store owner.",
+    "first_air_date": "1972-09-08",
+    "last_air_date": "1985-04-01",
+    "number_of_seasons": 10,
+    "number_of_episodes": 69,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "BBC One"
+    ],
+    "vote_average": 7.253,
+    "poster_path": "/kERMhisrqqSd9RfjpKDfeAi5EOj.jpg",
+    "backdrop_path": "/oO9lSt8AxrrZbvJODJtJltdXd37.jpg",
+    "created_by": [
+      "David Croft",
+      "Jeremy Lloyd"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Defenders of the Earth",
+    "slug": "defenders-of-the-earth",
+    "tmdbId": 1794,
+    "overview": "Defenders of the Earth is an American animated television series produced in 1986, featuring characters from three comic strips distributed by King Features Syndicate—Flash Gordon, The Phantom, and Mandrake the Magician—opposing Ming the Merciless in the year 2015. Supporting characters include their children Rick Gordon, Jedda Walker, Kshin, Mandrake's assistant Lothar, and Lothar's son L.J. The show lasted for 65 episodes; there was also a short-lived comic book series published by Star Comics, created by Gerry Conway, Ross Andru and John Romita, Sr.. The closing credits credit Rob Walsh and Tony Pastor for the main title music, and Stan Lee for the lyrics. The series was later shown in reruns on the Sci Fi Channel as part of Sci Fi Cartoon Quest.",
+    "first_air_date": "1986-09-08",
+    "last_air_date": "1986-12-05",
+    "number_of_seasons": 1,
+    "number_of_episodes": 65,
+    "genres": [
+      "Animation",
+      "Action & Adventure"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 7.5,
+    "poster_path": "/cuRklKSdUyQOSI9WR2BxAkRylAf.jpg",
+    "backdrop_path": "/uEsuf0fkPkWrMCPD3inNhnqE50y.jpg",
+    "created_by": [
+      "Lee Falk"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Voyagers!",
+    "slug": "voyagers",
+    "tmdbId": 5391,
+    "overview": "A member of a league of time travelers and a boy travel through time repairing errors in world history.",
+    "first_air_date": "1982-10-03",
+    "last_air_date": "1983-07-10",
+    "number_of_seasons": 1,
+    "number_of_episodes": 20,
+    "genres": [
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "NBC"
+    ],
+    "vote_average": 7.483,
+    "poster_path": "/qPhJpkri0ROaNrKjMi3UgL7mdBn.jpg",
+    "backdrop_path": "/te5zhQ26Eu5OmvQtkOOnX0L62St.jpg",
+    "created_by": [
+      "James D. Parriott"
+    ],
+    "tagline": "Break the habit!"
+  },
+  {
+    "name": "Tales from the Darkside",
+    "slug": "tales-from-the-darkside",
+    "tmdbId": 1386,
+    "overview": "Tales from the Darkside is an anthology horror TV series created by George A. Romero, each episode was an individual short story that ended with a plot twist. The series' episodes spanned the genres of horror, science fiction, and fantasy, and some episodes featured elements of black comedy or more lighthearted themes.",
+    "first_air_date": "1984-09-30",
+    "last_air_date": "1988-07-23",
+    "number_of_seasons": 4,
+    "number_of_episodes": 89,
+    "genres": [
+      "Drama",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 7.225,
+    "poster_path": "/dlpqUF9io9Sl00jb7vhlqaTyFvq.jpg",
+    "backdrop_path": "/fU8wiNXv4k26KhOhnCZPq0I2TY4.jpg",
+    "created_by": [
+      "George A. Romero"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Star Wars: Droids",
+    "slug": "star-wars-droids",
+    "tmdbId": 25,
+    "overview": "An animated television series that features the exploits of R2-D2 and C-3PO. The series takes place between the events depicted in Star Wars Episode III: Revenge of the Sith and Star Wars Episode IV: A New Hope.",
+    "first_air_date": "1985-09-07",
+    "last_air_date": "1985-11-30",
+    "number_of_seasons": 1,
+    "number_of_episodes": 13,
+    "genres": [
+      "Kids",
+      "Animation",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 5.258,
+    "poster_path": "/AuGZbGeOQt30zsoTUSPlS8kMe1v.jpg",
+    "backdrop_path": "/hbPK2a0FrSiA2XzTp4tlbwmr390.jpg",
+    "created_by": [
+      "George Lucas",
+      "Ben Burtt",
+      "Raymond Jafelice",
+      "Clive A. Smith"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Kolchak: The Night Stalker",
+    "slug": "kolchak-the-night-stalker",
+    "tmdbId": 5084,
+    "overview": "Kolchak: The Night Stalker is an American television series that aired on ABC during the 1974–1975 season. It featured a fictional Chicago newspaper reporter who investigated mysterious crimes with unlikely causes, particularly those that law enforcement authorities would not follow up. These often involved the supernatural or even science fiction, including fantastic creatures.",
+    "first_air_date": "1974-09-13",
+    "last_air_date": "1975-03-28",
+    "number_of_seasons": 1,
+    "number_of_episodes": 20,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.6,
+    "poster_path": "/lgP91rWAjgqvA7IzwG3R96sAU8K.jpg",
+    "backdrop_path": "/gkJi5FNkN7crigAB9COUsuo1fs2.jpg",
+    "created_by": [
+      "Jeffrey Grant Rice"
+    ],
+    "tagline": "A hard-bitten reporter with a nose for news and an open mind."
+  },
+  {
+    "name": "Richie Rich",
+    "slug": "richie-rich",
+    "tmdbId": 3026,
+    "overview": "Richie Rich is an animated television series produced by Hanna-Barbera Productions that aired on ABC from 1980 to 1984 and again in 1988 as part of the weekend/weekday programming block The Funtastic World of Hanna-Barbera, Based upon Harvey Comics' popular Richie Rich comic book characters, the series shared time slots with Scooby-Doo and Scrappy-Doo, The Little Rascals, and Pac-Man over its original broadcast run. The other most visible character was Richie's dog, the appropriately named Dollar. The show airs occasionally on Boomerang; Boomerang's reruns feature the theme from The Richie Rich/Scooby-Doo Show and Scrappy Too! over the closing credits.",
+    "first_air_date": "1980-11-08",
+    "last_air_date": "1983-09-24",
+    "number_of_seasons": 4,
+    "number_of_episodes": 41,
+    "genres": [
+      "Animation",
+      "Family"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 6.5,
+    "poster_path": "/fhrIXZDVK3wc3FlX394ASanVH8a.jpg",
+    "backdrop_path": "/7SrpDYT2LYrOubeKyxYIYFGyKOn.jpg",
+    "created_by": [
+      "William Hanna",
+      "Joseph Barbera"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "Robin of Sherwood",
+    "slug": "robin-of-sherwood",
+    "tmdbId": 4488,
+    "overview": "Robin of Sherwood was a British television series, based on the legend of Robin Hood. Created by Richard Carpenter, it was produced by HTV in association with Goldcrest, and ran from 1984 to 1986 on the ITV network. In America it was retitled Robin Hood and shown on the premium cable TV channel Showtime and on PBS. The show starred Michael Praed and Jason Connery as two different incarnations of the title character. Unlike previous adaptations of the Robin Hood legend, Robin of Sherwood combined a gritty, authentic production design with elements of real-life history, 20th century fiction, and pagan myth. The series is also notable for its haunting title music by Clannad, which won a BAFTA award.",
+    "first_air_date": "1984-04-28",
+    "last_air_date": "1986-06-28",
+    "number_of_seasons": 3,
+    "number_of_episodes": 26,
+    "genres": [
+      "Sci-Fi & Fantasy",
+      "Drama",
+      "Action & Adventure"
+    ],
+    "networks": [
+      "ITV1"
+    ],
+    "vote_average": 7.6,
+    "poster_path": "/9w2VHgqZ4pQTAdUX5BDhMvaA7mo.jpg",
+    "backdrop_path": "/1WLIpPMAryGpd2rQFI14JuVYgb7.jpg",
+    "created_by": [
+      "Richard Carpenter"
+    ],
+    "tagline": "The definitive version of the story."
+  },
+  {
+    "name": "The Super Mario Bros. Super Show!",
+    "slug": "the-super-mario-bros-super-show",
+    "tmdbId": 14613,
+    "overview": "In 1989 the two most famous plumbers from Brooklyn burst out of the Nintendo game world and onto television screens across America. The Super Mario Bros. Super Show! aired weekday afternoons and brought Mario, Luigi, Princess Toadstool and King Koopa more thrilling adventures as cartoon characters. And if that weren't enough, each episode also contained live-action segments featuring Mario and Luigi running their Brooklyn plumbing shop - all before they were flushed down a drainpipe into the Mushroom World.",
+    "first_air_date": "1989-09-04",
+    "last_air_date": "1989-12-01",
+    "number_of_seasons": 1,
+    "number_of_episodes": 65,
+    "genres": [
+      "Animation",
+      "Sci-Fi & Fantasy",
+      "Comedy",
+      "Kids"
+    ],
+    "networks": [
+      "Syndication"
+    ],
+    "vote_average": 7,
+    "poster_path": "/mCvS2DuNC2FvvhF5WmV5XAay0Go.jpg",
+    "backdrop_path": "/5rzLzgmwWK8Jjj4xVsk0IeFtEAz.jpg",
+    "created_by": [
+      "Bob Forward",
+      "Reed Shelly",
+      "Phil Harnage",
+      "Bruce Shelly"
+    ],
+    "tagline": "Hey, Paisanos! It's the Super Mario Brothers' Super Show!"
+  },
+  {
+    "name": "Spider-Woman",
+    "slug": "spider-woman",
+    "tmdbId": 4784,
+    "overview": "When Jessica Drew was bitten by a poisonous spider as a child, her father saved her life by injecting her with an experimental \"spider serum,\" which also granted her superhuman powers. As an adult, Jessica works as editor of Justice Magazine but when trouble arises, Jessica slips away to change into her secret identity of Spider-Woman.",
+    "first_air_date": "1979-09-22",
+    "last_air_date": "1980-01-05",
+    "number_of_seasons": 1,
+    "number_of_episodes": 16,
+    "genres": [
+      "Animation",
+      "Kids",
+      "Action & Adventure",
+      "Sci-Fi & Fantasy"
+    ],
+    "networks": [
+      "ABC"
+    ],
+    "vote_average": 7.695,
+    "poster_path": "/cXiD1jVLjTyvO3w2jKq9QdlAYag.jpg",
+    "backdrop_path": "/pCHKnO0jSKL46IlHRmFEVmZXLkn.jpg",
+    "created_by": [
+      "Stan Lee"
+    ],
+    "tagline": ""
+  },
+  {
+    "name": "The Mary Tyler Moore Show",
+    "slug": "the-mary-tyler-moore-show",
+    "tmdbId": 2962,
+    "overview": "30-year-old single Mary Richards moves to Minneapolis to start a new life after a romantic break-up. There she reacquaints with Phyllis who rents her a room, and meets her upstairs neighbor and new best friend Rhoda. Mary unexpectedly lands a job as associate producer at the TV station WJM, where she works alongside her bristly boss, Lou; the comical newswriter, Murray; and the newscast's often-incompetent anchor, Ted.",
+    "first_air_date": "1970-09-19",
+    "last_air_date": "1977-03-19",
+    "number_of_seasons": 7,
+    "number_of_episodes": 168,
+    "genres": [
+      "Comedy"
+    ],
+    "networks": [
+      "CBS"
+    ],
+    "vote_average": 7.6,
+    "poster_path": "/nFsgsmK7isjtdEVTL35mJEQZHuO.jpg",
+    "backdrop_path": "/hiReFpcc4NZOZdbtyOYrcZ5vCv3.jpg",
+    "created_by": [
+      "Allan Burns",
+      "James L. Brooks"
+    ],
+    "tagline": "Good night and good news."
+  }
+]
