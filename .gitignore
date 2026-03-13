@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+*.tsbuildinfo
+next-env.d.ts
+
+# Frame images (populated by fetch_frames.py)
+# Keep placeholder frames tracked, ignore real ones when they're large
+# public/frames/

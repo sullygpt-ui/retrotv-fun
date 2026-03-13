@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "date": "2026-03-13",
+    "showName": "Happy Days",
+    "showSlug": "happy-days",
+    "tmdbId": 2532,
+    "frames": ["/frames/happy-days/1.jpg", "/frames/happy-days/2.jpg", "/frames/happy-days/3.jpg", "/frames/happy-days/4.jpg", "/frames/happy-days/5.jpg", "/frames/happy-days/6.jpg"]
+  },
+  {
+    "id": 2,
+    "date": "2026-03-14",
+    "showName": "Knight Rider",
+    "showSlug": "knight-rider",
+    "tmdbId": 2490,
+    "frames": ["/frames/knight-rider/1.jpg", "/frames/knight-rider/2.jpg", "/frames/knight-rider/3.jpg", "/frames/knight-rider/4.jpg", "/frames/knight-rider/5.jpg", "/frames/knight-rider/6.jpg"]
+  },
+  {
+    "id": 3,
+    "date": "2026-03-15",
+    "showName": "The A-Team",
+    "showSlug": "the-a-team",
+    "tmdbId": 1516,
+    "frames": ["/frames/the-a-team/1.jpg", "/frames/the-a-team/2.jpg", "/frames/the-a-team/3.jpg", "/frames/the-a-team/4.jpg", "/frames/the-a-team/5.jpg", "/frames/the-a-team/6.jpg"]
+  }
+]
