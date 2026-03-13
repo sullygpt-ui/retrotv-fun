@@ -54,6 +54,7 @@ export default function RootLayout({
             <a href="/faq" className="text-[var(--amber)] hover:underline">FAQ</a>
           </nav>
           <p>RetroTV.fun — A daily dose of nostalgia</p>
+          <p className="mt-1"><a href="https://iusedtowatchthis.com" target="_blank" rel="noopener" className="text-[var(--amber)] hover:underline">iusedtowatchthis.com</a> — The 70s &amp; 80s TV Podcast</p>
         </footer>
       </body>
     </html>
