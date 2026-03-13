@@ -30,9 +30,11 @@ export default function RootLayout({
         <SparkleTrail />
         <div className="crt-overlay" />
         <header className="text-center py-6">
-          <h1 className="text-2xl md:text-3xl text-[var(--amber)] tracking-wider">
-            📺 RetroTV
-          </h1>
+          <a href="/" className="inline-block">
+            <h1 className="text-2xl md:text-3xl text-[var(--amber)] tracking-wider">
+              📺 RetroTV
+            </h1>
+          </a>
           <p className="text-sm mt-1 text-gray-400 font-retro text-[10px]">
             Daily 70s &amp; 80s TV Show Challenge
           </p>

@@ -13,8 +13,8 @@ export default function ArchivePage() {
     fetch("/puzzles.json")
       .then((r) => r.json())
       .then((data: Puzzle[]) => {
-        // Show past puzzles (before or equal to today)
-        setPuzzles(data);
+        const today = new Date().toISOString().split("T")[0];
+        setPuzzles(data.filter((p) => p.date <= today));
       });
   }, []);
 
