@@ -4,6 +4,7 @@ import {
   ROTATION_LENGTH,
   answerHash,
   dateForPuzzleNumber,
+  currentPoolSize,
   dayIndex,
   getPublicPuzzle,
   getPuzzle,
@@ -11,6 +12,7 @@ import {
 } from "@/lib/rotation";
 import { addDays, todayUTC } from "@/lib/dates";
 import { normalizeTitle } from "@/lib/matching";
+import rotation from "@/data/rotation.json";
 
 describe("scheduling", () => {
   it("numbers the epoch as puzzle #1", () => {
@@ -26,10 +28,31 @@ describe("scheduling", () => {
     expect(getPuzzle("2026-09-18")?.showName).toBe("Buck Rogers in the 25th Century");
   });
 
+  it("keeps already-played days fixed when the pool grows", () => {
+    // schedule.json froze the pool at 190 through day 232, so adding shows
+    // must not reassign puzzles people have played or pages Google has indexed.
+    expect(getPuzzle(dateForPuzzleNumber(191))?.showName).toBe(getPuzzle(EPOCH)?.showName);
+    expect(getPuzzle(dateForPuzzleNumber(232))?.showName).toBe("Kung Fu");
+    expect(getPuzzle(dateForPuzzleNumber(233))?.showName).toBe("Battlestar Galactica");
+    expect(currentPoolSize(dateForPuzzleNumber(233))).toBe(190);
+
+    // The larger pool takes over from the next day.
+    expect(currentPoolSize(dateForPuzzleNumber(234))).toBe(ROTATION_LENGTH);
+    expect(ROTATION_LENGTH).toBeGreaterThan(190);
+  });
+
+  it("debuts a newly added batch the day the pool grows", () => {
+    // Appended shows would otherwise wait out the rest of the cycle — months.
+    const debut = getPuzzle(dateForPuzzleNumber(234))!;
+    const newest = rotation.slice(190) as { showName: string }[];
+    expect(newest.length).toBeGreaterThan(0);
+    expect(debut.showName).toBe(newest[0].showName);
+  });
+
   it("never runs out of puzzles", () => {
-    // The day after the old schedule ended used to fall back to puzzle #1.
-    const wrapDate = dateForPuzzleNumber(ROTATION_LENGTH + 1);
-    expect(getPuzzle(wrapDate)?.number).toBe(ROTATION_LENGTH + 1);
+    // The day after the original schedule ended used to fall back to puzzle #1.
+    const wrapDate = dateForPuzzleNumber(191);
+    expect(getPuzzle(wrapDate)?.number).toBe(191);
     expect(getPuzzle(wrapDate)?.showName).toBe(getPuzzle(EPOCH)?.showName);
 
     const farFuture = addDays(EPOCH, 10_000);

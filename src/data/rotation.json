@@ -1138,5 +1138,29 @@
     "showSlug": "buck-rogers-in-the-25th-century",
     "tmdbId": 2443,
     "frameDir": "461fbb7be2631deb"
+  },
+  {
+    "showName": "Spenser: For Hire",
+    "showSlug": "spenser-for-hire",
+    "tmdbId": 996,
+    "frameDir": "3b3a629f0a4a29cf"
+  },
+  {
+    "showName": "The Facts of Life",
+    "showSlug": "the-facts-of-life",
+    "tmdbId": 1803,
+    "frameDir": "e9edc6f1369f8081"
+  },
+  {
+    "showName": "Transformers",
+    "showSlug": "transformers",
+    "tmdbId": 11841,
+    "frameDir": "055f4fb9d3d08575"
+  },
+  {
+    "showName": "Welcome Back, Kotter",
+    "showSlug": "welcome-back-kotter",
+    "tmdbId": 738,
+    "frameDir": "57fc652b39e20648"
   }
 ]

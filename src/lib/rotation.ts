@@ -10,6 +10,7 @@
  * to the browser. Use `getPublicPuzzle` to cross that boundary.
  */
 import rotation from "../data/rotation.json";
+import schedule from "../data/schedule.json";
 import { addDays, daysBetween, isISODate, todayUTC } from "./dates";
 import { sha256Hex } from "./hash";
 import { normalizeTitle } from "./matching";
@@ -38,6 +39,43 @@ export const EPOCH = "2026-03-13";
 
 const ROTATION = rotation as RotationEntry[];
 
+/**
+ * How the day number maps into the pool, over time.
+ *
+ * A plain `day % ROTATION.length` breaks twice when shows are added: it
+ * reassigns days that have already been played (including archive pages search
+ * engines have indexed), and the new shows sit at the end of the pool unseen
+ * until the cycle wraps, which can be months away.
+ *
+ * So each segment pins a pool size and a starting index from the day it takes
+ * effect. `build_rotation.py` appends a segment starting tomorrow whose
+ * `startIndex` is the first newly added show, which freezes history and lets a
+ * new batch debut the next day. Segments are ordered by `fromDay`.
+ */
+interface ScheduleSegment {
+  fromDay: number;
+  poolSize: number;
+  startIndex: number;
+}
+
+const SCHEDULE = schedule as ScheduleSegment[];
+
+function segmentForDay(day: number): ScheduleSegment {
+  let active = SCHEDULE[0];
+  for (const segment of SCHEDULE) {
+    if (segment.fromDay <= day) active = segment;
+    else break;
+  }
+  return active;
+}
+
+/** Index into ROTATION for a given day since EPOCH. */
+function rotationIndex(day: number): number {
+  const segment = segmentForDay(day);
+  const poolSize = Math.min(segment.poolSize, ROTATION.length);
+  return (segment.startIndex + (day - segment.fromDay)) % poolSize;
+}
+
 /** Whole days from EPOCH to `date`; negative before launch. */
 export function dayIndex(date: string): number {
   return daysBetween(EPOCH, date);
@@ -59,7 +97,7 @@ export function isValidPuzzleDate(date: string): boolean {
 export function getPuzzle(date: string): Puzzle | null {
   const i = dayIndex(date);
   if (i < 0) return null;
-  const show = ROTATION[i % ROTATION.length];
+  const show = ROTATION[rotationIndex(i)];
   return {
     number: i + 1,
     date,
@@ -99,3 +137,9 @@ export function pastDates(limit?: number): string[] {
 
 /** How many distinct shows are in the rotation. */
 export const ROTATION_LENGTH = ROTATION.length;
+
+/** How many shows the puzzle for a date was drawn from. */
+export function currentPoolSize(date: string): number {
+  const segment = segmentForDay(dayIndex(date));
+  return Math.min(segment.poolSize, ROTATION.length);
+}

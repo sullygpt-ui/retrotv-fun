@@ -27,7 +27,7 @@ export default function AboutPage() {
 
         <h2 className="text-[var(--amber)] font-heading text-xs pt-2">Our Library</h2>
         <p>
-          RetroTV features over <strong className="text-white">200 shows</strong> from the golden age of television — everything from sitcoms and dramas to action shows and Saturday morning cartoons. Browse the full collection on our{' '}
+          RetroTV features nearly <strong className="text-white">200 shows</strong> from the golden age of television — everything from sitcoms and dramas to action shows and Saturday morning cartoons. Browse the full collection on our{' '}
           <Link href="/shows" className="text-[var(--amber)] hover:underline">shows page</Link>.
         </p>
 
@@ -44,6 +44,26 @@ export default function AboutPage() {
             I Used to Watch This
           </a>{' '}
           — our companion site where we dive deep into the shows that shaped a generation. Podcast episodes, reviews, and behind-the-scenes stories.
+        </p>
+
+        <h2 className="text-[var(--amber)] font-heading text-xs pt-2">Credits</h2>
+        <p>
+          Show details and screenshots come from{' '}
+          <a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer" className="text-[var(--amber)] hover:underline">
+            TMDB
+          </a>{' '}
+          and{' '}
+          <a href="https://www.tvmaze.com" target="_blank" rel="noopener noreferrer" className="text-[var(--amber)] hover:underline">
+            TVmaze
+          </a>
+          . TVmaze data is used under{' '}
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer" className="text-[var(--amber)] hover:underline">
+            CC BY-SA 4.0
+          </a>
+          .
+        </p>
+        <p className="text-gray-500 text-xs">
+          This product uses the TMDB API but is not endorsed or certified by TMDB.
         </p>
       </div>
     </div>
