@@ -11,7 +11,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "frames": "python3 scripts/fetch_frames.py",
-    "rotation": "python3 scripts/generate_schedule.py"
+    "rotation": "python3 scripts/build_rotation.py"
   },
   "author": "Mike Sullivan",
   "license": "UNLICENSED",

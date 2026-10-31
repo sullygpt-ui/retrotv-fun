@@ -2,8 +2,7 @@
 """
 Shared TMDB credential lookup.
 
-The key used to be hardcoded in five scripts in this public repo, which leaked
-it. It now comes from the environment only, so there is nothing to commit:
+The key comes from the environment only, so there is nothing to commit:
 
     export TMDB_API_KEY=your_key        # or put it in .env.local (gitignored)
     set -a; . ./.env.local; set +a
