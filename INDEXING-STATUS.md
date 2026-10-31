@@ -25,7 +25,7 @@ now covers:
 
 | Engine | Method | State |
 | --- | --- | --- |
-| Google | Search Console sitemap submission | **Not done** — needs sign-in at https://search.google.com/search-console |
+| Google | Search Console, domain property | DNS TXT record **live and propagated**; awaiting Verify + sitemap submit |
 | Bing | Bing Webmaster Tools | **Not done** — fastest route is "Import from Google Search Console" |
 | Bing / Yandex / Seznam / Naver / Yep | IndexNow | **Submitted 2026-10-31** — all 508 sitemap URLs, HTTP 200 |
 
@@ -67,15 +67,32 @@ Set either with `vercel env add <NAME> production`, redeploy, then press Verify.
 A missing variable emits no tag; an empty one would emit a tag that reads as a
 failed check.
 
-DNS is at GoDaddy (`ns67/ns68.domaincontrol.com`), not Vercel, so the DNS TXT
-method needs a record added at the registrar. The meta tag avoids that. Note
-that a Search Console *domain* property only verifies by DNS; the URL-prefix
-property `https://retrotv.fun` accepts the meta tag.
+A Search Console **domain** property (`retrotv.fun`) is the one in use, and it
+verifies by DNS only — no meta tag. The record is live at GoDaddy:
+
+```
+Type  TXT
+Name  @
+Value google-site-verification=sdow5OHoGCQzqrGQ3udoQ_Mu7R7XizF8CBvfQSQrcKw
+TTL   3600
+```
+
+Confirmed resolving on 8.8.8.8, 1.1.1.1, 9.9.9.9 and the authoritative
+`ns67.domaincontrol.com`, with no competing TXT record. 8.8.8.8 is the one that
+matters — it is what Search Console reads.
+
+A domain property is the better choice here: it covers `www`, bare, http and
+https, and every subdomain in one property, where a URL-prefix property would
+only cover the exact origin. `GOOGLE_SITE_VERIFICATION` therefore stays unset;
+the env var is kept for Bing, which does accept a meta tag when added
+standalone. DNS is at GoDaddy (`ns67/ns68.domaincontrol.com`), not Vercel, so
+any further records have to be added at the registrar.
 
 ## TODO
 
-- [ ] Verify `https://retrotv.fun` in Google Search Console (URL-prefix property,
-      HTML tag method) and submit `https://retrotv.fun/sitemap.xml`
+- [ ] Press Verify on the `retrotv.fun` domain property in Google Search
+      Console — the DNS TXT record is already live and propagated — then submit
+      `https://retrotv.fun/sitemap.xml` under Sitemaps
 - [ ] Import the property into Bing Webmaster Tools from Search Console
 - [ ] Enable Vercel Web Analytics — it has never been on, so there is no
       traffic history at all (`vercel project web-analytics enable retrotv-fun`)
