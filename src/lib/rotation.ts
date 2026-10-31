@@ -56,6 +56,13 @@ interface ScheduleSegment {
   fromDay: number;
   poolSize: number;
   startIndex: number;
+  /**
+   * Set on the segment that picks up after a fresh run, which starts at
+   * whichever index has gone longest unseen rather than at 0. Only
+   * build_rotation.py reads it — it tells a later run which segments are
+   * queued debuts it must not skip past.
+   */
+  resume?: boolean;
 }
 
 const SCHEDULE = schedule as ScheduleSegment[];

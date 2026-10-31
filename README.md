@@ -94,6 +94,16 @@ later day — reassigning puzzles people have already played and archive pages
 that are already indexed. `src/data/schedule.json` records the pool size from
 the day it takes effect, so new shows only appear from the next day onward.
 
+Each segment walks the pool in order from its `startIndex` and wraps, so the
+only real choice is where the seam between cycles falls. `build_rotation.py`
+writes two future segments: one that debuts shows nobody has seen yet, and one
+flagged `resume` that picks up afterwards at whichever show has gone longest
+unseen. Resuming at index 0 instead would bring back the tail of the retired
+190-day pool after 102 days; the chosen seam stretches that to 206. Everything
+ahead of today is recomputed on each run and checked day by day against the old
+schedule, so the script refuses to write a plan that would move a puzzle
+somebody has already played.
+
 ### Attribution
 
 TMDB requires the notice "This product uses the TMDB API but is not endorsed or

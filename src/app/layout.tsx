@@ -23,6 +23,26 @@ const vt323 = VT323({
   variable: "--font-vt323",
 });
 
+/**
+ * Search Console / Bing Webmaster ownership tokens.
+ *
+ * Both consoles accept a <meta> tag as proof. The tokens aren't secrets — they
+ * end up in the public HTML — but they're read from the environment so claiming
+ * a property is a Vercel env var away instead of a code change. Set
+ * GOOGLE_SITE_VERIFICATION and/or BING_SITE_VERIFICATION, redeploy, then press
+ * Verify in the console. Omitted tokens emit no tag at all; an empty meta tag
+ * reads as a failed check rather than a missing one.
+ */
+function verification(): Metadata["verification"] {
+  const google = process.env.GOOGLE_SITE_VERIFICATION?.trim();
+  const bing = process.env.BING_SITE_VERIFICATION?.trim();
+  if (!google && !bing) return undefined;
+  return {
+    ...(google ? { google } : {}),
+    ...(bing ? { other: { "msvalidate.01": bing } } : {}),
+  };
+}
+
 export const metadata: Metadata = {
   title: "RetroTV - Daily TV Show Guessing Game",
   description: "Guess the classic 70s & 80s TV show from screenshots! 200+ shows from the 70s and 80s. A new puzzle every day — free, no login required.",
@@ -40,6 +60,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://retrotv.fun"),
   alternates: { canonical: "/" },
+  verification: verification(),
 };
 
 export default function RootLayout({

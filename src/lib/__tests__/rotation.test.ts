@@ -60,6 +60,43 @@ describe("scheduling", () => {
     expect(getPuzzle(farFuture)?.frames).toHaveLength(6);
   });
 
+  it("airs every show nobody has seen before repeating any of them", () => {
+    // 59 shows were appended but had not aired yet, so they run back to back.
+    const seen = new Set<string>();
+    for (let day = 0; day <= dayIndex(todayUTC()); day += 1) {
+      seen.add(getPuzzle(dateForPuzzleNumber(day + 1))!.showSlug);
+    }
+    const queued = ROTATION_LENGTH - seen.size;
+    expect(queued).toBeGreaterThan(0);
+
+    for (let i = 1; i <= queued; i += 1) {
+      const date = addDays(todayUTC(), i);
+      expect(seen.has(getPuzzle(date)!.showSlug), `${date} repeats early`).toBe(false);
+      seen.add(getPuzzle(date)!.showSlug);
+    }
+    expect(seen.size).toBe(ROTATION_LENGTH);
+  });
+
+  it("rests a show for months before bringing it back", () => {
+    // The resume segment in schedule.json starts the next cycle at the show
+    // that has gone longest unseen. Starting at index 0 instead would replay
+    // the shows from the tail of the old 190-day pool after only 102 days.
+    const lastSeen = new Map<string, number>();
+    let soonest = Infinity;
+
+    for (let day = 0; day < dayIndex(todayUTC()) + 800; day += 1) {
+      const slug = getPuzzle(dateForPuzzleNumber(day + 1))!.showSlug;
+      const previous = lastSeen.get(slug);
+      // Days already played are history and can't be improved.
+      if (previous !== undefined && day > dayIndex(todayUTC())) {
+        soonest = Math.min(soonest, day - previous);
+      }
+      lastSeen.set(slug, day);
+    }
+
+    expect(soonest).toBeGreaterThanOrEqual(200);
+  });
+
   it("has no puzzle before launch", () => {
     expect(getPuzzle(addDays(EPOCH, -1))).toBeNull();
   });

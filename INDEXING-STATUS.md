@@ -1,6 +1,6 @@
 # RetroTV.fun — Search Engine Indexing Status
 
-**Last reviewed:** 2026-10-30
+**Last reviewed:** 2026-10-31
 
 ## DNS / hosting
 
@@ -15,7 +15,7 @@
 now covers:
 
 - the home page, archive index, shows index, about and FAQ
-- all 201 show pages, plus decade and genre pages
+- all 256 show pages, plus decade and genre pages
 - every past puzzle at `/archive/<date>` — these are real playable pages, and
   the list grows by one per day
 
@@ -25,19 +25,60 @@ now covers:
 
 | Engine | Method | State |
 | --- | --- | --- |
-| Google | Search Console sitemap submission | **Not done** — needs a one-time manual verification + submit at https://search.google.com/search-console |
-| Bing | Bing Webmaster Tools | **Not done** — manual |
-| Bing / Yandex / Seznam / Naver | IndexNow | Accepted (HTTP 202) in March for 13 URLs; worth re-running now that the archive and show pages exist |
+| Google | Search Console sitemap submission | **Not done** — needs sign-in at https://search.google.com/search-console |
+| Bing | Bing Webmaster Tools | **Not done** — fastest route is "Import from Google Search Console" |
+| Bing / Yandex / Seznam / Naver / Yep | IndexNow | **Submitted 2026-10-31** — all 508 sitemap URLs, HTTP 200 |
 
 Sitemap *ping* endpoints are gone: Google retired `/ping` in June 2023 and
 Bing's returns 410. Submission is through the webmaster consoles or IndexNow.
 
 IndexNow key: `8f794212-13e7-4c4c-848a-382bbe6cba7a`, served from
-`public/8f794212-13e7-4c4c-848a-382bbe6cba7a.txt`.
+`public/8f794212-13e7-4c4c-848a-382bbe6cba7a.txt` (no trailing newline, which
+matters — the file must contain the key and nothing else).
+
+### Gotcha: the bulk endpoint 403s until the key is warm
+
+A bulk `POST https://api.indexnow.org/indexnow` came back
+`403 SiteVerificationNotCompleted` even though the key file served 200. A single
+URL submitted by GET first returns 200 and completes verification; the bulk POST
+then succeeds immediately:
+
+```sh
+KEY=8f794212-13e7-4c4c-848a-382bbe6cba7a
+curl -s -o /dev/null -w '%{http_code}\n' \
+  "https://api.indexnow.org/indexnow?url=https%3A%2F%2Fretrotv.fun%2F&key=$KEY"
+```
+
+Re-run the bulk submission after adding a batch of shows — each new show page
+and each day's archive page is a new URL.
+
+### Claiming the property
+
+`verification()` in `src/app/layout.tsx` emits the ownership `<meta>` tag for
+both consoles from environment variables, so claiming a property needs no code
+change:
+
+| Variable | Console | Value to use |
+| --- | --- | --- |
+| `GOOGLE_SITE_VERIFICATION` | Google Search Console | the `content` value from the "HTML tag" method |
+| `BING_SITE_VERIFICATION` | Bing Webmaster Tools | the `content` value of the `msvalidate.01` tag |
+
+Set either with `vercel env add <NAME> production`, redeploy, then press Verify.
+A missing variable emits no tag; an empty one would emit a tag that reads as a
+failed check.
+
+DNS is at GoDaddy (`ns67/ns68.domaincontrol.com`), not Vercel, so the DNS TXT
+method needs a record added at the registrar. The meta tag avoids that. Note
+that a Search Console *domain* property only verifies by DNS; the URL-prefix
+property `https://retrotv.fun` accepts the meta tag.
 
 ## TODO
 
-- [ ] Verify the property in Google Search Console and submit the sitemap
+- [ ] Verify `https://retrotv.fun` in Google Search Console (URL-prefix property,
+      HTML tag method) and submit `https://retrotv.fun/sitemap.xml`
+- [ ] Import the property into Bing Webmaster Tools from Search Console
+- [ ] Enable Vercel Web Analytics — it has never been on, so there is no
+      traffic history at all (`vercel project web-analytics enable retrotv-fun`)
 - [ ] Add the site to Bing Webmaster Tools
 - [ ] Re-submit the full URL set via IndexNow
 - [ ] Confirm `https://retrotv.fun/8f794212-13e7-4c4c-848a-382bbe6cba7a.txt` is reachable

@@ -58,38 +58,168 @@ def migrate_slug_dirs(shows: list[dict]) -> int:
     return moved
 
 
+def segment_for_day(segments: list[dict], day: int) -> dict:
+    """The segment in effect on `day`. Mirrors segmentForDay in rotation.ts."""
+    active = segments[0]
+    for segment in segments:
+        if segment["fromDay"] <= day:
+            active = segment
+        else:
+            break
+    return active
+
+
+def index_for_day(segments: list[dict], pool_size: int, day: int) -> int:
+    """Mirrors rotationIndex in rotation.ts."""
+    segment = segment_for_day(segments, day)
+    pool = min(segment["poolSize"], pool_size)
+    return (segment["startIndex"] + (day - segment["fromDay"])) % pool
+
+
+def last_aired(segments: list[dict], pool_size: int, before_day: int) -> dict[int, int]:
+    """The most recent day each rotation index aired, over days < before_day."""
+    last: dict[int, int] = {}
+    for day in range(segments[0]["fromDay"], before_day):
+        last[index_for_day(segments, pool_size, day)] = day
+    return last
+
+
+def best_resume_index(last: dict[int, int], pool_size: int, resume_day: int) -> int:
+    """
+    The start index that leaves the longest gap before any show repeats.
+
+    A segment walks the pool in order and wraps, so the only choice is where the
+    seam falls — and starting at 0 puts the least rested shows first. When the
+    pool grew from 190 to 249, days 190-232 had already replayed indices 0-42,
+    so resuming at index 0 would have brought those back after 102 days when
+    206 was available.
+    """
+    if not last:
+        return 0
+
+    best_index, best_gap = 0, -1
+    for start in range(pool_size):
+        gap = min(
+            (resume_day + offset) - last[index]
+            for offset in range(pool_size)
+            if (index := (start + offset) % pool_size) in last
+        )
+        if gap > best_gap:
+            best_index, best_gap = start, gap
+    return best_index
+
+
+def plan_future(segments: list[dict], pool_size: int, first_new_index: int, from_day: int) -> list[dict]:
+    """
+    The segments to run from `from_day` on, given the ones already in effect.
+
+    At most two: one that debuts shows nobody has seen yet, and one that picks
+    up afterwards at the best-rested index. Callers must check the result
+    against verify_history — widening a pool is only safe while the segment
+    walking it has not wrapped.
+    """
+    settled = [s for s in segments if s["fromDay"] < from_day]
+    pending = [s for s in segments if s["fromDay"] >= from_day]
+
+    # A pending debut hasn't aired yet, so keep the earliest of them: a second
+    # run on the same day must not skip past the batch the first run queued up.
+    debut_starts = [s["startIndex"] for s in pending if not s.get("resume")]
+    if first_new_index < pool_size:
+        debut_starts.append(first_new_index)
+
+    future: list[dict] = []
+    if debut_starts:
+        future.append(
+            {"fromDay": from_day, "poolSize": pool_size, "startIndex": min(debut_starts)}
+        )
+
+    # The seam falls where the walk in flight reaches the end of the pool, which
+    # is also where a fresh run finishes airing. Anything earlier would cut that
+    # run short; anything later would repeat a show the walk has already passed.
+    walking = (settled + future)[-1]
+    resume_day = max(from_day, walking["fromDay"] + pool_size - walking["startIndex"])
+
+    last = last_aired(settled + future, pool_size, resume_day)
+    future.append(
+        {
+            "fromDay": resume_day,
+            "poolSize": pool_size,
+            "startIndex": best_resume_index(last, pool_size, resume_day),
+            "resume": True,
+        }
+    )
+    return future
+
+
+def verify_history(old: list[dict], new: list[dict], pool_size: int, today: int) -> int | None:
+    """The first day whose puzzle changed, or None. Puzzle numbers key saves."""
+    if not old:
+        return None
+    for day in range(old[0]["fromDay"], today + 1):
+        if index_for_day(old, pool_size, day) != index_for_day(new, pool_size, day):
+            return day
+    return None
+
+
 def update_schedule(pool_size: int, first_new_index: int) -> None:
     """
-    Record the new pool size, effective tomorrow, if the pool changed.
+    Rewrite the part of the schedule that hasn't taken effect yet.
 
-    startIndex points at the first newly added show so the new batch debuts
-    tomorrow instead of waiting out the rest of the current cycle.
+    Segments already in effect are history and are left alone; ahead of today
+    the plan is rebuilt from scratch, so running this twice is a no-op. The
+    result is checked day by day against the old schedule before it is written.
     """
     segments = json.loads(SCHEDULE_FILE.read_text()) if SCHEDULE_FILE.exists() else []
-    if segments and segments[-1]["poolSize"] == pool_size:
-        return
 
     # Puzzles roll over at UTC midnight, so "tomorrow" is a UTC day.
-    today_utc = datetime.now(timezone.utc).date()
-    from_day = max((today_utc - EPOCH + timedelta(days=1)).days, 0)
-    start_index = first_new_index % pool_size
+    today = (datetime.now(timezone.utc).date() - EPOCH).days
+    from_day = max(today + 1, 0)
 
-    # A segment added earlier today hasn't taken effect yet, so replace it
-    # rather than stacking a second one on the same day — but keep its
-    # startIndex, which already points at the first show never aired. Taking the
-    # newer one would skip past the batch that segment was about to debut.
-    if segments and segments[-1]["fromDay"] >= from_day:
-        start_index = min(start_index, segments[-1]["startIndex"])
-        segments[-1] = {"fromDay": from_day, "poolSize": pool_size, "startIndex": start_index}
+    if not segments:
+        segments = [{"fromDay": 0, "poolSize": pool_size, "startIndex": 0}]
+    settled = [s for s in segments if s["fromDay"] < from_day] or [segments[0]]
+
+    # Shows appended to the rotation continue the walk of whatever segment is
+    # already mid-run, so widening its pool debuts them without a seam. That
+    # only holds while the walk hasn't wrapped, which verify_history checks.
+    widened = [dict(s) for s in settled]
+    widened[-1]["poolSize"] = pool_size
+    candidates = [
+        widened + plan_future(widened, pool_size, pool_size, from_day),
+        settled + plan_future(segments, pool_size, first_new_index, from_day),
+    ]
+
+    for schedule in candidates:
+        changed = verify_history(segments, schedule, pool_size, today)
+        if changed is None:
+            break
     else:
-        segments.append({"fromDay": from_day, "poolSize": pool_size, "startIndex": start_index})
+        sys.exit(
+            "Refusing to write: every candidate schedule would reassign a puzzle "
+            "that has already been played. Check src/data/schedule.json by hand."
+        )
 
-    SCHEDULE_FILE.write_text(json.dumps(segments, indent=2) + "\n")
-    previous = segments[-2]["poolSize"] if len(segments) > 1 else 0
-    print(
-        f"Schedule: pool {previous} -> {pool_size} from day {from_day} (tomorrow), "
-        f"debuting at index {start_index}"
-    )
+    if schedule == segments:
+        return
+
+    SCHEDULE_FILE.write_text(json.dumps(schedule, indent=2) + "\n")
+    for segment in schedule[len(settled):]:
+        day = EPOCH + timedelta(days=segment["fromDay"])
+        print(
+            f"Schedule: day {segment['fromDay']} ({day}) pool {segment['poolSize']} "
+            f"from index {segment['startIndex']}"
+        )
+
+    resume = schedule[-1]
+    # Count from the resume day, not today: the shows airing between now and
+    # then are the ones most at risk of coming back too soon.
+    last = last_aired(schedule, pool_size, resume["fromDay"])
+    gap = min(
+        (resume["fromDay"] + offset) - last[index]
+        for offset in range(pool_size)
+        if (index := (resume["startIndex"] + offset) % pool_size) in last
+    ) if last else pool_size
+    print(f"Soonest any show repeats after the current run: {gap} days")
 
 
 def main() -> None:

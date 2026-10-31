@@ -1,4 +1,18 @@
 [
-  { "fromDay": 0, "poolSize": 190, "startIndex": 0 },
-  { "fromDay": 233, "poolSize": 249, "startIndex": 190 }
+  {
+    "fromDay": 0,
+    "poolSize": 190,
+    "startIndex": 0
+  },
+  {
+    "fromDay": 233,
+    "poolSize": 249,
+    "startIndex": 190
+  },
+  {
+    "fromDay": 292,
+    "poolSize": 249,
+    "startIndex": 43,
+    "resume": true
+  }
 ]
