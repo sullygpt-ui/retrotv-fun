@@ -73,7 +73,7 @@ normalized title, so "The Transformers" can't land beside "Transformers"), and
 have at least 6 episode stills. Its findings are kept in `candidates.json`,
 including what was rejected and why.
 
-`build_rotation.py` reports which shows still have no frames (7 of 256) and
+`build_rotation.py` reports which shows still have no frames (9 of 375) and
 appends a `schedule.json` segment when the pool grows.
 
 Those 7 — Good Times, Webster, Mr. Belvedere, Head of the Class, 227, Land of
@@ -83,9 +83,18 @@ TVmaze has fewer than six. TMDB *backdrops* exist but are promotional art that
 often carries the show's logo, which would give the puzzle away. TheTVDB is the
 next source worth trying.
 
-Shows are also dropped on puzzle-quality grounds, not just availability:
-documentary and nature anthologies (frames identify nothing) and soaps still in
-production (TMDB stills post-date the era).
+`discover_shows.py` selects on *episode* air dates, not the premiere date:
+filtering on first_air_date threw away every show that started in the late 60s
+and ran deep into the 70s — Bewitched, Hogan's Heroes, Mission: Impossible,
+The Brady Bunch. It rejects documentary/news/reality/talk genres and anything
+still in production, whose stills would post-date the era being guessed.
+
+Shows are also dropped by hand on fairness grounds. The test is ambiguity, not
+obscurity: a second Heathcliff, a third Ghostbusters, or Josie and the
+Pussycats in Outer Space alongside Josie and the Pussycats makes a
+correct-feeling guess wrong, which is worse than a hard puzzle. Compare each
+candidate title against the library and against the other candidates before
+adding a batch.
 
 ### Why schedule.json exists
 
@@ -116,7 +125,7 @@ permits commercial use.
 
 ## Tech Stack
 
-- 249 shows in the rotation, out of 256 in the guess list
+- 366 shows in the rotation, out of 375 in the guess list
 - Next.js 16 (App Router) + React 19, TypeScript
 - Tailwind CSS 4
 - Vitest for the scheduling, matching and stats logic

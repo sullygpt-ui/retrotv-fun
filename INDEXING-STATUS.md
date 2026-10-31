@@ -15,7 +15,7 @@
 now covers:
 
 - the home page, archive index, shows index, about and FAQ
-- all 256 show pages, plus decade and genre pages
+- all 375 show pages, plus decade and genre pages
 - every past puzzle at `/archive/<date>` — these are real playable pages, and
   the list grows by one per day
 
@@ -27,7 +27,7 @@ now covers:
 | --- | --- | --- |
 | Google | Search Console, domain property | DNS TXT record **live and propagated**; awaiting Verify + sitemap submit |
 | Bing | Bing Webmaster Tools | **Not done** — fastest route is "Import from Google Search Console" |
-| Bing / Yandex / Seznam / Naver / Yep | IndexNow | **Submitted 2026-10-31** — all 508 sitemap URLs, HTTP 200 |
+| Bing / Yandex / Seznam / Naver / Yep | IndexNow | **Submitted 2026-10-31** — all 622 sitemap URLs, HTTP 200 |
 
 Sitemap *ping* endpoints are gone: Google retired `/ping` in June 2023 and
 Bing's returns 410. Submission is through the webmaster consoles or IndexNow.
@@ -87,6 +87,30 @@ only cover the exact origin. `GOOGLE_SITE_VERIFICATION` therefore stays unset;
 the env var is kept for Bing, which does accept a meta tag when added
 standalone. DNS is at GoDaddy (`ns67/ns68.domaincontrol.com`), not Vercel, so
 any further records have to be added at the registrar.
+
+## Archive pages carry their answer
+
+Each settled puzzle page server-renders the show, its facts and a link to its
+show page, inside a collapsed `<details>` — indexable, but not spoiling anyone
+browsing the archive. The `<title>` names the show, because "<show> screenshot
+quiz" and "puzzle #N answer" are the queries these pages can win.
+
+`isSettledPuzzleDate()` in `src/lib/rotation.ts` is what holds today's answer
+back; `/archive/<today>` is additionally `noindex` because it is the home page's
+puzzle at a second URL. Both are covered by tests — do not loosen that guard.
+
+## What is still worth doing, and is not code
+
+1. **Original prose on the show pages.** Every one of the 375 is TMDB's
+   overview, median 236 characters, zero original words — the scaled-content
+   pattern Google's 2024 core update targeted. Thirty pages written by a person
+   beat 375 templated ones. Generating them from a model is the same trap one
+   level up.
+2. **Directory listings.** Flickle, Episode.wtf and Showsies all have
+   alternativeto.net entries that rank for "games like Wordle". Free, and worth
+   more than a hundred show pages.
+3. **A real link from iusedtowatchthis.com.** It links from the sitewide nav
+   menu only. One in-content post is worth considerably more.
 
 ## TODO
 
