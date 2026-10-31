@@ -1,7 +1,27 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { Press_Start_2P, VT323 } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import SparkleTrail from "@/components/SparkleTrail";
 import { Sidebar, BottomBanner } from "@/components/AdSlot";
+
+// Self-hosted by Next at build time: no render-blocking request to Google and
+// no flash of fallback text on the frames.
+const pressStart = Press_Start_2P({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-press-start",
+});
+
+const vt323 = VT323({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-vt323",
+});
 
 export const metadata: Metadata = {
   title: "RetroTV - Daily TV Show Guessing Game",
@@ -19,6 +39,7 @@ export const metadata: Metadata = {
     description: "Can you guess the classic TV show from screenshots? 📺 New puzzle daily!",
   },
   metadataBase: new URL("https://retrotv.fun"),
+  alternates: { canonical: "/" },
 };
 
 export default function RootLayout({
@@ -27,21 +48,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet" />
-      </head>
+    <html lang="en" className={`${pressStart.variable} ${vt323.variable}`}>
       <body className="min-h-screen">
         <SparkleTrail />
         <div className="crt-overlay" />
         <header className="text-center py-6">
-          <a href="/" className="inline-block">
+          <Link href="/" className="inline-block">
             <h1 className="text-2xl md:text-3xl text-[var(--amber)] tracking-wider">
               📺 RetroTV
             </h1>
-          </a>
+          </Link>
           <p className="text-sm mt-1 text-gray-400 font-retro text-[10px]">
             Daily 70s &amp; 80s TV Show Challenge
           </p>
@@ -56,15 +72,17 @@ export default function RootLayout({
         <BottomBanner />
         <footer className="text-center py-4 text-gray-600 text-sm">
           <nav className="space-x-4 mb-2">
-            <a href="/" className="text-[var(--amber)] hover:underline">Play</a>
-            <a href="/archive" className="text-[var(--amber)] hover:underline">Archive</a>
-            <a href="/shows" className="text-[var(--amber)] hover:underline">Shows</a>
-            <a href="/about" className="text-[var(--amber)] hover:underline">About</a>
-            <a href="/faq" className="text-[var(--amber)] hover:underline">FAQ</a>
+            <Link href="/" className="text-[var(--amber)] hover:underline">Play</Link>
+            <Link href="/archive" className="text-[var(--amber)] hover:underline">Archive</Link>
+            <Link href="/shows" className="text-[var(--amber)] hover:underline">Shows</Link>
+            <Link href="/about" className="text-[var(--amber)] hover:underline">About</Link>
+            <Link href="/faq" className="text-[var(--amber)] hover:underline">FAQ</Link>
           </nav>
           <p>RetroTV.fun — A daily dose of nostalgia</p>
           <p className="mt-1"><a href="https://iusedtowatchthis.com" target="_blank" rel="noopener" className="text-[var(--amber)] hover:underline">iusedtowatchthis.com</a> — The 70s &amp; 80s TV Podcast</p>
         </footer>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

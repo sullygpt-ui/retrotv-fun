@@ -1,12 +1,11 @@
 node_modules/
 .next/
 out/
+.vercel
 .env
 .env.local
+.env*.local
 *.tsbuildinfo
 next-env.d.ts
-
-# Frame images (populated by fetch_frames.py)
-# Keep placeholder frames tracked, ignore real ones when they're large
-# public/frames/
-.vercel
+.DS_Store
+__pycache__/

@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
 Fetch TV show frames from TMDB API.
-Usage: TMDB_API_KEY=your_key python3 fetch_frames.py
+Usage: TMDB_API_KEY=your_key python3 scripts/fetch_frames.py
+
+Frames are written to an opaque directory per show so the image URL doesn't
+give the answer away. Run build_rotation.py afterwards to put new shows into
+the puzzle rotation.
 
 Requires: pip install requests
 """
@@ -12,6 +16,8 @@ import sys
 import time
 import requests
 from pathlib import Path
+
+from frame_dirs import frame_dir
 
 API_KEY = os.environ.get("TMDB_API_KEY")
 BASE_URL = "https://api.themoviedb.org/3"
@@ -80,7 +86,7 @@ def download_frames(show: dict) -> bool:
 
     print(f"Processing: {name} (TMDB: {tmdb_id})")
 
-    out_dir = FRAMES_DIR / slug
+    out_dir = FRAMES_DIR / frame_dir(slug)
     out_dir.mkdir(parents=True, exist_ok=True)
 
     # Check if already done
@@ -129,28 +135,7 @@ def main():
         time.sleep(0.5)
 
     print(f"\nSuccessfully fetched frames for {len(successful)}/{len(shows)} shows")
-
-    # Generate puzzles.json
-    puzzles = []
-    from datetime import date, timedelta
-    start_date = date(2026, 3, 13)
-
-    for i, show in enumerate(successful):
-        puzzle_date = start_date + timedelta(days=i)
-        puzzles.append({
-            "id": i + 1,
-            "date": puzzle_date.isoformat(),
-            "showName": show["name"],
-            "showSlug": show["slug"],
-            "tmdbId": show["tmdbId"],
-            "frames": [f"/frames/{show['slug']}/{j}.jpg" for j in range(1, 7)]
-        })
-
-    output = Path(__file__).parent.parent / "public" / "puzzles.json"
-    with open(output, "w") as f:
-        json.dump(puzzles, f, indent=2)
-
-    print(f"Generated {len(puzzles)} puzzles in puzzles.json")
+    print("Now run: python3 scripts/build_rotation.py")
 
 
 if __name__ == "__main__":

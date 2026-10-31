@@ -1,0 +1,1142 @@
+[
+  {
+    "showName": "The A-Team",
+    "showSlug": "the-a-team",
+    "tmdbId": 1516,
+    "frameDir": "de0e83dd7c4023e3"
+  },
+  {
+    "showName": "The Incredible Hulk",
+    "showSlug": "the-incredible-hulk",
+    "tmdbId": 648,
+    "frameDir": "1d07953140025c24"
+  },
+  {
+    "showName": "All in the Family",
+    "showSlug": "all-in-the-family",
+    "tmdbId": 1922,
+    "frameDir": "4f32f53df5a31003"
+  },
+  {
+    "showName": "Richie Rich",
+    "showSlug": "richie-rich",
+    "tmdbId": 3026,
+    "frameDir": "ca89a570da870ac0"
+  },
+  {
+    "showName": "The Simpsons",
+    "showSlug": "the-simpsons",
+    "tmdbId": 456,
+    "frameDir": "b3f081591668e476"
+  },
+  {
+    "showName": "Night Court",
+    "showSlug": "night-court",
+    "tmdbId": 162,
+    "frameDir": "4c9c55b9f724feb4"
+  },
+  {
+    "showName": "Are You Being Served?",
+    "showSlug": "are-you-being-served",
+    "tmdbId": 168,
+    "frameDir": "b20c2706d7140611"
+  },
+  {
+    "showName": "Robin of Sherwood",
+    "showSlug": "robin-of-sherwood",
+    "tmdbId": 4488,
+    "frameDir": "561ae89a1c15079d"
+  },
+  {
+    "showName": "St. Elsewhere",
+    "showSlug": "st-elsewhere",
+    "tmdbId": 30,
+    "frameDir": "2f24c0e84c7cad8a"
+  },
+  {
+    "showName": "Laverne & Shirley",
+    "showSlug": "laverne-and-shirley",
+    "tmdbId": 3033,
+    "frameDir": "4c7dfae98ab031e6"
+  },
+  {
+    "showName": "Scooby's Laff-A Lympics",
+    "showSlug": "scoobys-laff-a-lympics",
+    "tmdbId": 1072,
+    "frameDir": "92c60ff9155a7a2f"
+  },
+  {
+    "showName": "The Jeffersons",
+    "showSlug": "the-jeffersons",
+    "tmdbId": 1964,
+    "frameDir": "8093a73eacfd5711"
+  },
+  {
+    "showName": "Quincy, M.E.",
+    "showSlug": "quincy-me",
+    "tmdbId": 2179,
+    "frameDir": "77ef9ed2f41a01cb"
+  },
+  {
+    "showName": "The Golden Girls",
+    "showSlug": "the-golden-girls",
+    "tmdbId": 1678,
+    "frameDir": "020e6f9131313fb6"
+  },
+  {
+    "showName": "The Greatest American Hero",
+    "showSlug": "the-greatest-american-hero",
+    "tmdbId": 1909,
+    "frameDir": "57c65982d64b4873"
+  },
+  {
+    "showName": "Remington Steele",
+    "showSlug": "remington-steele",
+    "tmdbId": 589,
+    "frameDir": "dbd0df6c09ea418d"
+  },
+  {
+    "showName": "I, Claudius",
+    "showSlug": "i-claudius",
+    "tmdbId": 5487,
+    "frameDir": "562426fe5549ad68"
+  },
+  {
+    "showName": "The Fall Guy",
+    "showSlug": "the-fall-guy",
+    "tmdbId": 5031,
+    "frameDir": "78372d92f686b488"
+  },
+  {
+    "showName": "CHiPs",
+    "showSlug": "chips",
+    "tmdbId": 509,
+    "frameDir": "88b8da9b3c6fb943"
+  },
+  {
+    "showName": "Only Fools and Horses",
+    "showSlug": "only-fools-and-horses",
+    "tmdbId": 72,
+    "frameDir": "402c7746d3a0b02f"
+  },
+  {
+    "showName": "The Mary Tyler Moore Show",
+    "showSlug": "the-mary-tyler-moore-show",
+    "tmdbId": 2962,
+    "frameDir": "98550e629a93fc91"
+  },
+  {
+    "showName": "V",
+    "showSlug": "v",
+    "tmdbId": 75893,
+    "frameDir": "1509fc43a59f84b4"
+  },
+  {
+    "showName": "Star Trek",
+    "showSlug": "star-trek",
+    "tmdbId": 1992,
+    "frameDir": "5352f1227ba9fe13"
+  },
+  {
+    "showName": "Starsky & Hutch",
+    "showSlug": "starsky-and-hutch",
+    "tmdbId": 1532,
+    "frameDir": "06988b6c6cfebc7f"
+  },
+  {
+    "showName": "'Allo 'Allo!",
+    "showSlug": "allo-allo",
+    "tmdbId": 2211,
+    "frameDir": "a9c4588948b11f52"
+  },
+  {
+    "showName": "A Pup Named Scooby-Doo",
+    "showSlug": "a-pup-named-scooby-doo",
+    "tmdbId": 418,
+    "frameDir": "ab75c856139cf49a"
+  },
+  {
+    "showName": "Count Duckula",
+    "showSlug": "count-duckula",
+    "tmdbId": 2416,
+    "frameDir": "e5b52fd4269f1354"
+  },
+  {
+    "showName": "Newhart",
+    "showSlug": "newhart",
+    "tmdbId": 3004,
+    "frameDir": "e7576baf6c425d37"
+  },
+  {
+    "showName": "Knight Rider",
+    "showSlug": "knight-rider",
+    "tmdbId": 2384,
+    "frameDir": "012dfe92989abb92"
+  },
+  {
+    "showName": "Beetlejuice",
+    "showSlug": "beetlejuice",
+    "tmdbId": 4288,
+    "frameDir": "0c9c4db31d5f604b"
+  },
+  {
+    "showName": "Police Squad!",
+    "showSlug": "police-squad",
+    "tmdbId": 6024,
+    "frameDir": "96ffe98c8f701721"
+  },
+  {
+    "showName": "The Six Million Dollar Man",
+    "showSlug": "the-six-million-dollar-man",
+    "tmdbId": 1663,
+    "frameDir": "13cb127eb0b7c1ac"
+  },
+  {
+    "showName": "Columbo",
+    "showSlug": "columbo",
+    "tmdbId": 873,
+    "frameDir": "3ac0a2b8b8c484ed"
+  },
+  {
+    "showName": "Charles in Charge",
+    "showSlug": "charles-in-charge",
+    "tmdbId": 566,
+    "frameDir": "0980a0fd4260c7bd"
+  },
+  {
+    "showName": "Cosmos: A Personal Voyage",
+    "showSlug": "cosmos-a-personal-voyage",
+    "tmdbId": 1430,
+    "frameDir": "9fc641b804da6891"
+  },
+  {
+    "showName": "Married... with Children",
+    "showSlug": "married-with-children",
+    "tmdbId": 4239,
+    "frameDir": "2ea59e8877355d91"
+  },
+  {
+    "showName": "Designing Women",
+    "showSlug": "designing-women",
+    "tmdbId": 712,
+    "frameDir": "5a504a99e314ee5e"
+  },
+  {
+    "showName": "Inspector Gadget",
+    "showSlug": "inspector-gadget",
+    "tmdbId": 4035,
+    "frameDir": "82c2f9157c81a9b9"
+  },
+  {
+    "showName": "Fraggle Rock",
+    "showSlug": "fraggle-rock",
+    "tmdbId": 2957,
+    "frameDir": "fe0fa04bb160374c"
+  },
+  {
+    "showName": "Disney's Adventures of the Gummi Bears",
+    "showSlug": "disneys-adventures-of-the-gummi-bears",
+    "tmdbId": 1931,
+    "frameDir": "62dbe661193d1d14"
+  },
+  {
+    "showName": "SilverHawks",
+    "showSlug": "silverhawks",
+    "tmdbId": 12504,
+    "frameDir": "85e95d6ae236790a"
+  },
+  {
+    "showName": "Kung Fu",
+    "showSlug": "kung-fu",
+    "tmdbId": 1472,
+    "frameDir": "f26744f9cb1aac91"
+  },
+  {
+    "showName": "Battlestar Galactica",
+    "showSlug": "battlestar-galactica",
+    "tmdbId": 501,
+    "frameDir": "7a82f219cfd7e457"
+  },
+  {
+    "showName": "Pingu",
+    "showSlug": "pingu",
+    "tmdbId": 9262,
+    "frameDir": "45861c1658b7ff92"
+  },
+  {
+    "showName": "Spider-Man and His Amazing Friends",
+    "showSlug": "spider-man-and-his-amazing-friends",
+    "tmdbId": 1269,
+    "frameDir": "b5d7f54b0c89fa19"
+  },
+  {
+    "showName": "The Scooby-Doo/Dynomutt Hour",
+    "showSlug": "the-scooby-doodynomutt-hour",
+    "tmdbId": 2150,
+    "frameDir": "a9e6c6d51ba18f18"
+  },
+  {
+    "showName": "Eight is Enough",
+    "showSlug": "eight-is-enough",
+    "tmdbId": 4382,
+    "frameDir": "c51fcbf8ab2b0986"
+  },
+  {
+    "showName": "The Transformers",
+    "showSlug": "the-transformers",
+    "tmdbId": 4269,
+    "frameDir": "d659c455ffc00e4d"
+  },
+  {
+    "showName": "Happy Days",
+    "showSlug": "happy-days",
+    "tmdbId": 3845,
+    "frameDir": "cc0443d82952341f"
+  },
+  {
+    "showName": "Star Wars: Droids",
+    "showSlug": "star-wars-droids",
+    "tmdbId": 25,
+    "frameDir": "d4ae79f24cc9f545"
+  },
+  {
+    "showName": "Taxi",
+    "showSlug": "taxi",
+    "tmdbId": 2251,
+    "frameDir": "398adf5987e1e51a"
+  },
+  {
+    "showName": "Mystery Science Theater 3000",
+    "showSlug": "mystery-science-theater-3000",
+    "tmdbId": 1952,
+    "frameDir": "94e9e6bad32613f1"
+  },
+  {
+    "showName": "DuckTales",
+    "showSlug": "ducktales",
+    "tmdbId": 720,
+    "frameDir": "5c7d56d023896906"
+  },
+  {
+    "showName": "Kolchak: The Night Stalker",
+    "showSlug": "kolchak-the-night-stalker",
+    "tmdbId": 5084,
+    "frameDir": "7de9e9b0abca87f0"
+  },
+  {
+    "showName": "Thomas & Friends",
+    "showSlug": "thomas-friends",
+    "tmdbId": 2304,
+    "frameDir": "664d36aaa5754367"
+  },
+  {
+    "showName": "Space: 1999",
+    "showSlug": "space-1999",
+    "tmdbId": 134,
+    "frameDir": "552ce9f78d2b2616"
+  },
+  {
+    "showName": "Fawlty Towers",
+    "showSlug": "fawlty-towers",
+    "tmdbId": 2207,
+    "frameDir": "e670b1e4d57eac93"
+  },
+  {
+    "showName": "The Cosby Show",
+    "showSlug": "the-cosby-show",
+    "tmdbId": 1759,
+    "frameDir": "5e99d0e2b1b29b3f"
+  },
+  {
+    "showName": "The Charlie Brown and Snoopy Show",
+    "showSlug": "the-charlie-brown-and-snoopy-show",
+    "tmdbId": 6670,
+    "frameDir": "cfe0be4a49ba7bf1"
+  },
+  {
+    "showName": "Simon & Simon",
+    "showSlug": "simon-and-simon",
+    "tmdbId": 2102,
+    "frameDir": "e851242b1c187cd0"
+  },
+  {
+    "showName": "Dungeons & Dragons",
+    "showSlug": "dungeons-dragons",
+    "tmdbId": 553,
+    "frameDir": "f6b144b0c4c9964b"
+  },
+  {
+    "showName": "Diff'rent Strokes",
+    "showSlug": "diffrent-strokes",
+    "tmdbId": 2410,
+    "frameDir": "454e12069d946728"
+  },
+  {
+    "showName": "Agatha Christie's Poirot",
+    "showSlug": "agatha-christies-poirot",
+    "tmdbId": 790,
+    "frameDir": "842689fe8470f6fa"
+  },
+  {
+    "showName": "Growing Pains",
+    "showSlug": "growing-pains",
+    "tmdbId": 54,
+    "frameDir": "c9377e41f450b955"
+  },
+  {
+    "showName": "Mork & Mindy",
+    "showSlug": "mork-and-mindy",
+    "tmdbId": 2552,
+    "frameDir": "d1cea817d83bffcf"
+  },
+  {
+    "showName": "Blue Thunder",
+    "showSlug": "blue-thunder",
+    "tmdbId": 11573,
+    "frameDir": "984bf1b0e3b35c5e"
+  },
+  {
+    "showName": "Mission: Impossible",
+    "showSlug": "mission-impossible",
+    "tmdbId": 9894,
+    "frameDir": "cebd45c65d6faaa5"
+  },
+  {
+    "showName": "Wiseguy",
+    "showSlug": "wiseguy",
+    "tmdbId": 6550,
+    "frameDir": "9c67ef467caf6620"
+  },
+  {
+    "showName": "Wonder Woman",
+    "showSlug": "wonder-woman",
+    "tmdbId": 4331,
+    "frameDir": "9e162d94d919e87a"
+  },
+  {
+    "showName": "Emergency!",
+    "showSlug": "emergency",
+    "tmdbId": 5375,
+    "frameDir": "f2b40db6ba71cda0"
+  },
+  {
+    "showName": "Blackadder",
+    "showSlug": "blackadder",
+    "tmdbId": 7246,
+    "frameDir": "274e308752b4ca70"
+  },
+  {
+    "showName": "Sherlock Holmes",
+    "showSlug": "sherlock-holmes",
+    "tmdbId": 799,
+    "frameDir": "6a15ba4922968708"
+  },
+  {
+    "showName": "North and South",
+    "showSlug": "north-and-south",
+    "tmdbId": 3266,
+    "frameDir": "db592b76dcb67899"
+  },
+  {
+    "showName": "Murder, She Wrote",
+    "showSlug": "murder-she-wrote",
+    "tmdbId": 484,
+    "frameDir": "479ea0e89e833a93"
+  },
+  {
+    "showName": "BJ and the Bear",
+    "showSlug": "bj-and-the-bear",
+    "tmdbId": 961,
+    "frameDir": "ae32ecd59b0a800d"
+  },
+  {
+    "showName": "Family Matters",
+    "showSlug": "family-matters",
+    "tmdbId": 2685,
+    "frameDir": "14015253e637ada9"
+  },
+  {
+    "showName": "Baywatch",
+    "showSlug": "baywatch",
+    "tmdbId": 4386,
+    "frameDir": "001b1cab9cfe401a"
+  },
+  {
+    "showName": "Shaka Zulu",
+    "showSlug": "shaka-zulu",
+    "tmdbId": 8068,
+    "frameDir": "95d012d37b1c353b"
+  },
+  {
+    "showName": "Highway to Heaven",
+    "showSlug": "highway-to-heaven",
+    "tmdbId": 2440,
+    "frameDir": "64d17afa8721c7b9"
+  },
+  {
+    "showName": "The Rockford Files",
+    "showSlug": "the-rockford-files",
+    "tmdbId": 954,
+    "frameDir": "2aed7f67a0f6ff8c"
+  },
+  {
+    "showName": "Family Ties",
+    "showSlug": "family-ties",
+    "tmdbId": 496,
+    "frameDir": "2f28d007389e0b9f"
+  },
+  {
+    "showName": "The 13 Ghosts of Scooby-Doo",
+    "showSlug": "the-13-ghosts-of-scooby-doo",
+    "tmdbId": 1069,
+    "frameDir": "5d10d23574c211a8"
+  },
+  {
+    "showName": "Alien Nation",
+    "showSlug": "alien-nation",
+    "tmdbId": 5383,
+    "frameDir": "94ed26bc14c262a6"
+  },
+  {
+    "showName": "Muppet Babies",
+    "showSlug": "muppet-babies",
+    "tmdbId": 565,
+    "frameDir": "b27597dff31c9801"
+  },
+  {
+    "showName": "Hart to Hart",
+    "showSlug": "hart-to-hart",
+    "tmdbId": 3162,
+    "frameDir": "f450a7f687ea98e9"
+  },
+  {
+    "showName": "Hardcastle and McCormick",
+    "showSlug": "hardcastle-and-mccormick",
+    "tmdbId": 1271,
+    "frameDir": "63404e9fc88f186f"
+  },
+  {
+    "showName": "The New Scooby-Doo Movies",
+    "showSlug": "the-new-scooby-doo-movies",
+    "tmdbId": 1068,
+    "frameDir": "50c1da41e32c99e2"
+  },
+  {
+    "showName": "Inspector Morse",
+    "showSlug": "inspector-morse",
+    "tmdbId": 3476,
+    "frameDir": "738c7d4db710eb75"
+  },
+  {
+    "showName": "L.A. Law",
+    "showSlug": "la-law",
+    "tmdbId": 732,
+    "frameDir": "48ccfcf1ddcca1db"
+  },
+  {
+    "showName": "Miami Vice",
+    "showSlug": "miami-vice",
+    "tmdbId": 1908,
+    "frameDir": "b401e81936e98ce8"
+  },
+  {
+    "showName": "The Streets of San Francisco",
+    "showSlug": "the-streets-of-san-francisco",
+    "tmdbId": 2468,
+    "frameDir": "a77ebf806fb3ab9f"
+  },
+  {
+    "showName": "Red Dwarf",
+    "showSlug": "red-dwarf",
+    "tmdbId": 326,
+    "frameDir": "797c8135d3b88a60"
+  },
+  {
+    "showName": "The Wonder Years",
+    "showSlug": "the-wonder-years",
+    "tmdbId": 4500,
+    "frameDir": "b854c93635c279a3"
+  },
+  {
+    "showName": "Manimal",
+    "showSlug": "manimal",
+    "tmdbId": 3291,
+    "frameDir": "f055e1e99176ae5a"
+  },
+  {
+    "showName": "Magnum, P.I.",
+    "showSlug": "magnum-pi",
+    "tmdbId": 734,
+    "frameDir": "ab6b927999e80919"
+  },
+  {
+    "showName": "Cagney & Lacey",
+    "showSlug": "cagney-and-lacey",
+    "tmdbId": 4223,
+    "frameDir": "a325d158db4d56a0"
+  },
+  {
+    "showName": "Street Hawk",
+    "showSlug": "street-hawk",
+    "tmdbId": 3318,
+    "frameDir": "ab93722041ad7838"
+  },
+  {
+    "showName": "Airwolf",
+    "showSlug": "airwolf",
+    "tmdbId": 2119,
+    "frameDir": "5b66f3c97b8a4083"
+  },
+  {
+    "showName": "Beauty and the Beast",
+    "showSlug": "beauty-and-the-beast",
+    "tmdbId": 2397,
+    "frameDir": "c3ef0f43dab65d19"
+  },
+  {
+    "showName": "Spider-Woman",
+    "showSlug": "spider-woman",
+    "tmdbId": 4784,
+    "frameDir": "3022d84c0aca6395"
+  },
+  {
+    "showName": "The Storyteller",
+    "showSlug": "the-storyteller",
+    "tmdbId": 5303,
+    "frameDir": "c8a7ff187d861f7b"
+  },
+  {
+    "showName": "Yes Minister",
+    "showSlug": "yes-minister",
+    "tmdbId": 4549,
+    "frameDir": "314c1de3465b2abc"
+  },
+  {
+    "showName": "Scooby-Doo and Scrappy-Doo",
+    "showSlug": "scooby-doo-and-scrappy-doo",
+    "tmdbId": 6005,
+    "frameDir": "33c58b9f0ac1fc1a"
+  },
+  {
+    "showName": "The Persuaders!",
+    "showSlug": "the-persuaders",
+    "tmdbId": 2543,
+    "frameDir": "9fda02cdcb372ddf"
+  },
+  {
+    "showName": "Dynasty",
+    "showSlug": "dynasty",
+    "tmdbId": 3769,
+    "frameDir": "e61cc2706001fb7d"
+  },
+  {
+    "showName": "Amazing Stories",
+    "showSlug": "amazing-stories",
+    "tmdbId": 1026,
+    "frameDir": "f33f0bb05bf29c76"
+  },
+  {
+    "showName": "The Twilight Zone",
+    "showSlug": "the-twilight-zone",
+    "tmdbId": 1918,
+    "frameDir": "f3fc0a175eb3e6b1"
+  },
+  {
+    "showName": "Tour of Duty",
+    "showSlug": "tour-of-duty",
+    "tmdbId": 11095,
+    "frameDir": "44ec66cc3fefa956"
+  },
+  {
+    "showName": "Teenage Mutant Ninja Turtles",
+    "showSlug": "teenage-mutant-ninja-turtles",
+    "tmdbId": 160,
+    "frameDir": "5f0dfd00fb66f7fc"
+  },
+  {
+    "showName": "Charlie's Angels",
+    "showSlug": "charlies-angels",
+    "tmdbId": 3382,
+    "frameDir": "c04f022b693cd3bb"
+  },
+  {
+    "showName": "Silver Spoons",
+    "showSlug": "silver-spoons",
+    "tmdbId": 2076,
+    "frameDir": "c069a03af4555e63"
+  },
+  {
+    "showName": "Roots",
+    "showSlug": "roots",
+    "tmdbId": 13555,
+    "frameDir": "e904d4a51d37a2ec"
+  },
+  {
+    "showName": "One Day at a Time",
+    "showSlug": "one-day-at-a-time",
+    "tmdbId": 2191,
+    "frameDir": "f4aef21ebe120951"
+  },
+  {
+    "showName": "Fantasy Island",
+    "showSlug": "fantasy-island",
+    "tmdbId": 39775,
+    "frameDir": "8e983c13fae939ce"
+  },
+  {
+    "showName": "Hotel",
+    "showSlug": "hotel",
+    "tmdbId": 3437,
+    "frameDir": "dc9d3e2d4ae66f52"
+  },
+  {
+    "showName": "Super Friends",
+    "showSlug": "super-friends",
+    "tmdbId": 936,
+    "frameDir": "a4b95304b7eb1ec6"
+  },
+  {
+    "showName": "G.I. Joe",
+    "showSlug": "gi-joe",
+    "tmdbId": 29200,
+    "frameDir": "ab7247a82ddf81b2"
+  },
+  {
+    "showName": "Barney Miller",
+    "showSlug": "barney-miller",
+    "tmdbId": 3253,
+    "frameDir": "d2c05af4ebe9d727"
+  },
+  {
+    "showName": "Crime Story",
+    "showSlug": "crime-story",
+    "tmdbId": 2966,
+    "frameDir": "346e8b361a11f6e3"
+  },
+  {
+    "showName": "The Care Bears",
+    "showSlug": "the-care-bears",
+    "tmdbId": 2264,
+    "frameDir": "436f1616fd29ab0b"
+  },
+  {
+    "showName": "Scarecrow and Mrs. King",
+    "showSlug": "scarecrow-and-mrs-king",
+    "tmdbId": 3414,
+    "frameDir": "62fbccd8f471811a"
+  },
+  {
+    "showName": "Dallas",
+    "showSlug": "dallas",
+    "tmdbId": 40,
+    "frameDir": "f0141a646b649b67"
+  },
+  {
+    "showName": "EastEnders",
+    "showSlug": "eastenders",
+    "tmdbId": 1871,
+    "frameDir": "31c220cba58c62a4"
+  },
+  {
+    "showName": "Quantum Leap",
+    "showSlug": "quantum-leap",
+    "tmdbId": 4018,
+    "frameDir": "c510b4bac9a10b56"
+  },
+  {
+    "showName": "Garfield and Friends",
+    "showSlug": "garfield-and-friends",
+    "tmdbId": 4606,
+    "frameDir": "0d56502958066c20"
+  },
+  {
+    "showName": "T.J. Hooker",
+    "showSlug": "tj-hooker",
+    "tmdbId": 1059,
+    "frameDir": "5a3f7dc73ea1b59e"
+  },
+  {
+    "showName": "She-Ra: Princess of Power",
+    "showSlug": "she-ra-princess-of-power",
+    "tmdbId": 14755,
+    "frameDir": "945959be2a0fee04"
+  },
+  {
+    "showName": "Captain Caveman and the Teen Angels",
+    "showSlug": "captain-caveman-and-the-teen-angels",
+    "tmdbId": 9773,
+    "frameDir": "4f4e86de2492eb93"
+  },
+  {
+    "showName": "The New Scooby and Scrappy-Doo Show",
+    "showSlug": "the-new-scooby-and-scrappy-doo-show",
+    "tmdbId": 230,
+    "frameDir": "33db6eefa9994f27"
+  },
+  {
+    "showName": "Full House",
+    "showSlug": "full-house",
+    "tmdbId": 4313,
+    "frameDir": "1fa55d4bfc5d405a"
+  },
+  {
+    "showName": "The New Scooby-Doo Mysteries",
+    "showSlug": "the-new-scooby-doo-mysteries",
+    "tmdbId": 64016,
+    "frameDir": "def7eb7d25f2c44a"
+  },
+  {
+    "showName": "A Bit of Fry & Laurie",
+    "showSlug": "a-bit-of-fry-laurie",
+    "tmdbId": 192,
+    "frameDir": "bce21fdb3dfde38b"
+  },
+  {
+    "showName": "The Waltons",
+    "showSlug": "the-waltons",
+    "tmdbId": 5021,
+    "frameDir": "70f98174ea5f7e5a"
+  },
+  {
+    "showName": "Saved by the Bell",
+    "showSlug": "saved-by-the-bell",
+    "tmdbId": 4345,
+    "frameDir": "dbdf7ef3e7a988e2"
+  },
+  {
+    "showName": "Sledge Hammer!",
+    "showSlug": "sledge-hammer",
+    "tmdbId": 520,
+    "frameDir": "cebd584e39e0714b"
+  },
+  {
+    "showName": "Cheers",
+    "showSlug": "cheers",
+    "tmdbId": 141,
+    "frameDir": "dddde472077ee5ec"
+  },
+  {
+    "showName": "Falcon Crest",
+    "showSlug": "falcon-crest",
+    "tmdbId": 93,
+    "frameDir": "d62774f594269c1a"
+  },
+  {
+    "showName": "Tales from the Crypt",
+    "showSlug": "tales-from-the-crypt",
+    "tmdbId": 2391,
+    "frameDir": "e4c6b6d660ddddac"
+  },
+  {
+    "showName": "Little House on the Prairie",
+    "showSlug": "little-house-on-the-prairie",
+    "tmdbId": 1781,
+    "frameDir": "e44d6b158ca5919f"
+  },
+  {
+    "showName": "Who's the Boss?",
+    "showSlug": "whos-the-boss",
+    "tmdbId": 634,
+    "frameDir": "59009f337f8a8661"
+  },
+  {
+    "showName": "The Smurfs",
+    "showSlug": "the-smurfs",
+    "tmdbId": 5687,
+    "frameDir": "2b5a8e7b389b0582"
+  },
+  {
+    "showName": "Kojak",
+    "showSlug": "kojak",
+    "tmdbId": 3572,
+    "frameDir": "04910473494b4202"
+  },
+  {
+    "showName": "Automan",
+    "showSlug": "automan",
+    "tmdbId": 12751,
+    "frameDir": "9f71c022081028bb"
+  },
+  {
+    "showName": "The New Adventures of Winnie the Pooh",
+    "showSlug": "the-new-adventures-of-winnie-the-pooh",
+    "tmdbId": 2005,
+    "frameDir": "5a046f3eb03df25c"
+  },
+  {
+    "showName": "Sanford and Son",
+    "showSlug": "sanford-and-son",
+    "tmdbId": 2586,
+    "frameDir": "115e3a76d42365a5"
+  },
+  {
+    "showName": "The Bionic Woman",
+    "showSlug": "the-bionic-woman",
+    "tmdbId": 2275,
+    "frameDir": "6dd3353d3c3eb26b"
+  },
+  {
+    "showName": "He-Man and the Masters of the Universe",
+    "showSlug": "he-man",
+    "tmdbId": 931,
+    "frameDir": "e983e39261a1dcd6"
+  },
+  {
+    "showName": "Star Trek: The Next Generation",
+    "showSlug": "star-trek-the-next-generation",
+    "tmdbId": 655,
+    "frameDir": "b80365431b669047"
+  },
+  {
+    "showName": "Perfect Strangers",
+    "showSlug": "perfect-strangers",
+    "tmdbId": 1786,
+    "frameDir": "775dcc6863f2935b"
+  },
+  {
+    "showName": "Chip 'n' Dale Rescue Rangers",
+    "showSlug": "chip-n-dale-rescue-rangers",
+    "tmdbId": 1615,
+    "frameDir": "269d4dc91c09abb6"
+  },
+  {
+    "showName": "Planet of the Apes",
+    "showSlug": "planet-of-the-apes",
+    "tmdbId": 19,
+    "frameDir": "9199f04b122c1f7f"
+  },
+  {
+    "showName": "Tales from the Darkside",
+    "showSlug": "tales-from-the-darkside",
+    "tmdbId": 1386,
+    "frameDir": "9d87a77a1c163c68"
+  },
+  {
+    "showName": "Riptide",
+    "showSlug": "riptide",
+    "tmdbId": 4379,
+    "frameDir": "7b1a4625ecd52afb"
+  },
+  {
+    "showName": "Voyagers!",
+    "showSlug": "voyagers",
+    "tmdbId": 5391,
+    "frameDir": "346d1463dd6b05b1"
+  },
+  {
+    "showName": "Seinfeld",
+    "showSlug": "seinfeld",
+    "tmdbId": 1400,
+    "frameDir": "5876eb2dd5a2db7b"
+  },
+  {
+    "showName": "Yes, Prime Minister",
+    "showSlug": "yes-prime-minister",
+    "tmdbId": 12597,
+    "frameDir": "23d743a5fa2fcebe"
+  },
+  {
+    "showName": "ThunderCats",
+    "showSlug": "thundercats",
+    "tmdbId": 1988,
+    "frameDir": "158cceb1aba97d18"
+  },
+  {
+    "showName": "Galactica 1980",
+    "showSlug": "galactica-1980",
+    "tmdbId": 4621,
+    "frameDir": "690c0e1ecf828690"
+  },
+  {
+    "showName": "MacGyver",
+    "showSlug": "macgyver",
+    "tmdbId": 2875,
+    "frameDir": "110c7d2c862210c7"
+  },
+  {
+    "showName": "M*A*S*H",
+    "showSlug": "mash",
+    "tmdbId": 918,
+    "frameDir": "44a1b09f0c62b9f4"
+  },
+  {
+    "showName": "Moonlighting",
+    "showSlug": "moonlighting",
+    "tmdbId": 1998,
+    "frameDir": "6da5029a52c9c33b"
+  },
+  {
+    "showName": "Unsolved Mysteries",
+    "showSlug": "unsolved-mysteries",
+    "tmdbId": 126,
+    "frameDir": "f260dd5d9f51c033"
+  },
+  {
+    "showName": "The Real Ghostbusters",
+    "showSlug": "the-real-ghostbusters",
+    "tmdbId": 2286,
+    "frameDir": "c603fce32fc5c0c2"
+  },
+  {
+    "showName": "In the Heat of the Night",
+    "showSlug": "in-the-heat-of-the-night",
+    "tmdbId": 862,
+    "frameDir": "6db0fb514766be57"
+  },
+  {
+    "showName": "Roseanne",
+    "showSlug": "roseanne",
+    "tmdbId": 2706,
+    "frameDir": "fe41ca642ed86865"
+  },
+  {
+    "showName": "Defenders of the Earth",
+    "showSlug": "defenders-of-the-earth",
+    "tmdbId": 1794,
+    "frameDir": "10bd9209dedce3ac"
+  },
+  {
+    "showName": "Tinker Tailor Soldier Spy",
+    "showSlug": "tinker-tailor-soldier-spy",
+    "tmdbId": 35430,
+    "frameDir": "9fe3f96724214c42"
+  },
+  {
+    "showName": "Knots Landing",
+    "showSlug": "knots-landing",
+    "tmdbId": 2595,
+    "frameDir": "d4053cda35b725db"
+  },
+  {
+    "showName": "The World at War",
+    "showSlug": "the-world-at-war",
+    "tmdbId": 751,
+    "frameDir": "fbe21985357ca178"
+  },
+  {
+    "showName": "The Super Mario Bros. Super Show!",
+    "showSlug": "the-super-mario-bros-super-show",
+    "tmdbId": 14613,
+    "frameDir": "3c98654cc1e085a4"
+  },
+  {
+    "showName": "BraveStarr",
+    "showSlug": "bravestarr",
+    "tmdbId": 5172,
+    "frameDir": "169babecdbaacd29"
+  },
+  {
+    "showName": "Friday the 13th: The Series",
+    "showSlug": "friday-the-13th-the-series",
+    "tmdbId": 2263,
+    "frameDir": "05253e258276f8a4"
+  },
+  {
+    "showName": "Doogie Howser, M.D.",
+    "showSlug": "doogie-howser-md",
+    "tmdbId": 1750,
+    "frameDir": "c5817cab8e27ed70"
+  },
+  {
+    "showName": "Matlock",
+    "showSlug": "matlock",
+    "tmdbId": 2093,
+    "frameDir": "7d74b37189afbd52"
+  },
+  {
+    "showName": "Small Wonder",
+    "showSlug": "small-wonder",
+    "tmdbId": 2898,
+    "frameDir": "36bed9a050ee34c3"
+  },
+  {
+    "showName": "Three's Company",
+    "showSlug": "threes-company",
+    "tmdbId": 2686,
+    "frameDir": "2ca510ed85797195"
+  },
+  {
+    "showName": "The Love Boat",
+    "showSlug": "the-love-boat",
+    "tmdbId": 1823,
+    "frameDir": "51383a6bcfcf205f"
+  },
+  {
+    "showName": "Robotech",
+    "showSlug": "robotech",
+    "tmdbId": 2192,
+    "frameDir": "c7d257d93bf8138c"
+  },
+  {
+    "showName": "The Young Ones",
+    "showSlug": "the-young-ones",
+    "tmdbId": 4483,
+    "frameDir": "0318b3b814ad284e"
+  },
+  {
+    "showName": "Punky Brewster",
+    "showSlug": "punky-brewster",
+    "tmdbId": 2553,
+    "frameDir": "201f8955ca262e23"
+  },
+  {
+    "showName": "The All New Pink Panther Show",
+    "showSlug": "the-all-new-pink-panther-show",
+    "tmdbId": 114772,
+    "frameDir": "78943825f1067232"
+  },
+  {
+    "showName": "Night Gallery",
+    "showSlug": "night-gallery",
+    "tmdbId": 4318,
+    "frameDir": "0118e243a9372a53"
+  },
+  {
+    "showName": "ALF",
+    "showSlug": "alf",
+    "tmdbId": 4658,
+    "frameDir": "98dde5f599833c7a"
+  },
+  {
+    "showName": "WKRP in Cincinnati",
+    "showSlug": "wkrp-in-cincinnati",
+    "tmdbId": 971,
+    "frameDir": "cf7cb225076cea05"
+  },
+  {
+    "showName": "21 Jump Street",
+    "showSlug": "21-jump-street",
+    "tmdbId": 1486,
+    "frameDir": "271a81573f5acaf0"
+  },
+  {
+    "showName": "Hunter",
+    "showSlug": "hunter",
+    "tmdbId": 4571,
+    "frameDir": "a0d0d3de5537f6cb"
+  },
+  {
+    "showName": "The Muppet Show",
+    "showSlug": "the-muppet-show",
+    "tmdbId": 4459,
+    "frameDir": "a3061614fab31e4d"
+  },
+  {
+    "showName": "The Dukes of Hazzard",
+    "showSlug": "the-dukes-of-hazzard",
+    "tmdbId": 397,
+    "frameDir": "3d5cdb38db198dd6"
+  },
+  {
+    "showName": "Hill Street Blues",
+    "showSlug": "hill-street-blues",
+    "tmdbId": 3828,
+    "frameDir": "7eee29df62b20395"
+  },
+  {
+    "showName": "Buck Rogers in the 25th Century",
+    "showSlug": "buck-rogers-in-the-25th-century",
+    "tmdbId": 2443,
+    "frameDir": "461fbb7be2631deb"
+  }
+]

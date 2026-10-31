@@ -13,7 +13,7 @@
 body {
   background: var(--bg-darker);
   color: #e0e0e0;
-  font-family: 'VT323', monospace;
+  font-family: var(--font-vt323), monospace;
 }
 
 /* CRT Scanline overlay */
@@ -163,7 +163,7 @@ body {
 }
 
 .tv-label {
-  font-family: 'VT323', monospace;
+  font-family: var(--font-vt323), monospace;
   font-size: 8px;
   color: #8a7a60;
   letter-spacing: 1px;
@@ -179,7 +179,7 @@ body {
 }
 
 .tv-brand-text {
-  font-family: 'Press Start 2P', cursive;
+  font-family: var(--font-press-start), cursive;
   font-size: 9px;
   color: #c8b480;
   letter-spacing: 3px;
@@ -187,7 +187,7 @@ body {
 }
 
 .tv-brand-sub {
-  font-family: 'VT323', monospace;
+  font-family: var(--font-vt323), monospace;
   font-size: 10px;
   color: #9a8a68;
   letter-spacing: 2px;
@@ -268,7 +268,7 @@ body {
 
 /* Press Start 2P for headings */
 h1, h2, h3, .font-retro {
-  font-family: 'Press Start 2P', cursive;
+  font-family: var(--font-press-start), cursive;
 }
 
 /* === RETRO COMPUTER EFFECTS === */
@@ -427,7 +427,7 @@ body::before {
 }
 
 .ad-label {
-  font-family: 'VT323', monospace;
+  font-family: var(--font-vt323), monospace;
   font-size: 13px;
   color: var(--amber);
   text-align: center;
@@ -467,7 +467,7 @@ body::before {
 
 .ad-banner-label {
   display: block;
-  font-family: 'VT323', monospace;
+  font-family: var(--font-vt323), monospace;
   font-size: 14px;
   color: var(--amber);
   margin-top: 6px;
@@ -493,7 +493,7 @@ body::before {
 }
 
 .post-game-ad-text {
-  font-family: 'VT323', monospace;
+  font-family: var(--font-vt323), monospace;
   font-size: 16px;
   color: #e0d0b0;
 }
@@ -503,7 +503,7 @@ body::before {
 }
 
 .ad-disclaimer {
-  font-family: 'VT323', monospace;
+  font-family: var(--font-vt323), monospace;
   font-size: 10px;
   color: #555;
   text-align: center;
