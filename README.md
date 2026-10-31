@@ -47,12 +47,18 @@ npm run build
 Shows come from TMDB. `scripts/shows.json` is the master list — it also feeds
 the guess autocomplete, so every answer is guaranteed to be typeable.
 
+The TMDB key comes from the environment — never commit it. Put it in
+`.env.local` (gitignored) and load it:
+
+```bash
+set -a; . ./.env.local; set +a    # TMDB_API_KEY=...
+```
+
 ```bash
 # TMDB (needs a free v3 API key from themoviedb.org/settings/api)
-export TMDB_API_KEY=your_key_here
-pip install requests
 python3 scripts/discover_shows.py          # find candidates (optional)
 python3 scripts/fetch_frames.py            # 6 frames per show from TMDB
+python3 scripts/fetch_frames.py --only some-slug other-slug
 
 # TVmaze fallback (no key, no dependencies, CC BY-SA 4.0)
 python3 scripts/fetch_frames_tvmaze.py     # fills what TMDB couldn't
@@ -63,6 +69,13 @@ python3 scripts/build_rotation.py          # add complete shows to the rotation
 
 `build_rotation.py` reports which shows still have no frames (7 currently) and
 appends a `schedule.json` segment when the pool grows.
+
+Those 7 — Good Times, Webster, Mr. Belvedere, Head of the Class, 227, Land of
+the Lost and Trapper John, M.D. — have no usable source yet. TMDB returns zero
+episode stills for six of them (two for Webster) even scanning 12 seasons, and
+TVmaze has fewer than six. TMDB *backdrops* exist but are promotional art that
+often carries the show's logo, which would give the puzzle away. TheTVDB is the
+next source worth trying.
 
 ### Why schedule.json exists
 

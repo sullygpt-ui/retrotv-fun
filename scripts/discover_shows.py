@@ -3,21 +3,20 @@
 Discover popular 70s/80s TV shows from TMDB that we don't already have.
 Fetches shows, checks for stills availability, adds to shows.json.
 """
-import json, time, ssl, urllib.request, urllib.parse
+import json, time, urllib.request, urllib.parse
 from pathlib import Path
 
-API_KEY = 'ee8104219d773db7087562e0433f2e93'
+from tmdb_key import require_api_key
+
+API_KEY = require_api_key()
 BASE = 'https://api.themoviedb.org/3'
-CTX = ssl.create_default_context()
-CTX.check_hostname = False
-CTX.verify_mode = ssl.CERT_NONE
 
 SHOWS_FILE = Path(__file__).parent / 'shows.json'
 
 def api_get(path, params={}):
     params['api_key'] = API_KEY
     url = f"{BASE}{path}?{urllib.parse.urlencode(params)}"
-    with urllib.request.urlopen(url, context=CTX) as r:
+    with urllib.request.urlopen(url) as r:
         return json.loads(r.read())
 
 def make_slug(name):

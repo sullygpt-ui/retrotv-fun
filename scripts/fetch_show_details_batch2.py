@@ -1,11 +1,12 @@
 import json, time, urllib.request, ssl
 
-ssl._create_default_https_context = ssl._create_unverified_context
+from tmdb_key import require_api_key
+
 
 with open("scripts/shows.json") as f:
     shows = json.load(f)
 
-API_KEY = "ee8104219d773db7087562e0433f2e93"
+API_KEY = require_api_key()
 results = []
 
 for show in shows[67:134]:  # index 67-133 inclusive
