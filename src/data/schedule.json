@@ -6,12 +6,12 @@
   },
   {
     "fromDay": 233,
-    "poolSize": 249,
+    "poolSize": 366,
     "startIndex": 190
   },
   {
-    "fromDay": 292,
-    "poolSize": 249,
+    "fromDay": 409,
+    "poolSize": 366,
     "startIndex": 43,
     "resume": true
   }

@@ -1492,5 +1492,707 @@
     "showSlug": "werewolf",
     "tmdbId": 10424,
     "frameDir": "b9b021febdb9c991"
+  },
+  {
+    "showName": "Adam-12",
+    "showSlug": "adam-12",
+    "tmdbId": 4660,
+    "frameDir": "6f001d47d82a38c1"
+  },
+  {
+    "showName": "Alias Smith and Jones",
+    "showSlug": "alias-smith-and-jones",
+    "tmdbId": 3275,
+    "frameDir": "6b3b500f083f0314"
+  },
+  {
+    "showName": "Baretta",
+    "showSlug": "baretta",
+    "tmdbId": 3216,
+    "frameDir": "3e1014e390c8782d"
+  },
+  {
+    "showName": "Barnaby Jones",
+    "showSlug": "barnaby-jones",
+    "tmdbId": 587,
+    "frameDir": "39b0d6d779b83963"
+  },
+  {
+    "showName": "Bewitched",
+    "showSlug": "bewitched",
+    "tmdbId": 4482,
+    "frameDir": "b246b3af858140ae"
+  },
+  {
+    "showName": "Bless This House",
+    "showSlug": "bless-this-house",
+    "tmdbId": 198,
+    "frameDir": "a5b620630a18a279"
+  },
+  {
+    "showName": "Bonanza",
+    "showSlug": "bonanza",
+    "tmdbId": 1018,
+    "frameDir": "904222b032cbfce3"
+  },
+  {
+    "showName": "Bosom Buddies",
+    "showSlug": "bosom-buddies",
+    "tmdbId": 2574,
+    "frameDir": "d22faa4b4c403ebe"
+  },
+  {
+    "showName": "Cannon",
+    "showSlug": "cannon",
+    "tmdbId": 4529,
+    "frameDir": "26f5eda2c94d6c3b"
+  },
+  {
+    "showName": "Catweazle",
+    "showSlug": "catweazle",
+    "tmdbId": 11196,
+    "frameDir": "361037b3552ab84b"
+  },
+  {
+    "showName": "Centennial",
+    "showSlug": "centennial",
+    "tmdbId": 5608,
+    "frameDir": "f4908592f2d86608"
+  },
+  {
+    "showName": "Clangers",
+    "showSlug": "clangers",
+    "tmdbId": 265,
+    "frameDir": "e2833d0842492d68"
+  },
+  {
+    "showName": "Colditz",
+    "showSlug": "colditz",
+    "tmdbId": 546,
+    "frameDir": "230f8d6836b3105d"
+  },
+  {
+    "showName": "Dad's Army",
+    "showSlug": "dads-army",
+    "tmdbId": 505,
+    "frameDir": "4db604b5db6f4f8f"
+  },
+  {
+    "showName": "Daniel Boone",
+    "showSlug": "daniel-boone",
+    "tmdbId": 11053,
+    "frameDir": "3103588838c881c6"
+  },
+  {
+    "showName": "Dark Shadows",
+    "showSlug": "dark-shadows",
+    "tmdbId": 2883,
+    "frameDir": "fa8074002f65d547"
+  },
+  {
+    "showName": "Dastardly and Muttley in Their Flying Machines",
+    "showSlug": "dastardly-and-muttley-in-their-flying-machines",
+    "tmdbId": 10097,
+    "frameDir": "57afcee6c64437d6"
+  },
+  {
+    "showName": "Department S",
+    "showSlug": "department-s",
+    "tmdbId": 983,
+    "frameDir": "7c2c3f2397af9b8e"
+  },
+  {
+    "showName": "Doctor Who",
+    "showSlug": "doctor-who",
+    "tmdbId": 121,
+    "frameDir": "159ba824c616d6ea"
+  },
+  {
+    "showName": "Elizabeth R",
+    "showSlug": "elizabeth-r",
+    "tmdbId": 1103,
+    "frameDir": "3cb4103e086c6ab8"
+  },
+  {
+    "showName": "Ellery Queen",
+    "showSlug": "ellery-queen",
+    "tmdbId": 13925,
+    "frameDir": "f30236d43a69cf3d"
+  },
+  {
+    "showName": "Family Affair",
+    "showSlug": "family-affair",
+    "tmdbId": 503,
+    "frameDir": "112e00038cb480a1"
+  },
+  {
+    "showName": "Fat Albert and the Cosby Kids",
+    "showSlug": "fat-albert-and-the-cosby-kids",
+    "tmdbId": 13914,
+    "frameDir": "563a09c63917a019"
+  },
+  {
+    "showName": "Flash Gordon",
+    "showSlug": "flash-gordon",
+    "tmdbId": 11844,
+    "frameDir": "1d934e5a74156a72"
+  },
+  {
+    "showName": "George and Mildred",
+    "showSlug": "george-and-mildred",
+    "tmdbId": 2419,
+    "frameDir": "a84830e000d99672"
+  },
+  {
+    "showName": "Get Smart",
+    "showSlug": "get-smart",
+    "tmdbId": 4455,
+    "frameDir": "7d48b4552a620ebc"
+  },
+  {
+    "showName": "Godzilla",
+    "showSlug": "godzilla",
+    "tmdbId": 5246,
+    "frameDir": "b9a27fd6087f33dc"
+  },
+  {
+    "showName": "Green Acres",
+    "showSlug": "green-acres",
+    "tmdbId": 609,
+    "frameDir": "62961b23c0ab168b"
+  },
+  {
+    "showName": "Grizzly Adams",
+    "showSlug": "grizzly-adams",
+    "tmdbId": 24123,
+    "frameDir": "eb0475349e9ca05e"
+  },
+  {
+    "showName": "Gunsmoke",
+    "showSlug": "gunsmoke",
+    "tmdbId": 3713,
+    "frameDir": "083e3a9a9717ef15"
+  },
+  {
+    "showName": "H.R. Pufnstuf",
+    "showSlug": "hr-pufnstuf",
+    "tmdbId": 4284,
+    "frameDir": "08a6026421202a33"
+  },
+  {
+    "showName": "Hawaii Five-O",
+    "showSlug": "hawaii-five-o",
+    "tmdbId": 2303,
+    "frameDir": "a74d0e6a48fe2de0"
+  },
+  {
+    "showName": "Help!... It's the Hair Bear Bunch!",
+    "showSlug": "help-its-the-hair-bear-bunch",
+    "tmdbId": 11136,
+    "frameDir": "de903c960631dc2b"
+  },
+  {
+    "showName": "Hogan's Heroes",
+    "showSlug": "hogans-heroes",
+    "tmdbId": 4068,
+    "frameDir": "abd0f9434dd70fc7"
+  },
+  {
+    "showName": "How the West Was Won",
+    "showSlug": "how-the-west-was-won",
+    "tmdbId": 2562,
+    "frameDir": "30dcbf33d01401bb"
+  },
+  {
+    "showName": "I Dream of Jeannie",
+    "showSlug": "i-dream-of-jeannie",
+    "tmdbId": 1660,
+    "frameDir": "2a2c3c459dc3b78a"
+  },
+  {
+    "showName": "Ironside",
+    "showSlug": "ironside",
+    "tmdbId": 4582,
+    "frameDir": "2dbc4d8539210c2c"
+  },
+  {
+    "showName": "Isis",
+    "showSlug": "isis",
+    "tmdbId": 12072,
+    "frameDir": "3f57e7cfea69288b"
+  },
+  {
+    "showName": "It Ain't Half Hot Mum",
+    "showSlug": "it-aint-half-hot-mum",
+    "tmdbId": 425,
+    "frameDir": "97747ba28a51fb4c"
+  },
+  {
+    "showName": "It Takes a Thief",
+    "showSlug": "it-takes-a-thief",
+    "tmdbId": 10496,
+    "frameDir": "5733b80e9b6210bf"
+  },
+  {
+    "showName": "Jabberjaw",
+    "showSlug": "jabberjaw",
+    "tmdbId": 2936,
+    "frameDir": "df0c694c1c2014bc"
+  },
+  {
+    "showName": "Jason King",
+    "showSlug": "jason-king",
+    "tmdbId": 2853,
+    "frameDir": "b8056aebe558a9d8"
+  },
+  {
+    "showName": "Land of the Giants",
+    "showSlug": "land-of-the-giants",
+    "tmdbId": 3345,
+    "frameDir": "98d4e3035447245e"
+  },
+  {
+    "showName": "Logan's Run",
+    "showSlug": "logans-run",
+    "tmdbId": 36626,
+    "frameDir": "2b440b8feaa4b8dd"
+  },
+  {
+    "showName": "Lou Grant",
+    "showSlug": "lou-grant",
+    "tmdbId": 480,
+    "frameDir": "aaa5ed00cfd8eea0"
+  },
+  {
+    "showName": "Love Thy Neighbour",
+    "showSlug": "love-thy-neighbour",
+    "tmdbId": 5300,
+    "frameDir": "b128dcf3e3033b7e"
+  },
+  {
+    "showName": "Love, American Style",
+    "showSlug": "love-american-style",
+    "tmdbId": 1825,
+    "frameDir": "7aa39f2d53ee4bbb"
+  },
+  {
+    "showName": "Man About the House",
+    "showSlug": "man-about-the-house",
+    "tmdbId": 1006,
+    "frameDir": "f719ece755ea8058"
+  },
+  {
+    "showName": "Mannix",
+    "showSlug": "mannix",
+    "tmdbId": 2813,
+    "frameDir": "38a94091589e19d1"
+  },
+  {
+    "showName": "Marco Polo",
+    "showSlug": "marco-polo",
+    "tmdbId": 6479,
+    "frameDir": "e9266b23402161d9"
+  },
+  {
+    "showName": "Marcus Welby, M.D.",
+    "showSlug": "marcus-welby-md",
+    "tmdbId": 3213,
+    "frameDir": "2af590100cdc5c58"
+  },
+  {
+    "showName": "Matt Houston",
+    "showSlug": "matt-houston",
+    "tmdbId": 10365,
+    "frameDir": "b128b5ac73e5b745"
+  },
+  {
+    "showName": "Maude",
+    "showSlug": "maude",
+    "tmdbId": 2184,
+    "frameDir": "15a376e957ab8263"
+  },
+  {
+    "showName": "McMillan & Wife",
+    "showSlug": "mcmillan-and-wife",
+    "tmdbId": 10848,
+    "frameDir": "c56bd12d11904f97"
+  },
+  {
+    "showName": "Minder",
+    "showSlug": "minder",
+    "tmdbId": 3469,
+    "frameDir": "92828cbb8d28d9f2"
+  },
+  {
+    "showName": "Monty Python's Flying Circus",
+    "showSlug": "monty-pythons-flying-circus",
+    "tmdbId": 849,
+    "frameDir": "d19aa087d37c4f61"
+  },
+  {
+    "showName": "Not the Nine O'Clock News",
+    "showSlug": "not-the-nine-oclock-news",
+    "tmdbId": 4153,
+    "frameDir": "e41334fc42f0b99e"
+  },
+  {
+    "showName": "On the Buses",
+    "showSlug": "on-the-buses",
+    "tmdbId": 774,
+    "frameDir": "e67f1d59c7aec34d"
+  },
+  {
+    "showName": "Paddington Bear",
+    "showSlug": "paddington-bear",
+    "tmdbId": 7447,
+    "frameDir": "479262233d9cef1e"
+  },
+  {
+    "showName": "Petrocelli",
+    "showSlug": "petrocelli",
+    "tmdbId": 11667,
+    "frameDir": "b5f894770384f09a"
+  },
+  {
+    "showName": "Petticoat Junction",
+    "showSlug": "petticoat-junction",
+    "tmdbId": 3346,
+    "frameDir": "4d0e68bf79b23f6c"
+  },
+  {
+    "showName": "Police Story",
+    "showSlug": "police-story",
+    "tmdbId": 9855,
+    "frameDir": "ffd536eb08e672ab"
+  },
+  {
+    "showName": "Police Woman",
+    "showSlug": "police-woman",
+    "tmdbId": 10020,
+    "frameDir": "3a8add3f64959a44"
+  },
+  {
+    "showName": "Prisoner",
+    "showSlug": "prisoner",
+    "tmdbId": 4275,
+    "frameDir": "1c31c735549dde81"
+  },
+  {
+    "showName": "Randall and Hopkirk (Deceased)",
+    "showSlug": "randall-and-hopkirk-deceased",
+    "tmdbId": 892,
+    "frameDir": "d47b5633650b0ff8"
+  },
+  {
+    "showName": "Rich Man, Poor Man",
+    "showSlug": "rich-man-poor-man",
+    "tmdbId": 14733,
+    "frameDir": "84411c7ba4344087"
+  },
+  {
+    "showName": "Ripping Yarns",
+    "showSlug": "ripping-yarns",
+    "tmdbId": 854,
+    "frameDir": "161d8278ee56482b"
+  },
+  {
+    "showName": "Rising Damp",
+    "showSlug": "rising-damp",
+    "tmdbId": 2544,
+    "frameDir": "7b37661d873d14be"
+  },
+  {
+    "showName": "Rowan & Martin's Laugh-In",
+    "showSlug": "rowan-and-martins-laugh-in",
+    "tmdbId": 9895,
+    "frameDir": "3ef95ba47796fa0c"
+  },
+  {
+    "showName": "Scooby-Doo, Where Are You!",
+    "showSlug": "scooby-doo-where-are-you",
+    "tmdbId": 926,
+    "frameDir": "cf2c9ade8c84c169"
+  },
+  {
+    "showName": "Second City Television",
+    "showSlug": "second-city-television",
+    "tmdbId": 2548,
+    "frameDir": "fb768506fbe5374f"
+  },
+  {
+    "showName": "Shazam!",
+    "showSlug": "shazam",
+    "tmdbId": 10444,
+    "frameDir": "d007fb6f7da61b79"
+  },
+  {
+    "showName": "Skippy the Bush Kangaroo",
+    "showSlug": "skippy-the-bush-kangaroo",
+    "tmdbId": 10762,
+    "frameDir": "a96f33d826bc2919"
+  },
+  {
+    "showName": "Speed Buggy",
+    "showSlug": "speed-buggy",
+    "tmdbId": 10476,
+    "frameDir": "bd7a19c0a2cabeb1"
+  },
+  {
+    "showName": "Steptoe and Son",
+    "showSlug": "steptoe-and-son",
+    "tmdbId": 3333,
+    "frameDir": "0178cc0a63d5918c"
+  },
+  {
+    "showName": "Survivors",
+    "showSlug": "survivors",
+    "tmdbId": 4351,
+    "frameDir": "2355d7e309eaf87d"
+  },
+  {
+    "showName": "Tales of the Gold Monkey",
+    "showSlug": "tales-of-the-gold-monkey",
+    "tmdbId": 2999,
+    "frameDir": "098098f2edc9d70d"
+  },
+  {
+    "showName": "That Girl",
+    "showSlug": "that-girl",
+    "tmdbId": 1925,
+    "frameDir": "7b2e0edb20ef926a"
+  },
+  {
+    "showName": "The Amazing Spider-Man",
+    "showSlug": "amazing-spider-man",
+    "tmdbId": 4552,
+    "frameDir": "e1762fc75874cd63"
+  },
+  {
+    "showName": "The Benny Hill Show",
+    "showSlug": "benny-hill-show",
+    "tmdbId": 3002,
+    "frameDir": "74f2feebb2e6efc8"
+  },
+  {
+    "showName": "The Beverly Hillbillies",
+    "showSlug": "beverly-hillbillies",
+    "tmdbId": 1930,
+    "frameDir": "24799cb6f06dee5e"
+  },
+  {
+    "showName": "The Brady Bunch",
+    "showSlug": "brady-bunch",
+    "tmdbId": 2126,
+    "frameDir": "e9f587da40a80481"
+  },
+  {
+    "showName": "The Carol Burnett Show",
+    "showSlug": "carol-burnett-show",
+    "tmdbId": 1027,
+    "frameDir": "abb5c440c2090a24"
+  },
+  {
+    "showName": "The Courtship of Eddie's Father",
+    "showSlug": "courtship-of-eddies-father",
+    "tmdbId": 6137,
+    "frameDir": "b39e0c0e1a88f7eb"
+  },
+  {
+    "showName": "The Day of the Triffids",
+    "showSlug": "day-of-the-triffids",
+    "tmdbId": 2609,
+    "frameDir": "1818acbac4370ad1"
+  },
+  {
+    "showName": "The Electric Company",
+    "showSlug": "electric-company",
+    "tmdbId": 4366,
+    "frameDir": "c1b9bec815c4008a"
+  },
+  {
+    "showName": "The Fantastic Four",
+    "showSlug": "fantastic-four",
+    "tmdbId": 2373,
+    "frameDir": "af533c5c003b8389"
+  },
+  {
+    "showName": "The Ghost & Mrs. Muir",
+    "showSlug": "ghost-and-mrs-muir",
+    "tmdbId": 12883,
+    "frameDir": "612f6f2d7b4013d1"
+  },
+  {
+    "showName": "The Good Life",
+    "showSlug": "good-life",
+    "tmdbId": 2765,
+    "frameDir": "aef62aa1d528b847"
+  },
+  {
+    "showName": "The Great Grape Ape Show",
+    "showSlug": "great-grape-ape-show",
+    "tmdbId": 4929,
+    "frameDir": "2a6530e14f9ab74d"
+  },
+  {
+    "showName": "The Hardy Boys / Nancy Drew Mysteries",
+    "showSlug": "hardy-boys-nancy-drew-mysteries",
+    "tmdbId": 2928,
+    "frameDir": "7a8c04ed0cf13aae"
+  },
+  {
+    "showName": "The High Chaparral",
+    "showSlug": "high-chaparral",
+    "tmdbId": 11096,
+    "frameDir": "305fd0cc57a3b443"
+  },
+  {
+    "showName": "The Hitchhiker's Guide to the Galaxy",
+    "showSlug": "hitchhikers-guide-to-the-galaxy",
+    "tmdbId": 2048,
+    "frameDir": "d7ed64f625b7b09d"
+  },
+  {
+    "showName": "The Invisible Man",
+    "showSlug": "invisible-man",
+    "tmdbId": 11490,
+    "frameDir": "098830f910d9dc2f"
+  },
+  {
+    "showName": "The Jackson 5ive",
+    "showSlug": "jackson-5ive",
+    "tmdbId": 12324,
+    "frameDir": "d894cb4c62070522"
+  },
+  {
+    "showName": "The Jetsons",
+    "showSlug": "jetsons",
+    "tmdbId": 2362,
+    "frameDir": "124310dfaf4bc7a2"
+  },
+  {
+    "showName": "The Mod Squad",
+    "showSlug": "mod-squad",
+    "tmdbId": 4003,
+    "frameDir": "2faa081ccee133f1"
+  },
+  {
+    "showName": "The New Adventures of Batman",
+    "showSlug": "new-adventures-of-batman",
+    "tmdbId": 10502,
+    "frameDir": "cb8a7607625582c7"
+  },
+  {
+    "showName": "The Partridge Family",
+    "showSlug": "partridge-family",
+    "tmdbId": 13941,
+    "frameDir": "cc08e9841ed1155c"
+  },
+  {
+    "showName": "The Perils of Penelope Pitstop",
+    "showSlug": "perils-of-penelope-pitstop",
+    "tmdbId": 1765,
+    "frameDir": "e435049d1bc26106"
+  },
+  {
+    "showName": "The Professionals",
+    "showSlug": "professionals",
+    "tmdbId": 11174,
+    "frameDir": "5373b37b85284f85"
+  },
+  {
+    "showName": "The Protectors",
+    "showSlug": "protectors",
+    "tmdbId": 4354,
+    "frameDir": "410237cb6441574b"
+  },
+  {
+    "showName": "The Raccoons",
+    "showSlug": "raccoons",
+    "tmdbId": 4803,
+    "frameDir": "7b05cd07133b5134"
+  },
+  {
+    "showName": "The Rookies",
+    "showSlug": "rookies",
+    "tmdbId": 988,
+    "frameDir": "4857ce6f48b4ec4e"
+  },
+  {
+    "showName": "The Six Wives of Henry VIII",
+    "showSlug": "six-wives-of-henry-viii",
+    "tmdbId": 13833,
+    "frameDir": "f48e98bcb9abbe32"
+  },
+  {
+    "showName": "The Sweeney",
+    "showSlug": "sweeney",
+    "tmdbId": 758,
+    "frameDir": "c69f4f6511e71fd0"
+  },
+  {
+    "showName": "The Virginian",
+    "showSlug": "virginian",
+    "tmdbId": 10180,
+    "frameDir": "b69d562894c38741"
+  },
+  {
+    "showName": "The Winds of War",
+    "showSlug": "winds-of-war",
+    "tmdbId": 42240,
+    "frameDir": "8fc8f182bad29607"
+  },
+  {
+    "showName": "The Wombles",
+    "showSlug": "wombles",
+    "tmdbId": 15122,
+    "frameDir": "25d4b1552f2802e8"
+  },
+  {
+    "showName": "Thundarr the Barbarian",
+    "showSlug": "thundarr-the-barbarian",
+    "tmdbId": 13800,
+    "frameDir": "e27de003e0116f4a"
+  },
+  {
+    "showName": "To the Manor Born",
+    "showSlug": "to-the-manor-born",
+    "tmdbId": 125,
+    "frameDir": "42212cb673060039"
+  },
+  {
+    "showName": "Too Close for Comfort",
+    "showSlug": "too-close-for-comfort",
+    "tmdbId": 3781,
+    "frameDir": "1f3727df63166964"
+  },
+  {
+    "showName": "Upstairs, Downstairs",
+    "showSlug": "upstairs-downstairs",
+    "tmdbId": 492,
+    "frameDir": "3e0e323de0af69a1"
+  },
+  {
+    "showName": "Vega$",
+    "showSlug": "vega",
+    "tmdbId": 9769,
+    "frameDir": "96e693da1dc7aef9"
+  },
+  {
+    "showName": "Wait Till Your Father Gets Home",
+    "showSlug": "wait-till-your-father-gets-home",
+    "tmdbId": 10487,
+    "frameDir": "ca79ba553d8041a1"
+  },
+  {
+    "showName": "What's Happening!!",
+    "showSlug": "whats-happening",
+    "tmdbId": 1869,
+    "frameDir": "71eaf1a87e75a812"
+  },
+  {
+    "showName": "Whatever Happened to the Likely Lads?",
+    "showSlug": "whatever-happened-to-the-likely-lads",
+    "tmdbId": 420,
+    "frameDir": "c4eff11187c71ab9"
   }
 ]

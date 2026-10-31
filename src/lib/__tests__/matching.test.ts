@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { normalizeTitle } from "@/lib/matching";
+import { ALIAS_ENTRIES, normalizeTitle } from "@/lib/matching";
 import { SHOW_LIST, guessKey, titlesMatch } from "@/lib/shows";
 import rotation from "@/data/rotation.json";
 
@@ -72,5 +72,13 @@ describe("answer reachability", () => {
     expect(titlesMatch("Spider-Man", "Spider-Man")).toBe(true);
     // A nickname still resolves when it isn't itself a title.
     expect(titlesMatch("real ghostbusters", "The Real Ghostbusters")).toBe(true);
+  });
+
+  it("every alias points at a show that is actually in the library", () => {
+    // An alias for a show that was never added, or whose title was typed from
+    // memory, silently resolves a guess to nothing.
+    const keys = new Set(SHOW_LIST.map(normalizeTitle));
+    const dangling = ALIAS_ENTRIES.filter(([, target]) => !keys.has(normalizeTitle(target)));
+    expect(dangling).toEqual([]);
   });
 });

@@ -40,8 +40,12 @@ CANDIDATES_FILE = Path(__file__).parent / "candidates.json"
 ERA = (1970, 1989)
 FRAME_COUNT = 6
 MAX_SEASONS = 12
-# News and Talk make poor guessing puzzles.
-SKIP_GENRES = {10763, 10767}
+# Documentary, News, Reality and Talk make poor guessing puzzles: a frame of a
+# presenter or of stock footage identifies nothing.
+SKIP_GENRES = {99, 10763, 10764, 10767}
+# A show still in production has stills that post-date the era being guessed —
+# Neighbours and Postman Pat look nothing today like they did in 1985.
+LAST_AIR_CUTOFF = 1995
 USER_AGENT = "retrotv.fun show discovery (+https://retrotv.fun)"
 
 
@@ -83,11 +87,18 @@ def make_slug(name: str) -> str:
     return re.sub(r"-+", "-", slug).strip("-")
 
 
-def count_stills(tmdb_id: int, needed: int = FRAME_COUNT) -> int:
-    """Episode stills available, stopping once there are enough."""
+def inspect(tmdb_id: int, needed: int = FRAME_COUNT) -> tuple[int, dict | None]:
+    """
+    Episode stills available, stopping once there are enough, plus the show
+    record the count came from.
+
+    The detail call is the same one the still count needs, so the era and
+    production-status checks ride along on it rather than costing a request of
+    their own.
+    """
     show = api(f"/tv/{tmdb_id}")
     if not show:
-        return 0
+        return 0, None
 
     stills = 0
     for season in [s for s in show.get("seasons", []) if s["season_number"] > 0][:MAX_SEASONS]:
@@ -98,28 +109,36 @@ def count_stills(tmdb_id: int, needed: int = FRAME_COUNT) -> int:
         if images:
             stills += len(images.get("stills", []))
         if stills >= needed:
-            return stills
+            return stills, show
 
         detail = api(f"/tv/{tmdb_id}/season/{number}")
         time.sleep(0.2)
         if detail:
             stills += sum(1 for ep in detail.get("episodes", []) if ep.get("still_path"))
         if stills >= needed:
-            return stills
+            return stills, show
 
-    return stills
+    return stills, show
 
 
 def discover() -> list[dict]:
-    """Era shows from TMDB, most-voted first."""
+    """
+    Era shows from TMDB, most-voted first.
+
+    Selected on *episode* air dates rather than the premiere date: Bewitched,
+    Hogan's Heroes, Mission: Impossible and The Brady Bunch all started in the
+    late 60s and ran well into the 70s, and filtering on first_air_date alone
+    threw away every one of them.
+    """
     found: dict[int, dict] = {}
     for year in range(ERA[0], ERA[1] + 1):
-        for page in range(1, 4):
+        for page in range(1, 6):
             data = api(
                 "/discover/tv",
                 {
-                    "first_air_date.gte": f"{year}-01-01",
-                    "first_air_date.lte": f"{year}-12-31",
+                    "air_date.gte": f"{year}-01-01",
+                    "air_date.lte": f"{year}-12-31",
+                    "first_air_date.lte": f"{ERA[1]}-12-31",
                     "sort_by": "vote_count.desc",
                     "with_original_language": "en",
                     "vote_count.gte": "5",
@@ -145,6 +164,25 @@ def discover() -> list[dict]:
             if data.get("page", 1) >= data.get("total_pages", 1):
                 break
     return sorted(found.values(), key=lambda s: s["votes"], reverse=True)
+
+
+def era_verdict(detail: dict) -> str | None:
+    """Why this show is a bad puzzle, or None if it is a good one."""
+    if {g["id"] for g in detail.get("genres", [])} & SKIP_GENRES:
+        return "documentary/news/reality/talk"
+
+    last = (detail.get("last_air_date") or "")[:4]
+    if last.isdigit() and int(last) > LAST_AIR_CUTOFF:
+        return f"still running in {last}"
+    if detail.get("status") in {"Returning Series", "In Production"}:
+        return "still in production"
+
+    first = (detail.get("first_air_date") or "")[:4]
+    if first.isdigit() and int(first) > ERA[1]:
+        return f"premiered {first}"
+    if last.isdigit() and int(last) < ERA[0]:
+        return f"ended {last}"
+    return None
 
 
 def main() -> None:
@@ -178,20 +216,27 @@ def main() -> None:
     for candidate in fresh[: args.check]:
         if len(accepted) >= args.limit:
             break
-        stills = count_stills(candidate["tmdbId"])
+        stills, detail = inspect(candidate["tmdbId"])
         label = f"{candidate['name']} ({candidate['year']}, {candidate['votes']} votes)"
-        if stills >= FRAME_COUNT:
-            slug = candidate["slug"]
-            if slug in have_slugs:
-                slug = f"{slug}-{candidate['year']}"
-            candidate["slug"] = slug
-            have_slugs.add(slug)
-            candidate["stills"] = stills
-            accepted.append(candidate)
-            print(f"  ✅ {label} — {stills}+ stills")
-        else:
+
+        reason = era_verdict(detail) if detail else "no TMDB record"
+        if reason is None and stills < FRAME_COUNT:
+            reason = f"only {stills} stills"
+        if reason:
+            candidate["reason"] = reason
             rejected.append(candidate)
-            print(f"  ✗  {label} — {stills} stills")
+            print(f"  ✗  {label} — {reason}")
+            continue
+
+        slug = candidate["slug"]
+        if slug in have_slugs:
+            slug = f"{slug}-{candidate['year']}"
+        candidate["slug"] = slug
+        have_slugs.add(slug)
+        candidate["stills"] = stills
+        candidate["lastAired"] = (detail.get("last_air_date") or "")[:4]
+        accepted.append(candidate)
+        print(f"  ✅ {label} — {stills}+ stills")
 
     CANDIDATES_FILE.write_text(json.dumps({"accepted": accepted, "rejected": rejected}, indent=2) + "\n")
     print(f"\n{len(accepted)} accepted, {len(rejected)} rejected (written to candidates.json)")

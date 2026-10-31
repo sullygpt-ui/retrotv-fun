@@ -236,6 +236,19 @@ export function getShowsByGenre(genre: string): Show[] {
     .sort((a, b) => a.name.localeCompare(b.name));
 }
 
+/**
+ * The browse pages a show's TMDB genres map to.
+ *
+ * TMDB names genres "Western", "War & Politics" and "Sci-Fi & Fantasy"; the
+ * site browses by eight buckets, and slugifying the TMDB name instead produced
+ * links to /shows/genre/western and /shows/genre/sci-fi-fantasy, which 404.
+ * Genres with no bucket are dropped rather than linked into nothing.
+ */
+export function genreLinks(tmdbGenres: string[] | undefined): { slug: string; name: string }[] {
+  const slugs = new Set((tmdbGenres ?? []).flatMap((genre) => TMDB_GENRE_BUCKETS[genre] ?? []));
+  return genres.filter((genre) => slugs.has(genre.slug));
+}
+
 export const genres = [
   { slug: 'action-adventure', name: 'Action & Adventure' },
   { slug: 'comedy', name: 'Comedy' },

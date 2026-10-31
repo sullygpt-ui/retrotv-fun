@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import showsDetail from '@/data/shows-detail.json';
+import { genreLinks } from '@/lib/show-data';
 
 interface ShowDetail {
   name: string;
@@ -134,13 +135,13 @@ export default async function ShowPage({ params }: { params: Promise<{ slug: str
           </p>
 
           <div className="mt-3 flex flex-wrap gap-2">
-            {show.genres?.map((g) => (
+            {genreLinks(show.genres).map((g) => (
               <Link
-                key={g}
-                href={`/shows/genre/${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+                key={g.slug}
+                href={`/shows/genre/${g.slug}`}
                 className="px-2 py-1 bg-[var(--amber)]/10 text-[var(--amber)] text-xs font-retro rounded hover:bg-[var(--amber)]/20 transition"
               >
-                {g}
+                {g.name}
               </Link>
             ))}
           </div>

@@ -98,7 +98,35 @@ const ALIASES: Record<string, string> = {
   "six million dollar man": "The Six Million Dollar Man",
   "fall guy": "The Fall Guy",
   "incredible hulk": "The Incredible Hulk",
+  "scooby doo": "Scooby-Doo, Where Are You!",
+  "where are you": "Scooby-Doo, Where Are You!",
+  "monty python": "Monty Python's Flying Circus",
+  "flying circus": "Monty Python's Flying Circus",
+  "hitchhikers guide": "The Hitchhiker's Guide to the Galaxy",
+  "laugh in": "Rowan & Martin's Laugh-In",
+  "sctv": "Second City Television",
+  "benny hill": "The Benny Hill Show",
+  "carol burnett": "The Carol Burnett Show",
+  "jeannie": "I Dream of Jeannie",
+  "hardy boys": "The Hardy Boys / Nancy Drew Mysteries",
+  "nancy drew": "The Hardy Boys / Nancy Drew Mysteries",
+  "fat albert": "Fat Albert and the Cosby Kids",
+  "triffids": "The Day of the Triffids",
+  "pufnstuf": "H.R. Pufnstuf",
+  "likely lads": "Whatever Happened to the Likely Lads?",
+  "marcus welby": "Marcus Welby, M.D.",
+  "jackson 5": "The Jackson 5ive",
+  "penelope pitstop": "The Perils of Penelope Pitstop",
+  "dastardly and muttley": "Dastardly and Muttley in Their Flying Machines",
+  "grape ape": "The Great Grape Ape Show",
+  "hair bear bunch": "Help!... It's the Hair Bear Bunch!",
+  "winds of war": "The Winds of War",
+  "cell block h": "Prisoner",
+  "prisoner cell block h": "Prisoner",
 };
+
+/** [alias, canonical title] pairs, for tests that check the table's targets. */
+export const ALIAS_ENTRIES: ReadonlyArray<readonly [string, string]> = Object.entries(ALIASES);
 
 const ALIAS_KEYS: Record<string, string> = Object.fromEntries(
   Object.entries(ALIASES).map(([k, v]) => [normalizeTitle(k), v]),

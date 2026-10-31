@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import sitemap from "@/app/sitemap";
 import showsDetail from "@/data/shows-detail.json";
 import { isValidPuzzleDate, pastDates } from "@/lib/rotation";
-import { genres, getShowsByGenre } from "@/lib/show-data";
+import { allShows, genres, getShowsByGenre } from "@/lib/show-data";
 
 /**
  * A sitemap that lists a URL which 404s is worse than not listing it: Search
@@ -58,6 +58,16 @@ describe("sitemap", () => {
 
       throw new Error(`sitemap lists an unrecognised path: ${path}`);
     }
+  });
+
+  it("gives every show in the library a detail page", () => {
+    // /shows lists everything in shows.json, but /shows/<slug> is generated
+    // from shows-detail.json. A batch added to one and not the other puts
+    // dozens of 404s behind links on an indexed page — run
+    // scripts/fetch_show_details.py after adding shows.
+    const detailed = new Set((showsDetail as { slug: string }[]).map((s) => s.slug));
+    const undetailed = allShows.map((s) => s.slug).filter((slug) => !detailed.has(slug));
+    expect(undetailed).toEqual([]);
   });
 
   it("covers every show, genre and past puzzle", () => {

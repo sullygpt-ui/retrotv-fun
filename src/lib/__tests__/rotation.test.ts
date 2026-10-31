@@ -8,7 +8,9 @@ import {
   dayIndex,
   getPublicPuzzle,
   getPuzzle,
+  isSettledPuzzleDate,
   isValidPuzzleDate,
+  pastDates,
 } from "@/lib/rotation";
 import { addDays, todayUTC } from "@/lib/dates";
 import { normalizeTitle } from "@/lib/matching";
@@ -108,6 +110,21 @@ describe("scheduling", () => {
     expect(isValidPuzzleDate(addDays(EPOCH, -1))).toBe(false);
     expect(isValidPuzzleDate("not-a-date")).toBe(false);
     expect(isValidPuzzleDate("2026-13-45")).toBe(false);
+  });
+
+  it("only calls a puzzle settled once the day is over", () => {
+    // Archive pages print their answer. Today's must never be one of them —
+    // the daily puzzle is where streaks are at stake.
+    const today = todayUTC();
+    expect(isSettledPuzzleDate(today)).toBe(false);
+    expect(isSettledPuzzleDate(addDays(today, 1))).toBe(false);
+    expect(isSettledPuzzleDate(addDays(today, -1))).toBe(true);
+    expect(isSettledPuzzleDate(EPOCH)).toBe(true);
+    expect(isSettledPuzzleDate(addDays(EPOCH, -1))).toBe(false);
+    expect(isSettledPuzzleDate("not-a-date")).toBe(false);
+
+    // pastDates() is what the sitemap lists, so it must agree.
+    for (const date of pastDates(5)) expect(isSettledPuzzleDate(date)).toBe(true);
   });
 
   it("builds six frame paths that don't name the show", () => {

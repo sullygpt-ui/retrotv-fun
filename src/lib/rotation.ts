@@ -142,6 +142,17 @@ export function pastDates(limit?: number): string[] {
   return out;
 }
 
+/**
+ * Whether a date's answer is safe to publish.
+ *
+ * Archive pages name their show so they can rank for it, but today's puzzle is
+ * the one with streaks at stake, so its answer must never reach the HTML. Only
+ * dates strictly before today qualify.
+ */
+export function isSettledPuzzleDate(date: string, today: string = todayUTC()): boolean {
+  return isValidPuzzleDate(date) && date < today;
+}
+
 /** How many distinct shows are in the rotation. */
 export const ROTATION_LENGTH = ROTATION.length;
 

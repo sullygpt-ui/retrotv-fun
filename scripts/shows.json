@@ -1278,5 +1278,600 @@
     "name": "The All-New Popeye Hour",
     "tmdbId": 15520,
     "slug": "all-new-popeye-hour"
+  },
+  {
+    "name": "Scooby-Doo, Where Are You!",
+    "tmdbId": 926,
+    "slug": "scooby-doo-where-are-you"
+  },
+  {
+    "name": "I Dream of Jeannie",
+    "tmdbId": 1660,
+    "slug": "i-dream-of-jeannie"
+  },
+  {
+    "name": "Bewitched",
+    "tmdbId": 4482,
+    "slug": "bewitched"
+  },
+  {
+    "name": "Monty Python's Flying Circus",
+    "tmdbId": 849,
+    "slug": "monty-pythons-flying-circus"
+  },
+  {
+    "name": "Doctor Who",
+    "tmdbId": 121,
+    "slug": "doctor-who"
+  },
+  {
+    "name": "The Jetsons",
+    "tmdbId": 2362,
+    "slug": "jetsons"
+  },
+  {
+    "name": "Bonanza",
+    "tmdbId": 1018,
+    "slug": "bonanza"
+  },
+  {
+    "name": "Get Smart",
+    "tmdbId": 4455,
+    "slug": "get-smart"
+  },
+  {
+    "name": "Hogan's Heroes",
+    "tmdbId": 4068,
+    "slug": "hogans-heroes"
+  },
+  {
+    "name": "The Benny Hill Show",
+    "tmdbId": 3002,
+    "slug": "benny-hill-show"
+  },
+  {
+    "name": "The Brady Bunch",
+    "tmdbId": 2126,
+    "slug": "brady-bunch"
+  },
+  {
+    "name": "Hawaii Five-O",
+    "tmdbId": 2303,
+    "slug": "hawaii-five-o"
+  },
+  {
+    "name": "The Beverly Hillbillies",
+    "tmdbId": 1930,
+    "slug": "beverly-hillbillies"
+  },
+  {
+    "name": "Gunsmoke",
+    "tmdbId": 3713,
+    "slug": "gunsmoke"
+  },
+  {
+    "name": "Dark Shadows",
+    "tmdbId": 2883,
+    "slug": "dark-shadows"
+  },
+  {
+    "name": "Dastardly and Muttley in Their Flying Machines",
+    "tmdbId": 10097,
+    "slug": "dastardly-and-muttley-in-their-flying-machines"
+  },
+  {
+    "name": "Green Acres",
+    "tmdbId": 609,
+    "slug": "green-acres"
+  },
+  {
+    "name": "Dad's Army",
+    "tmdbId": 505,
+    "slug": "dads-army"
+  },
+  {
+    "name": "Lassie",
+    "tmdbId": 5368,
+    "slug": "lassie"
+  },
+  {
+    "name": "The Carol Burnett Show",
+    "tmdbId": 1027,
+    "slug": "carol-burnett-show"
+  },
+  {
+    "name": "Ironside",
+    "tmdbId": 4582,
+    "slug": "ironside"
+  },
+  {
+    "name": "Mannix",
+    "tmdbId": 2813,
+    "slug": "mannix"
+  },
+  {
+    "name": "Land of the Giants",
+    "tmdbId": 3345,
+    "slug": "land-of-the-giants"
+  },
+  {
+    "name": "Adam-12",
+    "tmdbId": 4660,
+    "slug": "adam-12"
+  },
+  {
+    "name": "The Perils of Penelope Pitstop",
+    "tmdbId": 1765,
+    "slug": "perils-of-penelope-pitstop"
+  },
+  {
+    "name": "The Hitchhiker's Guide to the Galaxy",
+    "tmdbId": 2048,
+    "slug": "hitchhikers-guide-to-the-galaxy"
+  },
+  {
+    "name": "The Professionals",
+    "tmdbId": 11174,
+    "slug": "professionals"
+  },
+  {
+    "name": "The Winds of War",
+    "tmdbId": 42240,
+    "slug": "winds-of-war"
+  },
+  {
+    "name": "The Good Life",
+    "tmdbId": 2765,
+    "slug": "good-life"
+  },
+  {
+    "name": "Family Affair",
+    "tmdbId": 503,
+    "slug": "family-affair"
+  },
+  {
+    "name": "Thundarr the Barbarian",
+    "tmdbId": 13800,
+    "slug": "thundarr-the-barbarian"
+  },
+  {
+    "name": "Petticoat Junction",
+    "tmdbId": 3346,
+    "slug": "petticoat-junction"
+  },
+  {
+    "name": "Cannon",
+    "tmdbId": 4529,
+    "slug": "cannon"
+  },
+  {
+    "name": "Baretta",
+    "tmdbId": 3216,
+    "slug": "baretta"
+  },
+  {
+    "name": "Bosom Buddies",
+    "tmdbId": 2574,
+    "slug": "bosom-buddies"
+  },
+  {
+    "name": "Ellery Queen",
+    "tmdbId": 13925,
+    "slug": "ellery-queen"
+  },
+  {
+    "name": "Logan's Run",
+    "tmdbId": 36626,
+    "slug": "logans-run"
+  },
+  {
+    "name": "The Amazing Spider-Man",
+    "tmdbId": 4552,
+    "slug": "amazing-spider-man"
+  },
+  {
+    "name": "The Day of the Triffids",
+    "tmdbId": 2609,
+    "slug": "day-of-the-triffids"
+  },
+  {
+    "name": "Steptoe and Son",
+    "tmdbId": 3333,
+    "slug": "steptoe-and-son"
+  },
+  {
+    "name": "Maude",
+    "tmdbId": 2184,
+    "slug": "maude"
+  },
+  {
+    "name": "Centennial",
+    "tmdbId": 5608,
+    "slug": "centennial"
+  },
+  {
+    "name": "Rowan & Martin's Laugh-In",
+    "tmdbId": 9895,
+    "slug": "rowan-and-martins-laugh-in"
+  },
+  {
+    "name": "Fat Albert and the Cosby Kids",
+    "tmdbId": 13914,
+    "slug": "fat-albert-and-the-cosby-kids"
+  },
+  {
+    "name": "The Partridge Family",
+    "tmdbId": 13941,
+    "slug": "partridge-family"
+  },
+  {
+    "name": "The Virginian",
+    "tmdbId": 10180,
+    "slug": "virginian"
+  },
+  {
+    "name": "That Girl",
+    "tmdbId": 1925,
+    "slug": "that-girl"
+  },
+  {
+    "name": "How the West Was Won",
+    "tmdbId": 2562,
+    "slug": "how-the-west-was-won"
+  },
+  {
+    "name": "The New Adventures of Batman",
+    "tmdbId": 10502,
+    "slug": "new-adventures-of-batman"
+  },
+  {
+    "name": "The Fantastic Four",
+    "tmdbId": 2373,
+    "slug": "fantastic-four"
+  },
+  {
+    "name": "Flash Gordon",
+    "tmdbId": 11844,
+    "slug": "flash-gordon"
+  },
+  {
+    "name": "Prisoner",
+    "tmdbId": 4275,
+    "slug": "prisoner"
+  },
+  {
+    "name": "Daniel Boone",
+    "tmdbId": 11053,
+    "slug": "daniel-boone"
+  },
+  {
+    "name": "Alias Smith and Jones",
+    "tmdbId": 3275,
+    "slug": "alias-smith-and-jones"
+  },
+  {
+    "name": "Police Woman",
+    "tmdbId": 10020,
+    "slug": "police-woman"
+  },
+  {
+    "name": "George and Mildred",
+    "tmdbId": 2419,
+    "slug": "george-and-mildred"
+  },
+  {
+    "name": "Upstairs, Downstairs",
+    "tmdbId": 492,
+    "slug": "upstairs-downstairs"
+  },
+  {
+    "name": "Barnaby Jones",
+    "tmdbId": 587,
+    "slug": "barnaby-jones"
+  },
+  {
+    "name": "Rising Damp",
+    "tmdbId": 2544,
+    "slug": "rising-damp"
+  },
+  {
+    "name": "Jabberjaw",
+    "tmdbId": 2936,
+    "slug": "jabberjaw"
+  },
+  {
+    "name": "Lou Grant",
+    "tmdbId": 480,
+    "slug": "lou-grant"
+  },
+  {
+    "name": "On the Buses",
+    "tmdbId": 774,
+    "slug": "on-the-buses"
+  },
+  {
+    "name": "Rich Man, Poor Man",
+    "tmdbId": 14733,
+    "slug": "rich-man-poor-man"
+  },
+  {
+    "name": "Second City Television",
+    "tmdbId": 2548,
+    "slug": "second-city-television"
+  },
+  {
+    "name": "What's Happening!!",
+    "tmdbId": 1869,
+    "slug": "whats-happening"
+  },
+  {
+    "name": "The Hardy Boys / Nancy Drew Mysteries",
+    "tmdbId": 2928,
+    "slug": "hardy-boys-nancy-drew-mysteries"
+  },
+  {
+    "name": "To the Manor Born",
+    "tmdbId": 125,
+    "slug": "to-the-manor-born"
+  },
+  {
+    "name": "The Raccoons",
+    "tmdbId": 4803,
+    "slug": "raccoons"
+  },
+  {
+    "name": "Minder",
+    "tmdbId": 3469,
+    "slug": "minder"
+  },
+  {
+    "name": "Godzilla",
+    "tmdbId": 5246,
+    "slug": "godzilla"
+  },
+  {
+    "name": "Marco Polo",
+    "tmdbId": 6479,
+    "slug": "marco-polo"
+  },
+  {
+    "name": "The Mod Squad",
+    "tmdbId": 4003,
+    "slug": "mod-squad"
+  },
+  {
+    "name": "McMillan & Wife",
+    "tmdbId": 10848,
+    "slug": "mcmillan-and-wife"
+  },
+  {
+    "name": "The Sweeney",
+    "tmdbId": 758,
+    "slug": "sweeney"
+  },
+  {
+    "name": "Grizzly Adams",
+    "tmdbId": 24123,
+    "slug": "grizzly-adams"
+  },
+  {
+    "name": "Matt Houston",
+    "tmdbId": 10365,
+    "slug": "matt-houston"
+  },
+  {
+    "name": "Tales of the Gold Monkey",
+    "tmdbId": 2999,
+    "slug": "tales-of-the-gold-monkey"
+  },
+  {
+    "name": "Isis",
+    "tmdbId": 12072,
+    "slug": "isis"
+  },
+  {
+    "name": "Not the Nine O'Clock News",
+    "tmdbId": 4153,
+    "slug": "not-the-nine-oclock-news"
+  },
+  {
+    "name": "The High Chaparral",
+    "tmdbId": 11096,
+    "slug": "high-chaparral"
+  },
+  {
+    "name": "The Electric Company",
+    "tmdbId": 4366,
+    "slug": "electric-company"
+  },
+  {
+    "name": "Petrocelli",
+    "tmdbId": 11667,
+    "slug": "petrocelli"
+  },
+  {
+    "name": "Shazam!",
+    "tmdbId": 10444,
+    "slug": "shazam"
+  },
+  {
+    "name": "The Invisible Man",
+    "tmdbId": 11490,
+    "slug": "invisible-man"
+  },
+  {
+    "name": "Paddington Bear",
+    "tmdbId": 7447,
+    "slug": "paddington-bear"
+  },
+  {
+    "name": "Too Close for Comfort",
+    "tmdbId": 3781,
+    "slug": "too-close-for-comfort"
+  },
+  {
+    "name": "It Takes a Thief",
+    "tmdbId": 10496,
+    "slug": "it-takes-a-thief"
+  },
+  {
+    "name": "Vega$",
+    "tmdbId": 9769,
+    "slug": "vega"
+  },
+  {
+    "name": "H.R. Pufnstuf",
+    "tmdbId": 4284,
+    "slug": "hr-pufnstuf"
+  },
+  {
+    "name": "The F.B.I.",
+    "tmdbId": 2223,
+    "slug": "fbi"
+  },
+  {
+    "name": "Survivors",
+    "tmdbId": 4351,
+    "slug": "survivors"
+  },
+  {
+    "name": "Ripping Yarns",
+    "tmdbId": 854,
+    "slug": "ripping-yarns"
+  },
+  {
+    "name": "Help!... It's the Hair Bear Bunch!",
+    "tmdbId": 11136,
+    "slug": "help-its-the-hair-bear-bunch"
+  },
+  {
+    "name": "The Rookies",
+    "tmdbId": 988,
+    "slug": "rookies"
+  },
+  {
+    "name": "Speed Buggy",
+    "tmdbId": 10476,
+    "slug": "speed-buggy"
+  },
+  {
+    "name": "The Great Grape Ape Show",
+    "tmdbId": 4929,
+    "slug": "great-grape-ape-show"
+  },
+  {
+    "name": "Elizabeth R",
+    "tmdbId": 1103,
+    "slug": "elizabeth-r"
+  },
+  {
+    "name": "Whatever Happened to the Likely Lads?",
+    "tmdbId": 420,
+    "slug": "whatever-happened-to-the-likely-lads"
+  },
+  {
+    "name": "Catweazle",
+    "tmdbId": 11196,
+    "slug": "catweazle"
+  },
+  {
+    "name": "Skippy the Bush Kangaroo",
+    "tmdbId": 10762,
+    "slug": "skippy-the-bush-kangaroo"
+  },
+  {
+    "name": "Love, American Style",
+    "tmdbId": 1825,
+    "slug": "love-american-style"
+  },
+  {
+    "name": "Police Story",
+    "tmdbId": 9855,
+    "slug": "police-story"
+  },
+  {
+    "name": "Man About the House",
+    "tmdbId": 1006,
+    "slug": "man-about-the-house"
+  },
+  {
+    "name": "Marcus Welby, M.D.",
+    "tmdbId": 3213,
+    "slug": "marcus-welby-md"
+  },
+  {
+    "name": "It Ain't Half Hot Mum",
+    "tmdbId": 425,
+    "slug": "it-aint-half-hot-mum"
+  },
+  {
+    "name": "The Courtship of Eddie's Father",
+    "tmdbId": 6137,
+    "slug": "courtship-of-eddies-father"
+  },
+  {
+    "name": "Randall and Hopkirk (Deceased)",
+    "tmdbId": 892,
+    "slug": "randall-and-hopkirk-deceased"
+  },
+  {
+    "name": "The Ghost & Mrs. Muir",
+    "tmdbId": 12883,
+    "slug": "ghost-and-mrs-muir"
+  },
+  {
+    "name": "Department S",
+    "tmdbId": 983,
+    "slug": "department-s"
+  },
+  {
+    "name": "Bless This House",
+    "tmdbId": 198,
+    "slug": "bless-this-house"
+  },
+  {
+    "name": "The Wombles",
+    "tmdbId": 15122,
+    "slug": "wombles"
+  },
+  {
+    "name": "The Six Wives of Henry VIII",
+    "tmdbId": 13833,
+    "slug": "six-wives-of-henry-viii"
+  },
+  {
+    "name": "The Protectors",
+    "tmdbId": 4354,
+    "slug": "protectors"
+  },
+  {
+    "name": "Colditz",
+    "tmdbId": 546,
+    "slug": "colditz"
+  },
+  {
+    "name": "The Jackson 5ive",
+    "tmdbId": 12324,
+    "slug": "jackson-5ive"
+  },
+  {
+    "name": "Jason King",
+    "tmdbId": 2853,
+    "slug": "jason-king"
+  },
+  {
+    "name": "Clangers",
+    "tmdbId": 265,
+    "slug": "clangers"
+  },
+  {
+    "name": "Wait Till Your Father Gets Home",
+    "tmdbId": 10487,
+    "slug": "wait-till-your-father-gets-home"
+  },
+  {
+    "name": "Love Thy Neighbour",
+    "tmdbId": 5300,
+    "slug": "love-thy-neighbour"
   }
 ]
