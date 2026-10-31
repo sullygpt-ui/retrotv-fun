@@ -12,7 +12,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const today = new Date(`${todayUTC()}T00:00:00Z`);
 
   const staticPages: MetadataRoute.Sitemap = [
-    { url: baseUrl, lastModified: today, changeFrequency: 'daily', priority: 1.0 },
+    // Trailing slash: the home page's canonical is `/`, and a <loc> that
+    // redirects is a round trip Google doesn't need to make.
+    { url: `${baseUrl}/`, lastModified: today, changeFrequency: 'daily', priority: 1.0 },
     { url: `${baseUrl}/archive`, lastModified: today, changeFrequency: 'daily', priority: 0.8 },
     { url: `${baseUrl}/about`, changeFrequency: 'monthly', priority: 0.5 },
     { url: `${baseUrl}/faq`, changeFrequency: 'monthly', priority: 0.5 },
