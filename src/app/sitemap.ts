@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import showsDetail from '@/data/shows-detail.json';
 import { todayUTC } from '@/lib/dates';
 import { pastDates } from '@/lib/rotation';
+import { genres, getShowsByGenre } from '@/lib/show-data';
 
 // Regenerated daily so each new puzzle and archive day enters the sitemap.
 export const revalidate = 86400;
@@ -34,16 +35,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  // Genre pages
-  const genres = new Set<string>();
-  (showsDetail as { genres?: string[] }[]).forEach((s) =>
-    s.genres?.forEach((g) => genres.add(g.toLowerCase().replace(/[^a-z0-9]+/g, '-')))
-  );
-  const genrePages: MetadataRoute.Sitemap = [...genres].map((g) => ({
-    url: `${baseUrl}/shows/genre/${g}`,
-    changeFrequency: 'monthly' as const,
-    priority: 0.6,
-  }));
+  // Genre pages. These come from the site's own browse buckets, not from raw
+  // TMDB genre names: TMDB calls things "Sci-Fi & Fantasy", "Kids" and
+  // "War & Politics", none of which are routes, so deriving slugs from show
+  // data put 9 URLs in the sitemap that 404.
+  const genrePages: MetadataRoute.Sitemap = genres
+    .filter((genre) => getShowsByGenre(genre.slug).length > 0)
+    .map((genre) => ({
+      url: `${baseUrl}/shows/genre/${genre.slug}`,
+      changeFrequency: 'monthly' as const,
+      priority: 0.6,
+    }));
 
   // Show pages
   const showPages: MetadataRoute.Sitemap = (showsDetail as { slug: string }[]).map((s) => ({
