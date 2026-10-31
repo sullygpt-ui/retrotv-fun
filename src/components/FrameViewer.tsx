@@ -43,7 +43,8 @@ export default function FrameViewer({ frames, currentFrame }: FrameViewerProps) 
           /* eslint-disable-next-line @next/next/no-img-element */
           <img src={nextFrame} alt="" aria-hidden="true" width={1} height={1} className="absolute opacity-0 pointer-events-none" />
         )}
-        <div className="absolute bottom-2 right-2 bg-black/70 px-2 py-1 rounded text-xs font-retro text-[var(--amber)]">
+        {/* Inset clear of the tube's corner curve, which clips its own children. */}
+        <div className="absolute bottom-3 right-10 bg-black/70 px-2 py-1 rounded text-xs font-retro text-[var(--amber)]">
           {currentFrame + 1} / 6
         </div>
       </div>
