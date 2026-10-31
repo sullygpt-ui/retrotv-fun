@@ -1,0 +1,33 @@
+name: Site check
+
+# The live site, checked every morning after the puzzle rolls over at UTC
+# midnight. CI only proves the code builds; this proves retrotv.fun is actually
+# serving a puzzle, that nothing in the sitemap 404s, and that the daily answer
+# isn't on a page. A failed run emails the repo owner.
+on:
+  schedule:
+    - cron: "0 7 * * *" # daily health check
+    - cron: "0 8 * * 1" # Mondays, also resubmit the sitemap to IndexNow
+  workflow_dispatch:
+    inputs:
+      indexnow:
+        description: "Resubmit the sitemap to IndexNow"
+        type: boolean
+        default: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The runway check reads rotation.json and schedule.json from the repo,
+      # so it warns about repeats before players ever see one.
+      - name: Check the live site
+        run: |
+          if [ "${{ github.event.schedule }}" = "0 8 * * 1" ] \
+            || [ "${{ inputs.indexnow }}" = "true" ]; then
+            python3 scripts/site_check.py --indexnow
+          else
+            python3 scripts/site_check.py
+          fi

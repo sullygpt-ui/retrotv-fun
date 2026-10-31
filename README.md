@@ -65,6 +65,7 @@ python3 scripts/fetch_frames_tvmaze.py     # fills what TMDB couldn't
 python3 scripts/fetch_frames_tvmaze.py --dry-run   # report matches only
 
 python3 scripts/build_rotation.py          # add complete shows to the rotation
+npm run check:site                        # check the live site end to end
 ```
 
 `discover_shows.py` reports by default and only writes with `--add`. A candidate
@@ -112,6 +113,24 @@ unseen. Resuming at index 0 instead would bring back the tail of the retired
 ahead of today is recomputed on each run and checked day by day against the old
 schedule, so the script refuses to write a plan that would move a puzzle
 somebody has already played.
+
+### What runs on a schedule
+
+`.github/workflows/site-check.yml` runs `scripts/site_check.py` against
+retrotv.fun every morning, and resubmits the sitemap to IndexNow on Mondays. CI
+only proves the code builds; this proves the site is serving a puzzle. Every
+check in it corresponds to a bug that shipped at least once:
+
+| Check | What it caught before |
+| --- | --- |
+| Today's puzzle resolves | A schedule that ran out and served one puzzle for 42 days |
+| Every sitemap URL returns 200 | 9 genre URLs that 404'd the day the sitemap was submitted |
+| Every internal link returns 200 | Show pages linking to genre routes that never existed |
+| `/archive/<today>` has no answer | The archive reveal is one comparison away from spoiling the daily |
+| Repeat gap stays above 120 days | The pool wrapping back onto recently played shows |
+
+A failed run emails the repo owner. Run it by hand with `npm run check:site`,
+or against a dev server with `--base http://localhost:3000`.
 
 ### Attribution
 
