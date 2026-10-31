@@ -1162,5 +1162,335 @@
     "showSlug": "welcome-back-kotter",
     "tmdbId": 738,
     "frameDir": "57fc652b39e20648"
+  },
+  {
+    "showName": "Alice",
+    "showSlug": "alice",
+    "tmdbId": 494,
+    "frameDir": "c3b80ad98cf98035"
+  },
+  {
+    "showName": "All Creatures Great and Small",
+    "showSlug": "all-creatures-great-and-small",
+    "tmdbId": 7406,
+    "frameDir": "4235d2ced7089452"
+  },
+  {
+    "showName": "Alvin and the Chipmunks",
+    "showSlug": "alvin-and-the-chipmunks",
+    "tmdbId": 2160,
+    "frameDir": "440d3fc6b9fe810d"
+  },
+  {
+    "showName": "Baa Baa Black Sheep",
+    "showSlug": "baa-baa-black-sheep",
+    "tmdbId": 5027,
+    "frameDir": "090fb59cf87f12c0"
+  },
+  {
+    "showName": "Babar",
+    "showSlug": "babar",
+    "tmdbId": 1232,
+    "frameDir": "71ec564757e526e4"
+  },
+  {
+    "showName": "Battle of the Planets",
+    "showSlug": "battle-of-the-planets",
+    "tmdbId": 4695,
+    "frameDir": "8fd1edd64e71732f"
+  },
+  {
+    "showName": "Blake's 7",
+    "showSlug": "blakes-7",
+    "tmdbId": 1731,
+    "frameDir": "da6816437ce40bed"
+  },
+  {
+    "showName": "Brideshead Revisited",
+    "showSlug": "brideshead-revisited",
+    "tmdbId": 4951,
+    "frameDir": "7879c998ff1e7aa4"
+  },
+  {
+    "showName": "Captain Power and the Soldiers of the Future",
+    "showSlug": "captain-power-and-the-soldiers-of-the-future",
+    "tmdbId": 4698,
+    "frameDir": "b700459cffd0b94f"
+  },
+  {
+    "showName": "Coach",
+    "showSlug": "coach",
+    "tmdbId": 2455,
+    "frameDir": "4fb71783be9e8b98"
+  },
+  {
+    "showName": "Danger Mouse",
+    "showSlug": "danger-mouse",
+    "tmdbId": 3474,
+    "frameDir": "e967b282caf697f7"
+  },
+  {
+    "showName": "Edge of Darkness",
+    "showSlug": "edge-of-darkness",
+    "tmdbId": 13865,
+    "frameDir": "39b81a7b0059c7d1"
+  },
+  {
+    "showName": "Ewoks",
+    "showSlug": "ewoks",
+    "tmdbId": 3478,
+    "frameDir": "12585f892a77097d"
+  },
+  {
+    "showName": "Fame",
+    "showSlug": "fame",
+    "tmdbId": 1798,
+    "frameDir": "f30abe9fd6f05643"
+  },
+  {
+    "showName": "Freddy's Nightmares",
+    "showSlug": "freddys-nightmares",
+    "tmdbId": 4346,
+    "frameDir": "f8accc7d215b1f69"
+  },
+  {
+    "showName": "Ghostbusters",
+    "showSlug": "ghostbusters",
+    "tmdbId": 18131,
+    "frameDir": "1ad9cffafb04dc67"
+  },
+  {
+    "showName": "Hammer House of Horror",
+    "showSlug": "hammer-house-of-horror",
+    "tmdbId": 43358,
+    "frameDir": "83cc1378fe105091"
+  },
+  {
+    "showName": "Heathcliff and the Catillac Cats",
+    "showSlug": "heathcliff-and-the-catillac-cats",
+    "tmdbId": 13781,
+    "frameDir": "240f0e604c7e142f"
+  },
+  {
+    "showName": "Hong Kong Phooey",
+    "showSlug": "hong-kong-phooey",
+    "tmdbId": 10106,
+    "frameDir": "3e6dc91cb54fde84"
+  },
+  {
+    "showName": "Jake and the Fatman",
+    "showSlug": "jake-and-the-fatman",
+    "tmdbId": 4521,
+    "frameDir": "8e8f3343422ea8ca"
+  },
+  {
+    "showName": "Jem",
+    "showSlug": "jem",
+    "tmdbId": 3127,
+    "frameDir": "857df52d9bc35c6c"
+  },
+  {
+    "showName": "Josie and the Pussycats",
+    "showSlug": "josie-and-the-pussycats",
+    "tmdbId": 4489,
+    "frameDir": "bd0293b5fa9d4cbf"
+  },
+  {
+    "showName": "Lovejoy",
+    "showSlug": "lovejoy",
+    "tmdbId": 4557,
+    "frameDir": "08924fd763c3a200"
+  },
+  {
+    "showName": "M.A.S.K.",
+    "showSlug": "mask",
+    "tmdbId": 4961,
+    "frameDir": "a54cf10fdc3c7349"
+  },
+  {
+    "showName": "Mama's Family",
+    "showSlug": "mamas-family",
+    "tmdbId": 2016,
+    "frameDir": "b864759d1d9d0c41"
+  },
+  {
+    "showName": "Man from Atlantis",
+    "showSlug": "man-from-atlantis",
+    "tmdbId": 3575,
+    "frameDir": "3ab6ba2624c66acb"
+  },
+  {
+    "showName": "Max Headroom",
+    "showSlug": "max-headroom",
+    "tmdbId": 4617,
+    "frameDir": "22a895349865354e"
+  },
+  {
+    "showName": "McCloud",
+    "showSlug": "mccloud",
+    "tmdbId": 10309,
+    "frameDir": "77b066d15260cd19"
+  },
+  {
+    "showName": "Mind Your Language",
+    "showSlug": "mind-your-language",
+    "tmdbId": 2508,
+    "frameDir": "18d8575dfd8b52ee"
+  },
+  {
+    "showName": "Murphy Brown",
+    "showSlug": "murphy-brown",
+    "tmdbId": 3219,
+    "frameDir": "e198840a6a5dd845"
+  },
+  {
+    "showName": "Open All Hours",
+    "showSlug": "open-all-hours",
+    "tmdbId": 2180,
+    "frameDir": "c147eb0cbd026471"
+  },
+  {
+    "showName": "Pee-wee's Playhouse",
+    "showSlug": "pee-wees-playhouse",
+    "tmdbId": 4612,
+    "frameDir": "c0a074ceea657a9d"
+  },
+  {
+    "showName": "Porridge",
+    "showSlug": "porridge",
+    "tmdbId": 2292,
+    "frameDir": "15e22c05d98b9260"
+  },
+  {
+    "showName": "Return to the Planet of the Apes",
+    "showSlug": "return-to-the-planet-of-the-apes",
+    "tmdbId": 12443,
+    "frameDir": "174b1d84df05c71d"
+  },
+  {
+    "showName": "S.W.A.T.",
+    "showSlug": "swat",
+    "tmdbId": 11129,
+    "frameDir": "6886771423871868"
+  },
+  {
+    "showName": "Saber Rider and the Star Sheriffs",
+    "showSlug": "saber-rider-and-the-star-sheriffs",
+    "tmdbId": 13889,
+    "frameDir": "4675057f1847ab40"
+  },
+  {
+    "showName": "Smiley's People",
+    "showSlug": "smileys-people",
+    "tmdbId": 20053,
+    "frameDir": "a9715f9add1ae823"
+  },
+  {
+    "showName": "Snorks",
+    "showSlug": "snorks",
+    "tmdbId": 4237,
+    "frameDir": "cb9cecab805a9cf3"
+  },
+  {
+    "showName": "Soap",
+    "showSlug": "soap",
+    "tmdbId": 3295,
+    "frameDir": "e7102100b0916028"
+  },
+  {
+    "showName": "Some Mothers Do 'Ave 'Em",
+    "showSlug": "some-mothers-do-ave-em",
+    "tmdbId": 5986,
+    "frameDir": "957d0033dad50232"
+  },
+  {
+    "showName": "Spider-Man",
+    "showSlug": "spider-man",
+    "tmdbId": 3973,
+    "frameDir": "60bd39f0b8c0abf3"
+  },
+  {
+    "showName": "Tales of the Unexpected",
+    "showSlug": "tales-of-the-unexpected",
+    "tmdbId": 2199,
+    "frameDir": "586ac67bcadd3e25"
+  },
+  {
+    "showName": "The All-New Popeye Hour",
+    "showSlug": "all-new-popeye-hour",
+    "tmdbId": 15520,
+    "frameDir": "c669fe4be924a449"
+  },
+  {
+    "showName": "The Bob Newhart Show",
+    "showSlug": "bob-newhart-show",
+    "tmdbId": 1974,
+    "frameDir": "ea6522c78e6d3d63"
+  },
+  {
+    "showName": "The Centurions",
+    "showSlug": "centurions",
+    "tmdbId": 2650,
+    "frameDir": "da4da10a5ea29ac0"
+  },
+  {
+    "showName": "The Equalizer",
+    "showSlug": "equalizer",
+    "tmdbId": 4297,
+    "frameDir": "afacb7d4b1dd925c"
+  },
+  {
+    "showName": "The Joy of Painting",
+    "showSlug": "joy-of-painting",
+    "tmdbId": 10382,
+    "frameDir": "a500af1597d6c63b"
+  },
+  {
+    "showName": "The New Alfred Hitchcock Presents",
+    "showSlug": "new-alfred-hitchcock-presents",
+    "tmdbId": 2751,
+    "frameDir": "19418956f62bfc68"
+  },
+  {
+    "showName": "The New Avengers",
+    "showSlug": "new-avengers",
+    "tmdbId": 10360,
+    "frameDir": "5e74a9d1fda9093d"
+  },
+  {
+    "showName": "The New Statesman",
+    "showSlug": "new-statesman",
+    "tmdbId": 6056,
+    "frameDir": "2bddee5f06ef78e3"
+  },
+  {
+    "showName": "The Odd Couple",
+    "showSlug": "odd-couple",
+    "tmdbId": 1809,
+    "frameDir": "f808fb6206d1c51f"
+  },
+  {
+    "showName": "The Tom and Jerry Show",
+    "showSlug": "tom-and-jerry-show",
+    "tmdbId": 7842,
+    "frameDir": "4d5cd08c7bee0632"
+  },
+  {
+    "showName": "UFO",
+    "showSlug": "ufo",
+    "tmdbId": 2560,
+    "frameDir": "80df623bf497940e"
+  },
+  {
+    "showName": "Voltron: Defender of the Universe",
+    "showSlug": "voltron-defender-of-the-universe",
+    "tmdbId": 1013,
+    "frameDir": "b8e8643a9def6fe6"
+  },
+  {
+    "showName": "Werewolf",
+    "showSlug": "werewolf",
+    "tmdbId": 10424,
+    "frameDir": "b9b021febdb9c991"
   }
 ]

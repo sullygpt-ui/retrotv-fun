@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { guessKey, normalizeTitle, titlesMatch } from "@/lib/matching";
-import { SHOW_LIST } from "@/lib/shows";
+import { normalizeTitle } from "@/lib/matching";
+import { SHOW_LIST, guessKey, titlesMatch } from "@/lib/shows";
 import rotation from "@/data/rotation.json";
 
 describe("normalizeTitle", () => {
@@ -62,9 +62,15 @@ describe("answer reachability", () => {
     expect(unreachable).toEqual([]);
   });
 
-  it("no alias shadows a different show's exact title", () => {
+  it("no alias shadows a show's exact title", () => {
+    // Ghostbusters (1986) and Spider-Man (1981) both collide with nicknames
+    // for older shows; the exact title has to win or they'd be unwinnable.
     for (const name of SHOW_LIST) {
       expect(guessKey(name)).toBe(normalizeTitle(name));
     }
+    expect(titlesMatch("Ghostbusters", "Ghostbusters")).toBe(true);
+    expect(titlesMatch("Spider-Man", "Spider-Man")).toBe(true);
+    // A nickname still resolves when it isn't itself a title.
+    expect(titlesMatch("real ghostbusters", "The Real Ghostbusters")).toBe(true);
   });
 });

@@ -1,131 +1,210 @@
 #!/usr/bin/env python3
 """
-Discover popular 70s/80s TV shows from TMDB that we don't already have.
-Fetches shows, checks for stills availability, adds to shows.json.
+Find 70s/80s shows that aren't in the library yet and have frames available.
+
+Reports by default; only writes to shows.json with --add. A candidate has to
+clear three bars:
+
+  * aired in the era (first air date 1970-1989, original language English)
+  * not already in shows.json — matched on TMDB id *and* on normalized title,
+    so "The Transformers" doesn't slip in next to "Transformers" and collide in
+    the guess autocomplete
+  * at least 6 episode stills on TMDB, checked the same way fetch_frames.py
+    collects them, so an added show can actually be turned into a puzzle
+
+Usage:
+    python3 scripts/discover_shows.py                     # report only
+    python3 scripts/discover_shows.py --add --limit 40     # append to shows.json
+    python3 scripts/discover_shows.py --min-votes 50       # raise the bar
+
+Then: fetch_frames.py -> fetch_show_details.py -> build_rotation.py
 """
-import json, time, urllib.request, urllib.parse
+
+import argparse
+import json
+import re
+import time
+import unicodedata
+import urllib.error
+import urllib.parse
+import urllib.request
 from pathlib import Path
 
 from tmdb_key import require_api_key
 
 API_KEY = require_api_key()
-BASE = 'https://api.themoviedb.org/3'
+BASE = "https://api.themoviedb.org/3"
+SHOWS_FILE = Path(__file__).parent / "shows.json"
+CANDIDATES_FILE = Path(__file__).parent / "candidates.json"
 
-SHOWS_FILE = Path(__file__).parent / 'shows.json'
+ERA = (1970, 1989)
+FRAME_COUNT = 6
+MAX_SEASONS = 12
+# News and Talk make poor guessing puzzles.
+SKIP_GENRES = {10763, 10767}
+USER_AGENT = "retrotv.fun show discovery (+https://retrotv.fun)"
 
-def api_get(path, params={}):
-    params['api_key'] = API_KEY
-    url = f"{BASE}{path}?{urllib.parse.urlencode(params)}"
-    with urllib.request.urlopen(url) as r:
-        return json.loads(r.read())
 
-def make_slug(name):
-    import re
-    s = name.lower()
-    s = re.sub(r'[^a-z0-9\s-]', '', s)
-    s = re.sub(r'\s+', '-', s.strip())
-    s = re.sub(r'-+', '-', s)
-    return s
-
-def has_enough_stills(tmdb_id):
-    """Check if a show has at least 6 episode stills."""
+def api(path: str, params: dict | None = None):
+    query = dict(params or {})
+    query["api_key"] = API_KEY
+    url = f"{BASE}{path}?" + urllib.parse.urlencode(query)
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     try:
-        data = api_get(f'/tv/{tmdb_id}')
-        seasons = data.get('seasons', [])
-        stills = 0
-        for s in seasons[:5]:
-            sn = s.get('season_number', 0)
-            if sn == 0:
-                continue
-            try:
-                sdata = api_get(f'/tv/{tmdb_id}/season/{sn}')
-                for ep in sdata.get('episodes', [])[:10]:
-                    if ep.get('still_path'):
-                        stills += 1
-                        if stills >= 6:
-                            return True
-            except:
-                pass
-            time.sleep(0.15)
-    except:
-        pass
-    return stills >= 6
+        with urllib.request.urlopen(request, timeout=20) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as err:
+        if err.code == 429:
+            time.sleep(10)
+            return api(path, params)
+        return None
+    except urllib.error.URLError:
+        return None
 
-# Load existing shows
-existing = json.load(open(SHOWS_FILE))
-existing_ids = {s['tmdbId'] for s in existing}
-existing_names = {s['name'].lower() for s in existing}
 
-print(f"Currently have {len(existing)} shows. Searching for more...\n")
+def normalize(title: str) -> str:
+    """Mirror of normalizeTitle() in src/lib/matching.ts."""
+    text = unicodedata.normalize("NFD", title)
+    text = "".join(c for c in text if not unicodedata.combining(c)).lower()
+    text = text.replace("&", " and ")
+    text = re.sub(r"['’‘]", "", text)
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\b(?:[a-z0-9] )+[a-z0-9]\b", lambda m: m.group(0).replace(" ", ""), text)
+    while True:
+        stripped = re.sub(r"^(the|a|an) ", "", text)
+        if stripped == text or not stripped:
+            return text
+        text = stripped
 
-new_shows = []
 
-# Search TMDB discover for popular TV shows from 1970-1989
-for year in range(1970, 1990):
-    for page in range(1, 4):  # 3 pages per year
-        try:
-            data = api_get('/discover/tv', {
-                'first_air_date.gte': f'{year}-01-01',
-                'first_air_date.lte': f'{year}-12-31',
-                'sort_by': 'vote_count.desc',
-                'with_original_language': 'en',
-                'vote_count.gte': '10',
-                'page': str(page)
-            })
-            
-            for show in data.get('results', []):
-                tid = show['id']
-                name = show['name']
-                
-                if tid in existing_ids or name.lower() in existing_names:
-                    continue
-                if tid in {s['tmdbId'] for s in new_shows}:
-                    continue
-                    
-                # Skip non-English or news/talk shows
-                genres = show.get('genre_ids', [])
-                if 10763 in genres or 10767 in genres:  # News, Talk
-                    continue
-                
-                new_shows.append({
-                    'name': name,
-                    'tmdbId': tid,
-                    'slug': make_slug(name),
-                    'year': show.get('first_air_date', '')[:4],
-                    'popularity': show.get('vote_count', 0)
-                })
-                existing_ids.add(tid)
-            
+def make_slug(name: str) -> str:
+    slug = normalize(name).replace(" ", "-")
+    return re.sub(r"-+", "-", slug).strip("-")
+
+
+def count_stills(tmdb_id: int, needed: int = FRAME_COUNT) -> int:
+    """Episode stills available, stopping once there are enough."""
+    show = api(f"/tv/{tmdb_id}")
+    if not show:
+        return 0
+
+    stills = 0
+    for season in [s for s in show.get("seasons", []) if s["season_number"] > 0][:MAX_SEASONS]:
+        number = season["season_number"]
+
+        images = api(f"/tv/{tmdb_id}/season/{number}/images")
+        time.sleep(0.2)
+        if images:
+            stills += len(images.get("stills", []))
+        if stills >= needed:
+            return stills
+
+        detail = api(f"/tv/{tmdb_id}/season/{number}")
+        time.sleep(0.2)
+        if detail:
+            stills += sum(1 for ep in detail.get("episodes", []) if ep.get("still_path"))
+        if stills >= needed:
+            return stills
+
+    return stills
+
+
+def discover() -> list[dict]:
+    """Era shows from TMDB, most-voted first."""
+    found: dict[int, dict] = {}
+    for year in range(ERA[0], ERA[1] + 1):
+        for page in range(1, 4):
+            data = api(
+                "/discover/tv",
+                {
+                    "first_air_date.gte": f"{year}-01-01",
+                    "first_air_date.lte": f"{year}-12-31",
+                    "sort_by": "vote_count.desc",
+                    "with_original_language": "en",
+                    "vote_count.gte": "5",
+                    "page": str(page),
+                },
+            )
             time.sleep(0.2)
-        except Exception as e:
-            print(f"  Error on {year} page {page}: {e}")
+            if not data:
+                continue
+            for show in data.get("results", []):
+                if show["id"] in found:
+                    continue
+                if SKIP_GENRES & set(show.get("genre_ids", [])):
+                    continue
+                found[show["id"]] = {
+                    "name": show["name"],
+                    "tmdbId": show["id"],
+                    "slug": make_slug(show["name"]),
+                    "year": (show.get("first_air_date") or "")[:4],
+                    "votes": show.get("vote_count", 0),
+                    "rating": show.get("vote_average", 0),
+                }
+            if data.get("page", 1) >= data.get("total_pages", 1):
+                break
+    return sorted(found.values(), key=lambda s: s["votes"], reverse=True)
 
-print(f"Found {len(new_shows)} candidate shows. Checking for stills...\n")
 
-# Sort by popularity and check top candidates for stills
-new_shows.sort(key=lambda x: x['popularity'], reverse=True)
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--add", action="store_true", help="append accepted shows to shows.json")
+    parser.add_argument("--limit", type=int, default=40, help="max shows to accept")
+    parser.add_argument("--min-votes", type=int, default=20, help="minimum TMDB vote count")
+    parser.add_argument("--check", type=int, default=200, help="how many candidates to check for stills")
+    args = parser.parse_args()
 
-added = 0
-for show in new_shows:
-    print(f"Checking: {show['name']} ({show['year']}, {show['popularity']} votes)...", end=' ', flush=True)
-    
-    if has_enough_stills(show['tmdbId']):
-        print("✅ has stills")
-        existing.append({
-            'name': show['name'],
-            'tmdbId': show['tmdbId'],
-            'slug': show['slug']
-        })
-        added += 1
-    else:
-        print("❌ not enough stills")
-    
-    time.sleep(0.3)
-    
-    # Stop after checking enough
-    if added >= 100:
-        break
+    existing = json.loads(SHOWS_FILE.read_text())
+    have_ids = {s["tmdbId"] for s in existing}
+    have_keys = {normalize(s["name"]) for s in existing}
+    have_slugs = {s["slug"] for s in existing}
 
-# Save updated shows.json
-json.dump(existing, open(SHOWS_FILE, 'w'), indent=2)
-print(f"\n✅ Added {added} new shows. Total: {len(existing)}")
+    print(f"Library has {len(existing)} shows. Searching TMDB {ERA[0]}-{ERA[1]}...")
+    candidates = discover()
+    print(f"{len(candidates)} era shows on TMDB")
+
+    fresh = [
+        c
+        for c in candidates
+        if c["tmdbId"] not in have_ids
+        and normalize(c["name"]) not in have_keys
+        and c["votes"] >= args.min_votes
+    ]
+    print(f"{len(fresh)} not already in the library with >={args.min_votes} votes")
+    print(f"Checking the top {min(args.check, len(fresh))} for episode stills...\n")
+
+    accepted, rejected = [], []
+    for candidate in fresh[: args.check]:
+        if len(accepted) >= args.limit:
+            break
+        stills = count_stills(candidate["tmdbId"])
+        label = f"{candidate['name']} ({candidate['year']}, {candidate['votes']} votes)"
+        if stills >= FRAME_COUNT:
+            slug = candidate["slug"]
+            if slug in have_slugs:
+                slug = f"{slug}-{candidate['year']}"
+            candidate["slug"] = slug
+            have_slugs.add(slug)
+            candidate["stills"] = stills
+            accepted.append(candidate)
+            print(f"  ✅ {label} — {stills}+ stills")
+        else:
+            rejected.append(candidate)
+            print(f"  ✗  {label} — {stills} stills")
+
+    CANDIDATES_FILE.write_text(json.dumps({"accepted": accepted, "rejected": rejected}, indent=2) + "\n")
+    print(f"\n{len(accepted)} accepted, {len(rejected)} rejected (written to candidates.json)")
+
+    if not args.add:
+        print("Report only — re-run with --add to append these to shows.json")
+        return
+
+    existing.extend({"name": c["name"], "tmdbId": c["tmdbId"], "slug": c["slug"]} for c in accepted)
+    SHOWS_FILE.write_text(json.dumps(existing, indent=2, ensure_ascii=False) + "\n")
+    print(f"shows.json now has {len(existing)} shows")
+    print("Next: fetch_frames.py -> fetch_show_details.py -> build_rotation.py")
+
+
+if __name__ == "__main__":
+    main()

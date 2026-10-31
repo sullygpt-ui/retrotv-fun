@@ -1,7 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { SKIP, guessKey } from "@/lib/matching";
+import { SKIP } from "@/lib/matching";
+import { guessKey } from "@/lib/shows";
 import { sha256Hex } from "@/lib/hash";
 import type { PublicPuzzle, PuzzleAnswer } from "@/lib/puzzle-types";
 import {

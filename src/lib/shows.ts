@@ -7,7 +7,7 @@
  * from it and those puzzles could not be won.
  */
 import showsJson from "../../scripts/shows.json";
-import { normalizeTitle } from "./matching";
+import { aliasTarget, normalizeTitle } from "./matching";
 
 interface ShowEntry {
   name: string;
@@ -30,6 +30,28 @@ export const SHOW_LIST: string[] = (() => {
 })();
 
 const SEARCH_INDEX = SHOW_LIST.map((name) => ({ name, key: normalizeTitle(name) }));
+
+const SHOW_KEYS = new Set(SEARCH_INDEX.map((entry) => entry.key));
+
+/**
+ * Resolve whatever the player typed to the normalized key to compare against.
+ *
+ * An exact show title always wins over a nickname, so adding a show can never
+ * be shadowed by an alias that used to point elsewhere. Returns an empty string
+ * for input that normalizes to nothing.
+ */
+export function guessKey(input: string): string {
+  const key = normalizeTitle(input);
+  if (!key) return "";
+  if (SHOW_KEYS.has(key)) return key;
+  return aliasTarget(key) ?? key;
+}
+
+/** True when the player's text names the given show. */
+export function titlesMatch(guess: string, showName: string): boolean {
+  const key = guessKey(guess);
+  return key !== "" && key === normalizeTitle(showName);
+}
 
 /**
  * Autocomplete, ranked so the obvious answer comes first: titles starting with

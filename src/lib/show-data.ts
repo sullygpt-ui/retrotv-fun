@@ -1,4 +1,5 @@
 import showsJson from '../../scripts/shows.json';
+import showsDetail from '../data/shows-detail.json';
 
 export interface Show {
   name: string;
@@ -7,6 +8,50 @@ export interface Show {
 }
 
 export const allShows: Show[] = showsJson as Show[];
+
+interface ShowDates {
+  slug: string;
+  first_air_date: string;
+  last_air_date: string;
+  genres: string[];
+}
+
+const DETAIL_BY_SLUG = new Map(
+  (showsDetail as ShowDates[]).map((show) => [show.slug, show]),
+);
+
+/**
+ * Decade and genre membership below is hand-curated for the original library.
+ * Shows added since fall back to their TMDB data, so a new batch lands on the
+ * decade and genre pages without anyone editing these lists.
+ */
+function airedInDecade(slug: string, from: number, to: number): boolean {
+  const detail = DETAIL_BY_SLUG.get(slug);
+  const start = Number(detail?.first_air_date?.slice(0, 4));
+  if (!start) return false;
+  const end = Number(detail?.last_air_date?.slice(0, 4)) || start;
+  return start <= to && end >= from;
+}
+
+/** TMDB's genre names mapped onto the buckets this site browses by. */
+const TMDB_GENRE_BUCKETS: Record<string, string[]> = {
+  'Action & Adventure': ['action-adventure'],
+  'Sci-Fi & Fantasy': ['sci-fi'],
+  Animation: ['cartoons-animation'],
+  Kids: ['cartoons-animation'],
+  Comedy: ['comedy'],
+  Drama: ['drama'],
+  Crime: ['crime-detective'],
+  Mystery: ['crime-detective'],
+  Family: ['family'],
+  Soap: ['soap-opera'],
+};
+
+function tmdbGenreBuckets(slug: string): string[] {
+  const detail = DETAIL_BY_SLUG.get(slug);
+  if (!detail) return [];
+  return [...new Set(detail.genres.flatMap((g) => TMDB_GENRE_BUCKETS[g] ?? []))];
+}
 
 // Decade mappings based on original air dates
 const seventiesOnly = new Set([
@@ -69,11 +114,22 @@ const bothDecades = new Set([
 ]);
 
 export function getShowsByDecade(decade: '1970s' | '1980s'): Show[] {
-  return allShows.filter(show => {
+  const curated = (show: Show) => {
     if (bothDecades.has(show.slug)) return true;
-    if (decade === '1970s') return seventiesOnly.has(show.slug);
-    return eightiesOnly.has(show.slug);
-  }).sort((a, b) => a.name.localeCompare(b.name));
+    return decade === '1970s' ? seventiesOnly.has(show.slug) : eightiesOnly.has(show.slug);
+  };
+  const isCurated = (show: Show) =>
+    bothDecades.has(show.slug) || seventiesOnly.has(show.slug) || eightiesOnly.has(show.slug);
+
+  return allShows
+    .filter(show =>
+      isCurated(show)
+        ? curated(show)
+        : decade === '1970s'
+          ? airedInDecade(show.slug, 1970, 1979)
+          : airedInDecade(show.slug, 1980, 1989),
+    )
+    .sort((a, b) => a.name.localeCompare(b.name));
 }
 
 // Genre mappings
@@ -164,10 +220,20 @@ const genreMap: Record<string, Set<string>> = {
   ]),
 };
 
+const CURATED_GENRE_SLUGS = new Set(
+  Object.values(genreMap).flatMap(slugs => [...slugs]),
+);
+
 export function getShowsByGenre(genre: string): Show[] {
   const slugs = genreMap[genre];
   if (!slugs) return [];
-  return allShows.filter(show => slugs.has(show.slug)).sort((a, b) => a.name.localeCompare(b.name));
+  return allShows
+    .filter(show =>
+      CURATED_GENRE_SLUGS.has(show.slug)
+        ? slugs.has(show.slug)
+        : tmdbGenreBuckets(show.slug).includes(genre),
+    )
+    .sort((a, b) => a.name.localeCompare(b.name));
 }
 
 export const genres = [

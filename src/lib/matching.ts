@@ -105,20 +105,17 @@ const ALIAS_KEYS: Record<string, string> = Object.fromEntries(
 );
 
 /**
- * Resolve whatever the player typed to the normalized key we compare against.
- * Returns an empty string for input that normalizes to nothing.
+ * The normalized title an alias points to, or undefined if the key isn't one.
+ *
+ * Callers must try an exact title first — see guessKey() in shows.ts. The show
+ * library grows, and a title added later can collide with an older nickname:
+ * "ghostbusters" meant The Real Ghostbusters until the 1986 Ghostbusters was
+ * added, and an alias that outranked the real title would make that puzzle
+ * unwinnable.
  */
-export function guessKey(input: string): string {
-  const key = normalizeTitle(input);
-  if (!key) return "";
+export function aliasTarget(key: string): string | undefined {
   const alias = ALIAS_KEYS[key];
-  return alias ? normalizeTitle(alias) : key;
-}
-
-/** True when the player's text names the given show. */
-export function titlesMatch(guess: string, showName: string): boolean {
-  const key = guessKey(guess);
-  return key !== "" && key === normalizeTitle(showName);
+  return alias ? normalizeTitle(alias) : undefined;
 }
 
 /** The sentinel stored in guess history when a player skips a frame. */

@@ -75,12 +75,14 @@ def update_schedule(pool_size: int, first_new_index: int) -> None:
     start_index = first_new_index % pool_size
 
     # A segment added earlier today hasn't taken effect yet, so replace it
-    # rather than stacking a second one on the same day.
-    segment = {"fromDay": from_day, "poolSize": pool_size, "startIndex": start_index}
+    # rather than stacking a second one on the same day — but keep its
+    # startIndex, which already points at the first show never aired. Taking the
+    # newer one would skip past the batch that segment was about to debut.
     if segments and segments[-1]["fromDay"] >= from_day:
-        segments[-1] = segment
+        start_index = min(start_index, segments[-1]["startIndex"])
+        segments[-1] = {"fromDay": from_day, "poolSize": pool_size, "startIndex": start_index}
     else:
-        segments.append(segment)
+        segments.append({"fromDay": from_day, "poolSize": pool_size, "startIndex": start_index})
 
     SCHEDULE_FILE.write_text(json.dumps(segments, indent=2) + "\n")
     previous = segments[-2]["poolSize"] if len(segments) > 1 else 0

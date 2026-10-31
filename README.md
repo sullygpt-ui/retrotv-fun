@@ -67,7 +67,13 @@ python3 scripts/fetch_frames_tvmaze.py --dry-run   # report matches only
 python3 scripts/build_rotation.py          # add complete shows to the rotation
 ```
 
-`build_rotation.py` reports which shows still have no frames (7 currently) and
+`discover_shows.py` reports by default and only writes with `--add`. A candidate
+has to air in 1970-1989, not already be in the library (matched on TMDB id *and*
+normalized title, so "The Transformers" can't land beside "Transformers"), and
+have at least 6 episode stills. Its findings are kept in `candidates.json`,
+including what was rejected and why.
+
+`build_rotation.py` reports which shows still have no frames (7 of 256) and
 appends a `schedule.json` segment when the pool grows.
 
 Those 7 — Good Times, Webster, Mr. Belvedere, Head of the Class, 227, Land of
@@ -76,6 +82,10 @@ episode stills for six of them (two for Webster) even scanning 12 seasons, and
 TVmaze has fewer than six. TMDB *backdrops* exist but are promotional art that
 often carries the show's logo, which would give the puzzle away. TheTVDB is the
 next source worth trying.
+
+Shows are also dropped on puzzle-quality grounds, not just availability:
+documentary and nature anthologies (frames identify nothing) and soaps still in
+production (TMDB stills post-date the era).
 
 ### Why schedule.json exists
 
@@ -96,6 +106,7 @@ permits commercial use.
 
 ## Tech Stack
 
+- 249 shows in the rotation, out of 256 in the guess list
 - Next.js 16 (App Router) + React 19, TypeScript
 - Tailwind CSS 4
 - Vitest for the scheduling, matching and stats logic
