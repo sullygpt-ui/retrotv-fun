@@ -122,3 +122,45 @@ above.
 
 Worth knowing either way: an application password can publish, edit and delete
 posts on that site. Revoke it when the job is done.
+
+### Blocked 2026-11-01: Apache is stripping the Authorization header
+
+An application password was issued and every authenticated request came back
+`401 rest_not_logged_in`. That is not a bad-credentials error. The proof:
+
+```sh
+curl -s -u 'definitelynotauser:abcd efgh ijkl mnop qrst uvwx' \
+  'https://iusedtowatchthis.com/wp-json/wp/v2/users/me?context=edit'
+# {"code":"rest_not_logged_in","message":"You are not currently logged in.",...}
+```
+
+A username that does not exist returns the *identical* error to the real one, so
+WordPress never evaluates the credentials — the `Authorization` header is not
+reaching PHP. `Server: Apache`, which is where this normally happens: under
+CGI/FastCGI, Apache drops `Authorization` instead of passing it through as
+`HTTP_AUTHORIZATION`. Application passwords are enabled (the `/wp-json/` index
+advertises them), and `?rest_route=` and `index.php?rest_route=` fail the same
+way, so it is not a permalink-rewrite problem either.
+
+The fix goes in the site root `.htaccess`, **above** the `# BEGIN WordPress`
+block:
+
+```apache
+# Pass HTTP Basic auth through to PHP (WordPress Application Passwords)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP:Authorization} ^(.+)$
+RewriteRule ^ - [E=HTTP_AUTHORIZATION:%1]
+</IfModule>
+```
+
+If that alone does not do it, add:
+
+```apache
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+```
+
+Verify with the curl above using a real login — a `200` with your user JSON
+means it is through, and a different error code such as `incorrect_password`
+also counts as progress, because it means WordPress is finally reading the
+header.
