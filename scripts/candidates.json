@@ -1,0 +1,2102 @@
+{
+  "accepted": [
+    {
+      "name": "Scooby-Doo, Where Are You!",
+      "tmdbId": 926,
+      "slug": "scooby-doo-where-are-you",
+      "year": "1969",
+      "votes": 860,
+      "rating": 7.8,
+      "stills": 17,
+      "lastAired": "1978"
+    },
+    {
+      "name": "I Dream of Jeannie",
+      "tmdbId": 1660,
+      "slug": "i-dream-of-jeannie",
+      "year": "1965",
+      "votes": 849,
+      "rating": 7.8,
+      "stills": 30,
+      "lastAired": "1970"
+    },
+    {
+      "name": "Bewitched",
+      "tmdbId": 4482,
+      "slug": "bewitched",
+      "year": "1964",
+      "votes": 772,
+      "rating": 7.848,
+      "stills": 36,
+      "lastAired": "1972"
+    },
+    {
+      "name": "Monty Python's Flying Circus",
+      "tmdbId": 849,
+      "slug": "monty-pythons-flying-circus",
+      "year": "1969",
+      "votes": 754,
+      "rating": 8.3,
+      "stills": 13,
+      "lastAired": "1974"
+    },
+    {
+      "name": "Doctor Who",
+      "tmdbId": 121,
+      "slug": "doctor-who",
+      "year": "1963",
+      "votes": 729,
+      "rating": 7.901,
+      "stills": 42,
+      "lastAired": "1989"
+    },
+    {
+      "name": "The Jetsons",
+      "tmdbId": 2362,
+      "slug": "jetsons",
+      "year": "1962",
+      "votes": 526,
+      "rating": 7.3,
+      "stills": 24,
+      "lastAired": "1987"
+    },
+    {
+      "name": "Bonanza",
+      "tmdbId": 1018,
+      "slug": "bonanza",
+      "year": "1959",
+      "votes": 504,
+      "rating": 7.5,
+      "stills": 32,
+      "lastAired": "1973"
+    },
+    {
+      "name": "Get Smart",
+      "tmdbId": 4455,
+      "slug": "get-smart",
+      "year": "1965",
+      "votes": 450,
+      "rating": 8.0,
+      "stills": 30,
+      "lastAired": "1970"
+    },
+    {
+      "name": "Hogan's Heroes",
+      "tmdbId": 4068,
+      "slug": "hogans-heroes",
+      "year": "1965",
+      "votes": 196,
+      "rating": 7.546,
+      "stills": 32,
+      "lastAired": "1971"
+    },
+    {
+      "name": "The Benny Hill Show",
+      "tmdbId": 3002,
+      "slug": "benny-hill-show",
+      "year": "1969",
+      "votes": 183,
+      "rating": 7.2,
+      "stills": 8,
+      "lastAired": "1989"
+    },
+    {
+      "name": "The Brady Bunch",
+      "tmdbId": 2126,
+      "slug": "brady-bunch",
+      "year": "1969",
+      "votes": 171,
+      "rating": 6.7,
+      "stills": 25,
+      "lastAired": "1974"
+    },
+    {
+      "name": "Hawaii Five-O",
+      "tmdbId": 2303,
+      "slug": "hawaii-five-o",
+      "year": "1969",
+      "votes": 167,
+      "rating": 7.2,
+      "stills": 25,
+      "lastAired": "1980"
+    },
+    {
+      "name": "The Beverly Hillbillies",
+      "tmdbId": 1930,
+      "slug": "beverly-hillbillies",
+      "year": "1962",
+      "votes": 140,
+      "rating": 6.9,
+      "stills": 36,
+      "lastAired": "1971"
+    },
+    {
+      "name": "Gunsmoke",
+      "tmdbId": 3713,
+      "slug": "gunsmoke",
+      "year": "1955",
+      "votes": 120,
+      "rating": 6.7,
+      "stills": 39,
+      "lastAired": "1975"
+    },
+    {
+      "name": "Dark Shadows",
+      "tmdbId": 2883,
+      "slug": "dark-shadows",
+      "year": "1966",
+      "votes": 97,
+      "rating": 7.366,
+      "stills": 124,
+      "lastAired": "1971"
+    },
+    {
+      "name": "Dastardly and Muttley in Their Flying Machines",
+      "tmdbId": 10097,
+      "slug": "dastardly-and-muttley-in-their-flying-machines",
+      "year": "1969",
+      "votes": 91,
+      "rating": 7.0,
+      "stills": 89,
+      "lastAired": "1970"
+    },
+    {
+      "name": "Green Acres",
+      "tmdbId": 609,
+      "slug": "green-acres",
+      "year": "1965",
+      "votes": 81,
+      "rating": 7.2,
+      "stills": 32,
+      "lastAired": "1971"
+    },
+    {
+      "name": "Dad's Army",
+      "tmdbId": 505,
+      "slug": "dads-army",
+      "year": "1968",
+      "votes": 81,
+      "rating": 7.5,
+      "stills": 6,
+      "lastAired": "1977"
+    },
+    {
+      "name": "Lassie",
+      "tmdbId": 5368,
+      "slug": "lassie",
+      "year": "1954",
+      "votes": 75,
+      "rating": 6.3,
+      "stills": 29,
+      "lastAired": "1973"
+    },
+    {
+      "name": "The Carol Burnett Show",
+      "tmdbId": 1027,
+      "slug": "carol-burnett-show",
+      "year": "1967",
+      "votes": 75,
+      "rating": 7.7,
+      "stills": 11,
+      "lastAired": "1978"
+    },
+    {
+      "name": "Ironside",
+      "tmdbId": 4582,
+      "slug": "ironside",
+      "year": "1967",
+      "votes": 72,
+      "rating": 6.8,
+      "stills": 29,
+      "lastAired": "1975"
+    },
+    {
+      "name": "Mannix",
+      "tmdbId": 2813,
+      "slug": "mannix",
+      "year": "1967",
+      "votes": 58,
+      "rating": 6.9,
+      "stills": 24,
+      "lastAired": "1975"
+    },
+    {
+      "name": "Land of the Giants",
+      "tmdbId": 3345,
+      "slug": "land-of-the-giants",
+      "year": "1968",
+      "votes": 50,
+      "rating": 6.8,
+      "stills": 26,
+      "lastAired": "1970"
+    },
+    {
+      "name": "Adam-12",
+      "tmdbId": 4660,
+      "slug": "adam-12",
+      "year": "1968",
+      "votes": 49,
+      "rating": 7.1,
+      "stills": 26,
+      "lastAired": "1975"
+    },
+    {
+      "name": "The Perils of Penelope Pitstop",
+      "tmdbId": 1765,
+      "slug": "perils-of-penelope-pitstop",
+      "year": "1969",
+      "votes": 49,
+      "rating": 6.2,
+      "stills": 17,
+      "lastAired": "1970"
+    },
+    {
+      "name": "The Hitchhiker's Guide to the Galaxy",
+      "tmdbId": 2048,
+      "slug": "hitchhikers-guide-to-the-galaxy",
+      "year": "1981",
+      "votes": 48,
+      "rating": 8.1,
+      "stills": 6,
+      "lastAired": "1981"
+    },
+    {
+      "name": "The Professionals",
+      "tmdbId": 11174,
+      "slug": "professionals",
+      "year": "1977",
+      "votes": 47,
+      "rating": 7.6,
+      "stills": 13,
+      "lastAired": "1983"
+    },
+    {
+      "name": "The Winds of War",
+      "tmdbId": 42240,
+      "slug": "winds-of-war",
+      "year": "1983",
+      "votes": 47,
+      "rating": 7.3,
+      "stills": 7,
+      "lastAired": "1983"
+    },
+    {
+      "name": "The Good Life",
+      "tmdbId": 2765,
+      "slug": "good-life",
+      "year": "1975",
+      "votes": 46,
+      "rating": 7.7,
+      "stills": 7,
+      "lastAired": "1977"
+    },
+    {
+      "name": "Heathcliff",
+      "tmdbId": 12803,
+      "slug": "heathcliff",
+      "year": "1980",
+      "votes": 46,
+      "rating": 6.6,
+      "stills": 52,
+      "lastAired": "1981"
+    },
+    {
+      "name": "Family Affair",
+      "tmdbId": 503,
+      "slug": "family-affair",
+      "year": "1966",
+      "votes": 44,
+      "rating": 6.7,
+      "stills": 30,
+      "lastAired": "1971"
+    },
+    {
+      "name": "Thundarr the Barbarian",
+      "tmdbId": 13800,
+      "slug": "thundarr-the-barbarian",
+      "year": "1980",
+      "votes": 44,
+      "rating": 7.8,
+      "stills": 13,
+      "lastAired": "1981"
+    },
+    {
+      "name": "Petticoat Junction",
+      "tmdbId": 3346,
+      "slug": "petticoat-junction",
+      "year": "1963",
+      "votes": 43,
+      "rating": 5.9,
+      "stills": 38,
+      "lastAired": "1970"
+    },
+    {
+      "name": "Cannon",
+      "tmdbId": 4529,
+      "slug": "cannon",
+      "year": "1971",
+      "votes": 43,
+      "rating": 6.7,
+      "stills": 19,
+      "lastAired": "1976"
+    },
+    {
+      "name": "Baretta",
+      "tmdbId": 3216,
+      "slug": "baretta",
+      "year": "1975",
+      "votes": 43,
+      "rating": 6.5,
+      "stills": 12,
+      "lastAired": "1978"
+    },
+    {
+      "name": "Bosom Buddies",
+      "tmdbId": 2574,
+      "slug": "bosom-buddies",
+      "year": "1980",
+      "votes": 43,
+      "rating": 6.4,
+      "stills": 19,
+      "lastAired": "1982"
+    },
+    {
+      "name": "Ellery Queen",
+      "tmdbId": 13925,
+      "slug": "ellery-queen",
+      "year": "1975",
+      "votes": 42,
+      "rating": 7.5,
+      "stills": 22,
+      "lastAired": "1976"
+    },
+    {
+      "name": "Logan's Run",
+      "tmdbId": 36626,
+      "slug": "logans-run",
+      "year": "1977",
+      "votes": 42,
+      "rating": 6.8,
+      "stills": 14,
+      "lastAired": "1978"
+    },
+    {
+      "name": "The Amazing Spider-Man",
+      "tmdbId": 4552,
+      "slug": "amazing-spider-man",
+      "year": "1978",
+      "votes": 41,
+      "rating": 6.3,
+      "stills": 13,
+      "lastAired": "1979"
+    },
+    {
+      "name": "The Day of the Triffids",
+      "tmdbId": 2609,
+      "slug": "day-of-the-triffids",
+      "year": "1981",
+      "votes": 41,
+      "rating": 6.5,
+      "stills": 6,
+      "lastAired": "1981"
+    },
+    {
+      "name": "Steptoe and Son",
+      "tmdbId": 3333,
+      "slug": "steptoe-and-son",
+      "year": "1962",
+      "votes": 39,
+      "rating": 7.8,
+      "stills": 12,
+      "lastAired": "1974"
+    },
+    {
+      "name": "Maude",
+      "tmdbId": 2184,
+      "slug": "maude",
+      "year": "1972",
+      "votes": 39,
+      "rating": 6.9,
+      "stills": 6,
+      "lastAired": "1978"
+    },
+    {
+      "name": "Centennial",
+      "tmdbId": 5608,
+      "slug": "centennial",
+      "year": "1978",
+      "votes": 39,
+      "rating": 7.7,
+      "stills": 12,
+      "lastAired": "1979"
+    },
+    {
+      "name": "Rowan & Martin's Laugh-In",
+      "tmdbId": 9895,
+      "slug": "rowan-and-martins-laugh-in",
+      "year": "1968",
+      "votes": 37,
+      "rating": 6.8,
+      "stills": 14,
+      "lastAired": "1973"
+    },
+    {
+      "name": "Fat Albert and the Cosby Kids",
+      "tmdbId": 13914,
+      "slug": "fat-albert-and-the-cosby-kids",
+      "year": "1972",
+      "votes": 37,
+      "rating": 6.7,
+      "stills": 14,
+      "lastAired": "1985"
+    },
+    {
+      "name": "The Partridge Family",
+      "tmdbId": 13941,
+      "slug": "partridge-family",
+      "year": "1970",
+      "votes": 36,
+      "rating": 6.8,
+      "stills": 25,
+      "lastAired": "1974"
+    },
+    {
+      "name": "The Virginian",
+      "tmdbId": 10180,
+      "slug": "virginian",
+      "year": "1962",
+      "votes": 36,
+      "rating": 6.5,
+      "stills": 28,
+      "lastAired": "1971"
+    },
+    {
+      "name": "That Girl",
+      "tmdbId": 1925,
+      "slug": "that-girl",
+      "year": "1966",
+      "votes": 36,
+      "rating": 6.2,
+      "stills": 29,
+      "lastAired": "1971"
+    },
+    {
+      "name": "How the West Was Won",
+      "tmdbId": 2562,
+      "slug": "how-the-west-was-won",
+      "year": "1977",
+      "votes": 36,
+      "rating": 7.0,
+      "stills": 12,
+      "lastAired": "1979"
+    },
+    {
+      "name": "The New Adventures of Batman",
+      "tmdbId": 10502,
+      "slug": "new-adventures-of-batman",
+      "year": "1977",
+      "votes": 35,
+      "rating": 7.4,
+      "stills": 16,
+      "lastAired": "1977"
+    },
+    {
+      "name": "The Fantastic Four",
+      "tmdbId": 2373,
+      "slug": "fantastic-four",
+      "year": "1978",
+      "votes": 35,
+      "rating": 7.6,
+      "stills": 13,
+      "lastAired": "1978"
+    },
+    {
+      "name": "Flash Gordon",
+      "tmdbId": 11844,
+      "slug": "flash-gordon",
+      "year": "1979",
+      "votes": 35,
+      "rating": 7.2,
+      "stills": 16,
+      "lastAired": "1982"
+    },
+    {
+      "name": "Prisoner",
+      "tmdbId": 4275,
+      "slug": "prisoner",
+      "year": "1979",
+      "votes": 35,
+      "rating": 7.6,
+      "stills": 11,
+      "lastAired": "1986"
+    },
+    {
+      "name": "The Richie Rich/Scooby-Doo Show and Scrappy Too!",
+      "tmdbId": 1071,
+      "slug": "richie-rich-scooby-doo-show-and-scrappy-too",
+      "year": "1980",
+      "votes": 35,
+      "rating": 9.1,
+      "stills": 7,
+      "lastAired": "1981"
+    },
+    {
+      "name": "Daniel Boone",
+      "tmdbId": 11053,
+      "slug": "daniel-boone",
+      "year": "1964",
+      "votes": 34,
+      "rating": 7.0,
+      "stills": 29,
+      "lastAired": "1970"
+    },
+    {
+      "name": "Alias Smith and Jones",
+      "tmdbId": 3275,
+      "slug": "alias-smith-and-jones",
+      "year": "1971",
+      "votes": 34,
+      "rating": 6.9,
+      "stills": 15,
+      "lastAired": "1973"
+    },
+    {
+      "name": "Josie and the Pussycats in Outer Space",
+      "tmdbId": 24211,
+      "slug": "josie-and-the-pussycats-in-outer-space",
+      "year": "1972",
+      "votes": 34,
+      "rating": 7.3,
+      "stills": 16,
+      "lastAired": "1972"
+    },
+    {
+      "name": "Police Woman",
+      "tmdbId": 10020,
+      "slug": "police-woman",
+      "year": "1974",
+      "votes": 34,
+      "rating": 6.5,
+      "stills": 22,
+      "lastAired": "1978"
+    },
+    {
+      "name": "George and Mildred",
+      "tmdbId": 2419,
+      "slug": "george-and-mildred",
+      "year": "1976",
+      "votes": 34,
+      "rating": 6.9,
+      "stills": 10,
+      "lastAired": "1979"
+    },
+    {
+      "name": "Upstairs, Downstairs",
+      "tmdbId": 492,
+      "slug": "upstairs-downstairs",
+      "year": "1971",
+      "votes": 33,
+      "rating": 7.636,
+      "stills": 13,
+      "lastAired": "1975"
+    },
+    {
+      "name": "Barnaby Jones",
+      "tmdbId": 587,
+      "slug": "barnaby-jones",
+      "year": "1973",
+      "votes": 33,
+      "rating": 7.0,
+      "stills": 13,
+      "lastAired": "1980"
+    },
+    {
+      "name": "Rising Damp",
+      "tmdbId": 2544,
+      "slug": "rising-damp",
+      "year": "1974",
+      "votes": 33,
+      "rating": 7.4,
+      "stills": 7,
+      "lastAired": "1978"
+    },
+    {
+      "name": "Jabberjaw",
+      "tmdbId": 2936,
+      "slug": "jabberjaw",
+      "year": "1976",
+      "votes": 33,
+      "rating": 6.4,
+      "stills": 16,
+      "lastAired": "1976"
+    },
+    {
+      "name": "Lou Grant",
+      "tmdbId": 480,
+      "slug": "lou-grant",
+      "year": "1977",
+      "votes": 33,
+      "rating": 7.4,
+      "stills": 11,
+      "lastAired": "1982"
+    },
+    {
+      "name": "On the Buses",
+      "tmdbId": 774,
+      "slug": "on-the-buses",
+      "year": "1969",
+      "votes": 32,
+      "rating": 7.3,
+      "stills": 7,
+      "lastAired": "1973"
+    },
+    {
+      "name": "Rich Man, Poor Man",
+      "tmdbId": 14733,
+      "slug": "rich-man-poor-man",
+      "year": "1976",
+      "votes": 32,
+      "rating": 7.9,
+      "stills": 12,
+      "lastAired": "1976"
+    },
+    {
+      "name": "Second City Television",
+      "tmdbId": 2548,
+      "slug": "second-city-television",
+      "year": "1976",
+      "votes": 32,
+      "rating": 7.8,
+      "stills": 26,
+      "lastAired": "1984"
+    },
+    {
+      "name": "What's Happening!!",
+      "tmdbId": 1869,
+      "slug": "whats-happening",
+      "year": "1976",
+      "votes": 32,
+      "rating": 7.3,
+      "stills": 21,
+      "lastAired": "1979"
+    },
+    {
+      "name": "The Hardy Boys / Nancy Drew Mysteries",
+      "tmdbId": 2928,
+      "slug": "hardy-boys-nancy-drew-mysteries",
+      "year": "1977",
+      "votes": 32,
+      "rating": 7.1,
+      "stills": 14,
+      "lastAired": "1979"
+    },
+    {
+      "name": "To the Manor Born",
+      "tmdbId": 125,
+      "slug": "to-the-manor-born",
+      "year": "1979",
+      "votes": 32,
+      "rating": 7.0,
+      "stills": 8,
+      "lastAired": "1981"
+    },
+    {
+      "name": "The Raccoons",
+      "tmdbId": 4803,
+      "slug": "raccoons",
+      "year": "1985",
+      "votes": 32,
+      "rating": 7.1,
+      "stills": 11,
+      "lastAired": "1990"
+    },
+    {
+      "name": "Minder",
+      "tmdbId": 3469,
+      "slug": "minder",
+      "year": "1979",
+      "votes": 31,
+      "rating": 7.2,
+      "stills": 11,
+      "lastAired": "1994"
+    },
+    {
+      "name": "The Ghost Busters",
+      "tmdbId": 964,
+      "slug": "ghost-busters",
+      "year": "1975",
+      "votes": 30,
+      "rating": 7.0,
+      "stills": 15,
+      "lastAired": "1975"
+    },
+    {
+      "name": "Godzilla",
+      "tmdbId": 5246,
+      "slug": "godzilla",
+      "year": "1978",
+      "votes": 30,
+      "rating": 7.9,
+      "stills": 13,
+      "lastAired": "1979"
+    },
+    {
+      "name": "Marco Polo",
+      "tmdbId": 6479,
+      "slug": "marco-polo",
+      "year": "1982",
+      "votes": 30,
+      "rating": 6.8,
+      "stills": 8,
+      "lastAired": "1983"
+    },
+    {
+      "name": "The Mod Squad",
+      "tmdbId": 4003,
+      "slug": "mod-squad",
+      "year": "1968",
+      "votes": 29,
+      "rating": 6.1,
+      "stills": 26,
+      "lastAired": "1973"
+    },
+    {
+      "name": "McMillan & Wife",
+      "tmdbId": 10848,
+      "slug": "mcmillan-and-wife",
+      "year": "1971",
+      "votes": 29,
+      "rating": 6.9,
+      "stills": 7,
+      "lastAired": "1977"
+    },
+    {
+      "name": "The Sweeney",
+      "tmdbId": 758,
+      "slug": "sweeney",
+      "year": "1975",
+      "votes": 29,
+      "rating": 8.069,
+      "stills": 13,
+      "lastAired": "1978"
+    },
+    {
+      "name": "Grizzly Adams",
+      "tmdbId": 24123,
+      "slug": "grizzly-adams",
+      "year": "1977",
+      "votes": 29,
+      "rating": 7.0,
+      "stills": 13,
+      "lastAired": "1978"
+    },
+    {
+      "name": "Matt Houston",
+      "tmdbId": 10365,
+      "slug": "matt-houston",
+      "year": "1982",
+      "votes": 29,
+      "rating": 6.3,
+      "stills": 24,
+      "lastAired": "1985"
+    },
+    {
+      "name": "Tales of the Gold Monkey",
+      "tmdbId": 2999,
+      "slug": "tales-of-the-gold-monkey",
+      "year": "1982",
+      "votes": 29,
+      "rating": 7.4,
+      "stills": 22,
+      "lastAired": "1983"
+    },
+    {
+      "name": "Isis",
+      "tmdbId": 12072,
+      "slug": "isis",
+      "year": "1975",
+      "votes": 28,
+      "rating": 6.5,
+      "stills": 15,
+      "lastAired": "1976"
+    },
+    {
+      "name": "Not the Nine O'Clock News",
+      "tmdbId": 4153,
+      "slug": "not-the-nine-oclock-news",
+      "year": "1979",
+      "votes": 28,
+      "rating": 7.3,
+      "stills": 7,
+      "lastAired": "1982"
+    },
+    {
+      "name": "The High Chaparral",
+      "tmdbId": 11096,
+      "slug": "high-chaparral",
+      "year": "1967",
+      "votes": 27,
+      "rating": 6.7,
+      "stills": 28,
+      "lastAired": "1971"
+    },
+    {
+      "name": "The Electric Company",
+      "tmdbId": 4366,
+      "slug": "electric-company",
+      "year": "1971",
+      "votes": 27,
+      "rating": 7.4,
+      "stills": 7,
+      "lastAired": "1977"
+    },
+    {
+      "name": "Petrocelli",
+      "tmdbId": 11667,
+      "slug": "petrocelli",
+      "year": "1974",
+      "votes": 27,
+      "rating": 7.2,
+      "stills": 22,
+      "lastAired": "1976"
+    },
+    {
+      "name": "Shazam!",
+      "tmdbId": 10444,
+      "slug": "shazam",
+      "year": "1974",
+      "votes": 27,
+      "rating": 6.5,
+      "stills": 15,
+      "lastAired": "1976"
+    },
+    {
+      "name": "The Invisible Man",
+      "tmdbId": 11490,
+      "slug": "invisible-man",
+      "year": "1975",
+      "votes": 27,
+      "rating": 6.3,
+      "stills": 13,
+      "lastAired": "1976"
+    },
+    {
+      "name": "Paddington Bear",
+      "tmdbId": 7447,
+      "slug": "paddington-bear",
+      "year": "1976",
+      "votes": 27,
+      "rating": 7.2,
+      "stills": 30,
+      "lastAired": "1980"
+    },
+    {
+      "name": "Too Close for Comfort",
+      "tmdbId": 3781,
+      "slug": "too-close-for-comfort",
+      "year": "1980",
+      "votes": 27,
+      "rating": 6.4,
+      "stills": 19,
+      "lastAired": "1987"
+    },
+    {
+      "name": "It Takes a Thief",
+      "tmdbId": 10496,
+      "slug": "it-takes-a-thief",
+      "year": "1968",
+      "votes": 26,
+      "rating": 7.2,
+      "stills": 16,
+      "lastAired": "1970"
+    },
+    {
+      "name": "Vega$",
+      "tmdbId": 9769,
+      "slug": "vega",
+      "year": "1978",
+      "votes": 26,
+      "rating": 7.0,
+      "stills": 22,
+      "lastAired": "1981"
+    },
+    {
+      "name": "H.R. Pufnstuf",
+      "tmdbId": 4284,
+      "slug": "hr-pufnstuf",
+      "year": "1969",
+      "votes": 25,
+      "rating": 7.0,
+      "stills": 17,
+      "lastAired": "1970"
+    },
+    {
+      "name": "The F.B.I.",
+      "tmdbId": 2223,
+      "slug": "fbi",
+      "year": "1965",
+      "votes": 25,
+      "rating": 5.6,
+      "stills": 7,
+      "lastAired": "1974"
+    },
+    {
+      "name": "Survivors",
+      "tmdbId": 4351,
+      "slug": "survivors",
+      "year": "1975",
+      "votes": 25,
+      "rating": 7.9,
+      "stills": 13,
+      "lastAired": "1977"
+    },
+    {
+      "name": "Ripping Yarns",
+      "tmdbId": 854,
+      "slug": "ripping-yarns",
+      "year": "1976",
+      "votes": 25,
+      "rating": 7.7,
+      "stills": 6,
+      "lastAired": "1979"
+    },
+    {
+      "name": "Help!... It's the Hair Bear Bunch!",
+      "tmdbId": 11136,
+      "slug": "help-its-the-hair-bear-bunch",
+      "year": "1971",
+      "votes": 24,
+      "rating": 6.0,
+      "stills": 16,
+      "lastAired": "1972"
+    },
+    {
+      "name": "The Rookies",
+      "tmdbId": 988,
+      "slug": "rookies",
+      "year": "1972",
+      "votes": 23,
+      "rating": 6.9,
+      "stills": 23,
+      "lastAired": "1976"
+    },
+    {
+      "name": "Speed Buggy",
+      "tmdbId": 10476,
+      "slug": "speed-buggy",
+      "year": "1973",
+      "votes": 23,
+      "rating": 7.2,
+      "stills": 16,
+      "lastAired": "1973"
+    },
+    {
+      "name": "The Great Grape Ape Show",
+      "tmdbId": 4929,
+      "slug": "great-grape-ape-show",
+      "year": "1975",
+      "votes": 23,
+      "rating": 6.0,
+      "stills": 32,
+      "lastAired": "1975"
+    },
+    {
+      "name": "Elizabeth R",
+      "tmdbId": 1103,
+      "slug": "elizabeth-r",
+      "year": "1971",
+      "votes": 22,
+      "rating": 7.5,
+      "stills": 6,
+      "lastAired": "1971"
+    },
+    {
+      "name": "Whatever Happened to the Likely Lads?",
+      "tmdbId": 420,
+      "slug": "whatever-happened-to-the-likely-lads",
+      "year": "1973",
+      "votes": 22,
+      "rating": 7.7,
+      "stills": 13,
+      "lastAired": "1974"
+    },
+    {
+      "name": "Catweazle",
+      "tmdbId": 11196,
+      "slug": "catweazle",
+      "year": "1970",
+      "votes": 21,
+      "rating": 7.5,
+      "stills": 13,
+      "lastAired": "1971"
+    },
+    {
+      "name": "Skippy the Bush Kangaroo",
+      "tmdbId": 10762,
+      "slug": "skippy-the-bush-kangaroo",
+      "year": "1968",
+      "votes": 21,
+      "rating": 6.2,
+      "stills": 39,
+      "lastAired": "1970"
+    },
+    {
+      "name": "Love, American Style",
+      "tmdbId": 1825,
+      "slug": "love-american-style",
+      "year": "1969",
+      "votes": 21,
+      "rating": 6.2,
+      "stills": 24,
+      "lastAired": "1974"
+    },
+    {
+      "name": "Police Story",
+      "tmdbId": 9855,
+      "slug": "police-story",
+      "year": "1973",
+      "votes": 21,
+      "rating": 7.0,
+      "stills": 23,
+      "lastAired": "1988"
+    },
+    {
+      "name": "Man About the House",
+      "tmdbId": 1006,
+      "slug": "man-about-the-house",
+      "year": "1973",
+      "votes": 21,
+      "rating": 7.1,
+      "stills": 7,
+      "lastAired": "1976"
+    },
+    {
+      "name": "Marcus Welby, M.D.",
+      "tmdbId": 3213,
+      "slug": "marcus-welby-md",
+      "year": "1969",
+      "votes": 20,
+      "rating": 6.6,
+      "stills": 26,
+      "lastAired": "1976"
+    },
+    {
+      "name": "Sheriff Hoot Kloot",
+      "tmdbId": 239871,
+      "slug": "sheriff-hoot-kloot",
+      "year": "1973",
+      "votes": 20,
+      "rating": 8.6,
+      "stills": 17,
+      "lastAired": "1974"
+    },
+    {
+      "name": "It Ain't Half Hot Mum",
+      "tmdbId": 425,
+      "slug": "it-aint-half-hot-mum",
+      "year": "1974",
+      "votes": 19,
+      "rating": 7.3,
+      "stills": 6,
+      "lastAired": "1981"
+    },
+    {
+      "name": "The Courtship of Eddie's Father",
+      "tmdbId": 6137,
+      "slug": "courtship-of-eddies-father",
+      "year": "1969",
+      "votes": 18,
+      "rating": 6.2,
+      "stills": 26,
+      "lastAired": "1972"
+    },
+    {
+      "name": "Randall and Hopkirk (Deceased)",
+      "tmdbId": 892,
+      "slug": "randall-and-hopkirk-deceased",
+      "year": "1969",
+      "votes": 18,
+      "rating": 7.0,
+      "stills": 26,
+      "lastAired": "1970"
+    },
+    {
+      "name": "The Ghost & Mrs. Muir",
+      "tmdbId": 12883,
+      "slug": "ghost-and-mrs-muir",
+      "year": "1968",
+      "votes": 17,
+      "rating": 6.6,
+      "stills": 26,
+      "lastAired": "1970"
+    },
+    {
+      "name": "Department S",
+      "tmdbId": 983,
+      "slug": "department-s",
+      "year": "1969",
+      "votes": 17,
+      "rating": 5.5,
+      "stills": 28,
+      "lastAired": "1970"
+    },
+    {
+      "name": "Bless This House",
+      "tmdbId": 198,
+      "slug": "bless-this-house",
+      "year": "1971",
+      "votes": 17,
+      "rating": 7.5,
+      "stills": 12,
+      "lastAired": "1976"
+    },
+    {
+      "name": "The Wombles",
+      "tmdbId": 15122,
+      "slug": "wombles",
+      "year": "1973",
+      "votes": 17,
+      "rating": 7.4,
+      "stills": 30,
+      "lastAired": "1975"
+    },
+    {
+      "name": "The Six Wives of Henry VIII",
+      "tmdbId": 13833,
+      "slug": "six-wives-of-henry-viii",
+      "year": "1970",
+      "votes": 15,
+      "rating": 8.0,
+      "stills": 6,
+      "lastAired": "1970"
+    },
+    {
+      "name": "The Protectors",
+      "tmdbId": 4354,
+      "slug": "protectors",
+      "year": "1972",
+      "votes": 14,
+      "rating": 6.1,
+      "stills": 26,
+      "lastAired": "1974"
+    },
+    {
+      "name": "Colditz",
+      "tmdbId": 546,
+      "slug": "colditz",
+      "year": "1972",
+      "votes": 14,
+      "rating": 7.7,
+      "stills": 15,
+      "lastAired": "1974"
+    },
+    {
+      "name": "The Jackson 5ive",
+      "tmdbId": 12324,
+      "slug": "jackson-5ive",
+      "year": "1971",
+      "votes": 13,
+      "rating": 5.8,
+      "stills": 17,
+      "lastAired": "1972"
+    },
+    {
+      "name": "The Pebbles and Bamm-Bamm Show",
+      "tmdbId": 2451,
+      "slug": "pebbles-and-bamm-bamm-show",
+      "year": "1971",
+      "votes": 13,
+      "rating": 4.2,
+      "stills": 16,
+      "lastAired": "1972"
+    },
+    {
+      "name": "Jason King",
+      "tmdbId": 2853,
+      "slug": "jason-king",
+      "year": "1971",
+      "votes": 12,
+      "rating": 7.8,
+      "stills": 26,
+      "lastAired": "1972"
+    },
+    {
+      "name": "Clangers",
+      "tmdbId": 265,
+      "slug": "clangers",
+      "year": "1969",
+      "votes": 12,
+      "rating": 7.1,
+      "stills": 13,
+      "lastAired": "1972"
+    },
+    {
+      "name": "Wait Till Your Father Gets Home",
+      "tmdbId": 10487,
+      "slug": "wait-till-your-father-gets-home",
+      "year": "1972",
+      "votes": 12,
+      "rating": 6.2,
+      "stills": 24,
+      "lastAired": "1974"
+    },
+    {
+      "name": "Love Thy Neighbour",
+      "tmdbId": 5300,
+      "slug": "love-thy-neighbour",
+      "year": "1972",
+      "votes": 12,
+      "rating": 7.7,
+      "stills": 7,
+      "lastAired": "1976"
+    }
+  ],
+  "rejected": [
+    {
+      "name": "The Flintstones",
+      "tmdbId": 1996,
+      "slug": "flintstones",
+      "year": "1960",
+      "votes": 1031,
+      "rating": 7.4,
+      "reason": "ended 1966"
+    },
+    {
+      "name": "Jesus of Nazareth",
+      "tmdbId": 19649,
+      "slug": "jesus-of-nazareth",
+      "year": "1977",
+      "votes": 575,
+      "rating": 7.834,
+      "reason": "only 4 stills"
+    },
+    {
+      "name": "Salem's Lot",
+      "tmdbId": 16118,
+      "slug": "salems-lot",
+      "year": "1979",
+      "votes": 561,
+      "rating": 6.792,
+      "reason": "only 2 stills"
+    },
+    {
+      "name": "The Munsters",
+      "tmdbId": 1712,
+      "slug": "munsters",
+      "year": "1964",
+      "votes": 490,
+      "rating": 7.9,
+      "reason": "ended 1966"
+    },
+    {
+      "name": "The Addams Family",
+      "tmdbId": 14009,
+      "slug": "addams-family",
+      "year": "1964",
+      "votes": 462,
+      "rating": 8.0,
+      "reason": "ended 1966"
+    },
+    {
+      "name": "Sesame Street",
+      "tmdbId": 502,
+      "slug": "sesame-street",
+      "year": "1969",
+      "votes": 299,
+      "rating": 7.1,
+      "reason": "still running in 2026"
+    },
+    {
+      "name": "Dennis the Menace",
+      "tmdbId": 3518,
+      "slug": "dennis-the-menace",
+      "year": "1985",
+      "votes": 272,
+      "rating": 6.7,
+      "reason": "only 4 stills"
+    },
+    {
+      "name": "Alfred Hitchcock Presents",
+      "tmdbId": 5273,
+      "slug": "alfred-hitchcock-presents",
+      "year": "1955",
+      "votes": 270,
+      "rating": 7.8,
+      "reason": "ended 1962"
+    },
+    {
+      "name": "Gilligan's Island",
+      "tmdbId": 1921,
+      "slug": "gilligans-island",
+      "year": "1964",
+      "votes": 268,
+      "rating": 7.4,
+      "reason": "ended 1967"
+    },
+    {
+      "name": "Sh\u014dgun",
+      "tmdbId": 13862,
+      "slug": "shogun",
+      "year": "1980",
+      "votes": 250,
+      "rating": 7.6,
+      "reason": "only 5 stills"
+    },
+    {
+      "name": "Lonesome Dove",
+      "tmdbId": 41692,
+      "slug": "lonesome-dove",
+      "year": "1989",
+      "votes": 221,
+      "rating": 7.9,
+      "reason": "only 4 stills"
+    },
+    {
+      "name": "General Hospital",
+      "tmdbId": 987,
+      "slug": "general-hospital",
+      "year": "1963",
+      "votes": 219,
+      "rating": 5.8,
+      "reason": "still running in 2026"
+    },
+    {
+      "name": "The Andy Griffith Show",
+      "tmdbId": 106,
+      "slug": "andy-griffith-show",
+      "year": "1960",
+      "votes": 180,
+      "rating": 7.625,
+      "reason": "ended 1968"
+    },
+    {
+      "name": "The Young and the Restless",
+      "tmdbId": 1054,
+      "slug": "young-and-the-restless",
+      "year": "1973",
+      "votes": 170,
+      "rating": 7.0,
+      "reason": "still running in 2026"
+    },
+    {
+      "name": "V: The Final Battle",
+      "tmdbId": 75896,
+      "slug": "v-the-final-battle",
+      "year": "1984",
+      "votes": 163,
+      "rating": 7.4,
+      "reason": "only 3 stills"
+    },
+    {
+      "name": "Days of Our Lives",
+      "tmdbId": 881,
+      "slug": "days-of-our-lives",
+      "year": "1965",
+      "votes": 159,
+      "rating": 6.2,
+      "reason": "still running in 2026"
+    },
+    {
+      "name": "The Bold and the Beautiful",
+      "tmdbId": 6647,
+      "slug": "bold-and-the-beautiful",
+      "year": "1987",
+      "votes": 152,
+      "rating": 5.6,
+      "reason": "still running in 2026"
+    },
+    {
+      "name": "The Huckleberry Hound Show",
+      "tmdbId": 967,
+      "slug": "huckleberry-hound-show",
+      "year": "1958",
+      "votes": 145,
+      "rating": 6.793,
+      "reason": "ended 1961"
+    },
+    {
+      "name": "Perry Mason",
+      "tmdbId": 4177,
+      "slug": "perry-mason",
+      "year": "1957",
+      "votes": 141,
+      "rating": 7.7,
+      "reason": "ended 1966"
+    },
+    {
+      "name": "The Thorn Birds",
+      "tmdbId": 13780,
+      "slug": "thorn-birds",
+      "year": "1983",
+      "votes": 136,
+      "rating": 7.2,
+      "reason": "only 4 stills"
+    },
+    {
+      "name": "Mister Rogers' Neighborhood",
+      "tmdbId": 15,
+      "slug": "mister-rogers-neighborhood",
+      "year": "1967",
+      "votes": 128,
+      "rating": 6.1,
+      "reason": "still running in 2001"
+    },
+    {
+      "name": "Coronation Street",
+      "tmdbId": 291,
+      "slug": "coronation-street",
+      "year": "1960",
+      "votes": 120,
+      "rating": 5.3,
+      "reason": "still running in 2026"
+    },
+    {
+      "name": "Jack the Ripper",
+      "tmdbId": 47510,
+      "slug": "jack-the-ripper",
+      "year": "1988",
+      "votes": 120,
+      "rating": 7.0,
+      "reason": "only 2 stills"
+    },
+    {
+      "name": "The Kids in the Hall",
+      "tmdbId": 1551,
+      "slug": "kids-in-the-hall",
+      "year": "1989",
+      "votes": 105,
+      "rating": 7.6,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "The Bourne Identity",
+      "tmdbId": 25397,
+      "slug": "bourne-identity",
+      "year": "1988",
+      "votes": 104,
+      "rating": 6.5,
+      "reason": "only 2 stills"
+    },
+    {
+      "name": "Emmerdale",
+      "tmdbId": 2527,
+      "slug": "emmerdale",
+      "year": "1972",
+      "votes": 100,
+      "rating": 4.3,
+      "reason": "still running in 2026"
+    },
+    {
+      "name": "RoboCop: The Animated Series",
+      "tmdbId": 3411,
+      "slug": "robocop-the-animated-series",
+      "year": "1988",
+      "votes": 98,
+      "rating": 7.1,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Mario Puzo's The Godfather: The Complete Novel for Television",
+      "tmdbId": 39651,
+      "slug": "mario-puzos-the-godfather-the-complete-novel-for-television",
+      "year": "1977",
+      "votes": 96,
+      "rating": 8.6,
+      "reason": "only 4 stills"
+    },
+    {
+      "name": "The Green Hornet",
+      "tmdbId": 31867,
+      "slug": "green-hornet",
+      "year": "1966",
+      "votes": 95,
+      "rating": 7.405,
+      "reason": "ended 1967"
+    },
+    {
+      "name": "The All-New Super Friends Hour",
+      "tmdbId": 10159,
+      "slug": "all-new-super-friends-hour",
+      "year": "1977",
+      "votes": 91,
+      "rating": 7.473,
+      "reason": "only 5 stills"
+    },
+    {
+      "name": "Around the World in 80 Days",
+      "tmdbId": 20580,
+      "slug": "around-the-world-in-80-days",
+      "year": "1989",
+      "votes": 91,
+      "rating": 6.8,
+      "reason": "only 3 stills"
+    },
+    {
+      "name": "The Oscars",
+      "tmdbId": 27023,
+      "slug": "oscars",
+      "year": "1953",
+      "votes": 88,
+      "rating": 7.1,
+      "reason": "still running in 2026"
+    },
+    {
+      "name": "Casualty",
+      "tmdbId": 1021,
+      "slug": "casualty",
+      "year": "1986",
+      "votes": 88,
+      "rating": 6.2,
+      "reason": "still running in 2026"
+    },
+    {
+      "name": "A Different World",
+      "tmdbId": 115,
+      "slug": "different-world",
+      "year": "1987",
+      "votes": 78,
+      "rating": 7.2,
+      "reason": "only 1 stills"
+    },
+    {
+      "name": "Home and Away",
+      "tmdbId": 2354,
+      "slug": "home-and-away",
+      "year": "1988",
+      "votes": 78,
+      "rating": 6.4,
+      "reason": "still running in 2026"
+    },
+    {
+      "name": "Holocaust",
+      "tmdbId": 15571,
+      "slug": "holocaust",
+      "year": "1978",
+      "votes": 76,
+      "rating": 7.3,
+      "reason": "only 4 stills"
+    },
+    {
+      "name": "Rambo: The Force of Freedom",
+      "tmdbId": 2762,
+      "slug": "rambo-the-force-of-freedom",
+      "year": "1986",
+      "votes": 76,
+      "rating": 7.4,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "All in Good Faith",
+      "tmdbId": 10,
+      "slug": "all-in-good-faith",
+      "year": "1985",
+      "votes": 71,
+      "rating": 2.3,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Sybil",
+      "tmdbId": 19002,
+      "slug": "sybil",
+      "year": "1976",
+      "votes": 70,
+      "rating": 7.4,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "The Tom and Jerry Comedy Show",
+      "tmdbId": 14705,
+      "slug": "tom-and-jerry-comedy-show",
+      "year": "1980",
+      "votes": 69,
+      "rating": 7.4,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Masada",
+      "tmdbId": 13397,
+      "slug": "masada",
+      "year": "1981",
+      "votes": 67,
+      "rating": 7.1,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "The Fugitive",
+      "tmdbId": 10083,
+      "slug": "fugitive",
+      "year": "1963",
+      "votes": 63,
+      "rating": 7.3,
+      "reason": "ended 1967"
+    },
+    {
+      "name": "Miss Marple: The Body in the Library",
+      "tmdbId": 76459,
+      "slug": "miss-marple-the-body-in-the-library",
+      "year": "1984",
+      "votes": 53,
+      "rating": 7.5,
+      "reason": "only 3 stills"
+    },
+    {
+      "name": "Postman Pat",
+      "tmdbId": 1588,
+      "slug": "postman-pat",
+      "year": "1981",
+      "votes": 52,
+      "rating": 6.5,
+      "reason": "still running in 2006"
+    },
+    {
+      "name": "Reading Rainbow",
+      "tmdbId": 10048,
+      "slug": "reading-rainbow",
+      "year": "1983",
+      "votes": 52,
+      "rating": 8.4,
+      "reason": "still running in 2006"
+    },
+    {
+      "name": "The Addams Family",
+      "tmdbId": 13015,
+      "slug": "addams-family",
+      "year": "1973",
+      "votes": 51,
+      "rating": 7.4,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "The Martian Chronicles",
+      "tmdbId": 3226,
+      "slug": "martian-chronicles",
+      "year": "1980",
+      "votes": 51,
+      "rating": 7.2,
+      "reason": "only 3 stills"
+    },
+    {
+      "name": "The Super Globetrotters",
+      "tmdbId": 2628,
+      "slug": "super-globetrotters",
+      "year": "1979",
+      "votes": 49,
+      "rating": 7.9,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "The Bill",
+      "tmdbId": 2072,
+      "slug": "bill",
+      "year": "1984",
+      "votes": 49,
+      "rating": 6.847,
+      "reason": "still running in 2010"
+    },
+    {
+      "name": "Benson",
+      "tmdbId": 1849,
+      "slug": "benson",
+      "year": "1979",
+      "votes": 46,
+      "rating": 7.0,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "The Berenstain Bears",
+      "tmdbId": 10318,
+      "slug": "berenstain-bears",
+      "year": "1985",
+      "votes": 44,
+      "rating": 7.5,
+      "reason": "only 1 stills"
+    },
+    {
+      "name": "My Three Sons",
+      "tmdbId": 1530,
+      "slug": "my-three-sons",
+      "year": "1960",
+      "votes": 42,
+      "rating": 6.6,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Last of the Summer Wine",
+      "tmdbId": 4250,
+      "slug": "last-of-the-summer-wine",
+      "year": "1973",
+      "votes": 41,
+      "rating": 7.2,
+      "reason": "still running in 2010"
+    },
+    {
+      "name": "Auf Wiedersehen, Pet",
+      "tmdbId": 4628,
+      "slug": "auf-wiedersehen-pet",
+      "year": "1983",
+      "votes": 41,
+      "rating": 7.9,
+      "reason": "still running in 2004"
+    },
+    {
+      "name": "The Flying Nun",
+      "tmdbId": 2117,
+      "slug": "flying-nun",
+      "year": "1967",
+      "votes": 37,
+      "rating": 6.3,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Schoolhouse Rock!",
+      "tmdbId": 10077,
+      "slug": "schoolhouse-rock",
+      "year": "1973",
+      "votes": 36,
+      "rating": 7.7,
+      "reason": "still running in 2009"
+    },
+    {
+      "name": "Roots: The Next Generations",
+      "tmdbId": 13436,
+      "slug": "roots-the-next-generations",
+      "year": "1979",
+      "votes": 36,
+      "rating": 7.5,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Here's Lucy",
+      "tmdbId": 1439,
+      "slug": "heres-lucy",
+      "year": "1968",
+      "votes": 32,
+      "rating": 6.7,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "The Fall and Rise of Reginald Perrin",
+      "tmdbId": 719,
+      "slug": "fall-and-rise-of-reginald-perrin",
+      "year": "1976",
+      "votes": 32,
+      "rating": 8.0,
+      "reason": "still running in 1996"
+    },
+    {
+      "name": "Gimme a Break!",
+      "tmdbId": 5352,
+      "slug": "gimme-a-break",
+      "year": "1981",
+      "votes": 32,
+      "rating": 6.6,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "All My Children",
+      "tmdbId": 879,
+      "slug": "all-my-children",
+      "year": "1970",
+      "votes": 30,
+      "rating": 6.4,
+      "reason": "still running in 2011"
+    },
+    {
+      "name": "The Two Ronnies",
+      "tmdbId": 2690,
+      "slug": "two-ronnies",
+      "year": "1971",
+      "votes": 30,
+      "rating": 7.8,
+      "reason": "still running in 1999"
+    },
+    {
+      "name": "Rhoda",
+      "tmdbId": 645,
+      "slug": "rhoda",
+      "year": "1974",
+      "votes": 30,
+      "rating": 6.2,
+      "reason": "still running in 2011"
+    },
+    {
+      "name": "Operation Petticoat",
+      "tmdbId": 40190,
+      "slug": "operation-petticoat",
+      "year": "1977",
+      "votes": 30,
+      "rating": 6.9,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Casper and the Angels",
+      "tmdbId": 6755,
+      "slug": "casper-and-the-angels",
+      "year": "1979",
+      "votes": 30,
+      "rating": 6.9,
+      "reason": "only 1 stills"
+    },
+    {
+      "name": "The Flintstone Comedy Show",
+      "tmdbId": 12947,
+      "slug": "flintstone-comedy-show",
+      "year": "1980",
+      "votes": 29,
+      "rating": 7.3,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Till Death Us Do Part",
+      "tmdbId": 550,
+      "slug": "till-death-us-do-part",
+      "year": "1966",
+      "votes": 28,
+      "rating": 7.6,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Match Game",
+      "tmdbId": 9,
+      "slug": "match-game",
+      "year": "1973",
+      "votes": 28,
+      "rating": 7.9,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Pride and Prejudice",
+      "tmdbId": 4409,
+      "slug": "pride-and-prejudice",
+      "year": "1980",
+      "votes": 28,
+      "rating": 7.0,
+      "reason": "only 5 stills"
+    },
+    {
+      "name": "The Goodies",
+      "tmdbId": 3501,
+      "slug": "goodies",
+      "year": "1970",
+      "votes": 26,
+      "rating": 7.7,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Grange Hill",
+      "tmdbId": 3365,
+      "slug": "grange-hill",
+      "year": "1978",
+      "votes": 26,
+      "rating": 6.7,
+      "reason": "still running in 2008"
+    },
+    {
+      "name": "Rumpole of the Bailey",
+      "tmdbId": 4123,
+      "slug": "rumpole-of-the-bailey",
+      "year": "1975",
+      "votes": 24,
+      "rating": 7.1,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Dragnet",
+      "tmdbId": 45194,
+      "slug": "dragnet",
+      "year": "1967",
+      "votes": 23,
+      "rating": 7.0,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "The Flip Wilson Show",
+      "tmdbId": 10663,
+      "slug": "flip-wilson-show",
+      "year": "1970",
+      "votes": 23,
+      "rating": 5.2,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Yogi's Gang",
+      "tmdbId": 14698,
+      "slug": "yogis-gang",
+      "year": "1973",
+      "votes": 21,
+      "rating": 7.2,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Room 222",
+      "tmdbId": 3783,
+      "slug": "room-222",
+      "year": "1969",
+      "votes": 20,
+      "rating": 6.1,
+      "reason": "only 3 stills"
+    },
+    {
+      "name": "Rainbow",
+      "tmdbId": 12500,
+      "slug": "rainbow",
+      "year": "1972",
+      "votes": 20,
+      "rating": 6.8,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Banacek",
+      "tmdbId": 1340,
+      "slug": "banacek",
+      "year": "1972",
+      "votes": 20,
+      "rating": 8.4,
+      "reason": "only 1 stills"
+    },
+    {
+      "name": "The Dean Martin Show",
+      "tmdbId": 12875,
+      "slug": "dean-martin-show",
+      "year": "1965",
+      "votes": 19,
+      "rating": 7.4,
+      "reason": "only 1 stills"
+    },
+    {
+      "name": "The Bill Cosby Show",
+      "tmdbId": 3523,
+      "slug": "bill-cosby-show",
+      "year": "1969",
+      "votes": 19,
+      "rating": 5.5,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Star Blazers",
+      "tmdbId": 7768,
+      "slug": "star-blazers",
+      "year": "1974",
+      "votes": 19,
+      "rating": 8.3,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "The Sonny & Cher Comedy Hour",
+      "tmdbId": 1090,
+      "slug": "sonny-and-cher-comedy-hour",
+      "year": "1971",
+      "votes": 17,
+      "rating": 6.6,
+      "reason": "only 1 stills"
+    },
+    {
+      "name": "Lancelot Link, Secret Chimp",
+      "tmdbId": 2157,
+      "slug": "lancelot-link-secret-chimp",
+      "year": "1970",
+      "votes": 15,
+      "rating": 6.6,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "ABC Afterschool Special",
+      "tmdbId": 18162,
+      "slug": "abc-afterschool-special",
+      "year": "1972",
+      "votes": 15,
+      "rating": 6.5,
+      "reason": "still running in 1997"
+    },
+    {
+      "name": "Here Come the Brides",
+      "tmdbId": 10515,
+      "slug": "here-come-the-brides",
+      "year": "1968",
+      "votes": 14,
+      "rating": 6.9,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Medical Center",
+      "tmdbId": 4060,
+      "slug": "medical-center",
+      "year": "1969",
+      "votes": 14,
+      "rating": 6.4,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "A Question of Sport",
+      "tmdbId": 616,
+      "slug": "question-of-sport",
+      "year": "1970",
+      "votes": 14,
+      "rating": 6.1,
+      "reason": "still running in 2022"
+    },
+    {
+      "name": "The Name of the Game",
+      "tmdbId": 11978,
+      "slug": "name-of-the-game",
+      "year": "1968",
+      "votes": 13,
+      "rating": 7.0,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Another World",
+      "tmdbId": 4547,
+      "slug": "another-world",
+      "year": "1964",
+      "votes": 13,
+      "rating": 5.5,
+      "reason": "still running in 1999"
+    },
+    {
+      "name": "Mr. Benn",
+      "tmdbId": 34870,
+      "slug": "mr-benn",
+      "year": "1971",
+      "votes": 13,
+      "rating": 7.3,
+      "reason": "still running in 2005"
+    },
+    {
+      "name": "The Hilarious House of Frightenstein",
+      "tmdbId": 2087,
+      "slug": "hilarious-house-of-frightenstein",
+      "year": "1971",
+      "votes": 13,
+      "rating": 7.6,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Please Sir!",
+      "tmdbId": 10005,
+      "slug": "please-sir",
+      "year": "1968",
+      "votes": 12,
+      "rating": 7.0,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Up Pompeii!",
+      "tmdbId": 2021,
+      "slug": "up-pompeii",
+      "year": "1969",
+      "votes": 12,
+      "rating": 7.3,
+      "reason": "only 0 stills"
+    },
+    {
+      "name": "Longstreet",
+      "tmdbId": 3923,
+      "slug": "longstreet",
+      "year": "1971",
+      "votes": 12,
+      "rating": 7.0,
+      "reason": "only 0 stills"
+    }
+  ]
+}

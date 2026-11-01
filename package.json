@@ -1,22 +1,29 @@
 {
-  "name": "retrotv.fun",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "retrotv-fun",
+  "version": "1.1.0",
+  "description": "RetroTV.fun \u2014 a daily guessing game for classic 70s & 80s TV shows",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "frames": "python3 scripts/fetch_frames.py",
+    "rotation": "python3 scripts/build_rotation.py",
+    "check:site": "python3 scripts/site_check.py",
+    "discover": "python3 scripts/discover_shows.py"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mike Sullivan",
+  "license": "UNLICENSED",
   "type": "module",
   "dependencies": {
     "@tailwindcss/postcss": "^4.2.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "autoprefixer": "^10.4.27",
     "next": "^16.1.6",
     "postcss": "^8.5.8",
@@ -26,6 +33,10 @@
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@types/node": "^25.5.0"
-  }
+    "@types/node": "^25.5.0",
+    "eslint": "^9.38.0",
+    "eslint-config-next": "^16.1.6",
+    "vitest": "^3.2.4"
+  },
+  "private": true
 }

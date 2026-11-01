@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import showsDetail from '@/data/shows-detail.json';
+import { genreLinks } from '@/lib/show-data';
 
 interface ShowDetail {
   name: string;
@@ -34,6 +35,42 @@ function yearRange(show: ShowDetail): string {
   return start === end ? start : `${start}–${end}`;
 }
 
+/**
+ * TVSeries structured data, so search engines can read these 201 pages as show
+ * records rather than as anonymous fan pages.
+ */
+function jsonLd(show: ShowDetail) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'TVSeries',
+    name: show.name,
+    url: `https://retrotv.fun/shows/${show.slug}`,
+    description: show.overview || undefined,
+    image: show.poster_path ? `https://image.tmdb.org/t/p/w500${show.poster_path}` : undefined,
+    genre: show.genres?.length ? show.genres : undefined,
+    startDate: show.first_air_date || undefined,
+    endDate: show.last_air_date || undefined,
+    numberOfSeasons: show.number_of_seasons || undefined,
+    numberOfEpisodes: show.number_of_episodes || undefined,
+    creator: show.created_by?.length
+      ? show.created_by.map((name) => ({ '@type': 'Person', name }))
+      : undefined,
+    productionCompany: show.networks?.length
+      ? show.networks.map((name) => ({ '@type': 'Organization', name }))
+      : undefined,
+    aggregateRating:
+      show.vote_average > 0
+        ? {
+            '@type': 'AggregateRating',
+            ratingValue: show.vote_average.toFixed(1),
+            bestRating: '10',
+            worstRating: '1',
+            ratingCount: 1,
+          }
+        : undefined,
+  };
+}
+
 function amazonLink(name: string): string {
   const q = encodeURIComponent(`${name} complete series DVD`);
   return `https://www.amazon.com/s?k=${q}&tag=retrotv01-20`;
@@ -51,12 +88,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${show.name} (${yearRange(show)}) — RetroTV`,
     description: show.overview || `Learn about ${show.name}, a classic TV show from the ${show.first_air_date?.slice(0, 3)}0s.`,
+    alternates: { canonical: `/shows/${show.slug}` },
     openGraph: {
       title: `${show.name} — RetroTV`,
       description: show.overview,
-      images: show.poster_path
-        ? [`https://image.tmdb.org/t/p/w300${show.poster_path}`]
-        : undefined,
+      type: 'website',
+      url: `https://retrotv.fun/shows/${show.slug}`,
     },
   };
 }
@@ -68,6 +105,10 @@ export default async function ShowPage({ params }: { params: Promise<{ slug: str
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(show)) }}
+      />
       <Link href="/shows" className="text-[var(--amber)] hover:underline text-sm font-retro">
         ← All Shows
       </Link>
@@ -94,13 +135,13 @@ export default async function ShowPage({ params }: { params: Promise<{ slug: str
           </p>
 
           <div className="mt-3 flex flex-wrap gap-2">
-            {show.genres?.map((g) => (
+            {genreLinks(show.genres).map((g) => (
               <Link
-                key={g}
-                href={`/shows/genre/${g.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+                key={g.slug}
+                href={`/shows/genre/${g.slug}`}
                 className="px-2 py-1 bg-[var(--amber)]/10 text-[var(--amber)] text-xs font-retro rounded hover:bg-[var(--amber)]/20 transition"
               >
-                {g}
+                {g.name}
               </Link>
             ))}
           </div>

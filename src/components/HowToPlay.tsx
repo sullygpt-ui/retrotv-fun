@@ -5,9 +5,11 @@ import { useState, useEffect } from "react";
 export default function HowToPlay() {
   const [open, setOpen] = useState(false);
 
+  // The first-visit flag lives in localStorage, readable only after hydration.
   useEffect(() => {
     const seen = localStorage.getItem("retrotv-seen-instructions");
     if (!seen) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- hydrating from localStorage
       setOpen(true);
       localStorage.setItem("retrotv-seen-instructions", "1");
     }

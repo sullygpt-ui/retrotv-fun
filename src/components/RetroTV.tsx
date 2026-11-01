@@ -8,13 +8,9 @@ export default function RetroTV({ children }: RetroTVProps) {
   return (
     <div className="tv-cabinet">
       <div className="tv-body">
-        {/* Left speaker */}
+        {/* Left speaker — perforated grille, drawn in CSS */}
         <div className="tv-speaker-panel">
-          <div className="tv-speaker-cloth">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <div key={i} className="tv-speaker-bar" />
-            ))}
-          </div>
+          <div className="tv-speaker-cloth" />
         </div>
 
         {/* Center: screen + controls */}
@@ -27,8 +23,11 @@ export default function RetroTV({ children }: RetroTVProps) {
           {/* Control strip */}
           <div className="tv-control-strip">
             <div className="tv-knob-group">
-              <div className="tv-knob tv-knob-lg">
-                <div className="tv-knob-line" />
+              {/* The channel selector sits in a detented tick ring */}
+              <div className="tv-dial">
+                <div className="tv-knob tv-knob-lg">
+                  <div className="tv-knob-line" />
+                </div>
               </div>
               <span className="tv-label">CH</span>
             </div>
@@ -56,11 +55,7 @@ export default function RetroTV({ children }: RetroTVProps) {
 
         {/* Right speaker */}
         <div className="tv-speaker-panel">
-          <div className="tv-speaker-cloth">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <div key={i} className="tv-speaker-bar" />
-            ))}
-          </div>
+          <div className="tv-speaker-cloth" />
         </div>
       </div>
       {/* Feet */}

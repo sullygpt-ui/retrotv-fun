@@ -1,17 +1,29 @@
 #!/usr/bin/env python3
 """
 Fetch TV show frames from TMDB API.
-Usage: TMDB_API_KEY=your_key python3 fetch_frames.py
 
-Requires: pip install requests
+Usage:
+    TMDB_API_KEY=your_key python3 scripts/fetch_frames.py [--only SLUG ...]
+
+Frames are written to an opaque directory per show so the image URL doesn't
+give the answer away. Shows that already have all 6 frames are skipped without
+an API call. Run build_rotation.py afterwards to put new shows into the puzzle
+rotation.
+
+Standard library only — no pip install.
 """
 
+import argparse
 import json
 import os
 import sys
 import time
-import requests
+import urllib.error
+import urllib.parse
+import urllib.request
 from pathlib import Path
+
+from frame_dirs import frame_dir
 
 API_KEY = os.environ.get("TMDB_API_KEY")
 BASE_URL = "https://api.themoviedb.org/3"
@@ -19,57 +31,78 @@ IMG_BASE = "https://image.tmdb.org/t/p/w780"
 FRAMES_DIR = Path(__file__).parent.parent / "public" / "frames"
 SHOWS_FILE = Path(__file__).parent / "shows.json"
 
+FRAME_COUNT = 6
+# Obscure shows keep their stills in later seasons, so scan deep before giving
+# up. The old limit of 4 seasons is why 11 shows came back empty.
+MAX_SEASONS = 12
+STILLS_PER_SEASON = 30
+ENOUGH_STILLS = 24
+USER_AGENT = "retrotv.fun frame fetcher (+https://retrotv.fun)"
+
+
+def api(path: str, **params):
+    """GET a TMDB endpoint as JSON, or None if it isn't there."""
+    params["api_key"] = API_KEY
+    url = f"{BASE_URL}{path}?" + urllib.parse.urlencode(params)
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(request, timeout=20) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as err:
+        if err.code == 429:
+            print("  Rate limited — pausing 10s")
+            time.sleep(10)
+            return api(path, **{k: v for k, v in params.items() if k != "api_key"})
+        print(f"  TMDB returned {err.code} for {path}")
+        return None
+    except urllib.error.URLError as err:
+        print(f"  Request failed for {path}: {err}")
+        return None
+
+
+def download_image(url: str) -> bytes | None:
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return response.read()
+    except (urllib.error.HTTPError, urllib.error.URLError) as err:
+        print(f"  Download failed: {err}")
+        return None
+
 
 def get_show_images(tmdb_id: int) -> list[str]:
-    """Get episode stills for a TV show."""
-    # First get seasons
-    url = f"{BASE_URL}/tv/{tmdb_id}?api_key={API_KEY}"
-    resp = requests.get(url)
-    if resp.status_code != 200:
-        print(f"  Failed to get show info: {resp.status_code}")
+    """Episode stills for a show, newest seasons last."""
+    show = api(f"/tv/{tmdb_id}")
+    if show is None:
         return []
 
-    show = resp.json()
     seasons = [s for s in show.get("seasons", []) if s["season_number"] > 0]
+    stills: list[str] = []
 
-    stills = []
-    for season in seasons[:4]:  # Check first 4 seasons
-        sn = season["season_number"]
-        url = f"{BASE_URL}/tv/{tmdb_id}/season/{sn}/images?api_key={API_KEY}"
-        resp = requests.get(url)
-        time.sleep(0.25)  # Rate limit
+    for season in seasons[:MAX_SEASONS]:
+        number = season["season_number"]
 
-        if resp.status_code == 200:
-            data = resp.json()
-            for img in data.get("stills", [])[:20]:
-                stills.append(img["file_path"])
-
-        if len(stills) >= 12:
-            break
-
-        # Also try individual episodes
-        url = f"{BASE_URL}/tv/{tmdb_id}/season/{sn}?api_key={API_KEY}"
-        resp = requests.get(url)
+        images = api(f"/tv/{tmdb_id}/season/{number}/images")
         time.sleep(0.25)
+        if images:
+            for still in images.get("stills", [])[:STILLS_PER_SEASON]:
+                stills.append(still["file_path"])
 
-        if resp.status_code == 200:
-            episodes = resp.json().get("episodes", [])
-            for ep in episodes[:10]:
-                if ep.get("still_path"):
-                    stills.append(ep["still_path"])
-
-        if len(stills) >= 12:
+        if len(stills) >= ENOUGH_STILLS:
             break
 
-    # Deduplicate
-    seen = set()
-    unique = []
-    for s in stills:
-        if s not in seen:
-            seen.add(s)
-            unique.append(s)
+        # Season images are often empty even when episodes have stills.
+        detail = api(f"/tv/{tmdb_id}/season/{number}")
+        time.sleep(0.25)
+        if detail:
+            for episode in detail.get("episodes", []):
+                if episode.get("still_path"):
+                    stills.append(episode["still_path"])
 
-    return unique
+        if len(stills) >= ENOUGH_STILLS:
+            break
+
+    return list(dict.fromkeys(stills))
 
 
 def download_frames(show: dict) -> bool:
@@ -80,34 +113,30 @@ def download_frames(show: dict) -> bool:
 
     print(f"Processing: {name} (TMDB: {tmdb_id})")
 
-    out_dir = FRAMES_DIR / slug
-    out_dir.mkdir(parents=True, exist_ok=True)
+    out_dir = FRAMES_DIR / frame_dir(slug)
 
-    # Check if already done
-    if all((out_dir / f"{i}.jpg").exists() for i in range(1, 7)):
-        print(f"  Already have frames for {name}")
+    # Already done — don't spend API calls on it.
+    if all((out_dir / f"{i}.jpg").is_file() for i in range(1, FRAME_COUNT + 1)):
         return True
 
+    out_dir.mkdir(parents=True, exist_ok=True)
+
     stills = get_show_images(tmdb_id)
-    if len(stills) < 6:
-        print(f"  Only found {len(stills)} stills for {name}, need 6")
+    if len(stills) < FRAME_COUNT:
+        print(f"  Only found {len(stills)} stills, need {FRAME_COUNT}")
         return False
 
-    # Pick 6 evenly spaced frames
-    step = max(1, len(stills) // 6)
-    selected = [stills[i * step] for i in range(6)]
+    step = len(stills) / FRAME_COUNT
+    selected = [stills[int(i * step)] for i in range(FRAME_COUNT)]
 
     for i, still_path in enumerate(selected, 1):
-        url = f"{IMG_BASE}{still_path}"
-        resp = requests.get(url)
-        if resp.status_code == 200:
-            (out_dir / f"{i}.jpg").write_bytes(resp.content)
-            print(f"  Downloaded frame {i}")
-        else:
-            print(f"  Failed to download frame {i}: {resp.status_code}")
+        image = download_image(f"{IMG_BASE}{still_path}")
+        if not image:
             return False
+        (out_dir / f"{i}.jpg").write_bytes(image)
         time.sleep(0.25)
 
+    print(f"  Saved {FRAME_COUNT} frames to frames/{frame_dir(slug)}/")
     return True
 
 
@@ -117,40 +146,28 @@ def main():
         print("Get one at https://www.themoviedb.org/settings/api")
         sys.exit(1)
 
-    with open(SHOWS_FILE) as f:
-        shows = json.load(f)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--only", nargs="*", metavar="SLUG", help="limit to these slugs")
+    args = parser.parse_args()
+
+    shows = json.loads(SHOWS_FILE.read_text())
+    if args.only:
+        shows = [s for s in shows if s["slug"] in set(args.only)]
 
     FRAMES_DIR.mkdir(parents=True, exist_ok=True)
 
-    successful = []
+    filled, failed = [], []
     for show in shows:
         if download_frames(show):
-            successful.append(show)
-        time.sleep(0.5)
+            filled.append(show["name"])
+        else:
+            failed.append(show["name"])
+        time.sleep(0.3)
 
-    print(f"\nSuccessfully fetched frames for {len(successful)}/{len(shows)} shows")
-
-    # Generate puzzles.json
-    puzzles = []
-    from datetime import date, timedelta
-    start_date = date(2026, 3, 13)
-
-    for i, show in enumerate(successful):
-        puzzle_date = start_date + timedelta(days=i)
-        puzzles.append({
-            "id": i + 1,
-            "date": puzzle_date.isoformat(),
-            "showName": show["name"],
-            "showSlug": show["slug"],
-            "tmdbId": show["tmdbId"],
-            "frames": [f"/frames/{show['slug']}/{j}.jpg" for j in range(1, 7)]
-        })
-
-    output = Path(__file__).parent.parent / "public" / "puzzles.json"
-    with open(output, "w") as f:
-        json.dump(puzzles, f, indent=2)
-
-    print(f"Generated {len(puzzles)} puzzles in puzzles.json")
+    print(f"\n{len(filled)}/{len(shows)} shows have a complete set of frames")
+    if failed:
+        print(f"Still short: {', '.join(failed)}")
+    print("Now run: python3 scripts/build_rotation.py")
 
 
 if __name__ == "__main__":

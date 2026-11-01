@@ -1,36 +1,64 @@
 "use client";
 
-import { Stats } from "@/lib/gameState";
+import { useEffect, useRef } from "react";
+import { Stats, displayStreak } from "@/lib/gameState";
 
 interface StatsModalProps {
-  stats: Stats;
+  stats: Stats | null;
+  /** Today's UTC date, used to decide whether a streak is still running. */
+  today: string;
   open: boolean;
   onClose: () => void;
 }
 
-export default function StatsModal({ stats, open, onClose }: StatsModalProps) {
-  if (!open) return null;
+export default function StatsModal({ stats, today, open, onClose }: StatsModalProps) {
+  const closeRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    closeRef.current?.focus();
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [open, onClose]);
+
+  if (!open || !stats) return null;
 
   const winPct = stats.gamesPlayed > 0 ? Math.round((stats.gamesWon / stats.gamesPlayed) * 100) : 0;
   const maxDist = Math.max(...stats.guessDistribution, 1);
+  const streak = displayStreak(stats, today);
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70" onClick={onClose}>
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70"
+      onClick={onClose}
+      role="dialog"
+      aria-modal="true"
+      aria-label="Statistics"
+    >
       <div
         className="bg-[var(--bg-dark)] border border-[var(--amber-dark)] rounded-xl p-6 max-w-sm w-full mx-4"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-sm text-[var(--amber)]">Statistics</h2>
-          <button onClick={onClose} className="text-gray-400 hover:text-white text-2xl">&times;</button>
+          <button
+            ref={closeRef}
+            onClick={onClose}
+            aria-label="Close statistics"
+            className="text-gray-400 hover:text-white text-2xl leading-none"
+          >
+            &times;
+          </button>
         </div>
 
-        {/* Stats grid */}
         <div className="grid grid-cols-4 gap-2 text-center mb-6">
           {[
             [stats.gamesPlayed, "Played"],
             [winPct, "Win %"],
-            [stats.currentStreak, "Streak"],
+            [streak, "Streak"],
             [stats.maxStreak, "Max"],
           ].map(([val, label]) => (
             <div key={String(label)}>
@@ -40,7 +68,6 @@ export default function StatsModal({ stats, open, onClose }: StatsModalProps) {
           ))}
         </div>
 
-        {/* Guess distribution */}
         <h3 className="text-xs text-[var(--amber)] mb-2">Guess Distribution</h3>
         <div className="space-y-1">
           {stats.guessDistribution.map((count, i) => (
@@ -55,6 +82,10 @@ export default function StatsModal({ stats, open, onClose }: StatsModalProps) {
             </div>
           ))}
         </div>
+
+        <p className="mt-4 text-[10px] text-gray-500 font-retro leading-relaxed">
+          Only the daily puzzle counts toward stats — archive puzzles are just for fun.
+        </p>
       </div>
     </div>
   );
