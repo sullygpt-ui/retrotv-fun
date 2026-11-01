@@ -123,44 +123,40 @@ above.
 Worth knowing either way: an application password can publish, edit and delete
 posts on that site. Revoke it when the job is done.
 
-### Blocked 2026-11-01: Apache is stripping the Authorization header
+### Done 2026-11-01 — and the auth gotcha that cost an hour
 
-An application password was issued and every authenticated request came back
-`401 rest_not_logged_in`. That is not a bad-credentials error. The proof:
+All six inserts are live and the standalone post is saved as a draft (post 5733).
+
+The thing worth writing down: authentication failed repeatedly with
+`401 rest_not_logged_in`, and the obvious reading of that — Apache stripping the
+`Authorization` header before PHP sees it — was **wrong**. The `.htaccess`
+already carried the pass-through rule, and a diagnostic script confirmed PHP was
+receiving `HTTP_AUTHORIZATION`, `PHP_AUTH_USER` and a 29-character
+`PHP_AUTH_PW`, with `wp_validate_application_password` hooked normally.
+
+The real cause is that **`user_login` is not `user_nicename`**. On this site:
+
+| ID | user_login | nicename (what the API exposes) |
+| --- | --- | --- |
+| 3 | `Mike Sullivan` | `mike-sullivan` |
+| 1 | `watchthis` | `watchthis` |
+
+`/wp-json/wp/v2/users` publishes the *nicename*, and that is not what Basic auth
+wants. Authenticate as `Mike Sullivan` — capital letters, space and all.
+
+What makes this expensive to debug is that WordPress returns the **same**
+`rest_not_logged_in` for a username that does not exist as it does for no
+credentials at all. `wp_authenticate_application_password()` bails out returning
+`null` when `get_user_by('login', ...)` misses, so nothing distinguishes a wrong
+username from a stripped header. Only a *correct* username with a *wrong*
+password produces `incorrect_password`.
+
+No `.htaccess` change was needed, and none was made.
 
 ```sh
-curl -s -u 'definitelynotauser:abcd efgh ijkl mnop qrst uvwx' \
+curl -u 'Mike Sullivan:<app password>' \
   'https://iusedtowatchthis.com/wp-json/wp/v2/users/me?context=edit'
-# {"code":"rest_not_logged_in","message":"You are not currently logged in.",...}
 ```
 
-A username that does not exist returns the *identical* error to the real one, so
-WordPress never evaluates the credentials — the `Authorization` header is not
-reaching PHP. `Server: Apache`, which is where this normally happens: under
-CGI/FastCGI, Apache drops `Authorization` instead of passing it through as
-`HTTP_AUTHORIZATION`. Application passwords are enabled (the `/wp-json/` index
-advertises them), and `?rest_route=` and `index.php?rest_route=` fail the same
-way, so it is not a permalink-rewrite problem either.
-
-The fix goes in the site root `.htaccess`, **above** the `# BEGIN WordPress`
-block:
-
-```apache
-# Pass HTTP Basic auth through to PHP (WordPress Application Passwords)
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteCond %{HTTP:Authorization} ^(.+)$
-RewriteRule ^ - [E=HTTP_AUTHORIZATION:%1]
-</IfModule>
-```
-
-If that alone does not do it, add:
-
-```apache
-SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
-```
-
-Verify with the curl above using a real login — a `200` with your user JSON
-means it is through, and a different error code such as `incorrect_password`
-also counts as progress, because it means WordPress is finally reading the
-header.
+Posts are classic-editor content, not Gutenberg blocks, so inserts are appended
+as plain paragraphs separated by a blank line and `wpautop` wraps them.
